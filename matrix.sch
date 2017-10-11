@@ -6,7 +6,7 @@ LIBS:w_logic
 LIBS:w_connector
 LIBS:w_rotary_encoder
 LIBS:w_switch
-LIBS:newtest-rescue
+LIBS:sequencer-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -42,7 +42,7 @@ LIBS:logic
 LIBS:led
 LIBS:w_qeda
 LIBS:PL_opto
-LIBS:newtest-cache
+LIBS:sequencer-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

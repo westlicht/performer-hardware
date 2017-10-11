@@ -1,5 +1,5 @@
 
-PROJECT=newtest
+PROJECT=sequencer
 
 sch2csv:
 	kifield -x ${PROJECT}.sch -i ${PROJECT}.csv -r -w
