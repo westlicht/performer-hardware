@@ -1,0 +1,639 @@
+EESchema Schematic File Version 2
+LIBS:w_lcd
+LIBS:w_stm32
+LIBS:w_opto
+LIBS:w_dac
+LIBS:w_logic
+LIBS:w_connector
+LIBS:w_rotary_encoder
+LIBS:w_switch
+LIBS:newtest-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:switches
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:newtest-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L STM32F405RGTx U501
+U 1 1 59D94B79
+P 5800 3200
+F 0 "U501" H 1600 5125 50  0000 L BNN
+F 1 "STM32F405RGTx" H 10000 5125 50  0000 R BNN
+F 2 "Housings_QFP:LQFP-64_10x10mm_Pitch0.5mm" H 10000 5075 50  0001 R TNN
+F 3 "http://datasheet.octopart.com/STM32F405RGT6-STMicroelectronics-datasheet-12357803.pdf" H 5800 3200 50  0001 C CNN
+F 4 "STMicroelectronics" H 1600 5225 50  0001 C CNN "MFN"
+F 5 "STM32F405RGT6" H 1600 5225 50  0001 C CNN "MFP"
+	1    5800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x06 J502
+U 1 1 59DB9577
+P 1300 6200
+F 0 "J502" H 1300 6500 50  0000 C CNN
+F 1 "Serial / Bootloader" H 1300 5800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 1300 6200 50  0001 C CNN
+F 3 "" H 1300 6200 50  0001 C CNN
+F 4 "FCI" H 1300 6600 50  0001 C CNN "MFN"
+F 5 "68002-106HLF" H 1300 6600 50  0001 C CNN "MFP"
+	1    1300 6200
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR039
+U 1 1 59DB9615
+P 1600 6500
+F 0 "#PWR039" H 1600 6250 50  0001 C CNN
+F 1 "GND" H 1600 6350 50  0000 C CNN
+F 2 "" H 1600 6500 50  0001 C CNN
+F 3 "" H 1600 6500 50  0001 C CNN
+	1    1600 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_02x05_Odd_Even J501
+U 1 1 59DB9B82
+P 2800 6100
+F 0 "J501" H 2850 6400 50  0000 C CNN
+F 1 "JTAG" H 2850 5800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm" H 2800 6100 50  0001 C CNN
+F 3 "" H 2800 6100 50  0001 C CNN
+F 4 "FCI" H 2850 6500 50  0001 C CNN "MFN"
+F 5 "20021111-00010T4LF" H 2850 6500 50  0001 C CNN "MFP"
+	1    2800 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR040
+U 1 1 59DB9CCC
+P 2500 5800
+F 0 "#PWR040" H 2500 5650 50  0001 C CNN
+F 1 "+3.3V" H 2500 5940 50  0000 C CNN
+F 2 "" H 2500 5800 50  0001 C CNN
+F 3 "" H 2500 5800 50  0001 C CNN
+	1    2500 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR041
+U 1 1 59DB9CF4
+P 2500 6400
+F 0 "#PWR041" H 2500 6150 50  0001 C CNN
+F 1 "GND" H 2500 6250 50  0000 C CNN
+F 2 "" H 2500 6400 50  0001 C CNN
+F 3 "" H 2500 6400 50  0001 C CNN
+	1    2500 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR042
+U 1 1 59DB9EAC
+P 5500 1000
+F 0 "#PWR042" H 5500 850 50  0001 C CNN
+F 1 "+3.3V" H 5500 1140 50  0000 C CNN
+F 2 "" H 5500 1000 50  0001 C CNN
+F 3 "" H 5500 1000 50  0001 C CNN
+	1    5500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3VA #PWR043
+U 1 1 59DB9EE7
+P 6000 1000
+F 0 "#PWR043" H 6000 850 50  0001 C CNN
+F 1 "+3.3VA" H 6000 1140 50  0000 C CNN
+F 2 "" H 6000 1000 50  0001 C CNN
+F 3 "" H 6000 1000 50  0001 C CNN
+	1    6000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR044
+U 1 1 59DB9FE7
+P 5800 5400
+F 0 "#PWR044" H 5800 5150 50  0001 C CNN
+F 1 "GND" H 5800 5250 50  0000 C CNN
+F 2 "" H 5800 5400 50  0001 C CNN
+F 3 "" H 5800 5400 50  0001 C CNN
+	1    5800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Crystal Y501
+U 1 1 59DBA308
+P 1300 7150
+F 0 "Y501" H 1300 7300 50  0000 C CNN
+F 1 "8MHz" H 1300 7000 50  0000 C CNN
+F 2 "Crystals:Crystal_SMD_HC49-SD" H 1300 7150 50  0001 C CNN
+F 3 "" H 1300 7150 50  0001 C CNN
+F 4 "Abracon" H 1300 7400 50  0001 C CNN "MFN"
+F 5 "ABLS2-8.000MHZ-D4Y-T" H 1300 7400 50  0001 C CNN "MFP"
+	1    1300 7150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C503
+U 1 1 59DBA373
+P 1050 6900
+F 0 "C503" H 1075 7000 50  0000 L CNN
+F 1 "18p" H 1075 6800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1088 6750 50  0001 C CNN
+F 3 "" H 1050 6900 50  0001 C CNN
+	1    1050 6900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C504
+U 1 1 59DBA3A0
+P 1050 7400
+F 0 "C504" H 1075 7500 50  0000 L CNN
+F 1 "18p" H 1075 7300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1088 7250 50  0001 C CNN
+F 3 "" H 1050 7400 50  0001 C CNN
+	1    1050 7400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR045
+U 1 1 59DBA437
+P 800 7500
+F 0 "#PWR045" H 800 7250 50  0001 C CNN
+F 1 "GND" H 800 7350 50  0000 C CNN
+F 2 "" H 800 7500 50  0001 C CNN
+F 3 "" H 800 7500 50  0001 C CNN
+	1    800  7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C501
+U 1 1 59DBB4BE
+P 1150 2050
+F 0 "C501" H 1175 2150 50  0000 L CNN
+F 1 "2.2u" H 1175 1950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 1188 1900 50  0001 C CNN
+F 3 "" H 1150 2050 50  0001 C CNN
+	1    1150 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C502
+U 1 1 59DBB504
+P 1150 2250
+F 0 "C502" H 1175 2350 50  0000 L CNN
+F 1 "2.2u" H 1175 2150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 1188 2100 50  0001 C CNN
+F 3 "" H 1150 2250 50  0001 C CNN
+	1    1150 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR046
+U 1 1 59DBB736
+P 800 2250
+F 0 "#PWR046" H 800 2000 50  0001 C CNN
+F 1 "GND" H 800 2100 50  0000 C CNN
+F 2 "" H 800 2250 50  0001 C CNN
+F 3 "" H 800 2250 50  0001 C CNN
+	1    800  2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW501
+U 1 1 59DD439D
+P 5100 6000
+F 0 "SW501" H 5150 6100 50  0000 L CNN
+F 1 "EVQQ2" H 5100 5940 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_EVQQ2" H 5100 6200 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/EVQ-Q2K01W-Panasonic-datasheet-13267673.pdf" H 5100 6200 50  0001 C CNN
+F 4 "Panasonic" H 5150 6200 50  0001 C CNN "MFN"
+F 5 "EVQ-Q2K01W" H 5150 6200 50  0001 C CNN "MFP"
+	1    5100 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_Push SW502
+U 1 1 59DD44E7
+P 4300 6500
+F 0 "SW502" H 4350 6600 50  0000 L CNN
+F 1 "EVQQ2" H 4300 6440 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_EVQQ2" H 4300 6700 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/EVQ-Q2K01W-Panasonic-datasheet-13267673.pdf" H 4300 6700 50  0001 C CNN
+F 4 "Panasonic" H 4350 6700 50  0001 C CNN "MFN"
+F 5 "EVQ-Q2K01W" H 4350 6700 50  0001 C CNN "MFP"
+	1    4300 6500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R501
+U 1 1 59DD490D
+P 4300 5950
+F 0 "R501" V 4380 5950 50  0000 C CNN
+F 1 "10k" V 4300 5950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4230 5950 50  0001 C CNN
+F 3 "" H 4300 5950 50  0001 C CNN
+	1    4300 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R502
+U 1 1 59DD4953
+P 5100 6550
+F 0 "R502" V 5180 6550 50  0000 C CNN
+F 1 "10k" V 5100 6550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5030 6550 50  0001 C CNN
+F 3 "" H 5100 6550 50  0001 C CNN
+	1    5100 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR047
+U 1 1 59DD49A9
+P 4300 5700
+F 0 "#PWR047" H 4300 5550 50  0001 C CNN
+F 1 "+3.3V" H 4300 5840 50  0000 C CNN
+F 2 "" H 4300 5700 50  0001 C CNN
+F 3 "" H 4300 5700 50  0001 C CNN
+	1    4300 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR048
+U 1 1 59DD49E1
+P 5100 5700
+F 0 "#PWR048" H 5100 5550 50  0001 C CNN
+F 1 "+3.3V" H 5100 5840 50  0000 C CNN
+F 2 "" H 5100 5700 50  0001 C CNN
+F 3 "" H 5100 5700 50  0001 C CNN
+	1    5100 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR049
+U 1 1 59DD4A83
+P 4300 6800
+F 0 "#PWR049" H 4300 6550 50  0001 C CNN
+F 1 "GND" H 4300 6650 50  0000 C CNN
+F 2 "" H 4300 6800 50  0001 C CNN
+F 3 "" H 4300 6800 50  0001 C CNN
+	1    4300 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR050
+U 1 1 59DD4ABB
+P 5100 6800
+F 0 "#PWR050" H 5100 6550 50  0001 C CNN
+F 1 "GND" H 5100 6650 50  0000 C CNN
+F 2 "" H 5100 6800 50  0001 C CNN
+F 3 "" H 5100 6800 50  0001 C CNN
+	1    5100 6800
+	1    0    0    -1  
+$EndComp
+Text GLabel 1600 6100 2    51   Output ~ 0
+SYS_RX
+Text GLabel 1600 6000 2    51   Input ~ 0
+SYS_TX
+Text GLabel 10200 2600 2    51   Input ~ 0
+SYS_RX
+Text GLabel 10200 2500 2    51   Output ~ 0
+SYS_TX
+Text GLabel 3200 5900 2    51   Input ~ 0
+SYS_JTMS
+Text GLabel 3200 6000 2    51   Input ~ 0
+SYS_JTCK
+Text GLabel 3200 6100 2    51   Input ~ 0
+SYS_JTDO
+Text GLabel 3200 6200 2    51   Input ~ 0
+SYS_JTDI
+Text GLabel 3200 6300 2    51   Output ~ 0
+RESET
+Text GLabel 1400 1600 0    51   Input ~ 0
+RESET
+Text GLabel 1400 1800 0    51   Input ~ 0
+BOOT
+Text GLabel 10200 2900 2    51   Input ~ 0
+SYS_JTMS
+Text GLabel 10200 3000 2    51   Input ~ 0
+SYS_JTCK
+Text GLabel 10200 3100 2    51   Input ~ 0
+SYS_JTDI
+Text GLabel 10200 3600 2    51   Input ~ 0
+SYS_JTDO
+Text GLabel 4400 6200 2    51   Output ~ 0
+RESET
+Text GLabel 5200 6300 2    51   Output ~ 0
+BOOT
+Text GLabel 1400 2800 0    51   Input ~ 0
+OSC_IN
+Text GLabel 1400 2900 0    51   Output ~ 0
+OSC_OUT
+Text GLabel 1600 7100 2    51   Output ~ 0
+OSC_IN
+Text GLabel 1600 7200 2    51   Input ~ 0
+OSC_OUT
+Text GLabel 1400 3100 0    51   Output ~ 0
+SDIO_CMD
+Text GLabel 1400 4500 0    51   Output ~ 0
+SDIO_CLK
+Text GLabel 1400 4100 0    51   BiDi ~ 0
+SDIO_D0
+Text GLabel 1400 3900 0    51   Output ~ 0
+MIDI_TX
+Text GLabel 1400 4000 0    51   Input ~ 0
+MIDI_RX
+Text GLabel 8400 5600 2    51   Output ~ 0
+LCD_MOSI
+Text GLabel 8400 5700 2    51   Output ~ 0
+LCD_SCK
+Text GLabel 8400 5800 2    51   Output ~ 0
+LCD_CS
+Text GLabel 8400 5900 2    51   Output ~ 0
+LCD_RES
+Text GLabel 8400 6000 2    51   Output ~ 0
+LCD_DC
+Text GLabel 1400 4600 0    51   Input ~ 0
+ENC_A
+Text GLabel 1400 4700 0    51   Input ~ 0
+ENC_B
+Text GLabel 1400 4800 0    51   Input ~ 0
+ENC_SW
+Text GLabel 10200 2100 2    51   Output ~ 0
+SPI1_SCK
+Text GLabel 10200 2200 2    51   Input ~ 0
+SPI1_MISO
+Text GLabel 10200 2300 2    51   Output ~ 0
+SPI1_MOSI
+Text GLabel 1400 3500 0    51   Input ~ 0
+SPI2_MISO
+Text GLabel 1400 3600 0    51   Output ~ 0
+SPI2_MOSI
+Text GLabel 10200 4600 2    51   Output ~ 0
+SPI2_SCK
+Text GLabel 10200 3800 2    51   Output ~ 0
+SPI3_MOSI
+Text GLabel 1400 4300 0    51   Output ~ 0
+SPI3_SCK
+Text GLabel 1400 4400 0    51   Input ~ 0
+SPI3_MISO
+Text GLabel 10200 1600 2    51   Input ~ 0
+CV1_IN
+Text GLabel 10200 1700 2    51   Input ~ 0
+CV2_IN
+Text GLabel 10200 1800 2    51   Input ~ 0
+CV3_IN
+Text GLabel 10200 1900 2    51   Input ~ 0
+CV4_IN
+Text GLabel 7000 5600 2    51   Output ~ 0
+CLK_OUT
+Text GLabel 7000 5700 2    51   Output ~ 0
+RES_OUT
+Text GLabel 7000 5800 2    51   Input ~ 0
+CLK_IN
+Text GLabel 7000 5900 2    51   Input ~ 0
+RES_IN
+Text GLabel 9400 5500 2    51   Output ~ 0
+SR_MOSI
+Text GLabel 9400 5600 2    51   Output ~ 0
+SR_MISO
+Text GLabel 9400 5700 2    51   Output ~ 0
+SR_SCK
+Text GLabel 9400 5800 2    51   Output ~ 0
+SR_LATCH
+Text GLabel 9400 5900 2    51   Output ~ 0
+SR_LOAD
+Text GLabel 9400 6200 2    51   Output ~ 0
+DAC_MOSI
+Text GLabel 9400 6300 2    51   Output ~ 0
+DAC_SCK
+Wire Wire Line
+	1500 6400 1600 6400
+Wire Wire Line
+	1600 6400 1600 6500
+Wire Wire Line
+	1500 6100 1600 6100
+Wire Wire Line
+	1500 6000 1600 6000
+Wire Wire Line
+	10100 2500 10200 2500
+Wire Wire Line
+	10100 2600 10200 2600
+Wire Wire Line
+	2500 5800 2500 5900
+Wire Wire Line
+	2500 5900 2600 5900
+Wire Wire Line
+	2500 6000 2500 6400
+Wire Wire Line
+	2500 6300 2600 6300
+Wire Wire Line
+	2500 6100 2600 6100
+Wire Wire Line
+	2500 6000 2600 6000
+Wire Wire Line
+	3100 5900 3200 5900
+Wire Wire Line
+	3100 6000 3200 6000
+Wire Wire Line
+	3100 6100 3200 6100
+Wire Wire Line
+	3100 6200 3200 6200
+Wire Wire Line
+	3100 6300 3200 6300
+Wire Wire Line
+	5900 1100 5900 1200
+Wire Wire Line
+	5500 1100 5900 1100
+Wire Wire Line
+	5600 1100 5600 1200
+Wire Wire Line
+	5700 1200 5700 1100
+Wire Wire Line
+	5800 1200 5800 1100
+Wire Wire Line
+	5500 1100 5500 1000
+Wire Wire Line
+	6000 1000 6000 1200
+Wire Wire Line
+	5700 5200 5700 5300
+Wire Wire Line
+	5700 5300 5900 5300
+Wire Wire Line
+	5900 5300 5900 5200
+Wire Wire Line
+	5800 5200 5800 5400
+Wire Wire Line
+	900  6900 800  6900
+Wire Wire Line
+	800  6900 800  7500
+Wire Wire Line
+	800  7400 900  7400
+Wire Wire Line
+	1200 6900 1500 6900
+Wire Wire Line
+	1300 6900 1300 7000
+Wire Wire Line
+	1200 7400 1500 7400
+Wire Wire Line
+	1300 7400 1300 7300
+Wire Wire Line
+	1500 6900 1500 7100
+Wire Wire Line
+	1500 7100 1600 7100
+Wire Wire Line
+	1600 7200 1500 7200
+Wire Wire Line
+	1500 7200 1500 7400
+Wire Wire Line
+	1500 1600 1400 1600
+Wire Wire Line
+	1400 1800 1500 1800
+Wire Wire Line
+	10100 2900 10200 2900
+Wire Wire Line
+	10100 3000 10200 3000
+Wire Wire Line
+	10100 3100 10200 3100
+Wire Wire Line
+	10100 3600 10200 3600
+Wire Wire Line
+	1500 2100 1400 2100
+Wire Wire Line
+	1400 2100 1400 2050
+Wire Wire Line
+	1400 2050 1300 2050
+Wire Wire Line
+	1500 2200 1400 2200
+Wire Wire Line
+	1400 2200 1400 2250
+Wire Wire Line
+	1400 2250 1300 2250
+Wire Wire Line
+	1000 2050 900  2050
+Wire Wire Line
+	900  2050 900  2250
+Wire Wire Line
+	900  2250 1000 2250
+Wire Wire Line
+	900  2150 800  2150
+Wire Wire Line
+	800  2150 800  2250
+Wire Wire Line
+	4300 5700 4300 5800
+Wire Wire Line
+	4300 6100 4300 6300
+Wire Wire Line
+	4300 6200 4400 6200
+Wire Wire Line
+	4300 6700 4300 6800
+Wire Wire Line
+	5100 5700 5100 5800
+Wire Wire Line
+	5100 6200 5100 6400
+Wire Wire Line
+	5100 6300 5200 6300
+Wire Wire Line
+	5100 6700 5100 6800
+Wire Wire Line
+	1400 2800 1500 2800
+Wire Wire Line
+	1400 2900 1500 2900
+Wire Wire Line
+	1400 3100 1500 3100
+Wire Wire Line
+	1400 4100 1500 4100
+Wire Wire Line
+	1400 4500 1500 4500
+Wire Wire Line
+	1500 3900 1400 3900
+Wire Wire Line
+	1400 4000 1500 4000
+Wire Wire Line
+	10100 2100 10200 2100
+Wire Wire Line
+	10100 2200 10200 2200
+Wire Wire Line
+	10100 2300 10200 2300
+Wire Wire Line
+	1500 3500 1400 3500
+Wire Wire Line
+	1500 3600 1400 3600
+Wire Wire Line
+	10100 4600 10200 4600
+Wire Wire Line
+	10200 3800 10100 3800
+Wire Wire Line
+	1400 4300 1500 4300
+Wire Wire Line
+	1400 4400 1500 4400
+Wire Wire Line
+	10100 1600 10200 1600
+Wire Wire Line
+	10100 1700 10200 1700
+Wire Wire Line
+	10100 1800 10200 1800
+Wire Wire Line
+	10100 1900 10200 1900
+Wire Wire Line
+	1400 4600 1500 4600
+Wire Wire Line
+	1400 4700 1500 4700
+Wire Wire Line
+	1400 4800 1500 4800
+Connection ~ 2500 6300
+Connection ~ 2500 6100
+Connection ~ 5700 1100
+Connection ~ 5800 1100
+Connection ~ 5600 1100
+Connection ~ 5800 5300
+Connection ~ 800  7400
+Connection ~ 1300 6900
+Connection ~ 1300 7400
+Connection ~ 900  2150
+Connection ~ 4300 6200
+Connection ~ 5100 6300
+NoConn ~ 1500 5900
+NoConn ~ 1500 6200
+NoConn ~ 1500 6300
+NoConn ~ 2600 6200
+NoConn ~ 1500 2000
+$EndSCHEMATC
