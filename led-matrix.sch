@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:w_power
 LIBS:w_lcd
 LIBS:w_stm32
 LIBS:w_opto
@@ -44,10 +45,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
-Title ""
+Title "Eurorack Sequencer"
 Date ""
-Rev ""
-Comp ""
+Rev "0.1"
+Comp "westlicht"
 Comment1 ""
 Comment2 ""
 Comment3 ""

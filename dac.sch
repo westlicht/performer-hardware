@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:w_power
 LIBS:w_lcd
 LIBS:w_stm32
 LIBS:w_opto
@@ -44,10 +45,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 7
-Title ""
+Title "Eurorack Sequencer"
 Date ""
-Rev ""
-Comp ""
+Rev "0.1"
+Comp "westlicht"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -67,10 +68,10 @@ F 5 "DAC8568ICPW" H 2050 1650 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR099
+L GND #PWR0109
 U 1 1 59DDC913
 P 1400 3200
-F 0 "#PWR099" H 1400 2950 50  0001 C CNN
+F 0 "#PWR0109" H 1400 2950 50  0001 C CNN
 F 1 "GND" H 1400 3050 50  0000 C CNN
 F 2 "" H 1400 3200 50  0001 C CNN
 F 3 "" H 1400 3200 50  0001 C CNN
@@ -121,4 +122,23 @@ Wire Wire Line
 	1400 2900 1500 2900
 Wire Wire Line
 	1400 3000 1500 3000
+Wire Wire Line
+	1400 2300 1400 2400
+Wire Wire Line
+	1400 2400 1500 2400
+Wire Wire Line
+	1500 2500 1400 2500
+Text GLabel 1400 2500 0    51   Input ~ 0
+AREF_2.048V
+$Comp
+L +3.3V #PWR0110
+U 1 1 59E0CF3B
+P 1400 2300
+F 0 "#PWR0110" H 1400 2150 50  0001 C CNN
+F 1 "+3.3V" H 1400 2440 50  0000 C CNN
+F 2 "" H 1400 2300 50  0001 C CNN
+F 3 "" H 1400 2300 50  0001 C CNN
+	1    1400 2300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

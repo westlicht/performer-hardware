@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:w_power
 LIBS:w_lcd
 LIBS:w_stm32
 LIBS:w_opto
@@ -44,10 +45,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 7
-Title ""
+Title "Eurorack Sequencer"
 Date ""
-Rev ""
-Comp ""
+Rev "0.1"
+Comp "westlicht"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -1149,10 +1150,10 @@ F 3 "" H 8700 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR038
+L +5V #PWR048
 U 1 1 59DB306F
 P 8900 1300
-F 0 "#PWR038" H 8900 1150 50  0001 C CNN
+F 0 "#PWR048" H 8900 1150 50  0001 C CNN
 F 1 "+5V" H 8900 1440 50  0000 C CNN
 F 2 "" H 8900 1300 50  0001 C CNN
 F 3 "" H 8900 1300 50  0001 C CNN

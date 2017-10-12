@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:w_power
 LIBS:w_lcd
 LIBS:w_stm32
 LIBS:w_opto
@@ -44,10 +45,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
-Title ""
+Title "Eurorack Sequencer"
 Date ""
-Rev ""
-Comp ""
+Rev "0.1"
+Comp "westlicht"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -461,15 +462,15 @@ $EndComp
 $Comp
 L USB_A J101
 U 1 1 59DE5EB2
-P 3450 3700
-F 0 "J101" H 3250 4150 50  0000 L CNN
-F 1 "USB_A" H 3250 4050 50  0000 L CNN
-F 2 "w_connector:MOLEX_USB_105057" H 3600 3650 50  0001 C CNN
-F 3 "http://datasheet.octopart.com/105057-0001-Molex-datasheet-48881000.pdf" H 3600 3650 50  0001 C CNN
-F 4 "test" H 3450 3700 60  0001 C CNN "Description"
-F 5 "Molex" H 3450 3700 60  0001 C CNN "MFN"
-F 6 "105057-0001" H 3450 3700 60  0001 C CNN "MFP"
-	1    3450 3700
+P 3500 3700
+F 0 "J101" H 3300 4150 50  0000 L CNN
+F 1 "USB_A" H 3300 4050 50  0000 L CNN
+F 2 "w_connector:MOLEX_USB_105057" H 3650 3650 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/105057-0001-Molex-datasheet-48881000.pdf" H 3650 3650 50  0001 C CNN
+F 4 "test" H 3500 3700 60  0001 C CNN "Description"
+F 5 "Molex" H 3500 3700 60  0001 C CNN "MFN"
+F 6 "105057-0001" H 3500 3700 60  0001 C CNN "MFP"
+	1    3500 3700
 	1    0    0    -1  
 $EndComp
 Text GLabel 7700 900  2    51   Output ~ 0
@@ -906,4 +907,34 @@ NoConn ~ 5100 1700
 NoConn ~ 5100 1800
 NoConn ~ 9200 2000
 NoConn ~ 9200 1300
+Text GLabel 3900 3500 2    51   Input ~ 0
+USB_5V
+Wire Wire Line
+	3900 3500 3800 3500
+Text GLabel 3900 3700 2    51   Input ~ 0
+USB_DP
+Text GLabel 3900 3800 2    51   Input ~ 0
+USB_DM
+Wire Wire Line
+	3800 3700 3900 3700
+Wire Wire Line
+	3800 3800 3900 3800
+Wire Wire Line
+	3500 4100 3500 4300
+$Comp
+L GND #PWR021
+U 1 1 59E06450
+P 3500 4300
+F 0 "#PWR021" H 3500 4050 50  0001 C CNN
+F 1 "GND" H 3500 4150 50  0000 C CNN
+F 2 "" H 3500 4300 50  0001 C CNN
+F 3 "" H 3500 4300 50  0001 C CNN
+	1    3500 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 4100 3400 4200
+Wire Wire Line
+	3400 4200 3500 4200
+Connection ~ 3500 4200
 $EndSCHEMATC
