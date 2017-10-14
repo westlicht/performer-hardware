@@ -110,7 +110,9 @@ P 6600 5100
 F 0 "U105" H 7100 4250 60  0000 C CNN
 F 1 "74HC165" H 7100 5250 60  0000 C CNN
 F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 6600 5100 60  0001 C CNN
-F 3 "" H 6600 5100 60  0001 C CNN
+F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24916538&ppid=35776&sid=370&sig=03765d0" H 6600 5100 60  0001 C CNN
+F 4 "Texas Instruments" H 7100 4350 50  0001 C CNN "MFN"
+F 5 "SN74HC165D" H 7100 4350 50  0001 C CNN "MFP"
 	1    6600 5100
 	1    0    0    -1  
 $EndComp
@@ -121,7 +123,9 @@ P 6600 900
 F 0 "U102" H 7100 50  60  0000 C CNN
 F 1 "74HC595" H 7100 1050 60  0000 C CNN
 F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 6600 900 60  0001 C CNN
-F 3 "" H 6600 900 60  0001 C CNN
+F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24917219&ppid=44183&sid=370&sig=036bbbe" H 6600 900 60  0001 C CNN
+F 4 "Texas Instruments" H 7100 150 50  0001 C CNN "MFN"
+F 5 "SN74HC595D" H 7100 150 50  0001 C CNN "MFP"
 	1    6600 900 
 	1    0    0    -1  
 $EndComp
@@ -143,7 +147,9 @@ P 6600 2300
 F 0 "U103" H 7100 1450 60  0000 C CNN
 F 1 "74HC595" H 7100 2450 60  0000 C CNN
 F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 6600 2300 60  0001 C CNN
-F 3 "" H 6600 2300 60  0001 C CNN
+F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24917219&ppid=44183&sid=370&sig=036bbbe" H 6600 2300 60  0001 C CNN
+F 4 "Texas Instruments" H 7100 1550 50  0001 C CNN "MFN"
+F 5 "SN74HC595D" H 7100 1550 50  0001 C CNN "MFP"
 	1    6600 2300
 	1    0    0    -1  
 $EndComp
@@ -154,7 +160,9 @@ P 6600 3700
 F 0 "U104" H 7100 2850 60  0000 C CNN
 F 1 "74HC595" H 7100 3850 60  0000 C CNN
 F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 6600 3700 60  0001 C CNN
-F 3 "" H 6600 3700 60  0001 C CNN
+F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24917219&ppid=44183&sid=370&sig=036bbbe" H 6600 3700 60  0001 C CNN
+F 4 "Texas Instruments" H 7100 2950 50  0001 C CNN "MFN"
+F 5 "SN74HC595D" H 7100 2950 50  0001 C CNN "MFP"
 	1    6600 3700
 	1    0    0    -1  
 $EndComp

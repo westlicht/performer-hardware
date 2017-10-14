@@ -89,58 +89,6 @@ F 3 "" H 1400 2300 50  0001 C CNN
 	1    1400 2300
 	1    0    0    -1  
 $EndComp
-Text GLabel 2700 2400 2    51   Output ~ 0
-DAC1
-Text GLabel 2700 2500 2    51   Output ~ 0
-DAC2
-Text GLabel 2700 2600 2    51   Output ~ 0
-DAC3
-Text GLabel 2700 2700 2    51   Output ~ 0
-DAC4
-Text GLabel 2700 2800 2    51   Output ~ 0
-DAC5
-Text GLabel 2700 2900 2    51   Output ~ 0
-DAC6
-Text GLabel 2700 3000 2    51   Output ~ 0
-DAC7
-Text GLabel 2700 3100 2    51   Output ~ 0
-DAC8
-Text GLabel 1400 3000 0    51   Input ~ 0
-DAC_SCK
-Text GLabel 1400 2900 0    51   Input ~ 0
-DAC_MOSI
-Text GLabel 1400 2500 0    51   Input ~ 0
-AREF_2.048V
-Wire Wire Line
-	2600 2400 2700 2400
-Wire Wire Line
-	2600 2500 2700 2500
-Wire Wire Line
-	2600 2600 2700 2600
-Wire Wire Line
-	2600 2700 2700 2700
-Wire Wire Line
-	2600 2800 2700 2800
-Wire Wire Line
-	2600 2900 2700 2900
-Wire Wire Line
-	2600 3000 2700 3000
-Wire Wire Line
-	2600 3100 2700 3100
-Wire Wire Line
-	1400 3200 1400 3100
-Wire Wire Line
-	1400 3100 1500 3100
-Wire Wire Line
-	1400 2900 1500 2900
-Wire Wire Line
-	1400 3000 1500 3000
-Wire Wire Line
-	1400 2300 1400 2400
-Wire Wire Line
-	1400 2400 1500 2400
-Wire Wire Line
-	1500 2500 1400 2500
 $Comp
 L OPA4134 U702
 U 2 1 59E02121
@@ -161,7 +109,9 @@ P 10200 1400
 F 0 "U702" H 10200 1600 50  0000 L CNN
 F 1 "OPA4172" H 10200 1200 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 10150 1500 50  0001 C CNN
-F 3 "" H 10250 1600 50  0001 C CNN
+F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903050&ppid=47153708&sid=370&sig=0f23e7a" H 10250 1600 50  0001 C CNN
+F 4 "Texas Instruments" H 10200 1700 50  0001 C CNN "MFN"
+F 5 "OPA4172IPW" H 10200 1700 50  0001 C CNN "MFP"
 	4    10200 1400
 	1    0    0    -1  
 $EndComp
@@ -172,7 +122,9 @@ P 6400 3100
 F 0 "U703" H 6400 3300 50  0000 L CNN
 F 1 "OPA4172" H 6400 2900 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 6350 3200 50  0001 C CNN
-F 3 "" H 6450 3300 50  0001 C CNN
+F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903050&ppid=47153708&sid=370&sig=0f23e7a" H 6450 3300 50  0001 C CNN
+F 4 "Texas Instruments" H 6400 3400 50  0001 C CNN "MFN"
+F 5 "OPA4172IPW" H 6400 3400 50  0001 C CNN "MFP"
 	2    6400 3100
 	1    0    0    -1  
 $EndComp
@@ -183,7 +135,9 @@ P 4500 1400
 F 0 "U702" H 4500 1600 50  0000 L CNN
 F 1 "OPA4172" H 4500 1200 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 4450 1500 50  0001 C CNN
-F 3 "" H 4550 1600 50  0001 C CNN
+F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903050&ppid=47153708&sid=370&sig=0f23e7a" H 4550 1600 50  0001 C CNN
+F 4 "Texas Instruments" H 4500 1700 50  0001 C CNN "MFN"
+F 5 "OPA4172IPW" H 4500 1700 50  0001 C CNN "MFP"
 	1    4500 1400
 	1    0    0    -1  
 $EndComp
@@ -194,7 +148,9 @@ P 8300 1400
 F 0 "U702" H 8300 1600 50  0000 L CNN
 F 1 "OPA4172" H 8300 1200 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 8250 1500 50  0001 C CNN
-F 3 "" H 8350 1600 50  0001 C CNN
+F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903050&ppid=47153708&sid=370&sig=0f23e7a" H 8350 1600 50  0001 C CNN
+F 4 "Texas Instruments" H 8300 1700 50  0001 C CNN "MFN"
+F 5 "OPA4172IPW" H 8300 1700 50  0001 C CNN "MFP"
 	3    8300 1400
 	1    0    0    -1  
 $EndComp
@@ -205,7 +161,9 @@ P 4500 3100
 F 0 "U703" H 4500 3300 50  0000 L CNN
 F 1 "OPA4172" H 4500 2900 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 4450 3200 50  0001 C CNN
-F 3 "" H 4550 3300 50  0001 C CNN
+F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903050&ppid=47153708&sid=370&sig=0f23e7a" H 4550 3300 50  0001 C CNN
+F 4 "Texas Instruments" H 4500 3400 50  0001 C CNN "MFN"
+F 5 "OPA4172IPW" H 4500 3400 50  0001 C CNN "MFP"
 	1    4500 3100
 	1    0    0    -1  
 $EndComp
@@ -216,7 +174,9 @@ P 8300 3100
 F 0 "U703" H 8300 3300 50  0000 L CNN
 F 1 "OPA4172" H 8300 2900 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 8250 3200 50  0001 C CNN
-F 3 "" H 8350 3300 50  0001 C CNN
+F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903050&ppid=47153708&sid=370&sig=0f23e7a" H 8350 3300 50  0001 C CNN
+F 4 "Texas Instruments" H 8300 3400 50  0001 C CNN "MFN"
+F 5 "OPA4172IPW" H 8300 3400 50  0001 C CNN "MFP"
 	3    8300 3100
 	1    0    0    -1  
 $EndComp
@@ -231,10 +191,6 @@ F 3 "" H 4400 1100 50  0001 C CNN
 	1    4400 1100
 	1    0    0    -1  
 $EndComp
-Text GLabel 4000 1300 0    51   Input ~ 0
-DAC1
-Text GLabel 5100 1800 2    51   Input ~ 0
-CV1
 $Comp
 L OPA4134 U703
 U 4 1 59E36170
@@ -242,7 +198,9 @@ P 10200 3100
 F 0 "U703" H 10200 3300 50  0000 L CNN
 F 1 "OPA4172" H 10200 2900 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 10150 3200 50  0001 C CNN
-F 3 "" H 10250 3300 50  0001 C CNN
+F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903050&ppid=47153708&sid=370&sig=0f23e7a" H 10250 3300 50  0001 C CNN
+F 4 "Texas Instruments" H 10200 3400 50  0001 C CNN "MFN"
+F 5 "OPA4172IPW" H 10200 3400 50  0001 C CNN "MFP"
 	4    10200 3100
 	1    0    0    -1  
 $EndComp
@@ -253,7 +211,9 @@ P 4350 2300
 F 0 "C701" H 4375 2400 50  0000 L CNN
 F 1 "18p" H 4375 2200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4388 2150 50  0001 C CNN
-F 3 "" H 4350 2300 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf" H 4350 2300 50  0001 C CNN
+F 4 "Murata" H 4375 2500 50  0001 C CNN "MFN"
+F 5 "GRM1885C1H180JA01J" H 4375 2500 50  0001 C CNN "MFP"
 	1    4350 2300
 	0    1    1    0   
 $EndComp
@@ -296,8 +256,6 @@ F 5 "ERJ-3EKF2200V" H 5000 1550 60  0001 C CNN "MFP"
 	1    5000 1550
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4800 1400 5000 1400
 $Comp
 L GND #PWR0116
 U 1 1 59E3720E
@@ -320,31 +278,6 @@ F 3 "" H 4400 1700 50  0001 C CNN
 	1    4400 1700
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4200 1500 4100 1500
-Wire Wire Line
-	4100 1500 4100 2300
-Wire Wire Line
-	4000 2000 4200 2000
-Wire Wire Line
-	4100 2300 4200 2300
-Connection ~ 4100 2000
-Wire Wire Line
-	4200 1300 4000 1300
-Wire Wire Line
-	3700 2000 3600 2000
-Wire Wire Line
-	3600 2000 3600 2100
-Wire Wire Line
-	5000 2000 4500 2000
-Wire Wire Line
-	5000 1700 5000 2300
-Wire Wire Line
-	5000 2300 4500 2300
-Connection ~ 5000 2000
-Wire Wire Line
-	5000 1800 5100 1800
-Connection ~ 5000 1800
 $Comp
 L +12V #PWR0117
 U 1 1 59E399A0
@@ -356,10 +289,6 @@ F 3 "" H 6300 1100 50  0001 C CNN
 	1    6300 1100
 	1    0    0    -1  
 $EndComp
-Text GLabel 5900 1300 0    51   Input ~ 0
-DAC2
-Text GLabel 7000 1800 2    51   Input ~ 0
-CV2
 $Comp
 L C C702
 U 1 1 59E399A8
@@ -367,7 +296,9 @@ P 6250 2300
 F 0 "C702" H 6275 2400 50  0000 L CNN
 F 1 "18p" H 6275 2200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6288 2150 50  0001 C CNN
-F 3 "" H 6250 2300 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf" H 6250 2300 50  0001 C CNN
+F 4 "Murata" H 6275 2500 50  0001 C CNN "MFN"
+F 5 "GRM1885C1H180JA01J" H 6275 2500 50  0001 C CNN "MFP"
 	1    6250 2300
 	0    1    1    0   
 $EndComp
@@ -410,8 +341,6 @@ F 5 "ERJ-3EKF2200V" H 6900 1550 60  0001 C CNN "MFP"
 	1    6900 1550
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6700 1400 6900 1400
 $Comp
 L GND #PWR0118
 U 1 1 59E399C7
@@ -434,31 +363,6 @@ F 3 "" H 6300 1700 50  0001 C CNN
 	1    6300 1700
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6100 1500 6000 1500
-Wire Wire Line
-	6000 1500 6000 2300
-Wire Wire Line
-	5900 2000 6100 2000
-Wire Wire Line
-	6000 2300 6100 2300
-Connection ~ 6000 2000
-Wire Wire Line
-	6100 1300 5900 1300
-Wire Wire Line
-	5600 2000 5500 2000
-Wire Wire Line
-	5500 2000 5500 2100
-Wire Wire Line
-	6900 2000 6400 2000
-Wire Wire Line
-	6900 1700 6900 2300
-Wire Wire Line
-	6900 2300 6400 2300
-Connection ~ 6900 2000
-Wire Wire Line
-	6900 1800 7000 1800
-Connection ~ 6900 1800
 $Comp
 L +12V #PWR0119
 U 1 1 59E39C85
@@ -470,10 +374,6 @@ F 3 "" H 8200 1100 50  0001 C CNN
 	1    8200 1100
 	1    0    0    -1  
 $EndComp
-Text GLabel 7800 1300 0    51   Input ~ 0
-DAC3
-Text GLabel 8900 1800 2    51   Input ~ 0
-CV3
 $Comp
 L C C703
 U 1 1 59E39C8D
@@ -481,7 +381,9 @@ P 8150 2300
 F 0 "C703" H 8175 2400 50  0000 L CNN
 F 1 "18p" H 8175 2200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 8188 2150 50  0001 C CNN
-F 3 "" H 8150 2300 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf" H 8150 2300 50  0001 C CNN
+F 4 "Murata" H 8175 2500 50  0001 C CNN "MFN"
+F 5 "GRM1885C1H180JA01J" H 8175 2500 50  0001 C CNN "MFP"
 	1    8150 2300
 	0    1    1    0   
 $EndComp
@@ -524,8 +426,6 @@ F 5 "ERJ-3EKF2200V" H 8800 1550 60  0001 C CNN "MFP"
 	1    8800 1550
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	8600 1400 8800 1400
 $Comp
 L GND #PWR0120
 U 1 1 59E39CAC
@@ -548,31 +448,6 @@ F 3 "" H 8200 1700 50  0001 C CNN
 	1    8200 1700
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	8000 1500 7900 1500
-Wire Wire Line
-	7900 1500 7900 2300
-Wire Wire Line
-	7800 2000 8000 2000
-Wire Wire Line
-	7900 2300 8000 2300
-Connection ~ 7900 2000
-Wire Wire Line
-	8000 1300 7800 1300
-Wire Wire Line
-	7500 2000 7400 2000
-Wire Wire Line
-	7400 2000 7400 2100
-Wire Wire Line
-	8800 2000 8300 2000
-Wire Wire Line
-	8800 1700 8800 2300
-Wire Wire Line
-	8800 2300 8300 2300
-Connection ~ 8800 2000
-Wire Wire Line
-	8800 1800 8900 1800
-Connection ~ 8800 1800
 $Comp
 L +12V #PWR0121
 U 1 1 59E39CCE
@@ -584,10 +459,6 @@ F 3 "" H 10100 1100 50  0001 C CNN
 	1    10100 1100
 	1    0    0    -1  
 $EndComp
-Text GLabel 9700 1300 0    51   Input ~ 0
-DAC4
-Text GLabel 10800 1800 2    51   Input ~ 0
-CV4
 $Comp
 L C C704
 U 1 1 59E39CD6
@@ -595,7 +466,9 @@ P 10050 2300
 F 0 "C704" H 10075 2400 50  0000 L CNN
 F 1 "18p" H 10075 2200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 10088 2150 50  0001 C CNN
-F 3 "" H 10050 2300 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf" H 10050 2300 50  0001 C CNN
+F 4 "Murata" H 10075 2500 50  0001 C CNN "MFN"
+F 5 "GRM1885C1H180JA01J" H 10075 2500 50  0001 C CNN "MFP"
 	1    10050 2300
 	0    1    1    0   
 $EndComp
@@ -638,8 +511,6 @@ F 5 "ERJ-3EKF2200V" H 10700 1550 60  0001 C CNN "MFP"
 	1    10700 1550
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	10500 1400 10700 1400
 $Comp
 L GND #PWR0122
 U 1 1 59E39CF5
@@ -662,31 +533,6 @@ F 3 "" H 10100 1700 50  0001 C CNN
 	1    10100 1700
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	9900 1500 9800 1500
-Wire Wire Line
-	9800 1500 9800 2300
-Wire Wire Line
-	9700 2000 9900 2000
-Wire Wire Line
-	9800 2300 9900 2300
-Connection ~ 9800 2000
-Wire Wire Line
-	9900 1300 9700 1300
-Wire Wire Line
-	9400 2000 9300 2000
-Wire Wire Line
-	9300 2000 9300 2100
-Wire Wire Line
-	10700 2000 10200 2000
-Wire Wire Line
-	10700 1700 10700 2300
-Wire Wire Line
-	10700 2300 10200 2300
-Connection ~ 10700 2000
-Wire Wire Line
-	10700 1800 10800 1800
-Connection ~ 10700 1800
 $Comp
 L +12V #PWR0123
 U 1 1 59E3B294
@@ -698,10 +544,6 @@ F 3 "" H 4400 2800 50  0001 C CNN
 	1    4400 2800
 	1    0    0    -1  
 $EndComp
-Text GLabel 4000 3000 0    51   Input ~ 0
-DAC5
-Text GLabel 5100 3500 2    51   Input ~ 0
-CV5
 $Comp
 L C C705
 U 1 1 59E3B29C
@@ -709,7 +551,9 @@ P 4350 4000
 F 0 "C705" H 4375 4100 50  0000 L CNN
 F 1 "18p" H 4375 3900 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4388 3850 50  0001 C CNN
-F 3 "" H 4350 4000 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf" H 4350 4000 50  0001 C CNN
+F 4 "Murata" H 4375 4200 50  0001 C CNN "MFN"
+F 5 "GRM1885C1H180JA01J" H 4375 4200 50  0001 C CNN "MFP"
 	1    4350 4000
 	0    1    1    0   
 $EndComp
@@ -752,8 +596,6 @@ F 5 "ERJ-3EKF2200V" H 5000 3250 60  0001 C CNN "MFP"
 	1    5000 3250
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4800 3100 5000 3100
 $Comp
 L GND #PWR0124
 U 1 1 59E3B2BB
@@ -776,31 +618,6 @@ F 3 "" H 4400 3400 50  0001 C CNN
 	1    4400 3400
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4200 3200 4100 3200
-Wire Wire Line
-	4100 3200 4100 4000
-Wire Wire Line
-	4000 3700 4200 3700
-Wire Wire Line
-	4100 4000 4200 4000
-Connection ~ 4100 3700
-Wire Wire Line
-	4200 3000 4000 3000
-Wire Wire Line
-	3700 3700 3600 3700
-Wire Wire Line
-	3600 3700 3600 3800
-Wire Wire Line
-	5000 3700 4500 3700
-Wire Wire Line
-	5000 3400 5000 4000
-Wire Wire Line
-	5000 4000 4500 4000
-Connection ~ 5000 3700
-Wire Wire Line
-	5000 3500 5100 3500
-Connection ~ 5000 3500
 $Comp
 L +12V #PWR0125
 U 1 1 59E3B2D9
@@ -812,10 +629,6 @@ F 3 "" H 6300 2800 50  0001 C CNN
 	1    6300 2800
 	1    0    0    -1  
 $EndComp
-Text GLabel 5900 3000 0    51   Input ~ 0
-DAC6
-Text GLabel 7000 3500 2    51   Input ~ 0
-CV6
 $Comp
 L C C706
 U 1 1 59E3B2E1
@@ -823,7 +636,9 @@ P 6250 4000
 F 0 "C706" H 6275 4100 50  0000 L CNN
 F 1 "18p" H 6275 3900 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6288 3850 50  0001 C CNN
-F 3 "" H 6250 4000 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf" H 6250 4000 50  0001 C CNN
+F 4 "Murata" H 6275 4200 50  0001 C CNN "MFN"
+F 5 "GRM1885C1H180JA01J" H 6275 4200 50  0001 C CNN "MFP"
 	1    6250 4000
 	0    1    1    0   
 $EndComp
@@ -866,8 +681,6 @@ F 5 "ERJ-3EKF2200V" H 6900 3250 60  0001 C CNN "MFP"
 	1    6900 3250
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6700 3100 6900 3100
 $Comp
 L GND #PWR0126
 U 1 1 59E3B300
@@ -890,31 +703,6 @@ F 3 "" H 6300 3400 50  0001 C CNN
 	1    6300 3400
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6100 3200 6000 3200
-Wire Wire Line
-	6000 3200 6000 4000
-Wire Wire Line
-	5900 3700 6100 3700
-Wire Wire Line
-	6000 4000 6100 4000
-Connection ~ 6000 3700
-Wire Wire Line
-	6100 3000 5900 3000
-Wire Wire Line
-	5600 3700 5500 3700
-Wire Wire Line
-	5500 3700 5500 3800
-Wire Wire Line
-	6900 3700 6400 3700
-Wire Wire Line
-	6900 3400 6900 4000
-Wire Wire Line
-	6900 4000 6400 4000
-Connection ~ 6900 3700
-Wire Wire Line
-	6900 3500 7000 3500
-Connection ~ 6900 3500
 $Comp
 L +12V #PWR0127
 U 1 1 59E3B31E
@@ -926,10 +714,6 @@ F 3 "" H 8200 2800 50  0001 C CNN
 	1    8200 2800
 	1    0    0    -1  
 $EndComp
-Text GLabel 7800 3000 0    51   Input ~ 0
-DAC7
-Text GLabel 8900 3500 2    51   Input ~ 0
-CV7
 $Comp
 L C C707
 U 1 1 59E3B326
@@ -937,7 +721,9 @@ P 8150 4000
 F 0 "C707" H 8175 4100 50  0000 L CNN
 F 1 "18p" H 8175 3900 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 8188 3850 50  0001 C CNN
-F 3 "" H 8150 4000 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf" H 8150 4000 50  0001 C CNN
+F 4 "Murata" H 8175 4200 50  0001 C CNN "MFN"
+F 5 "GRM1885C1H180JA01J" H 8175 4200 50  0001 C CNN "MFP"
 	1    8150 4000
 	0    1    1    0   
 $EndComp
@@ -980,8 +766,6 @@ F 5 "ERJ-3EKF2200V" H 8800 3250 60  0001 C CNN "MFP"
 	1    8800 3250
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	8600 3100 8800 3100
 $Comp
 L GND #PWR0128
 U 1 1 59E3B345
@@ -1004,31 +788,6 @@ F 3 "" H 8200 3400 50  0001 C CNN
 	1    8200 3400
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	8000 3200 7900 3200
-Wire Wire Line
-	7900 3200 7900 4000
-Wire Wire Line
-	7800 3700 8000 3700
-Wire Wire Line
-	7900 4000 8000 4000
-Connection ~ 7900 3700
-Wire Wire Line
-	8000 3000 7800 3000
-Wire Wire Line
-	7500 3700 7400 3700
-Wire Wire Line
-	7400 3700 7400 3800
-Wire Wire Line
-	8800 3700 8300 3700
-Wire Wire Line
-	8800 3400 8800 4000
-Wire Wire Line
-	8800 4000 8300 4000
-Connection ~ 8800 3700
-Wire Wire Line
-	8800 3500 8900 3500
-Connection ~ 8800 3500
 $Comp
 L +12V #PWR0129
 U 1 1 59E3B363
@@ -1040,10 +799,6 @@ F 3 "" H 10100 2800 50  0001 C CNN
 	1    10100 2800
 	1    0    0    -1  
 $EndComp
-Text GLabel 9700 3000 0    51   Input ~ 0
-DAC8
-Text GLabel 10800 3500 2    51   Input ~ 0
-CV8
 $Comp
 L C C708
 U 1 1 59E3B36B
@@ -1051,7 +806,9 @@ P 10050 4000
 F 0 "C708" H 10075 4100 50  0000 L CNN
 F 1 "18p" H 10075 3900 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 10088 3850 50  0001 C CNN
-F 3 "" H 10050 4000 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf" H 10050 4000 50  0001 C CNN
+F 4 "Murata" H 10075 4200 50  0001 C CNN "MFN"
+F 5 "GRM1885C1H180JA01J" H 10075 4200 50  0001 C CNN "MFP"
 	1    10050 4000
 	0    1    1    0   
 $EndComp
@@ -1094,8 +851,6 @@ F 5 "ERJ-3EKF2200V" H 10700 3250 60  0001 C CNN "MFP"
 	1    10700 3250
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	10500 3100 10700 3100
 $Comp
 L GND #PWR0130
 U 1 1 59E3B38A
@@ -1118,31 +873,6 @@ F 3 "" H 10100 3400 50  0001 C CNN
 	1    10100 3400
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	9900 3200 9800 3200
-Wire Wire Line
-	9800 3200 9800 4000
-Wire Wire Line
-	9700 3700 9900 3700
-Wire Wire Line
-	9800 4000 9900 4000
-Connection ~ 9800 3700
-Wire Wire Line
-	9900 3000 9700 3000
-Wire Wire Line
-	9400 3700 9300 3700
-Wire Wire Line
-	9300 3700 9300 3800
-Wire Wire Line
-	10700 3700 10200 3700
-Wire Wire Line
-	10700 3400 10700 4000
-Wire Wire Line
-	10700 4000 10200 4000
-Connection ~ 10700 3700
-Wire Wire Line
-	10700 3500 10800 3500
-Connection ~ 10700 3500
 $Comp
 L C C709
 U 1 1 59E3BDF7
@@ -1150,7 +880,9 @@ P 3900 5550
 F 0 "C709" H 3925 5650 50  0000 L CNN
 F 1 "100n" H 3925 5450 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3938 5400 50  0001 C CNN
-F 3 "" H 3900 5550 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 3900 5550 50  0001 C CNN
+F 4 "Murata" H 3925 5750 50  0001 C CNN "MFN"
+F 5 "GRM188R71E104JA01J" H 3925 5750 50  0001 C CNN "MFP"
 	1    3900 5550
 	1    0    0    -1  
 $EndComp
@@ -1161,7 +893,9 @@ P 4200 5550
 F 0 "C710" H 4225 5650 50  0000 L CNN
 F 1 "100n" H 4225 5450 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4238 5400 50  0001 C CNN
-F 3 "" H 4200 5550 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 4200 5550 50  0001 C CNN
+F 4 "Murata" H 4225 5750 50  0001 C CNN "MFN"
+F 5 "GRM188R71E104JA01J" H 4225 5750 50  0001 C CNN "MFP"
 	1    4200 5550
 	1    0    0    -1  
 $EndComp
@@ -1172,7 +906,9 @@ P 3900 6050
 F 0 "C711" H 3925 6150 50  0000 L CNN
 F 1 "100n" H 3925 5950 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3938 5900 50  0001 C CNN
-F 3 "" H 3900 6050 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 3900 6050 50  0001 C CNN
+F 4 "Murata" H 3925 6250 50  0001 C CNN "MFN"
+F 5 "GRM188R71E104JA01J" H 3925 6250 50  0001 C CNN "MFP"
 	1    3900 6050
 	1    0    0    -1  
 $EndComp
@@ -1183,38 +919,12 @@ P 4200 6050
 F 0 "C712" H 4225 6150 50  0000 L CNN
 F 1 "100n" H 4225 5950 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4238 5900 50  0001 C CNN
-F 3 "" H 4200 6050 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 4200 6050 50  0001 C CNN
+F 4 "Murata" H 4225 6250 50  0001 C CNN "MFN"
+F 5 "GRM188R71E104JA01J" H 4225 6250 50  0001 C CNN "MFP"
 	1    4200 6050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3800 5300 4200 5300
-Wire Wire Line
-	3900 5300 3900 5400
-Wire Wire Line
-	4200 5300 4200 5400
-Connection ~ 3900 5300
-Wire Wire Line
-	3800 6300 4200 6300
-Wire Wire Line
-	3900 6300 3900 6200
-Wire Wire Line
-	4200 6300 4200 6200
-Connection ~ 3900 6300
-Wire Wire Line
-	3900 5700 3900 5900
-Wire Wire Line
-	3700 5800 4200 5800
-Wire Wire Line
-	3700 5800 3700 5900
-Connection ~ 3900 5800
-Wire Wire Line
-	4200 5700 4200 5900
-Connection ~ 4200 5800
-Wire Wire Line
-	3800 5300 3800 5200
-Wire Wire Line
-	3800 6300 3800 6400
 $Comp
 L -12V #PWR729
 U 1 1 59E3CB0F
@@ -1248,4 +958,332 @@ F 3 "" H 3700 5900 50  0001 C CNN
 	1    3700 5900
 	1    0    0    -1  
 $EndComp
+Text GLabel 2700 2400 2    51   Output ~ 0
+DAC1
+Text GLabel 2700 2500 2    51   Output ~ 0
+DAC2
+Text GLabel 2700 2600 2    51   Output ~ 0
+DAC3
+Text GLabel 2700 2700 2    51   Output ~ 0
+DAC4
+Text GLabel 2700 2800 2    51   Output ~ 0
+DAC5
+Text GLabel 2700 2900 2    51   Output ~ 0
+DAC6
+Text GLabel 2700 3000 2    51   Output ~ 0
+DAC7
+Text GLabel 2700 3100 2    51   Output ~ 0
+DAC8
+Text GLabel 1400 3000 0    51   Input ~ 0
+DAC_SCK
+Text GLabel 1400 2900 0    51   Input ~ 0
+DAC_MOSI
+Text GLabel 1400 2500 0    51   Input ~ 0
+AREF_2.048V
+Text GLabel 4000 1300 0    51   Input ~ 0
+DAC1
+Text GLabel 5100 1800 2    51   Input ~ 0
+CV1
+Text GLabel 5900 1300 0    51   Input ~ 0
+DAC2
+Text GLabel 7000 1800 2    51   Input ~ 0
+CV2
+Text GLabel 7800 1300 0    51   Input ~ 0
+DAC3
+Text GLabel 8900 1800 2    51   Input ~ 0
+CV3
+Text GLabel 9700 1300 0    51   Input ~ 0
+DAC4
+Text GLabel 10800 1800 2    51   Input ~ 0
+CV4
+Text GLabel 4000 3000 0    51   Input ~ 0
+DAC5
+Text GLabel 5100 3500 2    51   Input ~ 0
+CV5
+Text GLabel 5900 3000 0    51   Input ~ 0
+DAC6
+Text GLabel 7000 3500 2    51   Input ~ 0
+CV6
+Text GLabel 7800 3000 0    51   Input ~ 0
+DAC7
+Text GLabel 8900 3500 2    51   Input ~ 0
+CV7
+Text GLabel 9700 3000 0    51   Input ~ 0
+DAC8
+Text GLabel 10800 3500 2    51   Input ~ 0
+CV8
+Wire Wire Line
+	2600 2400 2700 2400
+Wire Wire Line
+	2600 2500 2700 2500
+Wire Wire Line
+	2600 2600 2700 2600
+Wire Wire Line
+	2600 2700 2700 2700
+Wire Wire Line
+	2600 2800 2700 2800
+Wire Wire Line
+	2600 2900 2700 2900
+Wire Wire Line
+	2600 3000 2700 3000
+Wire Wire Line
+	2600 3100 2700 3100
+Wire Wire Line
+	1400 3200 1400 3100
+Wire Wire Line
+	1400 3100 1500 3100
+Wire Wire Line
+	1400 2900 1500 2900
+Wire Wire Line
+	1400 3000 1500 3000
+Wire Wire Line
+	1400 2300 1400 2400
+Wire Wire Line
+	1400 2400 1500 2400
+Wire Wire Line
+	1500 2500 1400 2500
+Wire Wire Line
+	4800 1400 5000 1400
+Wire Wire Line
+	4200 1500 4100 1500
+Wire Wire Line
+	4100 1500 4100 2300
+Wire Wire Line
+	4000 2000 4200 2000
+Wire Wire Line
+	4100 2300 4200 2300
+Wire Wire Line
+	4200 1300 4000 1300
+Wire Wire Line
+	3700 2000 3600 2000
+Wire Wire Line
+	3600 2000 3600 2100
+Wire Wire Line
+	5000 2000 4500 2000
+Wire Wire Line
+	5000 1700 5000 2300
+Wire Wire Line
+	5000 2300 4500 2300
+Wire Wire Line
+	5000 1800 5100 1800
+Wire Wire Line
+	6700 1400 6900 1400
+Wire Wire Line
+	6100 1500 6000 1500
+Wire Wire Line
+	6000 1500 6000 2300
+Wire Wire Line
+	5900 2000 6100 2000
+Wire Wire Line
+	6000 2300 6100 2300
+Wire Wire Line
+	6100 1300 5900 1300
+Wire Wire Line
+	5600 2000 5500 2000
+Wire Wire Line
+	5500 2000 5500 2100
+Wire Wire Line
+	6900 2000 6400 2000
+Wire Wire Line
+	6900 1700 6900 2300
+Wire Wire Line
+	6900 2300 6400 2300
+Wire Wire Line
+	6900 1800 7000 1800
+Wire Wire Line
+	8600 1400 8800 1400
+Wire Wire Line
+	8000 1500 7900 1500
+Wire Wire Line
+	7900 1500 7900 2300
+Wire Wire Line
+	7800 2000 8000 2000
+Wire Wire Line
+	7900 2300 8000 2300
+Wire Wire Line
+	8000 1300 7800 1300
+Wire Wire Line
+	7500 2000 7400 2000
+Wire Wire Line
+	7400 2000 7400 2100
+Wire Wire Line
+	8800 2000 8300 2000
+Wire Wire Line
+	8800 1700 8800 2300
+Wire Wire Line
+	8800 2300 8300 2300
+Wire Wire Line
+	8800 1800 8900 1800
+Wire Wire Line
+	10500 1400 10700 1400
+Wire Wire Line
+	9900 1500 9800 1500
+Wire Wire Line
+	9800 1500 9800 2300
+Wire Wire Line
+	9700 2000 9900 2000
+Wire Wire Line
+	9800 2300 9900 2300
+Wire Wire Line
+	9900 1300 9700 1300
+Wire Wire Line
+	9400 2000 9300 2000
+Wire Wire Line
+	9300 2000 9300 2100
+Wire Wire Line
+	10700 2000 10200 2000
+Wire Wire Line
+	10700 1700 10700 2300
+Wire Wire Line
+	10700 2300 10200 2300
+Wire Wire Line
+	10700 1800 10800 1800
+Wire Wire Line
+	4800 3100 5000 3100
+Wire Wire Line
+	4200 3200 4100 3200
+Wire Wire Line
+	4100 3200 4100 4000
+Wire Wire Line
+	4000 3700 4200 3700
+Wire Wire Line
+	4100 4000 4200 4000
+Wire Wire Line
+	4200 3000 4000 3000
+Wire Wire Line
+	3700 3700 3600 3700
+Wire Wire Line
+	3600 3700 3600 3800
+Wire Wire Line
+	5000 3700 4500 3700
+Wire Wire Line
+	5000 3400 5000 4000
+Wire Wire Line
+	5000 4000 4500 4000
+Wire Wire Line
+	5000 3500 5100 3500
+Wire Wire Line
+	6700 3100 6900 3100
+Wire Wire Line
+	6100 3200 6000 3200
+Wire Wire Line
+	6000 3200 6000 4000
+Wire Wire Line
+	5900 3700 6100 3700
+Wire Wire Line
+	6000 4000 6100 4000
+Wire Wire Line
+	6100 3000 5900 3000
+Wire Wire Line
+	5600 3700 5500 3700
+Wire Wire Line
+	5500 3700 5500 3800
+Wire Wire Line
+	6900 3700 6400 3700
+Wire Wire Line
+	6900 3400 6900 4000
+Wire Wire Line
+	6900 4000 6400 4000
+Wire Wire Line
+	6900 3500 7000 3500
+Wire Wire Line
+	8600 3100 8800 3100
+Wire Wire Line
+	8000 3200 7900 3200
+Wire Wire Line
+	7900 3200 7900 4000
+Wire Wire Line
+	7800 3700 8000 3700
+Wire Wire Line
+	7900 4000 8000 4000
+Wire Wire Line
+	8000 3000 7800 3000
+Wire Wire Line
+	7500 3700 7400 3700
+Wire Wire Line
+	7400 3700 7400 3800
+Wire Wire Line
+	8800 3700 8300 3700
+Wire Wire Line
+	8800 3400 8800 4000
+Wire Wire Line
+	8800 4000 8300 4000
+Wire Wire Line
+	8800 3500 8900 3500
+Wire Wire Line
+	10500 3100 10700 3100
+Wire Wire Line
+	9900 3200 9800 3200
+Wire Wire Line
+	9800 3200 9800 4000
+Wire Wire Line
+	9700 3700 9900 3700
+Wire Wire Line
+	9800 4000 9900 4000
+Wire Wire Line
+	9900 3000 9700 3000
+Wire Wire Line
+	9400 3700 9300 3700
+Wire Wire Line
+	9300 3700 9300 3800
+Wire Wire Line
+	10700 3700 10200 3700
+Wire Wire Line
+	10700 3400 10700 4000
+Wire Wire Line
+	10700 4000 10200 4000
+Wire Wire Line
+	10700 3500 10800 3500
+Wire Wire Line
+	3800 5300 4200 5300
+Wire Wire Line
+	3900 5300 3900 5400
+Wire Wire Line
+	4200 5300 4200 5400
+Wire Wire Line
+	3800 6300 4200 6300
+Wire Wire Line
+	3900 6300 3900 6200
+Wire Wire Line
+	4200 6300 4200 6200
+Wire Wire Line
+	3900 5700 3900 5900
+Wire Wire Line
+	3700 5800 4200 5800
+Wire Wire Line
+	3700 5800 3700 5900
+Wire Wire Line
+	4200 5700 4200 5900
+Wire Wire Line
+	3800 5300 3800 5200
+Wire Wire Line
+	3800 6300 3800 6400
+Connection ~ 4100 2000
+Connection ~ 5000 2000
+Connection ~ 5000 1800
+Connection ~ 6000 2000
+Connection ~ 6900 2000
+Connection ~ 6900 1800
+Connection ~ 7900 2000
+Connection ~ 8800 2000
+Connection ~ 8800 1800
+Connection ~ 9800 2000
+Connection ~ 10700 2000
+Connection ~ 10700 1800
+Connection ~ 4100 3700
+Connection ~ 5000 3700
+Connection ~ 5000 3500
+Connection ~ 6000 3700
+Connection ~ 6900 3700
+Connection ~ 6900 3500
+Connection ~ 7900 3700
+Connection ~ 8800 3700
+Connection ~ 8800 3500
+Connection ~ 9800 3700
+Connection ~ 10700 3700
+Connection ~ 10700 3500
+Connection ~ 3900 5300
+Connection ~ 3900 6300
+Connection ~ 3900 5800
+Connection ~ 4200 5800
 $EndSCHEMATC

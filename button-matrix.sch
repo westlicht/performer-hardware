@@ -1540,6 +1540,12 @@ Wire Wire Line
 	8700 4700 8700 4800
 Wire Wire Line
 	8700 4800 8900 4800
+Wire Wire Line
+	6100 2500 6100 5200
+Wire Wire Line
+	6900 2500 6900 5200
+Wire Wire Line
+	7700 2500 7700 5200
 Connection ~ 2100 2000
 Connection ~ 2100 2500
 Connection ~ 2100 2700
@@ -1650,10 +1656,4 @@ Connection ~ 8900 2000
 Connection ~ 8900 2700
 Connection ~ 8900 3400
 Connection ~ 8900 4100
-Wire Wire Line
-	6100 2500 6100 5200
-Wire Wire Line
-	6900 2500 6900 5200
-Wire Wire Line
-	7700 2500 7700 5200
 $EndSCHEMATC
