@@ -8,4 +8,5 @@ csv2sch:
 	kifield -x ${PROJECT}.csv -i ${PROJECT}.sch -r -w
 
 cost:
-	kicost -i ${PROJECT}.xml -o ${PROJECT}.xlst -w
+	sed -e 's/"MFN"/"manf"/g' -e 's/"MFP"/"manf#"/g' ${PROJECT}.xml > ${PROJECT}-cost.xml
+	kicost -i ${PROJECT}-cost.xml -o ${PROJECT}.xlst -w
