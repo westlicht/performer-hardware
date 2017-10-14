@@ -757,32 +757,6 @@ F 5 "TL1105TF160Q" H 6450 2500 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TL1105T SW306
-U 1 1 59D960E9
-P 6450 1900
-F 0 "SW306" H 6450 1700 50  0000 C CNN
-F 1 "TL1105T" H 6450 2100 50  0000 C CNN
-F 2 "w_switch:TL1105T" H 6350 1900 50  0001 C CNN
-F 3 "http://datasheet.octopart.com/TL1105TF160Q-E-Switch-datasheet-502092.pdf" H 6350 1900 50  0001 C CNN
-F 4 "E-Switch" H 6450 1800 50  0001 C CNN "MFN"
-F 5 "TL1105TF160Q" H 6450 1800 50  0001 C CNN "MFP"
-	1    6450 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L D D306
-U 1 1 59D9610F
-P 6800 1650
-F 0 "D306" H 6800 1750 50  0000 C CNN
-F 1 "1N4148" H 6800 1550 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-123" H 6800 1650 50  0001 C CNN
-F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 6800 1650 50  0001 C CNN
-F 4 "Diodes Inc." H 6800 1850 50  0001 C CNN "MFN"
-F 5 "1N4148W-7-F" H 6800 1850 50  0001 C CNN "MFP"
-	1    6800 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
 L D D314
 U 1 1 59D96115
 P 6800 2350
@@ -885,32 +859,6 @@ F 4 "E-Switch" H 7250 2500 50  0001 C CNN "MFN"
 F 5 "TL1105TF160Q" H 7250 2500 50  0001 C CNN "MFP"
 	1    7250 2600
 	1    0    0    -1  
-$EndComp
-$Comp
-L TL1105T SW307
-U 1 1 59D96151
-P 7250 1900
-F 0 "SW307" H 7250 1700 50  0000 C CNN
-F 1 "TL1105T" H 7250 2100 50  0000 C CNN
-F 2 "w_switch:TL1105T" H 7150 1900 50  0001 C CNN
-F 3 "http://datasheet.octopart.com/TL1105TF160Q-E-Switch-datasheet-502092.pdf" H 7150 1900 50  0001 C CNN
-F 4 "E-Switch" H 7250 1800 50  0001 C CNN "MFN"
-F 5 "TL1105TF160Q" H 7250 1800 50  0001 C CNN "MFP"
-	1    7250 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L D D307
-U 1 1 59D96177
-P 7600 1650
-F 0 "D307" H 7600 1750 50  0000 C CNN
-F 1 "1N4148" H 7600 1550 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-123" H 7600 1650 50  0001 C CNN
-F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 7600 1650 50  0001 C CNN
-F 4 "Diodes Inc." H 7600 1850 50  0001 C CNN "MFN"
-F 5 "1N4148W-7-F" H 7600 1850 50  0001 C CNN "MFP"
-	1    7600 1650
-	0    -1   -1   0   
 $EndComp
 $Comp
 L D D315
@@ -1017,32 +965,6 @@ F 5 "TL1105TF160Q" H 8050 2500 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TL1105T SW308
-U 1 1 59D961B9
-P 8050 1900
-F 0 "SW308" H 8050 1700 50  0000 C CNN
-F 1 "TL1105T" H 8050 2100 50  0000 C CNN
-F 2 "w_switch:TL1105T" H 7950 1900 50  0001 C CNN
-F 3 "http://datasheet.octopart.com/TL1105TF160Q-E-Switch-datasheet-502092.pdf" H 7950 1900 50  0001 C CNN
-F 4 "E-Switch" H 8050 1800 50  0001 C CNN "MFN"
-F 5 "TL1105TF160Q" H 8050 1800 50  0001 C CNN "MFP"
-	1    8050 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L D D308
-U 1 1 59D961DF
-P 8400 1650
-F 0 "D308" H 8400 1750 50  0000 C CNN
-F 1 "1N4148" H 8400 1550 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-123" H 8400 1650 50  0001 C CNN
-F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 8400 1650 50  0001 C CNN
-F 4 "Diodes Inc." H 8400 1850 50  0001 C CNN "MFN"
-F 5 "1N4148W-7-F" H 8400 1850 50  0001 C CNN "MFP"
-	1    8400 1650
-	0    -1   -1   0   
-$EndComp
-$Comp
 L D D316
 U 1 1 59D961E5
 P 8400 2350
@@ -1101,7 +1023,9 @@ P 8700 1750
 F 0 "R301" V 8780 1750 50  0000 C CNN
 F 1 "10k" V 8700 1750 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 8630 1750 50  0001 C CNN
-F 3 "" H 8700 1750 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf" H 8700 1750 50  0001 C CNN
+F 4 "Panasonic" H 8780 1850 50  0001 C CNN "MFN"
+F 5 "ERJ-3EKF1002V" H 8780 1850 50  0001 C CNN "MFP"
 	1    8700 1750
 	1    0    0    -1  
 $EndComp
@@ -1112,7 +1036,9 @@ P 8700 2450
 F 0 "R302" V 8780 2450 50  0000 C CNN
 F 1 "10k" V 8700 2450 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 8630 2450 50  0001 C CNN
-F 3 "" H 8700 2450 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf" H 8700 2450 50  0001 C CNN
+F 4 "Panasonic" H 8780 2550 50  0001 C CNN "MFN"
+F 5 "ERJ-3EKF1002V" H 8780 2550 50  0001 C CNN "MFP"
 	1    8700 2450
 	1    0    0    -1  
 $EndComp
@@ -1123,7 +1049,9 @@ P 8700 3150
 F 0 "R303" V 8780 3150 50  0000 C CNN
 F 1 "10k" V 8700 3150 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 8630 3150 50  0001 C CNN
-F 3 "" H 8700 3150 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf" H 8700 3150 50  0001 C CNN
+F 4 "Panasonic" H 8780 3250 50  0001 C CNN "MFN"
+F 5 "ERJ-3EKF1002V" H 8780 3250 50  0001 C CNN "MFP"
 	1    8700 3150
 	1    0    0    -1  
 $EndComp
@@ -1134,7 +1062,9 @@ P 8700 3850
 F 0 "R304" V 8780 3850 50  0000 C CNN
 F 1 "10k" V 8700 3850 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 8630 3850 50  0001 C CNN
-F 3 "" H 8700 3850 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf" H 8700 3850 50  0001 C CNN
+F 4 "Panasonic" H 8780 3950 50  0001 C CNN "MFN"
+F 5 "ERJ-3EKF1002V" H 8780 3950 50  0001 C CNN "MFP"
 	1    8700 3850
 	1    0    0    -1  
 $EndComp
@@ -1145,7 +1075,9 @@ P 8700 4550
 F 0 "R305" V 8780 4550 50  0000 C CNN
 F 1 "10k" V 8700 4550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 8630 4550 50  0001 C CNN
-F 3 "" H 8700 4550 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf" H 8700 4550 50  0001 C CNN
+F 4 "Panasonic" H 8780 4650 50  0001 C CNN "MFN"
+F 5 "ERJ-3EKF1002V" H 8780 4650 50  0001 C CNN "MFP"
 	1    8700 4550
 	1    0    0    -1  
 $EndComp
@@ -1447,12 +1379,6 @@ Wire Wire Line
 Wire Wire Line
 	6000 4800 5900 4800
 Wire Wire Line
-	6100 1800 6100 5200
-Wire Wire Line
-	6200 1800 6100 1800
-Wire Wire Line
-	6200 2000 6100 2000
-Wire Wire Line
 	6200 2500 6100 2500
 Wire Wire Line
 	6200 2700 6100 2700
@@ -1468,12 +1394,6 @@ Wire Wire Line
 	6200 4600 6100 4600
 Wire Wire Line
 	6200 4800 6100 4800
-Wire Wire Line
-	6700 1800 6800 1800
-Wire Wire Line
-	6800 1800 6800 2000
-Wire Wire Line
-	6800 2000 6700 2000
 Wire Wire Line
 	6700 2500 6800 2500
 Wire Wire Line
@@ -1499,12 +1419,6 @@ Wire Wire Line
 Wire Wire Line
 	6800 4800 6700 4800
 Wire Wire Line
-	6900 1800 6900 5200
-Wire Wire Line
-	7000 1800 6900 1800
-Wire Wire Line
-	7000 2000 6900 2000
-Wire Wire Line
 	7000 2500 6900 2500
 Wire Wire Line
 	7000 2700 6900 2700
@@ -1520,12 +1434,6 @@ Wire Wire Line
 	7000 4600 6900 4600
 Wire Wire Line
 	7000 4800 6900 4800
-Wire Wire Line
-	7500 1800 7600 1800
-Wire Wire Line
-	7600 1800 7600 2000
-Wire Wire Line
-	7600 2000 7500 2000
 Wire Wire Line
 	7500 2500 7600 2500
 Wire Wire Line
@@ -1551,12 +1459,6 @@ Wire Wire Line
 Wire Wire Line
 	7600 4800 7500 4800
 Wire Wire Line
-	7700 1800 7700 5200
-Wire Wire Line
-	7800 1800 7700 1800
-Wire Wire Line
-	7800 2000 7700 2000
-Wire Wire Line
 	7800 2500 7700 2500
 Wire Wire Line
 	7800 2700 7700 2700
@@ -1572,12 +1474,6 @@ Wire Wire Line
 	7800 4600 7700 4600
 Wire Wire Line
 	7800 4800 7700 4800
-Wire Wire Line
-	8300 1800 8400 1800
-Wire Wire Line
-	8400 1800 8400 2000
-Wire Wire Line
-	8400 2000 8300 2000
 Wire Wire Line
 	8300 2500 8400 2500
 Wire Wire Line
@@ -1689,7 +1585,6 @@ Connection ~ 5300 3900
 Connection ~ 5300 4100
 Connection ~ 5300 4600
 Connection ~ 5300 4800
-Connection ~ 6100 2000
 Connection ~ 6100 2500
 Connection ~ 6100 2700
 Connection ~ 6100 3200
@@ -1698,7 +1593,6 @@ Connection ~ 6100 3900
 Connection ~ 6100 4100
 Connection ~ 6100 4600
 Connection ~ 6100 4800
-Connection ~ 6900 2000
 Connection ~ 6900 2500
 Connection ~ 6900 2700
 Connection ~ 6900 3200
@@ -1707,7 +1601,6 @@ Connection ~ 6900 3900
 Connection ~ 6900 4100
 Connection ~ 6900 4600
 Connection ~ 6900 4800
-Connection ~ 7700 2000
 Connection ~ 7700 2500
 Connection ~ 7700 2700
 Connection ~ 7700 3200
@@ -1720,9 +1613,6 @@ Connection ~ 3600 1500
 Connection ~ 4400 1500
 Connection ~ 5200 1500
 Connection ~ 6000 1500
-Connection ~ 6800 1500
-Connection ~ 7600 1500
-Connection ~ 8400 1500
 Connection ~ 3600 2200
 Connection ~ 4400 2200
 Connection ~ 5200 2200
@@ -1760,4 +1650,10 @@ Connection ~ 8900 2000
 Connection ~ 8900 2700
 Connection ~ 8900 3400
 Connection ~ 8900 4100
+Wire Wire Line
+	6100 2500 6100 5200
+Wire Wire Line
+	6900 2500 6900 5200
+Wire Wire Line
+	7700 2500 7700 5200
 $EndSCHEMATC
