@@ -436,12 +436,12 @@ $EndComp
 $Comp
 L GND #PWR018
 U 1 1 59DDDDF7
-P 3500 7050
-F 0 "#PWR018" H 3500 6800 50  0001 C CNN
-F 1 "GND" H 3500 6900 50  0000 C CNN
-F 2 "" H 3500 7050 50  0001 C CNN
-F 3 "" H 3500 7050 50  0001 C CNN
-	1    3500 7050
+P 2400 7050
+F 0 "#PWR018" H 2400 6800 50  0001 C CNN
+F 1 "GND" H 2400 6900 50  0000 C CNN
+F 2 "" H 2400 7050 50  0001 C CNN
+F 3 "" H 2400 7050 50  0001 C CNN
+	1    2400 7050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -548,14 +548,14 @@ Text GLabel 3800 6400 2    51   Output ~ 0
 ENC_A
 Text GLabel 3800 6900 2    51   Output ~ 0
 ENC_B
-Text GLabel 3500 6500 0    51   Output ~ 0
+Text GLabel 2400 6500 0    51   Output ~ 0
 ENC_SW
 Text GLabel 10400 5400 2    51   Input ~ 0
 USB_5V
 Text GLabel 10400 5600 2    51   Input ~ 0
-USB_DP
+USB_D+
 Text GLabel 10400 5700 2    51   Input ~ 0
-USB_DM
+USB_D-
 Wire Wire Line
 	6500 900  6600 900 
 Wire Wire Line
@@ -821,11 +821,11 @@ Wire Wire Line
 Wire Wire Line
 	3600 6400 3800 6400
 Wire Wire Line
-	3500 6500 3600 6500
+	2400 6500 2500 6500
 Wire Wire Line
-	3600 6800 3500 6800
+	2500 6800 2400 6800
 Wire Wire Line
-	3500 6800 3500 7050
+	2400 6800 2400 7050
 Wire Wire Line
 	10400 5400 10300 5400
 Wire Wire Line

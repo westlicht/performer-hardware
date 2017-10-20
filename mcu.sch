@@ -514,15 +514,15 @@ Text GLabel 1400 3900 0    51   Output ~ 0
 MIDI_TX
 Text GLabel 1400 4000 0    51   Input ~ 0
 MIDI_RX
-Text GLabel 8400 5600 2    51   Output ~ 0
+Text GLabel 1400 3600 0    51   Output ~ 0
 LCD_MOSI
-Text GLabel 8400 5700 2    51   Output ~ 0
+Text GLabel 10200 4600 2    51   Output ~ 0
 LCD_SCK
-Text GLabel 8400 5800 2    51   Output ~ 0
+Text GLabel 10200 4500 2    51   Output ~ 0
 LCD_CS
-Text GLabel 8400 5900 2    51   Output ~ 0
+Text GLabel 10200 4700 2    51   Output ~ 0
 LCD_RES
-Text GLabel 8400 6000 2    51   Output ~ 0
+Text GLabel 10200 4800 2    51   Output ~ 0
 LCD_DC
 Text GLabel 1400 4600 0    51   Input ~ 0
 ENC_A
@@ -530,21 +530,15 @@ Text GLabel 1400 4700 0    51   Input ~ 0
 ENC_B
 Text GLabel 1400 4800 0    51   Input ~ 0
 ENC_SW
-Text GLabel 10200 2100 2    51   Output ~ 0
-SPI1_SCK
-Text GLabel 10200 2200 2    51   Input ~ 0
-SPI1_MISO
-Text GLabel 10200 2300 2    51   Output ~ 0
-SPI1_MOSI
 Text GLabel 1400 3500 0    51   Input ~ 0
 SPI2_MISO
-Text GLabel 1400 3600 0    51   Output ~ 0
+Text GLabel 900  3600 0    51   Output ~ 0
 SPI2_MOSI
-Text GLabel 10200 4600 2    51   Output ~ 0
+Text GLabel 10700 4600 2    51   Output ~ 0
 SPI2_SCK
-Text GLabel 10200 3800 2    51   Output ~ 0
+Text GLabel 10700 3800 2    51   Output ~ 0
 SPI3_MOSI
-Text GLabel 1400 4300 0    51   Output ~ 0
+Text GLabel 900  4300 0    51   Output ~ 0
 SPI3_SCK
 Text GLabel 1400 4400 0    51   Input ~ 0
 SPI3_MISO
@@ -564,28 +558,28 @@ Text GLabel 7000 5800 2    51   Input ~ 0
 CLK_IN
 Text GLabel 7000 5900 2    51   Input ~ 0
 RES_IN
-Text GLabel 9400 5500 2    51   Output ~ 0
+Text GLabel 10200 2300 2    51   Output ~ 0
 SR_MOSI
-Text GLabel 9400 5600 2    51   Output ~ 0
+Text GLabel 10200 2200 2    51   Input ~ 0
 SR_MISO
-Text GLabel 9400 5700 2    51   Output ~ 0
+Text GLabel 10200 2100 2    51   Output ~ 0
 SR_SCK
-Text GLabel 9400 5800 2    51   Output ~ 0
+Text GLabel 10200 3300 2    51   Output ~ 0
 SR_LATCH
-Text GLabel 9400 5900 2    51   Output ~ 0
+Text GLabel 10200 3400 2    51   Output ~ 0
 SR_LOAD
-Text GLabel 9400 6200 2    51   Output ~ 0
+Text GLabel 10200 3800 2    51   Output ~ 0
 DAC_MOSI
-Text GLabel 9400 6300 2    51   Output ~ 0
+Text GLabel 1400 4300 0    51   Output ~ 0
 DAC_SCK
-Text GLabel 7000 6150 2    51   Output ~ 0
+Text GLabel 7800 5600 2    51   Output ~ 0
 USB_PWR_EN
-Text GLabel 7000 6250 2    51   Input ~ 0
+Text GLabel 7800 5700 2    51   Input ~ 0
 USB_PWR_FAULT
 Text GLabel 10200 2700 2    51   Output ~ 0
-USB_DM
+USB_D-
 Text GLabel 10200 2800 2    51   Output ~ 0
-USB_DP
+USB_D+
 Wire Wire Line
 	1500 6100 1600 6100
 Wire Wire Line
@@ -829,4 +823,14 @@ NoConn ~ 1500 5900
 NoConn ~ 1500 6000
 NoConn ~ 2600 5900
 NoConn ~ 1500 2000
+Wire Wire Line
+	10100 3300 10200 3300
+Wire Wire Line
+	10100 3400 10200 3400
+Wire Wire Line
+	10100 4500 10200 4500
+Wire Wire Line
+	10100 4700 10200 4700
+Wire Wire Line
+	10100 4800 10200 4800
 $EndSCHEMATC
