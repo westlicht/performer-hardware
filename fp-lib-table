@@ -1,7 +1,9 @@
 (fp_lib_table
   (lib (name w_connector)(type KiCad)(uri ${KIPRJMOD}/kicad-libs/w_connector.pretty)(options "")(descr ""))
+  (lib (name w_frontpanel)(type KiCad)(uri ${KIPRJMOD}/kicad-libs/w_frontpanel.pretty)(options "")(descr ""))
   (lib (name w_lcd)(type KiCad)(uri ${KIPRJMOD}/kicad-libs/w_lcd.pretty)(options "")(descr ""))
   (lib (name w_led)(type KiCad)(uri ${KIPRJMOD}/kicad-libs/w_led.pretty)(options "")(descr ""))
   (lib (name w_rotary_encoder)(type KiCad)(uri ${KIPRJMOD}/kicad-libs/w_rotary_encoder.pretty)(options "")(descr ""))
   (lib (name w_switch)(type KiCad)(uri ${KIPRJMOD}/kicad-libs/w_switch.pretty)(options "")(descr ""))
+  (lib (name w_via)(type KiCad)(uri ${KIPRJMOD}/kicad-libs/w_via.pretty)(options "")(descr ""))
 )
