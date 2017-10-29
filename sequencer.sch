@@ -741,7 +741,7 @@ Text GLabel 7200 5400 2    51   Input ~ 0
 SCOL3
 Text GLabel 7200 5500 2    51   Input ~ 0
 SCOL4
-Text GLabel 5100 5600 0    51   Output ~ 0
+Text GLabel 5100 5500 0    51   Output ~ 0
 SR_MISO
 Text GLabel 8900 1700 0    51   BiDi ~ 0
 SDIO_D0
@@ -924,7 +924,7 @@ Wire Wire Line
 Wire Wire Line
 	5100 5300 5500 5300
 Wire Wire Line
-	5100 5600 5500 5600
+	5100 5500 5500 5500
 Wire Wire Line
 	6500 5100 7200 5100
 Wire Wire Line
@@ -1170,8 +1170,10 @@ NoConn ~ 5500 5400
 NoConn ~ 9200 1800
 NoConn ~ 9200 1100
 Wire Wire Line
-	5400 5700 5400 5900
+	5400 5600 5400 5900
 Connection ~ 5400 5800
-NoConn ~ 5500 5500
 NoConn ~ 5500 4300
+Wire Wire Line
+	5500 5600 5400 5600
+Connection ~ 5400 5700
 $EndSCHEMATC

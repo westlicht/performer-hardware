@@ -859,4 +859,12 @@ F 3 "" H 1400 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 1400 2050
+NoConn ~ 10100 4200
+NoConn ~ 10100 4100
+NoConn ~ 10100 4000
+NoConn ~ 10100 3900
+NoConn ~ 10100 3700
+NoConn ~ 10100 2000
+NoConn ~ 1500 3300
+NoConn ~ 1500 3400
 $EndSCHEMATC
