@@ -1,7 +1,5 @@
 # per|former - eurorack sequencer
 
-<a href="images/sequencer-front.png"><img src="images/sequencer-front.png" width="400"/></a><a href="images/frontpanel.png"><img src="images/frontpanel.png" width="400"/></a>
-
 ## Overview
 
 This repository contains the hardware design files (KiCad) for the per|former eurorack sequencer.
@@ -17,3 +15,8 @@ The firmware is hosted in a separate repository [here](https://github.com/westli
 | PCB        | 171.45     | 106.68      |
 | Frontpanel | 172.5      | 128.27      |
 
+## Images
+
+<a href="images/sequencer-front.png"><img src="images/sequencer-front.png"/></a>
+<a href="images/sequencer-back.png"><img src="images/sequencer-back.png"/></a>
+<a href="images/frontpanel.png"><img src="images/frontpanel.png"/></a>
