@@ -1,0 +1,62 @@
+Component,References,Value,Quantity Per PCB,Datasheet,MFP,MFN
+1,C101 C102 C103 C104 C105 C201 C203 C206 C208 C209 C211 C213 C505 C506 C507 C508 C510 C605 C606 C709 C710 C711 C712 C714 C715 C717,100n,26,http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf,GRM188R71E104JA01J,Murata
+2,C503 C504 C701 C702 C703 C704 C705 C706 C707 C708,18p,10,http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf,GRM1885C1H180JA01J,Murata
+3,C601 C602 C603 C604,1n,4,http://datasheet.octopart.com/GRM1885C1H102FA01J-Murata-datasheet-66077081.pdf,GRM1885C1H102FA01J,Murata
+4,C509,1u,1,http://datasheet.octopart.com/GRM188R61A105KA61J-Murata-datasheet-66077091.pdf,GRM188R61A105KA61J,Murata
+5,C501 C502 C713 C716,2.2u,4,http://datasheet.octopart.com/C2012X5R1A225K085AA-TDK-datasheet-41194876.pdf,C2012X5R1A225K085AA,TDK
+6,C202 C207 C212,22u,3,http://datasheet.octopart.com/EEE-FP1E220AR-Panasonic-datasheet-13268972.pdf,EEE-FP1E220AR,Panasonic
+7,C204 C205,47u,2,http://datasheet.octopart.com/EEE-FK1V470P-Panasonic-datasheet-13266987.pdf,EEE-FK1V470P,Panasonic
+8,D301 D302 D303 D304 D305 D309 D310 D311 D312 D313 D314 D315 D316 D317 D318 D319 D320 D321 D322 D323 D324 D325 D326 D327 D328 D329 D330 D331 D332 D333 D334 D335 D336 D337 D338 D339 D340 D601,1N4148,38,http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf,1N4148W-7-F,Diodes Inc.
+9,D201 D204,1N5819HW,2,http://datasheet.octopart.com/1N5819HW-7-F-Diodes-Inc.-datasheet-34441420.pdf,1N5819HW-7-F,Diodes Inc.
+10,D202,LM4040CIM3-10.0,1,http://www.ti.com/product/lm4040-n/technicaldocuments?HQS=TI-null-null-octopart-df-pf-null-wwe,LM4040CIM3-10.0/NOPB,Texas Instruments
+11,ENC101,ALPS-STEC12E08,1,http://datasheet.octopart.com/PEC11R-4225F-S0024-Bourns-datasheet-68303416.pdf,PEC11R-4225F-S0024,Bourns
+12,J603 J604 J605 J606 J607 J608 J609 J610 J611 J612 J613 J614 J615 J616 J617 J618 J619 J620 J621 J622 J623 J624 J625 J626,PJ301BM,24,http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html,WQP-PJ301BM,Wenzhou QingPu Electronics
+13,J601 J602,PJ301CM,2,http://www.qingpu-electronics.com/en/products/WQP-PJ301CM-40.html,WQP-PJ301CM,Wenzhou QingPu Electronics
+14,JP501,JTAG,1,http://datasheet.octopart.com/20021111-00010T4LF-FCI-datasheet-11548804.pdf,20021111-00010T4LF,FCI
+15,JP102,NHD-3.12-25664UC,1,http://datasheet.octopart.com/NHD-3.12-25664UCY2-Newhaven-Display-datasheet-10504909.pdf,NHD-3.12-25664UCY2,Newhaven Display
+16,JP103,PJS008U-3000,1,http://datasheet.octopart.com/PJS008U-3000-0-Yamaichi-datasheet-32042463.pdf,PJS008U-3000-0,Yamaichi
+17,JP201,POWER,1,http://datasheet.octopart.com/67996-410HLF-Areva-datasheet-10288749.pdf,67996-410HLF,FCI
+18,JP502,Serial / Bootloader,1,http://datasheet.octopart.com/68002-106HLF-FCI-datasheet-8449737.pdf,68002-106HLF,FCI
+19,JP101,USB_A,1,http://datasheet.octopart.com/105057-0001-Molex-datasheet-48881000.pdf,105057-0001,Molex
+20,L201 L202 L203,Bead,3,http://datasheet.octopart.com/MI0603K300R-10-Steward-datasheet-14357321.pdf,MI0603K300R-10,Laird
+21,LED401 LED402 LED403 LED404 LED405 LED406 LED407 LED408 LED409 LED410 LED411 LED412 LED413 LED414 LED415 LED416 LED417 LED418 LED419 LED420 LED421 LED422 LED423 LED424 LED425 LED426 LED427 LED428 LED429 LED430 LED431 LED432,WP115VEGW,32,http://datasheet.octopart.com/WP115VEGW-Kingbright-datasheet-8325143.pdf,WP115VEGW,Kingbright
+22,Q601 Q602 Q603 Q604,MMBT3904,4,http://datasheet.octopart.com/MMBT3904LT1G-ON-Semiconductor-datasheet-11971584.pdf,MMBT3904LT1G,ON Semiconductor
+23,R603 R608 R623 R624 R629 R630 R706 R708 R710 R712 R718 R720 R722 R724,100k,14,http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf,ERJ-3EKF1003V,Panasonic
+24,R101 R102 R103 R104 R105 R203 R501 R502 R601 R605 R606 R610 R631,10k,13,http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf,ERJ-3EKF1002V,Panasonic
+25,R201 R602 R607 R611 R612 R613 R614 R615 R616 R617 R618,1k,11,http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf,ERJ-3EKF1001V,Panasonic
+26,R621 R622 R627 R628,200k,4,http://datasheet.octopart.com/ERJ-3EKF2003V-Panasonic-datasheet-13266541.pdf,ERJ-3EKF2003V,Panasonic
+27,R632 R701 R702 R703 R704 R713 R714 R715 R716,220,9,http://datasheet.octopart.com/ERJ3EKF2200V-Panasonic-datasheet-13266541.pdf,ERJ-3EKF2200V,Panasonic
+28,R726,22k,1,http://datasheet.octopart.com/ERJ3EKF2202V-Panasonic-datasheet-13266541.pdf,ERJ-3EKF2202V,Panasonic
+29,R705 R707 R709 R711 R717 R719 R721 R723,24k,8,http://datasheet.octopart.com/ERJ-3EKF2402V-Panasonic-datasheet-82288794.pdf,ERJ-3EKF2402V,Panasonic
+30,R619 R620 R625 R626 R725,33k,5,http://datasheet.octopart.com/ERJ3EKF3302V-Panasonic-datasheet-13266541.pdf,ERJ-3EKF3302V,Panasonic
+31,R106 R107 R108 R109 R110 R111 R112 R113,470,8,http://datasheet.octopart.com/ERJ3EKF4700V-Panasonic-datasheet-13266541.pdf,ERJ-3EKF4700V,Panasonic
+32,R633 R634,51,2,http://datasheet.octopart.com/ERJ-3EKF51R1V-Panasonic-datasheet-13266541.pdf,ERJ-3EKF51R1V,Panasonic
+33,SW501 SW502,EVQQ2,2,http://datasheet.octopart.com/EVQ-Q2K01W-Panasonic-datasheet-13267673.pdf,EVQ-Q2K01W,Panasonic
+34,SW301 SW302 SW303 SW304 SW305 SW309 SW310 SW311 SW312 SW313 SW314 SW315 SW316 SW317 SW318 SW319 SW320 SW321 SW322 SW323 SW324 SW325 SW326 SW327 SW328 SW329 SW330 SW331 SW332 SW333 SW334 SW335 SW336 SW337 SW338 SW339 SW340,TL1105T,37,http://datasheet.octopart.com/TL1105TF160Q-E-Switch-datasheet-502092.pdf,TL1105TF160Q,E-Switch
+35,U602,6N137,1,http://datasheet.octopart.com/6N137S-Lite-On-datasheet-14174226.pdf,6N137S,Lite-On
+36,U105,74HC165,1,https://octopart.com/click/track?ct=datasheets&hlid=24916538&ppid=35776&sid=370&sig=03765d0,SN74HC165D,Texas Instruments
+37,U102 U103 U104,74HC595,3,https://octopart.com/click/track?ct=datasheets&hlid=24917219&ppid=44183&sid=370&sig=036bbbe,SN74HC595D,Texas Instruments
+38,U101,74HCT125,1,https://octopart.com/click/track?ct=datasheets&hlid=24917456&ppid=464455&sid=370&sig=085083f,SN74HCT125D,Texas Instruments
+39,U701,DAC8568C,1,https://octopart.com/click/track?ct=datasheets&hlid=24881192&ppid=10447789&sid=370&sig=0a14fa8,DAC8568ICPW,Texas Instruments
+40,U201 U202,LM1117-3.3,2,https://octopart.com/click/track?ct=datasheets&hlid=24885394&ppid=24812450&sid=370&sig=0f3ff9a,LM1117MP-3.3/NOPB,Texas Instruments
+41,U203,LM1117-5.0,1,https://octopart.com/click/track?ct=datasheets&hlid=24885395&ppid=24812451&sid=370&sig=028debb,LM1117MP-5.0/NOPB,Texas Instruments
+42,U601,MCP6004,1,http://datasheet.octopart.com/MCP6004-I/SL-Microchip-datasheet-8823409.pdf,MCP6004-I/SL,Microchip
+43,U702 U703,OPA4172,2,https://octopart.com/click/track?ct=datasheets&hlid=24903050&ppid=47153708&sid=370&sig=0f23e7a,OPA4172IPW,Texas Instruments
+44,U501,STM32F405RGTx,1,http://datasheet.octopart.com/STM32F405RGT6-STMicroelectronics-datasheet-12357803.pdf,STM32F405RGT6,STMicroelectronics
+45,U204,STMPS2151,1,http://datasheet.octopart.com/STMPS2151STR-STMicroelectronics-datasheet-15207125.pdf,STMPS2151STR,STMicroelectronics
+46,Y501,8MHz,1,http://datasheet.octopart.com/ABLS2-8.000MHZ-D4Y-T-Abracon-datasheet-10047767.pdf,ABLS2-8.000MHZ-D4Y-T,Abracon
+
+
+
+
+
+Component Groups:,46
+Component Count:,293
+Fitted Components:,293
+Number of PCBs:,1
+Total components:,293
+Schematic Version:,0.1
+Schematic Date:,
+BoM Date:,"2017 October 31, Tuesday 11:16:21"
+Schematic Source:,/Users/freak/Documents/kicad/newtest/sequencer.sch
+KiCad Version:,Eeschema 4.0.7
