@@ -1121,6 +1121,10 @@ Wire Wire Line
 	2800 1100 3000 1100
 Wire Wire Line
 	2800 1200 3000 1200
+Wire Wire Line
+	5400 5600 5400 5900
+Wire Wire Line
+	5500 5600 5400 5600
 Connection ~ 5400 1600
 Connection ~ 5400 3000
 Connection ~ 5400 4400
@@ -1166,14 +1170,10 @@ Connection ~ 2900 1700
 Connection ~ 2900 1600
 Connection ~ 2900 1500
 Connection ~ 2900 1400
+Connection ~ 5400 5800
+Connection ~ 5400 5700
 NoConn ~ 5500 5400
 NoConn ~ 9200 1800
 NoConn ~ 9200 1100
-Wire Wire Line
-	5400 5600 5400 5900
-Connection ~ 5400 5800
 NoConn ~ 5500 4300
-Wire Wire Line
-	5500 5600 5400 5600
-Connection ~ 5400 5700
 $EndSCHEMATC
