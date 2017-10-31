@@ -45,18 +45,3 @@ Component,References,Value,Quantity Per PCB,Datasheet,MFP,MFN
 44,U501,STM32F405RGTx,1,http://datasheet.octopart.com/STM32F405RGT6-STMicroelectronics-datasheet-12357803.pdf,STM32F405RGT6,STMicroelectronics
 45,U204,STMPS2151,1,http://datasheet.octopart.com/STMPS2151STR-STMicroelectronics-datasheet-15207125.pdf,STMPS2151STR,STMicroelectronics
 46,Y501,8MHz,1,http://datasheet.octopart.com/ABLS2-8.000MHZ-D4Y-T-Abracon-datasheet-10047767.pdf,ABLS2-8.000MHZ-D4Y-T,Abracon
-
-
-
-
-
-Component Groups:,46
-Component Count:,293
-Fitted Components:,293
-Number of PCBs:,1
-Total components:,293
-Schematic Version:,0.1
-Schematic Date:,
-BoM Date:,"2017 October 31, Tuesday 11:16:21"
-Schematic Source:,/Users/freak/Documents/kicad/newtest/sequencer.sch
-KiCad Version:,Eeschema 4.0.7
