@@ -15,6 +15,10 @@ The firmware is hosted in a separate repository [here](https://github.com/westli
 | PCB        | 171.45     | 106.68      |
 | Frontpanel | 172.5      | 128.27      |
 
+## Bill of materials
+
+The BOM is available as a [CSV](bom/bom.csv) and [HTML](bom/bom.html).
+
 ## Images
 
 <a href="images/sequencer-front.png"><img src="images/sequencer-front.png"/></a>
