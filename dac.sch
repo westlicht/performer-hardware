@@ -85,9 +85,9 @@ P 4800 1500
 F 0 "U702" H 4800 1700 50  0000 L CNN
 F 1 "OPA4172" H 4800 1300 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 4750 1600 50  0001 C CNN
-F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903050&ppid=47153708&sid=370&sig=0f23e7a" H 4850 1700 50  0001 C CNN
+F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903049&ppid=47153707&sid=370&sig=086dfac" H 4850 1700 50  0001 C CNN
 F 4 "Texas Instruments" H 4800 1500 60  0001 C CNN "MFN"
-F 5 "OPA4172IPW" H 4800 1500 60  0001 C CNN "MFP"
+F 5 "OPA4172IDR" H 4800 1500 60  0001 C CNN "MFP"
 	2    4800 1500
 	1    0    0    -1  
 $EndComp
@@ -98,9 +98,9 @@ P 9200 1500
 F 0 "U702" H 9200 1700 50  0000 L CNN
 F 1 "OPA4172" H 9200 1300 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 9150 1600 50  0001 C CNN
-F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903050&ppid=47153708&sid=370&sig=0f23e7a" H 9250 1700 50  0001 C CNN
+F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903049&ppid=47153707&sid=370&sig=086dfac" H 9250 1700 50  0001 C CNN
 F 4 "Texas Instruments" H 9200 1800 50  0001 C CNN "MFN"
-F 5 "OPA4172IPW" H 9200 1800 50  0001 C CNN "MFP"
+F 5 "OPA4172IDR" H 9200 1800 50  0001 C CNN "MFP"
 	4    9200 1500
 	1    0    0    -1  
 $EndComp
@@ -111,9 +111,9 @@ P 4800 3200
 F 0 "U703" H 4800 3400 50  0000 L CNN
 F 1 "OPA4172" H 4800 3000 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 4750 3300 50  0001 C CNN
-F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903050&ppid=47153708&sid=370&sig=0f23e7a" H 4850 3400 50  0001 C CNN
+F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903049&ppid=47153707&sid=370&sig=086dfac" H 4850 3400 50  0001 C CNN
 F 4 "Texas Instruments" H 4800 3500 50  0001 C CNN "MFN"
-F 5 "OPA4172IPW" H 4800 3500 50  0001 C CNN "MFP"
+F 5 "OPA4172IDR" H 4800 3500 50  0001 C CNN "MFP"
 	2    4800 3200
 	1    0    0    -1  
 $EndComp
@@ -124,9 +124,9 @@ P 2600 1500
 F 0 "U702" H 2600 1700 50  0000 L CNN
 F 1 "OPA4172" H 2600 1300 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 2550 1600 50  0001 C CNN
-F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903050&ppid=47153708&sid=370&sig=0f23e7a" H 2650 1700 50  0001 C CNN
+F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903049&ppid=47153707&sid=370&sig=086dfac" H 2650 1700 50  0001 C CNN
 F 4 "Texas Instruments" H 2600 1800 50  0001 C CNN "MFN"
-F 5 "OPA4172IPW" H 2600 1800 50  0001 C CNN "MFP"
+F 5 "OPA4172IDR" H 2600 1800 50  0001 C CNN "MFP"
 	1    2600 1500
 	1    0    0    -1  
 $EndComp
@@ -137,9 +137,9 @@ P 7000 1500
 F 0 "U702" H 7000 1700 50  0000 L CNN
 F 1 "OPA4172" H 7000 1300 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 6950 1600 50  0001 C CNN
-F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903050&ppid=47153708&sid=370&sig=0f23e7a" H 7050 1700 50  0001 C CNN
+F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903049&ppid=47153707&sid=370&sig=086dfac" H 7050 1700 50  0001 C CNN
 F 4 "Texas Instruments" H 7000 1800 50  0001 C CNN "MFN"
-F 5 "OPA4172IPW" H 7000 1800 50  0001 C CNN "MFP"
+F 5 "OPA4172IDR" H 7000 1800 50  0001 C CNN "MFP"
 	3    7000 1500
 	1    0    0    -1  
 $EndComp
@@ -150,9 +150,9 @@ P 2600 3200
 F 0 "U703" H 2600 3400 50  0000 L CNN
 F 1 "OPA4172" H 2600 3000 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 2550 3300 50  0001 C CNN
-F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903050&ppid=47153708&sid=370&sig=0f23e7a" H 2650 3400 50  0001 C CNN
+F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903049&ppid=47153707&sid=370&sig=086dfac" H 2650 3400 50  0001 C CNN
 F 4 "Texas Instruments" H 2600 3500 50  0001 C CNN "MFN"
-F 5 "OPA4172IPW" H 2600 3500 50  0001 C CNN "MFP"
+F 5 "OPA4172IDR" H 2600 3500 50  0001 C CNN "MFP"
 	1    2600 3200
 	1    0    0    -1  
 $EndComp
@@ -163,9 +163,9 @@ P 7000 3200
 F 0 "U703" H 7000 3400 50  0000 L CNN
 F 1 "OPA4172" H 7000 3000 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 6950 3300 50  0001 C CNN
-F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903050&ppid=47153708&sid=370&sig=0f23e7a" H 7050 3400 50  0001 C CNN
+F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903049&ppid=47153707&sid=370&sig=086dfac" H 7050 3400 50  0001 C CNN
 F 4 "Texas Instruments" H 7000 3500 50  0001 C CNN "MFN"
-F 5 "OPA4172IPW" H 7000 3500 50  0001 C CNN "MFP"
+F 5 "OPA4172IDR" H 7000 3500 50  0001 C CNN "MFP"
 	3    7000 3200
 	1    0    0    -1  
 $EndComp
@@ -187,9 +187,9 @@ P 9200 3200
 F 0 "U703" H 9200 3400 50  0000 L CNN
 F 1 "OPA4172" H 9200 3000 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 9150 3300 50  0001 C CNN
-F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903050&ppid=47153708&sid=370&sig=0f23e7a" H 9250 3400 50  0001 C CNN
+F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903049&ppid=47153707&sid=370&sig=086dfac" H 9250 3400 50  0001 C CNN
 F 4 "Texas Instruments" H 9200 3500 50  0001 C CNN "MFN"
-F 5 "OPA4172IPW" H 9200 3500 50  0001 C CNN "MFP"
+F 5 "OPA4172IDR" H 9200 3500 50  0001 C CNN "MFP"
 	4    9200 3200
 	1    0    0    -1  
 $EndComp
