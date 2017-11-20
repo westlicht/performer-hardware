@@ -865,11 +865,11 @@ L MCP6004 U601
 U 1 1 59DF155B
 P 2000 5200
 F 0 "U601" H 2000 5400 50  0000 L CNN
-F 1 "MCP6004" H 2000 5000 50  0000 L CNN
+F 1 "TL074" H 2000 5000 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 1950 5300 50  0001 C CNN
-F 3 "http://datasheet.octopart.com/MCP6004-I/SL-Microchip-datasheet-8823409.pdf" H 2050 5400 50  0001 C CNN
-F 4 "Microchip" H 2000 5500 50  0001 C CNN "MFN"
-F 5 "MCP6004-I/SL" H 2000 5500 50  0001 C CNN "MFP"
+F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24928135&ppid=93637&sid=370&sig=0014035" H 2050 5400 50  0001 C CNN
+F 4 "Texas Instruments" H 2000 5500 50  0001 C CNN "MFN"
+F 5 "TL074CD" H 2000 5500 50  0001 C CNN "MFP"
 	1    2000 5200
 	1    0    0    1   
 $EndComp
@@ -878,11 +878,11 @@ L MCP6004 U601
 U 3 1 59DF1C7D
 P 2000 6700
 F 0 "U601" H 2000 6900 50  0000 L CNN
-F 1 "MCP6004" H 2000 6500 50  0000 L CNN
+F 1 "TL074" H 2000 6500 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 1950 6800 50  0001 C CNN
-F 3 "http://datasheet.octopart.com/MCP6004-I/SL-Microchip-datasheet-8823409.pdf" H 2050 6900 50  0001 C CNN
-F 4 "Microchip" H 2000 7000 50  0001 C CNN "MFN"
-F 5 "MCP6004-I/SL" H 2000 7000 50  0001 C CNN "MFP"
+F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24928135&ppid=93637&sid=370&sig=0014035" H 2050 6900 50  0001 C CNN
+F 4 "Texas Instruments" H 2000 7000 50  0001 C CNN "MFN"
+F 5 "TL074CD" H 2000 7000 50  0001 C CNN "MFP"
 	3    2000 6700
 	1    0    0    1   
 $EndComp
@@ -891,11 +891,11 @@ L MCP6004 U601
 U 2 1 59DF1D19
 P 4400 5200
 F 0 "U601" H 4400 5400 50  0000 L CNN
-F 1 "MCP6004" H 4400 5000 50  0000 L CNN
+F 1 "TL074" H 4400 5000 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 4350 5300 50  0001 C CNN
-F 3 "http://datasheet.octopart.com/MCP6004-I/SL-Microchip-datasheet-8823409.pdf" H 4450 5400 50  0001 C CNN
-F 4 "Microchip" H 4400 5500 50  0001 C CNN "MFN"
-F 5 "MCP6004-I/SL" H 4400 5500 50  0001 C CNN "MFP"
+F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24928135&ppid=93637&sid=370&sig=0014035" H 4450 5400 50  0001 C CNN
+F 4 "Texas Instruments" H 4400 5500 50  0001 C CNN "MFN"
+F 5 "TL074CD" H 4400 5500 50  0001 C CNN "MFP"
 	2    4400 5200
 	1    0    0    1   
 $EndComp
@@ -904,11 +904,11 @@ L MCP6004 U601
 U 4 1 59DF1DB6
 P 4400 6700
 F 0 "U601" H 4400 6900 50  0000 L CNN
-F 1 "MCP6004" H 4400 6500 50  0000 L CNN
+F 1 "TL074" H 4400 6500 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 4350 6800 50  0001 C CNN
-F 3 "http://datasheet.octopart.com/MCP6004-I/SL-Microchip-datasheet-8823409.pdf" H 4450 6900 50  0001 C CNN
-F 4 "Microchip" H 4400 7000 50  0001 C CNN "MFN"
-F 5 "MCP6004-I/SL" H 4400 7000 50  0001 C CNN "MFP"
+F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24928135&ppid=93637&sid=370&sig=0014035" H 4450 6900 50  0001 C CNN
+F 4 "Texas Instruments" H 4400 7000 50  0001 C CNN "MFN"
+F 5 "TL074CD" H 4400 7000 50  0001 C CNN "MFP"
 	4    4400 6700
 	1    0    0    1   
 $EndComp
