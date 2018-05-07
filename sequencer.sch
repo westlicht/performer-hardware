@@ -683,6 +683,142 @@ F 3 "" H 2900 700 50  0001 C CNN
 	1    2900 700 
 	1    0    0    -1  
 $EndComp
+$Comp
+L R R117
+U 1 1 5AEA4C2A
+P 8900 1050
+F 0 "R117" V 8980 1050 50  0000 C CNN
+F 1 "33k" V 8900 1050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8830 1050 50  0001 C CNN
+F 3 "" H 8900 1050 50  0001 C CNN
+	1    8900 1050
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R119
+U 1 1 5AEA4CDA
+P 8900 2250
+F 0 "R119" V 8980 2250 50  0000 C CNN
+F 1 "1M" V 8900 2250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8830 2250 50  0001 C CNN
+F 3 "" H 8900 2250 50  0001 C CNN
+	1    8900 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R114
+U 1 1 5AEA4D5E
+P 8300 1050
+F 0 "R114" V 8380 1050 50  0000 C CNN
+F 1 "33k" V 8300 1050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8230 1050 50  0001 C CNN
+F 3 "" H 8300 1050 50  0001 C CNN
+	1    8300 1050
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R115
+U 1 1 5AEA4DC8
+P 8500 1050
+F 0 "R115" V 8580 1050 50  0000 C CNN
+F 1 "33k" V 8500 1050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8430 1050 50  0001 C CNN
+F 3 "" H 8500 1050 50  0001 C CNN
+	1    8500 1050
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R116
+U 1 1 5AEA93F2
+P 8700 1050
+F 0 "R116" V 8780 1050 50  0000 C CNN
+F 1 "33k" V 8700 1050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8630 1050 50  0001 C CNN
+F 3 "" H 8700 1050 50  0001 C CNN
+	1    8700 1050
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R122
+U 1 1 5AEB2AD1
+P 2700 5650
+F 0 "R122" V 2780 5650 50  0000 C CNN
+F 1 "10k" V 2700 5650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2630 5650 50  0001 C CNN
+F 3 "" H 2700 5650 50  0001 C CNN
+	1    2700 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MMBT3904 Q101
+U 1 1 5AEB9A70
+P 4000 2700
+F 0 "Q101" H 4200 2775 50  0000 L CNN
+F 1 "MMBT3904" H 4200 2700 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 4200 2625 50  0001 L CIN
+F 3 "http://datasheet.octopart.com/MMBT3904LT1G-ON-Semiconductor-datasheet-11971584.pdf" H 4000 2700 50  0001 L CNN
+F 4 "ON Semiconductor" H 4200 2875 50  0001 C CNN "MFN"
+F 5 "MMBT3904LT1G" H 4200 2875 50  0001 C CNN "MFP"
+	1    4000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R118
+U 1 1 5AEB9A79
+P 4100 2150
+F 0 "R118" V 4180 2150 50  0000 C CNN
+F 1 "1k" V 4100 2150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4030 2150 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf" H 4100 2150 50  0001 C CNN
+F 4 "Panasonic" H 4180 2250 50  0001 C CNN "MFN"
+F 5 "ERJ-3EKF1001V" H 4180 2250 50  0001 C CNN "MFP"
+	1    4100 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR023
+U 1 1 5AEB9A80
+P 4100 3300
+F 0 "#PWR023" H 4100 3050 50  0001 C CNN
+F 1 "GND" H 4100 3150 50  0000 C CNN
+F 2 "" H 4100 3300 50  0001 C CNN
+F 3 "" H 4100 3300 50  0001 C CNN
+	1    4100 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR024
+U 1 1 5AEB9A86
+P 4100 1900
+F 0 "#PWR024" H 4100 1750 50  0001 C CNN
+F 1 "+5V" H 4100 2040 50  0000 C CNN
+F 2 "" H 4100 1900 50  0001 C CNN
+F 3 "" H 4100 1900 50  0001 C CNN
+	1    4100 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R120
+U 1 1 5AEBCC66
+P 3450 2700
+F 0 "R120" V 3530 2700 50  0000 C CNN
+F 1 "10k" V 3450 2700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3380 2700 50  0001 C CNN
+F 3 "" H 3450 2700 50  0001 C CNN
+	1    3450 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R121
+U 1 1 5AEBCE61
+P 3700 2950
+F 0 "R121" V 3780 2950 50  0000 C CNN
+F 1 "100k" V 3700 2950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3630 2950 50  0001 C CNN
+F 3 "" H 3700 2950 50  0001 C CNN
+	1    3700 2950
+	1    0    0    -1  
+$EndComp
 Text GLabel 6600 900  2    51   Output ~ 0
 ROW0
 Text GLabel 6600 1000 2    51   Output ~ 0
@@ -779,6 +915,18 @@ Text GLabel 2800 1100 0    51   Input ~ 0
 SR_LATCH
 Text GLabel 2800 1200 0    51   Input ~ 0
 SR_LOAD
+Text GLabel 8000 1300 0    51   Output ~ 0
+SDIO_CD
+Text GLabel 2800 2700 0    51   Input ~ 0
+SR_OE
+Text Notes 8100 2350 0    118  ~ 24
+NEW
+Text Notes 3550 2550 0    118  ~ 24
+NEW
+Text Notes 2200 5850 0    118  ~ 24
+NEW
+Text Notes 7650 1150 0    118  ~ 24
+NEW
 Wire Wire Line
 	6500 900  6600 900 
 Wire Wire Line
@@ -1111,6 +1259,78 @@ Wire Wire Line
 	5400 5600 5400 5900
 Wire Wire Line
 	5500 5600 5400 5600
+Wire Wire Line
+	8900 800  8900 900 
+Wire Wire Line
+	8300 800  9100 800 
+Wire Wire Line
+	8300 900  8300 800 
+Wire Wire Line
+	9200 1300 8900 1300
+Wire Wire Line
+	8900 1300 8900 1200
+Wire Wire Line
+	8200 1400 9200 1400
+Wire Wire Line
+	8000 1500 9200 1500
+Wire Wire Line
+	8300 1200 8300 2000
+Wire Wire Line
+	8300 2000 9200 2000
+Wire Wire Line
+	8500 900  8500 800 
+Wire Wire Line
+	8500 1200 8500 1900
+Wire Wire Line
+	8700 900  8700 800 
+Wire Wire Line
+	8700 1200 8700 1500
+Wire Wire Line
+	8900 1400 8900 2100
+Wire Wire Line
+	8200 1400 8200 1300
+Wire Wire Line
+	8200 1300 8000 1300
+Wire Wire Line
+	8900 2400 8900 2500
+Wire Wire Line
+	8900 2500 9100 2500
+Wire Wire Line
+	2700 5300 2700 5500
+Wire Wire Line
+	2700 5800 2700 5900
+Wire Wire Line
+	2700 5900 2900 5900
+Wire Wire Line
+	4800 1100 4800 3900
+Wire Wire Line
+	5400 1600 5400 1700
+Wire Wire Line
+	5400 3000 5400 3100
+Wire Wire Line
+	5400 4400 5400 4500
+Wire Wire Line
+	4100 2300 4100 2500
+Wire Wire Line
+	4100 1900 4100 2000
+Wire Wire Line
+	4100 2900 4100 3300
+Wire Wire Line
+	4800 3900 5500 3900
+Wire Wire Line
+	5500 2500 4800 2500
+Wire Wire Line
+	4100 2400 4800 2400
+Wire Wire Line
+	3600 2700 3800 2700
+Wire Wire Line
+	3300 2700 2800 2700
+Wire Wire Line
+	3700 2800 3700 2700
+Wire Wire Line
+	3700 3100 3700 3200
+Wire Wire Line
+	3700 3200 4100 3200
 Connection ~ 5400 3700
 Connection ~ 5400 2300
 Connection ~ 5400 900 
@@ -1154,242 +1374,22 @@ Connection ~ 2900 1500
 Connection ~ 2900 1400
 Connection ~ 5400 5800
 Connection ~ 5400 5700
-NoConn ~ 5500 5400
-NoConn ~ 5500 4300
-$Comp
-L R R117
-U 1 1 5AEA4C2A
-P 8900 1050
-F 0 "R117" V 8980 1050 50  0000 C CNN
-F 1 "33k" V 8900 1050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8830 1050 50  0001 C CNN
-F 3 "" H 8900 1050 50  0001 C CNN
-	1    8900 1050
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R119
-U 1 1 5AEA4CDA
-P 8900 2250
-F 0 "R119" V 8980 2250 50  0000 C CNN
-F 1 "1M" V 8900 2250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8830 2250 50  0001 C CNN
-F 3 "" H 8900 2250 50  0001 C CNN
-	1    8900 2250
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R114
-U 1 1 5AEA4D5E
-P 8300 1050
-F 0 "R114" V 8380 1050 50  0000 C CNN
-F 1 "33k" V 8300 1050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8230 1050 50  0001 C CNN
-F 3 "" H 8300 1050 50  0001 C CNN
-	1    8300 1050
-	-1   0    0    1   
-$EndComp
-$Comp
-L R R115
-U 1 1 5AEA4DC8
-P 8500 1050
-F 0 "R115" V 8580 1050 50  0000 C CNN
-F 1 "33k" V 8500 1050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8430 1050 50  0001 C CNN
-F 3 "" H 8500 1050 50  0001 C CNN
-	1    8500 1050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8900 800  8900 900 
-Wire Wire Line
-	8300 800  9100 800 
 Connection ~ 9100 800 
 Connection ~ 8900 800 
-Wire Wire Line
-	8300 900  8300 800 
-Wire Wire Line
-	9200 1300 8900 1300
-Wire Wire Line
-	8900 1300 8900 1200
-Wire Wire Line
-	8200 1400 9200 1400
-Wire Wire Line
-	8000 1500 9200 1500
-Wire Wire Line
-	8300 1200 8300 2000
-Wire Wire Line
-	8300 2000 9200 2000
-Wire Wire Line
-	8500 900  8500 800 
 Connection ~ 8500 800 
-Wire Wire Line
-	8500 1200 8500 1900
 Connection ~ 8500 1900
-$Comp
-L R R116
-U 1 1 5AEA93F2
-P 8700 1050
-F 0 "R116" V 8780 1050 50  0000 C CNN
-F 1 "33k" V 8700 1050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8630 1050 50  0001 C CNN
-F 3 "" H 8700 1050 50  0001 C CNN
-	1    8700 1050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8700 900  8700 800 
 Connection ~ 8700 800 
-Wire Wire Line
-	8700 1200 8700 1500
 Connection ~ 8700 1500
-Text GLabel 8000 1300 0    51   Output ~ 0
-SDIO_CD
-Wire Wire Line
-	8900 1400 8900 2100
-Wire Wire Line
-	8200 1400 8200 1300
-Wire Wire Line
-	8200 1300 8000 1300
 Connection ~ 8900 1400
-Wire Wire Line
-	8900 2400 8900 2500
-Wire Wire Line
-	8900 2500 9100 2500
 Connection ~ 9100 2500
-$Comp
-L R R122
-U 1 1 5AEB2AD1
-P 2700 5650
-F 0 "R122" V 2780 5650 50  0000 C CNN
-F 1 "10k" V 2700 5650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2630 5650 50  0001 C CNN
-F 3 "" H 2700 5650 50  0001 C CNN
-	1    2700 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2700 5300 2700 5500
 Connection ~ 2700 5300
-Wire Wire Line
-	2700 5800 2700 5900
-Wire Wire Line
-	2700 5900 2900 5900
 Connection ~ 2900 5900
-Wire Wire Line
-	4800 1100 4800 3900
-Wire Wire Line
-	5400 1600 5400 1700
-Wire Wire Line
-	5400 3000 5400 3100
 Connection ~ 4800 2500
-Wire Wire Line
-	5400 4400 5400 4500
 Connection ~ 4800 3900
-$Comp
-L MMBT3904 Q101
-U 1 1 5AEB9A70
-P 4000 2700
-F 0 "Q101" H 4200 2775 50  0000 L CNN
-F 1 "MMBT3904" H 4200 2700 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 4200 2625 50  0001 L CIN
-F 3 "http://datasheet.octopart.com/MMBT3904LT1G-ON-Semiconductor-datasheet-11971584.pdf" H 4000 2700 50  0001 L CNN
-F 4 "ON Semiconductor" H 4200 2875 50  0001 C CNN "MFN"
-F 5 "MMBT3904LT1G" H 4200 2875 50  0001 C CNN "MFP"
-	1    4000 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R118
-U 1 1 5AEB9A79
-P 4100 2150
-F 0 "R118" V 4180 2150 50  0000 C CNN
-F 1 "1k" V 4100 2150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4030 2150 50  0001 C CNN
-F 3 "http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf" H 4100 2150 50  0001 C CNN
-F 4 "Panasonic" H 4180 2250 50  0001 C CNN "MFN"
-F 5 "ERJ-3EKF1001V" H 4180 2250 50  0001 C CNN "MFP"
-	1    4100 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR023
-U 1 1 5AEB9A80
-P 4100 3300
-F 0 "#PWR023" H 4100 3050 50  0001 C CNN
-F 1 "GND" H 4100 3150 50  0000 C CNN
-F 2 "" H 4100 3300 50  0001 C CNN
-F 3 "" H 4100 3300 50  0001 C CNN
-	1    4100 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR024
-U 1 1 5AEB9A86
-P 4100 1900
-F 0 "#PWR024" H 4100 1750 50  0001 C CNN
-F 1 "+5V" H 4100 2040 50  0000 C CNN
-F 2 "" H 4100 1900 50  0001 C CNN
-F 3 "" H 4100 1900 50  0001 C CNN
-	1    4100 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4100 2300 4100 2500
-Wire Wire Line
-	4100 1900 4100 2000
-Wire Wire Line
-	4100 2900 4100 3300
 Connection ~ 4100 2400
-Wire Wire Line
-	4800 3900 5500 3900
-Wire Wire Line
-	5500 2500 4800 2500
-Wire Wire Line
-	4100 2400 4800 2400
 Connection ~ 4800 2400
-Text GLabel 2800 2700 0    51   Input ~ 0
-SR_OE
-$Comp
-L R R120
-U 1 1 5AEBCC66
-P 3450 2700
-F 0 "R120" V 3530 2700 50  0000 C CNN
-F 1 "10k" V 3450 2700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3380 2700 50  0001 C CNN
-F 3 "" H 3450 2700 50  0001 C CNN
-	1    3450 2700
-	0    1    1    0   
-$EndComp
-$Comp
-L R R121
-U 1 1 5AEBCE61
-P 3700 2950
-F 0 "R121" V 3780 2950 50  0000 C CNN
-F 1 "100k" V 3700 2950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3630 2950 50  0001 C CNN
-F 3 "" H 3700 2950 50  0001 C CNN
-	1    3700 2950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3600 2700 3800 2700
-Wire Wire Line
-	3300 2700 2800 2700
-Wire Wire Line
-	3700 2800 3700 2700
 Connection ~ 3700 2700
-Wire Wire Line
-	3700 3100 3700 3200
-Wire Wire Line
-	3700 3200 4100 3200
 Connection ~ 4100 3200
-Text Notes 8100 2350 0    118  ~ 24
-NEW
-Text Notes 3550 2550 0    118  ~ 24
-NEW
-Text Notes 2200 5850 0    118  ~ 24
-NEW
-Text Notes 7650 1150 0    118  ~ 24
-NEW
+NoConn ~ 5500 5400
+NoConn ~ 5500 4300
 $EndSCHEMATC
