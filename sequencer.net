@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/freak/Documents/kicad/eurorack-sequencer-hardware/sequencer.sch)
-    (date "2018 May 08, Tuesday 23:36:49")
+    (date "2018 May 09, Wednesday 00:04:31")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -431,7 +431,7 @@
       (tstamp 59ADD000))
     (comp (ref D201)
       (value 1N5819HW)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N5819HW-7-F-Diodes-Inc.-datasheet-34441420.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -441,7 +441,7 @@
       (tstamp 59ADD0E1))
     (comp (ref D204)
       (value 1N5819HW)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N5819HW-7-F-Diodes-Inc.-datasheet-34441420.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -707,7 +707,7 @@
       (tstamp 59D94ED0))
     (comp (ref D301)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -717,7 +717,7 @@
       (tstamp 59D9507A))
     (comp (ref D309)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -727,7 +727,7 @@
       (tstamp 59D950D5))
     (comp (ref D317)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -737,7 +737,7 @@
       (tstamp 59D9524B))
     (comp (ref D325)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -747,7 +747,7 @@
       (tstamp 59D952C4))
     (comp (ref D333)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -807,7 +807,7 @@
       (tstamp 59D955A4))
     (comp (ref D302)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -817,7 +817,7 @@
       (tstamp 59D955C1))
     (comp (ref D310)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -827,7 +827,7 @@
       (tstamp 59D955C7))
     (comp (ref D318)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -837,7 +837,7 @@
       (tstamp 59D955D0))
     (comp (ref D326)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -847,7 +847,7 @@
       (tstamp 59D955D9))
     (comp (ref D334)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -907,7 +907,7 @@
       (tstamp 59D95847))
     (comp (ref D303)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -917,7 +917,7 @@
       (tstamp 59D95864))
     (comp (ref D311)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -927,7 +927,7 @@
       (tstamp 59D9586A))
     (comp (ref D319)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -937,7 +937,7 @@
       (tstamp 59D95873))
     (comp (ref D327)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -947,7 +947,7 @@
       (tstamp 59D9587C))
     (comp (ref D335)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -1007,7 +1007,7 @@
       (tstamp 59D958A6))
     (comp (ref D304)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -1017,7 +1017,7 @@
       (tstamp 59D958C3))
     (comp (ref D312)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -1027,7 +1027,7 @@
       (tstamp 59D958C9))
     (comp (ref D320)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -1037,7 +1037,7 @@
       (tstamp 59D958D2))
     (comp (ref D328)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -1047,7 +1047,7 @@
       (tstamp 59D958DB))
     (comp (ref D336)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -1107,7 +1107,7 @@
       (tstamp 59D96081))
     (comp (ref D305)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -1117,7 +1117,7 @@
       (tstamp 59D960A7))
     (comp (ref D313)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -1127,7 +1127,7 @@
       (tstamp 59D960AD))
     (comp (ref D321)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -1137,7 +1137,7 @@
       (tstamp 59D960B6))
     (comp (ref D329)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -1147,7 +1147,7 @@
       (tstamp 59D960BF))
     (comp (ref D337)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -1197,7 +1197,7 @@
       (tstamp 59D960E3))
     (comp (ref D314)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -1207,7 +1207,7 @@
       (tstamp 59D96115))
     (comp (ref D322)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -1217,7 +1217,7 @@
       (tstamp 59D9611E))
     (comp (ref D330)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -1227,7 +1227,7 @@
       (tstamp 59D96127))
     (comp (ref D338)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -1277,7 +1277,7 @@
       (tstamp 59D9614B))
     (comp (ref D315)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -1287,7 +1287,7 @@
       (tstamp 59D9617D))
     (comp (ref D323)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -1297,7 +1297,7 @@
       (tstamp 59D96186))
     (comp (ref D331)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -1307,7 +1307,7 @@
       (tstamp 59D9618F))
     (comp (ref D339)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -1357,7 +1357,7 @@
       (tstamp 59D961B3))
     (comp (ref D316)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -1367,7 +1367,7 @@
       (tstamp 59D961E5))
     (comp (ref D324)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -1377,7 +1377,7 @@
       (tstamp 59D961EE))
     (comp (ref D332)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -1387,7 +1387,7 @@
       (tstamp 59D961F7))
     (comp (ref D340)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -2547,7 +2547,7 @@
       (tstamp 59DD4899))
     (comp (ref D601)
       (value 1N4148)
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint w_diode:D_SOD-123)
       (datasheet http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf)
       (fields
         (field (name MFN) "Diodes Inc.")
@@ -3658,34 +3658,34 @@
   (libraries
     (library (logical w_power)
       (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_power.lib))
-    (library (logical w_stm32)
-      (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_stm32.lib))
-    (library (logical w_logic)
-      (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_logic.lib))
-    (library (logical transistors)
-      (uri "/Library/Application Support/kicad/library/transistors.lib"))
     (library (logical w_lcd)
       (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_lcd.lib))
-    (library (logical linear)
-      (uri "/Library/Application Support/kicad/library/linear.lib"))
-    (library (logical conn)
-      (uri "/Library/Application Support/kicad/library/conn.lib"))
-    (library (logical w_opto)
-      (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_opto.lib))
-    (library (logical w_dac)
-      (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_dac.lib))
-    (library (logical w_rotary_encoder)
-      (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_rotary_encoder.lib))
+    (library (logical w_stm32)
+      (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_stm32.lib))
     (library (logical regul)
       (uri "/Library/Application Support/kicad/library/regul.lib"))
+    (library (logical linear)
+      (uri "/Library/Application Support/kicad/library/linear.lib"))
     (library (logical w_connector)
       (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_connector.lib))
+    (library (logical w_logic)
+      (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_logic.lib))
+    (library (logical w_dac)
+      (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_dac.lib))
+    (library (logical switches)
+      (uri "/Library/Application Support/kicad/library/switches.lib"))
+    (library (logical w_opto)
+      (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_opto.lib))
+    (library (logical w_rotary_encoder)
+      (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_rotary_encoder.lib))
     (library (logical w_switch)
       (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_switch.lib))
     (library (logical device)
       (uri "/Library/Application Support/kicad/library/device.lib"))
-    (library (logical switches)
-      (uri "/Library/Application Support/kicad/library/switches.lib")))
+    (library (logical transistors)
+      (uri "/Library/Application Support/kicad/library/transistors.lib"))
+    (library (logical conn)
+      (uri "/Library/Application Support/kicad/library/conn.lib")))
   (nets
     (net (code 1) (name "Net-(U101-Pad11)")
       (node (ref U105) (pin 1))
