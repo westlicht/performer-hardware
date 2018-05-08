@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/freak/Documents/kicad/eurorack-sequencer-hardware/sequencer.sch)
-    (date "2018 May 06, Sunday 23:56:57")
+    (date "2018 May 08, Tuesday 23:36:49")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -133,7 +133,7 @@
       (tstamp 59DABDC7))
     (comp (ref C101)
       (value 100n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf)
       (fields
         (field (name MFN) Murata)
@@ -143,7 +143,7 @@
       (tstamp 59DAD327))
     (comp (ref C102)
       (value 100n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf)
       (fields
         (field (name MFN) Murata)
@@ -153,7 +153,7 @@
       (tstamp 59DAD399))
     (comp (ref C103)
       (value 100n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf)
       (fields
         (field (name MFN) Murata)
@@ -163,7 +163,7 @@
       (tstamp 59DAD3D5))
     (comp (ref C104)
       (value 100n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf)
       (fields
         (field (name MFN) Murata)
@@ -173,7 +173,7 @@
       (tstamp 59DAD3DB))
     (comp (ref C105)
       (value 100n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf)
       (fields
         (field (name MFN) Murata)
@@ -213,7 +213,7 @@
       (tstamp 59DE5EB2))
     (comp (ref R101)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -223,7 +223,7 @@
       (tstamp 59E55F0E))
     (comp (ref R102)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -233,7 +233,7 @@
       (tstamp 59E560D3))
     (comp (ref R103)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -243,7 +243,7 @@
       (tstamp 59E56118))
     (comp (ref R104)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -253,7 +253,7 @@
       (tstamp 59E56160))
     (comp (ref R105)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -263,7 +263,7 @@
       (tstamp 59E561AB))
     (comp (ref R107)
       (value 470)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ3EKF4700V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -273,7 +273,7 @@
       (tstamp 59E604C8))
     (comp (ref R106)
       (value 470)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ3EKF4700V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -283,7 +283,7 @@
       (tstamp 59E60528))
     (comp (ref R108)
       (value 470)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ3EKF4700V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -293,7 +293,7 @@
       (tstamp 59E60C94))
     (comp (ref R109)
       (value 470)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ3EKF4700V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -303,7 +303,7 @@
       (tstamp 59E60F5A))
     (comp (ref R113)
       (value 470)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ3EKF4700V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -313,7 +313,7 @@
       (tstamp 59E61471))
     (comp (ref R112)
       (value 470)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ3EKF4700V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -323,7 +323,7 @@
       (tstamp 59E6153A))
     (comp (ref R111)
       (value 470)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ3EKF4700V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -333,7 +333,7 @@
       (tstamp 59E61584))
     (comp (ref R110)
       (value 470)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ3EKF4700V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -353,37 +353,37 @@
       (tstamp 59E5EC51))
     (comp (ref R117)
       (value 33k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AEA4C2A))
     (comp (ref R119)
       (value 1M)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AEA4CDA))
     (comp (ref R114)
       (value 33k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AEA4D5E))
     (comp (ref R115)
       (value 33k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AEA4DC8))
     (comp (ref R116)
       (value 33k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AEA93F2))
     (comp (ref R122)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AEB2AD1))
@@ -399,7 +399,7 @@
       (tstamp 5AEB9A70))
     (comp (ref R118)
       (value 1k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -409,13 +409,13 @@
       (tstamp 5AEB9A79))
     (comp (ref R120)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AEBCC66))
     (comp (ref R121)
       (value 100k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AEBCE61))
@@ -471,7 +471,7 @@
       (tstamp 59DEB84A))
     (comp (ref L201)
       (value Bead)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/MI0603K300R-10-Steward-datasheet-14357321.pdf)
       (fields
         (field (name MFN) Laird)
@@ -491,7 +491,7 @@
       (tstamp 59DEC56E))
     (comp (ref C203)
       (value 100n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf)
       (fields
         (field (name MFN) Murata)
@@ -511,7 +511,7 @@
       (tstamp 59DEC7FA))
     (comp (ref C208)
       (value 100n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf)
       (fields
         (field (name MFN) Murata)
@@ -521,7 +521,7 @@
       (tstamp 59DEC80C))
     (comp (ref C213)
       (value 100n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf)
       (fields
         (field (name MFN) Murata)
@@ -541,7 +541,7 @@
       (tstamp 59DF06B3))
     (comp (ref R201)
       (value 1k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -551,7 +551,7 @@
       (tstamp 59DF10B1))
     (comp (ref C209)
       (value 100n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf)
       (fields
         (field (name MFN) Murata)
@@ -571,7 +571,7 @@
       (tstamp 59DFC0CF))
     (comp (ref R203)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -611,7 +611,7 @@
       (tstamp 59E0FEB0))
     (comp (ref L202)
       (value Bead)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/MI0603K300R-10-Steward-datasheet-14357321.pdf)
       (fields
         (field (name MFN) Laird)
@@ -621,7 +621,7 @@
       (tstamp 59E11A13))
     (comp (ref C201)
       (value 100n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf)
       (fields
         (field (name MFN) Murata)
@@ -631,7 +631,7 @@
       (tstamp 59E52EDD))
     (comp (ref C206)
       (value 100n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf)
       (fields
         (field (name MFN) Murata)
@@ -641,7 +641,7 @@
       (tstamp 59E53513))
     (comp (ref C211)
       (value 100n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf)
       (fields
         (field (name MFN) Murata)
@@ -1757,7 +1757,7 @@
       (tstamp 59DBA308))
     (comp (ref C503)
       (value 18p)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf)
       (fields
         (field (name MFN) Murata)
@@ -1767,7 +1767,7 @@
       (tstamp 59DBA373))
     (comp (ref C504)
       (value 18p)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf)
       (fields
         (field (name MFN) Murata)
@@ -1777,7 +1777,7 @@
       (tstamp 59DBA3A0))
     (comp (ref C501)
       (value 2.2u)
-      (footprint Capacitors_SMD:C_0805)
+      (footprint w_capacitor:C_0805)
       (datasheet http://datasheet.octopart.com/C2012X5R1A225K085AA-TDK-datasheet-41194876.pdf)
       (fields
         (field (name MFN) TDK)
@@ -1787,7 +1787,7 @@
       (tstamp 59DBB4BE))
     (comp (ref C502)
       (value 2.2u)
-      (footprint Capacitors_SMD:C_0805)
+      (footprint w_capacitor:C_0805)
       (datasheet http://datasheet.octopart.com/C2012X5R1A225K085AA-TDK-datasheet-41194876.pdf)
       (fields
         (field (name MFN) TDK)
@@ -1817,7 +1817,7 @@
       (tstamp 59DD44E7))
     (comp (ref R501)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -1827,7 +1827,7 @@
       (tstamp 59DD490D))
     (comp (ref R502)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -1837,7 +1837,7 @@
       (tstamp 59DD4953))
     (comp (ref C505)
       (value 100n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf)
       (fields
         (field (name MFN) Murata)
@@ -1847,7 +1847,7 @@
       (tstamp 59E34530))
     (comp (ref C506)
       (value 100n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf)
       (fields
         (field (name MFN) Murata)
@@ -1857,7 +1857,7 @@
       (tstamp 59E345BC))
     (comp (ref C507)
       (value 100n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf)
       (fields
         (field (name MFN) Murata)
@@ -1867,7 +1867,7 @@
       (tstamp 59E34607))
     (comp (ref C508)
       (value 100n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf)
       (fields
         (field (name MFN) Murata)
@@ -1877,7 +1877,7 @@
       (tstamp 59E34648))
     (comp (ref C509)
       (value 1u)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM188R61A105KA61J-Murata-datasheet-66077091.pdf)
       (fields
         (field (name MFN) Murata)
@@ -1887,7 +1887,7 @@
       (tstamp 59E35219))
     (comp (ref C510)
       (value 100n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf)
       (fields
         (field (name MFN) Murata)
@@ -1917,7 +1917,7 @@
       (tstamp 59D9587D))
     (comp (ref R603)
       (value 100k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -1927,7 +1927,7 @@
       (tstamp 59D95942))
     (comp (ref R601)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -1957,7 +1957,7 @@
       (tstamp 59D95DE7))
     (comp (ref R608)
       (value 100k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -1967,7 +1967,7 @@
       (tstamp 59D95DF7))
     (comp (ref R606)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -1997,7 +1997,7 @@
       (tstamp 59D9669D))
     (comp (ref R602)
       (value 1k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2007,7 +2007,7 @@
       (tstamp 59D96885))
     (comp (ref R605)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2037,7 +2037,7 @@
       (tstamp 59D970AF))
     (comp (ref R607)
       (value 1k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2047,7 +2047,7 @@
       (tstamp 59D970C0))
     (comp (ref R610)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2217,7 +2217,7 @@
       (tstamp 59D9C106))
     (comp (ref R611)
       (value 1k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2227,7 +2227,7 @@
       (tstamp 59DB0166))
     (comp (ref R612)
       (value 1k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2237,7 +2237,7 @@
       (tstamp 59DB01E8))
     (comp (ref R613)
       (value 1k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2247,7 +2247,7 @@
       (tstamp 59DB038B))
     (comp (ref R614)
       (value 1k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2257,7 +2257,7 @@
       (tstamp 59DB0391))
     (comp (ref R615)
       (value 1k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2267,7 +2267,7 @@
       (tstamp 59DB04B7))
     (comp (ref R616)
       (value 1k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2277,7 +2277,7 @@
       (tstamp 59DB04BD))
     (comp (ref R617)
       (value 1k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2287,7 +2287,7 @@
       (tstamp 59DB04C3))
     (comp (ref R618)
       (value 1k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2317,7 +2317,7 @@
       (tstamp 59DF34A9))
     (comp (ref R623)
       (value 100k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2327,7 +2327,7 @@
       (tstamp 59DF5175))
     (comp (ref R621)
       (value 200k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF2003V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2337,7 +2337,7 @@
       (tstamp 59DF5247))
     (comp (ref R619)
       (value 33k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ3EKF3302V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2347,7 +2347,7 @@
       (tstamp 59DF7866))
     (comp (ref C601)
       (value 1n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM1885C1H102FA01J-Murata-datasheet-66077081.pdf)
       (fields
         (field (name MFN) Murata)
@@ -2367,7 +2367,7 @@
       (tstamp 59DFAD0D))
     (comp (ref R629)
       (value 100k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2377,7 +2377,7 @@
       (tstamp 59DFAD13))
     (comp (ref R627)
       (value 200k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF2003V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2387,7 +2387,7 @@
       (tstamp 59DFAD19))
     (comp (ref R625)
       (value 33k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ3EKF3302V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2397,7 +2397,7 @@
       (tstamp 59DFAD41))
     (comp (ref C603)
       (value 1n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM1885C1H102FA01J-Murata-datasheet-66077081.pdf)
       (fields
         (field (name MFN) Murata)
@@ -2417,7 +2417,7 @@
       (tstamp 59DFB737))
     (comp (ref R624)
       (value 100k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2427,7 +2427,7 @@
       (tstamp 59DFB73D))
     (comp (ref R622)
       (value 200k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF2003V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2437,7 +2437,7 @@
       (tstamp 59DFB743))
     (comp (ref R620)
       (value 33k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ3EKF3302V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2447,7 +2447,7 @@
       (tstamp 59DFB76B))
     (comp (ref C602)
       (value 1n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM1885C1H102FA01J-Murata-datasheet-66077081.pdf)
       (fields
         (field (name MFN) Murata)
@@ -2467,7 +2467,7 @@
       (tstamp 59DFB784))
     (comp (ref R630)
       (value 100k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2477,7 +2477,7 @@
       (tstamp 59DFB78A))
     (comp (ref R628)
       (value 200k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF2003V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2487,7 +2487,7 @@
       (tstamp 59DFB790))
     (comp (ref R626)
       (value 33k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ3EKF3302V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2497,7 +2497,7 @@
       (tstamp 59DFB7B8))
     (comp (ref C604)
       (value 1n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM1885C1H102FA01J-Murata-datasheet-66077081.pdf)
       (fields
         (field (name MFN) Murata)
@@ -2507,7 +2507,7 @@
       (tstamp 59DFB7BE))
     (comp (ref C605)
       (value 100n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf)
       (fields
         (field (name MFN) Murata)
@@ -2517,7 +2517,7 @@
       (tstamp 59E00FD6))
     (comp (ref C606)
       (value 100n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf)
       (fields
         (field (name MFN) Murata)
@@ -2557,7 +2557,7 @@
       (tstamp 59DD4E55))
     (comp (ref R632)
       (value 220)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ3EKF2200V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2567,7 +2567,7 @@
       (tstamp 59DD690D))
     (comp (ref R631)
       (value 10k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2587,7 +2587,7 @@
       (tstamp 59DD46EF))
     (comp (ref R634)
       (value 220)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF51R1V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2597,7 +2597,7 @@
       (tstamp 59DD6763))
     (comp (ref R633)
       (value 220)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF51R1V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2647,7 +2647,7 @@
       (tstamp 59E02160))
     (comp (ref C701)
       (value 18p)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf)
       (fields
         (field (name MFN) Murata)
@@ -2657,7 +2657,7 @@
       (tstamp 59E36CC8))
     (comp (ref R706)
       (value 100k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2667,7 +2667,7 @@
       (tstamp 59E36D15))
     (comp (ref R705)
       (value 24k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF2402V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2677,7 +2677,7 @@
       (tstamp 59E36D6E))
     (comp (ref R701)
       (value 220)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ3EKF2200V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2687,7 +2687,7 @@
       (tstamp 59E36DB8))
     (comp (ref C702)
       (value 18p)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf)
       (fields
         (field (name MFN) Murata)
@@ -2697,7 +2697,7 @@
       (tstamp 59E399A8))
     (comp (ref R708)
       (value 100k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2707,7 +2707,7 @@
       (tstamp 59E399B0))
     (comp (ref R707)
       (value 24k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF2402V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2717,7 +2717,7 @@
       (tstamp 59E399B8))
     (comp (ref R702)
       (value 220)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ3EKF2200V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2727,7 +2727,7 @@
       (tstamp 59E399C0))
     (comp (ref C703)
       (value 18p)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf)
       (fields
         (field (name MFN) Murata)
@@ -2737,7 +2737,7 @@
       (tstamp 59E39C8D))
     (comp (ref R710)
       (value 100k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2747,7 +2747,7 @@
       (tstamp 59E39C95))
     (comp (ref R709)
       (value 24k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF2402V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2757,7 +2757,7 @@
       (tstamp 59E39C9D))
     (comp (ref R703)
       (value 220)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ3EKF2200V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2767,7 +2767,7 @@
       (tstamp 59E39CA5))
     (comp (ref C704)
       (value 18p)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf)
       (fields
         (field (name MFN) Murata)
@@ -2777,7 +2777,7 @@
       (tstamp 59E39CD6))
     (comp (ref R712)
       (value 100k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2787,7 +2787,7 @@
       (tstamp 59E39CDE))
     (comp (ref R711)
       (value 24k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF2402V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2797,7 +2797,7 @@
       (tstamp 59E39CE6))
     (comp (ref R704)
       (value 220)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ3EKF2200V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2807,7 +2807,7 @@
       (tstamp 59E39CEE))
     (comp (ref C705)
       (value 18p)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf)
       (fields
         (field (name MFN) Murata)
@@ -2817,7 +2817,7 @@
       (tstamp 59E3B29C))
     (comp (ref R718)
       (value 100k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2827,7 +2827,7 @@
       (tstamp 59E3B2A4))
     (comp (ref R717)
       (value 24k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF2402V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2837,7 +2837,7 @@
       (tstamp 59E3B2AC))
     (comp (ref R713)
       (value 220)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ3EKF2200V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2847,7 +2847,7 @@
       (tstamp 59E3B2B4))
     (comp (ref C706)
       (value 18p)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf)
       (fields
         (field (name MFN) Murata)
@@ -2857,7 +2857,7 @@
       (tstamp 59E3B2E1))
     (comp (ref R720)
       (value 100k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2867,7 +2867,7 @@
       (tstamp 59E3B2E9))
     (comp (ref R719)
       (value 24k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF2402V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2877,7 +2877,7 @@
       (tstamp 59E3B2F1))
     (comp (ref R714)
       (value 220)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ3EKF2200V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2887,7 +2887,7 @@
       (tstamp 59E3B2F9))
     (comp (ref C707)
       (value 18p)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf)
       (fields
         (field (name MFN) Murata)
@@ -2897,7 +2897,7 @@
       (tstamp 59E3B326))
     (comp (ref R722)
       (value 100k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2907,7 +2907,7 @@
       (tstamp 59E3B32E))
     (comp (ref R721)
       (value 24k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF2402V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2917,7 +2917,7 @@
       (tstamp 59E3B336))
     (comp (ref R715)
       (value 220)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ3EKF2200V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2927,7 +2927,7 @@
       (tstamp 59E3B33E))
     (comp (ref C708)
       (value 18p)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf)
       (fields
         (field (name MFN) Murata)
@@ -2937,7 +2937,7 @@
       (tstamp 59E3B36B))
     (comp (ref R724)
       (value 100k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2947,7 +2947,7 @@
       (tstamp 59E3B373))
     (comp (ref R723)
       (value 24k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ-3EKF2402V-Panasonic-datasheet-82288794.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2957,7 +2957,7 @@
       (tstamp 59E3B37B))
     (comp (ref R716)
       (value 220)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ3EKF2200V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2967,7 +2967,7 @@
       (tstamp 59E3B383))
     (comp (ref C709)
       (value 100n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf)
       (fields
         (field (name MFN) Murata)
@@ -2977,7 +2977,7 @@
       (tstamp 59E3BDF7))
     (comp (ref C710)
       (value 100n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf)
       (fields
         (field (name MFN) Murata)
@@ -2987,7 +2987,7 @@
       (tstamp 59E3BEA4))
     (comp (ref C711)
       (value 100n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf)
       (fields
         (field (name MFN) Murata)
@@ -2997,7 +2997,7 @@
       (tstamp 59E3BF3A))
     (comp (ref C712)
       (value 100n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf)
       (fields
         (field (name MFN) Murata)
@@ -3007,7 +3007,7 @@
       (tstamp 59E3BFD0))
     (comp (ref C715)
       (value 100n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf)
       (fields
         (field (name MFN) Murata)
@@ -3017,7 +3017,7 @@
       (tstamp 59E8511F))
     (comp (ref C716)
       (value 2.2u)
-      (footprint Capacitors_SMD:C_0805)
+      (footprint w_capacitor:C_0805)
       (datasheet http://datasheet.octopart.com/C2012X5R1A225K085AA-TDK-datasheet-41194876.pdf)
       (fields
         (field (name MFN) TDK)
@@ -3027,7 +3027,7 @@
       (tstamp 59E8519C))
     (comp (ref C714)
       (value 100n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf)
       (fields
         (field (name MFN) Murata)
@@ -3037,7 +3037,7 @@
       (tstamp 59E89082))
     (comp (ref C713)
       (value 2.2u)
-      (footprint Capacitors_SMD:C_0805)
+      (footprint w_capacitor:C_0805)
       (datasheet http://datasheet.octopart.com/C2012X5R1A225K085AA-TDK-datasheet-41194876.pdf)
       (fields
         (field (name MFN) TDK)
@@ -3047,7 +3047,7 @@
       (tstamp 59E8908A))
     (comp (ref R725)
       (value 33k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ3EKF3302V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -3057,7 +3057,7 @@
       (tstamp 59F015C8))
     (comp (ref R726)
       (value 22k)
-      (footprint Resistors_SMD:R_0603_HandSoldering)
+      (footprint w_resistor:R_0603)
       (datasheet http://datasheet.octopart.com/ERJ3EKF2202V-Panasonic-datasheet-13266541.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -3067,7 +3067,7 @@
       (tstamp 59F01689))
     (comp (ref C717)
       (value 100n)
-      (footprint Capacitors_SMD:C_0603_HandSoldering)
+      (footprint w_capacitor:C_0603)
       (datasheet http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf)
       (fields
         (field (name MFN) Murata)
@@ -3656,34 +3656,34 @@
         (pin (num 4) (name GND) (type power_in))
         (pin (num 5) (name Shield) (type passive)))))
   (libraries
+    (library (logical w_power)
+      (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_power.lib))
     (library (logical w_stm32)
       (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_stm32.lib))
+    (library (logical w_logic)
+      (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_logic.lib))
+    (library (logical transistors)
+      (uri "/Library/Application Support/kicad/library/transistors.lib"))
+    (library (logical w_lcd)
+      (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_lcd.lib))
+    (library (logical linear)
+      (uri "/Library/Application Support/kicad/library/linear.lib"))
+    (library (logical conn)
+      (uri "/Library/Application Support/kicad/library/conn.lib"))
     (library (logical w_opto)
       (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_opto.lib))
     (library (logical w_dac)
       (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_dac.lib))
-    (library (logical w_connector)
-      (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_connector.lib))
-    (library (logical transistors)
-      (uri "/Library/Application Support/kicad/library/transistors.lib"))
-    (library (logical conn)
-      (uri "/Library/Application Support/kicad/library/conn.lib"))
-    (library (logical linear)
-      (uri "/Library/Application Support/kicad/library/linear.lib"))
-    (library (logical w_power)
-      (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_power.lib))
-    (library (logical w_lcd)
-      (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_lcd.lib))
-    (library (logical device)
-      (uri "/Library/Application Support/kicad/library/device.lib"))
-    (library (logical w_logic)
-      (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_logic.lib))
     (library (logical w_rotary_encoder)
       (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_rotary_encoder.lib))
-    (library (logical w_switch)
-      (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_switch.lib))
     (library (logical regul)
       (uri "/Library/Application Support/kicad/library/regul.lib"))
+    (library (logical w_connector)
+      (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_connector.lib))
+    (library (logical w_switch)
+      (uri /Users/freak/Documents/kicad/eurorack-sequencer-hardware/kicad-libs/w_switch.lib))
+    (library (logical device)
+      (uri "/Library/Application Support/kicad/library/device.lib"))
     (library (logical switches)
       (uri "/Library/Application Support/kicad/library/switches.lib")))
   (nets
