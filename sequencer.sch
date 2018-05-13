@@ -44,7 +44,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title "Eurorack Sequencer"
 Date ""
 Rev "0.1"
@@ -54,6 +54,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Sheet
+S 700  700  1100 700 
+U 5AF89FF5
+F0 "Global" 51
+F1 "global.sch" 51
+$EndSheet
 $Sheet
 S 700  1700 1100 700 
 U 59ADCB3E
@@ -89,11 +95,5 @@ S 700  6700 1100 700
 U 59DD9DB3
 F0 "DAC" 60
 F1 "dac.sch" 60
-$EndSheet
-$Sheet
-S 700  700  1100 700 
-U 5AF89FF5
-F0 "Global" 51
-F1 "Global.sch" 51
 $EndSheet
 $EndSCHEMATC

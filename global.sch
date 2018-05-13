@@ -44,7 +44,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -64,8 +64,8 @@ F 2 "w_rotary_encoder:ALPS_STEC12E08" H 3050 6850 60  0001 C CNN
 F 3 "http://datasheet.octopart.com/PEC11R-4225F-S0024-Bourns-datasheet-68303416.pdf" H 3050 6850 60  0001 C CNN
 F 4 "Bourns" H 3050 6600 50  0001 C CNN "MFN"
 F 5 "PEC11R-4225F-S0024" H 3050 6600 50  0001 C CNN "MFP"
-    1    3050 6850
-    1    0    0    -1  
+	1    3050 6850
+	1    0    0    -1  
 $EndComp
 $Comp
 L 74HC165 U105
@@ -77,8 +77,8 @@ F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 5500 5100 60  0001 C CNN
 F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24916538&ppid=35776&sid=370&sig=03765d0" H 5500 5100 60  0001 C CNN
 F 4 "Texas Instruments" H 6000 4350 50  0001 C CNN "MFN"
 F 5 "SN74HC165D" H 6000 4350 50  0001 C CNN "MFP"
-    1    5500 5100
-    1    0    0    -1  
+	1    5500 5100
+	1    0    0    -1  
 $EndComp
 $Comp
 L 74HC595 U102
@@ -90,8 +90,8 @@ F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 5500 900 60  0001 C CNN
 F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24917219&ppid=44183&sid=370&sig=036bbbe" H 5500 900 60  0001 C CNN
 F 4 "Texas Instruments" H 6000 150 50  0001 C CNN "MFN"
 F 5 "SN74HC595D" H 6000 150 50  0001 C CNN "MFP"
-    1    5500 900 
-    1    0    0    -1  
+	1    5500 900 
+	1    0    0    -1  
 $EndComp
 $Comp
 L 74HC595 U103
@@ -103,8 +103,8 @@ F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 5500 2300 60  0001 C CNN
 F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24917219&ppid=44183&sid=370&sig=036bbbe" H 5500 2300 60  0001 C CNN
 F 4 "Texas Instruments" H 6000 1550 50  0001 C CNN "MFN"
 F 5 "SN74HC595D" H 6000 1550 50  0001 C CNN "MFP"
-    1    5500 2300
-    1    0    0    -1  
+	1    5500 2300
+	1    0    0    -1  
 $EndComp
 $Comp
 L 74HC595 U104
@@ -116,8 +116,8 @@ F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 5500 3700 60  0001 C CNN
 F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24917219&ppid=44183&sid=370&sig=036bbbe" H 5500 3700 60  0001 C CNN
 F 4 "Texas Instruments" H 6000 2950 50  0001 C CNN "MFN"
 F 5 "SN74HC595D" H 6000 2950 50  0001 C CNN "MFP"
-    1    5500 3700
-    1    0    0    -1  
+	1    5500 3700
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR01
@@ -127,8 +127,8 @@ F 0 "#PWR01" H 5400 4250 50  0001 C CNN
 F 1 "GND" H 5400 4350 50  0000 C CNN
 F 2 "" H 5400 4500 50  0001 C CNN
 F 3 "" H 5400 4500 50  0001 C CNN
-    1    5400 4500
-    1    0    0    -1  
+	1    5400 4500
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR02
@@ -138,8 +138,8 @@ F 0 "#PWR02" H 5400 2850 50  0001 C CNN
 F 1 "GND" H 5400 2950 50  0000 C CNN
 F 2 "" H 5400 3100 50  0001 C CNN
 F 3 "" H 5400 3100 50  0001 C CNN
-    1    5400 3100
-    1    0    0    -1  
+	1    5400 3100
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR03
@@ -149,8 +149,8 @@ F 0 "#PWR03" H 5400 1450 50  0001 C CNN
 F 1 "GND" H 5400 1550 50  0000 C CNN
 F 2 "" H 5400 1700 50  0001 C CNN
 F 3 "" H 5400 1700 50  0001 C CNN
-    1    5400 1700
-    1    0    0    -1  
+	1    5400 1700
+	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR04
@@ -160,8 +160,8 @@ F 0 "#PWR04" H 5400 650 50  0001 C CNN
 F 1 "+5V" H 5400 940 50  0000 C CNN
 F 2 "" H 5400 800 50  0001 C CNN
 F 3 "" H 5400 800 50  0001 C CNN
-    1    5400 800 
-    1    0    0    -1  
+	1    5400 800 
+	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR05
@@ -171,8 +171,8 @@ F 0 "#PWR05" H 5400 2050 50  0001 C CNN
 F 1 "+5V" H 5400 2340 50  0000 C CNN
 F 2 "" H 5400 2200 50  0001 C CNN
 F 3 "" H 5400 2200 50  0001 C CNN
-    1    5400 2200
-    1    0    0    -1  
+	1    5400 2200
+	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR06
@@ -182,8 +182,8 @@ F 0 "#PWR06" H 5400 3450 50  0001 C CNN
 F 1 "+5V" H 5400 3740 50  0000 C CNN
 F 2 "" H 5400 3600 50  0001 C CNN
 F 3 "" H 5400 3600 50  0001 C CNN
-    1    5400 3600
-    1    0    0    -1  
+	1    5400 3600
+	1    0    0    -1  
 $EndComp
 $Comp
 L C C101
@@ -195,8 +195,8 @@ F 2 "w_capacitor:C_0603" H 5038 6700 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 5000 6850 50  0001 C CNN
 F 4 "Murata" H 5025 7050 50  0001 C CNN "MFN"
 F 5 "GRM188R71E104JA01J" H 5025 7050 50  0001 C CNN "MFP"
-    1    5000 6850
-    1    0    0    -1  
+	1    5000 6850
+	1    0    0    -1  
 $EndComp
 $Comp
 L C C102
@@ -208,8 +208,8 @@ F 2 "w_capacitor:C_0603" H 5338 6700 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 5300 6850 50  0001 C CNN
 F 4 "Murata" H 5325 7050 50  0001 C CNN "MFN"
 F 5 "GRM188R71E104JA01J" H 5325 7050 50  0001 C CNN "MFP"
-    1    5300 6850
-    1    0    0    -1  
+	1    5300 6850
+	1    0    0    -1  
 $EndComp
 $Comp
 L C C103
@@ -221,8 +221,8 @@ F 2 "w_capacitor:C_0603" H 5638 6700 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 5600 6850 50  0001 C CNN
 F 4 "Murata" H 5625 7050 50  0001 C CNN "MFN"
 F 5 "GRM188R71E104JA01J" H 5625 7050 50  0001 C CNN "MFP"
-    1    5600 6850
-    1    0    0    -1  
+	1    5600 6850
+	1    0    0    -1  
 $EndComp
 $Comp
 L C C104
@@ -234,8 +234,8 @@ F 2 "w_capacitor:C_0603" H 5938 6700 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 5900 6850 50  0001 C CNN
 F 4 "Murata" H 5925 7050 50  0001 C CNN "MFN"
 F 5 "GRM188R71E104JA01J" H 5925 7050 50  0001 C CNN "MFP"
-    1    5900 6850
-    1    0    0    -1  
+	1    5900 6850
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR07
@@ -245,8 +245,8 @@ F 0 "#PWR07" H 5400 5650 50  0001 C CNN
 F 1 "GND" H 5400 5750 50  0000 C CNN
 F 2 "" H 5400 5900 50  0001 C CNN
 F 3 "" H 5400 5900 50  0001 C CNN
-    1    5400 5900
-    1    0    0    -1  
+	1    5400 5900
+	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR08
@@ -256,8 +256,8 @@ F 0 "#PWR08" H 5400 4850 50  0001 C CNN
 F 1 "+5V" H 5400 5140 50  0000 C CNN
 F 2 "" H 5400 5000 50  0001 C CNN
 F 3 "" H 5400 5000 50  0001 C CNN
-    1    5400 5000
-    1    0    0    -1  
+	1    5400 5000
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR09
@@ -267,8 +267,8 @@ F 0 "#PWR09" H 6600 5650 50  0001 C CNN
 F 1 "GND" H 6600 5750 50  0000 C CNN
 F 2 "" H 6600 5900 50  0001 C CNN
 F 3 "" H 6600 5900 50  0001 C CNN
-    1    6600 5900
-    1    0    0    -1  
+	1    6600 5900
+	1    0    0    -1  
 $EndComp
 $Comp
 L C C105
@@ -280,8 +280,8 @@ F 2 "w_capacitor:C_0603" H 6238 6700 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 6200 6850 50  0001 C CNN
 F 4 "Murata" H 6225 7050 50  0001 C CNN "MFN"
 F 5 "GRM188R71E104JA01J" H 6225 7050 50  0001 C CNN "MFP"
-    1    6200 6850
-    1    0    0    -1  
+	1    6200 6850
+	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR010
@@ -291,8 +291,8 @@ F 0 "#PWR010" H 4900 6350 50  0001 C CNN
 F 1 "+5V" H 4900 6640 50  0000 C CNN
 F 2 "" H 4900 6500 50  0001 C CNN
 F 3 "" H 4900 6500 50  0001 C CNN
-    1    4900 6500
-    1    0    0    -1  
+	1    4900 6500
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR011
@@ -302,8 +302,8 @@ F 0 "#PWR011" H 4900 6950 50  0001 C CNN
 F 1 "GND" H 4900 7050 50  0000 C CNN
 F 2 "" H 4900 7200 50  0001 C CNN
 F 3 "" H 4900 7200 50  0001 C CNN
-    1    4900 7200
-    1    0    0    -1  
+	1    4900 7200
+	1    0    0    -1  
 $EndComp
 $Comp
 L NHD-3.12-25664UC JP102
@@ -315,8 +315,8 @@ F 2 "w_lcd:NHD-3.12-25664UC" H 3200 4000 60  0001 C CNN
 F 3 "http://datasheet.octopart.com/NHD-3.12-25664UCY2-Newhaven-Display-datasheet-10504909.pdf" H 3200 4000 60  0001 C CNN
 F 4 "Newhaven Display" H 3650 1850 50  0001 C CNN "MFN"
 F 5 "NHD-3.12-25664UCY2" H 3650 1850 50  0001 C CNN "MFP"
-    1    3000 3800
-    1    0    0    -1  
+	1    3000 3800
+	1    0    0    -1  
 $EndComp
 $Comp
 L Micro_SD_Card JP103
@@ -328,8 +328,8 @@ F 2 "w_connector:PJS008U-3000-0" H 11250 1900 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/PJS008U-3000-0-Yamaichi-datasheet-32042463.pdf" H 10100 1600 50  0001 C CNN
 F 4 "Yamaichi" H 9450 2300 50  0001 C CNN "MFN"
 F 5 "PJS008U-3000-0" H 9450 2300 50  0001 C CNN "MFP"
-    1    10100 1600
-    1    0    0    -1  
+	1    10100 1600
+	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR012
@@ -339,8 +339,8 @@ F 0 "#PWR012" H 9100 600 50  0001 C CNN
 F 1 "+3.3V" H 9100 890 50  0000 C CNN
 F 2 "" H 9100 750 50  0001 C CNN
 F 3 "" H 9100 750 50  0001 C CNN
-    1    9100 750 
-    1    0    0    -1  
+	1    9100 750 
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR013
@@ -350,8 +350,8 @@ F 0 "#PWR013" H 9100 2350 50  0001 C CNN
 F 1 "GND" H 9100 2450 50  0000 C CNN
 F 2 "" H 9100 2600 50  0001 C CNN
 F 3 "" H 9100 2600 50  0001 C CNN
-    1    9100 2600
-    1    0    0    -1  
+	1    9100 2600
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR014
@@ -361,8 +361,8 @@ F 0 "#PWR014" H 11000 2350 50  0001 C CNN
 F 1 "GND" H 11000 2450 50  0000 C CNN
 F 2 "" H 11000 2600 50  0001 C CNN
 F 3 "" H 11000 2600 50  0001 C CNN
-    1    11000 2600
-    1    0    0    -1  
+	1    11000 2600
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR015
@@ -372,8 +372,8 @@ F 0 "#PWR015" H 2900 5750 50  0001 C CNN
 F 1 "GND" H 2900 5850 50  0000 C CNN
 F 2 "" H 2900 6000 50  0001 C CNN
 F 3 "" H 2900 6000 50  0001 C CNN
-    1    2900 6000
-    1    0    0    -1  
+	1    2900 6000
+	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR016
@@ -383,8 +383,8 @@ F 0 "#PWR016" H 2800 3550 50  0001 C CNN
 F 1 "+3.3V" H 2800 3840 50  0000 C CNN
 F 2 "" H 2800 3700 50  0001 C CNN
 F 3 "" H 2800 3700 50  0001 C CNN
-    1    2800 3700
-    1    0    0    -1  
+	1    2800 3700
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR017
@@ -394,8 +394,8 @@ F 0 "#PWR017" H 3700 7000 50  0001 C CNN
 F 1 "GND" H 3700 7100 50  0000 C CNN
 F 2 "" H 3700 7250 50  0001 C CNN
 F 3 "" H 3700 7250 50  0001 C CNN
-    1    3700 7250
-    1    0    0    -1  
+	1    3700 7250
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR018
@@ -405,8 +405,8 @@ F 0 "#PWR018" H 2400 7000 50  0001 C CNN
 F 1 "GND" H 2400 7100 50  0000 C CNN
 F 2 "" H 2400 7250 50  0001 C CNN
 F 3 "" H 2400 7250 50  0001 C CNN
-    1    2400 7250
-    1    0    0    -1  
+	1    2400 7250
+	1    0    0    -1  
 $EndComp
 $Comp
 L USB_A JP101
@@ -418,8 +418,8 @@ F 2 "w_connector:MOLEX_USB_105057" H 10150 5550 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/105057-0001-Molex-datasheet-48881000.pdf" H 10150 5550 50  0001 C CNN
 F 4 "Molex" H 10000 5600 60  0001 C CNN "MFN"
 F 5 "105057-0001" H 10000 5600 60  0001 C CNN "MFP"
-    1    10000 5600
-    1    0    0    -1  
+	1    10000 5600
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR019
@@ -429,8 +429,8 @@ F 0 "#PWR019" H 10000 5950 50  0001 C CNN
 F 1 "GND" H 10000 6050 50  0000 C CNN
 F 2 "" H 10000 6200 50  0001 C CNN
 F 3 "" H 10000 6200 50  0001 C CNN
-    1    10000 6200
-    1    0    0    -1  
+	1    10000 6200
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R101
@@ -442,8 +442,8 @@ F 2 "w_resistor:R_0603" V 6630 4950 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf" H 6700 4950 50  0001 C CNN
 F 4 "Panasonic" H 6650 5200 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1002V" H 6650 5200 50  0001 C CNN "MFP"
-    1    6700 4950
-    1    0    0    -1  
+	1    6700 4950
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R102
@@ -455,8 +455,8 @@ F 2 "w_resistor:R_0603" V 6730 4950 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf" H 6800 4950 50  0001 C CNN
 F 4 "Panasonic" H 6750 5200 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1002V" H 6750 5200 50  0001 C CNN "MFP"
-    1    6800 4950
-    1    0    0    -1  
+	1    6800 4950
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R103
@@ -468,8 +468,8 @@ F 2 "w_resistor:R_0603" V 6830 4950 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf" H 6900 4950 50  0001 C CNN
 F 4 "Panasonic" H 6850 5200 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1002V" H 6850 5200 50  0001 C CNN "MFP"
-    1    6900 4950
-    1    0    0    -1  
+	1    6900 4950
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R104
@@ -481,8 +481,8 @@ F 2 "w_resistor:R_0603" V 6930 4950 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf" H 7000 4950 50  0001 C CNN
 F 4 "Panasonic" H 6950 5200 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1002V" H 6950 5200 50  0001 C CNN "MFP"
-    1    7000 4950
-    1    0    0    -1  
+	1    7000 4950
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R105
@@ -494,8 +494,8 @@ F 2 "w_resistor:R_0603" V 7030 4950 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf" H 7100 4950 50  0001 C CNN
 F 4 "Panasonic" H 7050 5200 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1002V" H 7050 5200 50  0001 C CNN "MFP"
-    1    7100 4950
-    1    0    0    -1  
+	1    7100 4950
+	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR020
@@ -505,8 +505,8 @@ F 0 "#PWR020" H 7600 4350 50  0001 C CNN
 F 1 "+5V" H 7600 4640 50  0000 C CNN
 F 2 "" H 7600 4500 50  0001 C CNN
 F 3 "" H 7600 4500 50  0001 C CNN
-    1    7600 4500
-    1    0    0    -1  
+	1    7600 4500
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R107
@@ -518,8 +518,8 @@ F 2 "w_resistor:R_0603" V 6680 2400 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ3EKF4700V-Panasonic-datasheet-13266541.pdf" H 6750 2400 50  0001 C CNN
 F 4 "Panasonic" H 6700 2650 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF4700V" H 6700 2650 50  0001 C CNN "MFP"
-    1    6750 2400
-    0    1    1    0   
+	1    6750 2400
+	0    1    1    0   
 $EndComp
 $Comp
 L R R106
@@ -531,8 +531,8 @@ F 2 "w_resistor:R_0603" V 6680 2300 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ3EKF4700V-Panasonic-datasheet-13266541.pdf" H 6750 2300 50  0001 C CNN
 F 4 "Panasonic" H 6700 2550 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF4700V" H 6700 2550 50  0001 C CNN "MFP"
-    1    6750 2300
-    0    1    1    0   
+	1    6750 2300
+	0    1    1    0   
 $EndComp
 $Comp
 L R R108
@@ -544,8 +544,8 @@ F 2 "w_resistor:R_0603" V 6680 2500 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ3EKF4700V-Panasonic-datasheet-13266541.pdf" H 6750 2500 50  0001 C CNN
 F 4 "Panasonic" H 6700 2750 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF4700V" H 6700 2750 50  0001 C CNN "MFP"
-    1    6750 2500
-    0    1    1    0   
+	1    6750 2500
+	0    1    1    0   
 $EndComp
 $Comp
 L R R109
@@ -557,8 +557,8 @@ F 2 "w_resistor:R_0603" V 6680 2600 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ3EKF4700V-Panasonic-datasheet-13266541.pdf" H 6750 2600 50  0001 C CNN
 F 4 "Panasonic" H 6700 2850 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF4700V" H 6700 2850 50  0001 C CNN "MFP"
-    1    6750 2600
-    0    1    1    0   
+	1    6750 2600
+	0    1    1    0   
 $EndComp
 $Comp
 L R R113
@@ -570,8 +570,8 @@ F 2 "w_resistor:R_0603" V 6680 3000 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ3EKF4700V-Panasonic-datasheet-13266541.pdf" H 6750 3000 50  0001 C CNN
 F 4 "Panasonic" H 6700 3250 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF4700V" H 6700 3250 50  0001 C CNN "MFP"
-    1    6750 3000
-    0    1    1    0   
+	1    6750 3000
+	0    1    1    0   
 $EndComp
 $Comp
 L R R112
@@ -583,8 +583,8 @@ F 2 "w_resistor:R_0603" V 6680 2900 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ3EKF4700V-Panasonic-datasheet-13266541.pdf" H 6750 2900 50  0001 C CNN
 F 4 "Panasonic" H 6700 3150 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF4700V" H 6700 3150 50  0001 C CNN "MFP"
-    1    6750 2900
-    0    1    1    0   
+	1    6750 2900
+	0    1    1    0   
 $EndComp
 $Comp
 L R R111
@@ -596,8 +596,8 @@ F 2 "w_resistor:R_0603" V 6680 2800 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ3EKF4700V-Panasonic-datasheet-13266541.pdf" H 6750 2800 50  0001 C CNN
 F 4 "Panasonic" H 6700 3050 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF4700V" H 6700 3050 50  0001 C CNN "MFP"
-    1    6750 2800
-    0    1    1    0   
+	1    6750 2800
+	0    1    1    0   
 $EndComp
 $Comp
 L R R110
@@ -609,8 +609,8 @@ F 2 "w_resistor:R_0603" V 6680 2700 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ3EKF4700V-Panasonic-datasheet-13266541.pdf" H 6750 2700 50  0001 C CNN
 F 4 "Panasonic" H 6700 2950 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF4700V" H 6700 2950 50  0001 C CNN "MFP"
-    1    6750 2700
-    0    1    1    0   
+	1    6750 2700
+	0    1    1    0   
 $EndComp
 $Comp
 L 74HCT125 U101
@@ -622,8 +622,8 @@ F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 3450 900 60  0001 C CNN
 F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24917456&ppid=464455&sid=370&sig=085083f" H 3450 900 60  0001 C CNN
 F 4 "Texas Instruments" H 3000 800 60  0001 C CNN "MFN"
 F 5 "SN74HCT125D" H 3000 800 60  0001 C CNN "MFP"
-    1    3000 800 
-    1    0    0    -1  
+	1    3000 800 
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR021
@@ -633,8 +633,8 @@ F 0 "#PWR021" H 2900 1550 50  0001 C CNN
 F 1 "GND" H 2900 1650 50  0000 C CNN
 F 2 "" H 2900 1800 50  0001 C CNN
 F 3 "" H 2900 1800 50  0001 C CNN
-    1    2900 1800
-    1    0    0    -1  
+	1    2900 1800
+	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR022
@@ -644,8 +644,8 @@ F 0 "#PWR022" H 2900 550 50  0001 C CNN
 F 1 "+5V" H 2900 840 50  0000 C CNN
 F 2 "" H 2900 700 50  0001 C CNN
 F 3 "" H 2900 700 50  0001 C CNN
-    1    2900 700 
-    1    0    0    -1  
+	1    2900 700 
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R117
@@ -657,8 +657,8 @@ F 2 "w_resistor:R_0603" V 8830 1050 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ3EKF3302V-Panasonic-datasheet-13266541.pdf" H 8900 1050 50  0001 C CNN
 F 4 "Panasonic" H 8980 1150 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF3302V" H 8980 1150 50  0001 C CNN "MFP"
-    1    8900 1050
-    -1   0    0    1   
+	1    8900 1050
+	-1   0    0    1   
 $EndComp
 $Comp
 L R R119
@@ -670,8 +670,8 @@ F 2 "w_resistor:R_0603" V 8830 2250 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1004V-Panasonic-datasheet-13266541.pdf" H 8900 2250 50  0001 C CNN
 F 4 "Panasonic" H 8980 2350 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1004V" H 8980 2350 50  0001 C CNN "MFP"
-    1    8900 2250
-    -1   0    0    1   
+	1    8900 2250
+	-1   0    0    1   
 $EndComp
 $Comp
 L R R114
@@ -683,8 +683,8 @@ F 2 "w_resistor:R_0603" V 8230 1050 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ3EKF3302V-Panasonic-datasheet-13266541.pdf" H 8300 1050 50  0001 C CNN
 F 4 "Panasonic" H 8380 1150 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF3302V" H 8380 1150 50  0001 C CNN "MFP"
-    1    8300 1050
-    -1   0    0    1   
+	1    8300 1050
+	-1   0    0    1   
 $EndComp
 $Comp
 L R R115
@@ -696,8 +696,8 @@ F 2 "w_resistor:R_0603" V 8430 1050 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ3EKF3302V-Panasonic-datasheet-13266541.pdf" H 8500 1050 50  0001 C CNN
 F 4 "Panasonic" H 8580 1150 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF3302V" H 8580 1150 50  0001 C CNN "MFP"
-    1    8500 1050
-    -1   0    0    1   
+	1    8500 1050
+	-1   0    0    1   
 $EndComp
 $Comp
 L R R116
@@ -709,8 +709,8 @@ F 2 "w_resistor:R_0603" V 8630 1050 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ3EKF3302V-Panasonic-datasheet-13266541.pdf" H 8700 1050 50  0001 C CNN
 F 4 "Panasonic" H 8780 1150 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF3302V" H 8780 1150 50  0001 C CNN "MFP"
-    1    8700 1050
-    -1   0    0    1   
+	1    8700 1050
+	-1   0    0    1   
 $EndComp
 $Comp
 L R R122
@@ -722,8 +722,8 @@ F 2 "w_resistor:R_0603" V 2630 5650 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf" H 2700 5650 50  0001 C CNN
 F 4 "Panasonic" H 2780 5750 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1002V" H 2780 5750 50  0001 C CNN "MFP"
-    1    2700 5650
-    1    0    0    -1  
+	1    2700 5650
+	1    0    0    -1  
 $EndComp
 $Comp
 L MMBT3904 Q101
@@ -735,8 +735,8 @@ F 2 "TO_SOT_Packages_SMD:SOT-23" H 4200 2625 50  0001 L CIN
 F 3 "http://datasheet.octopart.com/MMBT3904LT1G-ON-Semiconductor-datasheet-11971584.pdf" H 4000 2700 50  0001 L CNN
 F 4 "ON Semiconductor" H 4200 2875 50  0001 C CNN "MFN"
 F 5 "MMBT3904LT1G" H 4200 2875 50  0001 C CNN "MFP"
-    1    4000 2700
-    1    0    0    -1  
+	1    4000 2700
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R118
@@ -748,8 +748,8 @@ F 2 "w_resistor:R_0603" V 4030 2150 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf" H 4100 2150 50  0001 C CNN
 F 4 "Panasonic" H 4180 2250 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1001V" H 4180 2250 50  0001 C CNN "MFP"
-    1    4100 2150
-    1    0    0    -1  
+	1    4100 2150
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR023
@@ -759,8 +759,8 @@ F 0 "#PWR023" H 4100 3050 50  0001 C CNN
 F 1 "GND" H 4100 3150 50  0000 C CNN
 F 2 "" H 4100 3300 50  0001 C CNN
 F 3 "" H 4100 3300 50  0001 C CNN
-    1    4100 3300
-    1    0    0    -1  
+	1    4100 3300
+	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR024
@@ -770,8 +770,8 @@ F 0 "#PWR024" H 4100 1750 50  0001 C CNN
 F 1 "+5V" H 4100 2040 50  0000 C CNN
 F 2 "" H 4100 1900 50  0001 C CNN
 F 3 "" H 4100 1900 50  0001 C CNN
-    1    4100 1900
-    1    0    0    -1  
+	1    4100 1900
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R120
@@ -783,8 +783,8 @@ F 2 "w_resistor:R_0603" V 3380 2700 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf" H 3450 2700 50  0001 C CNN
 F 4 "Panasonic" H 3530 2800 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1002V" H 3530 2800 50  0001 C CNN "MFP"
-    1    3450 2700
-    0    1    1    0   
+	1    3450 2700
+	0    1    1    0   
 $EndComp
 $Comp
 L R R121
@@ -796,8 +796,8 @@ F 2 "w_resistor:R_0603" V 3630 2950 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf" H 3700 2950 50  0001 C CNN
 F 4 "Panasonic" H 3780 3050 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1003V" H 3780 3050 50  0001 C CNN "MFP"
-    1    3700 2950
-    1    0    0    -1  
+	1    3700 2950
+	1    0    0    -1  
 $EndComp
 Text GLabel 6600 900  2    51   Output ~ 0
 ROW0
@@ -908,409 +908,409 @@ NEW
 Text Notes 7650 1150 0    118  ~ 24
 NEW
 Wire Wire Line
-    6500 900  6600 900 
+	6500 900  6600 900 
 Wire Wire Line
-    6500 1000 6600 1000
+	6500 1000 6600 1000
 Wire Wire Line
-    6500 1100 6600 1100
+	6500 1100 6600 1100
 Wire Wire Line
-    6500 1200 6600 1200
+	6500 1200 6600 1200
 Wire Wire Line
-    6500 1300 6600 1300
+	6500 1300 6600 1300
 Wire Wire Line
-    6500 1400 6600 1400
+	6500 1400 6600 1400
 Wire Wire Line
-    6500 1500 6600 1500
+	6500 1500 6600 1500
 Wire Wire Line
-    6500 1600 6600 1600
+	6500 1600 6600 1600
 Wire Wire Line
-    6500 2300 6600 2300
+	6500 2300 6600 2300
 Wire Wire Line
-    6500 2400 6600 2400
+	6500 2400 6600 2400
 Wire Wire Line
-    6500 2500 6600 2500
+	6500 2500 6600 2500
 Wire Wire Line
-    6500 2600 6600 2600
+	6500 2600 6600 2600
 Wire Wire Line
-    6500 2700 6600 2700
+	6500 2700 6600 2700
 Wire Wire Line
-    6500 2800 6600 2800
+	6500 2800 6600 2800
 Wire Wire Line
-    6500 2900 6600 2900
+	6500 2900 6600 2900
 Wire Wire Line
-    6500 3000 6600 3000
+	6500 3000 6600 3000
 Wire Wire Line
-    6500 3700 6600 3700
+	6500 3700 6600 3700
 Wire Wire Line
-    6500 3800 6600 3800
+	6500 3800 6600 3800
 Wire Wire Line
-    6500 3900 6600 3900
+	6500 3900 6600 3900
 Wire Wire Line
-    6500 4000 6600 4000
+	6500 4000 6600 4000
 Wire Wire Line
-    6500 4100 6600 4100
+	6500 4100 6600 4100
 Wire Wire Line
-    6500 4200 6600 4200
+	6500 4200 6600 4200
 Wire Wire Line
-    6500 4300 6600 4300
+	6500 4300 6600 4300
 Wire Wire Line
-    6500 4400 6600 4400
+	6500 4400 6600 4400
 Wire Wire Line
-    5500 1600 5400 1600
+	5500 1600 5400 1600
 Wire Wire Line
-    5500 3000 5400 3000
+	5500 3000 5400 3000
 Wire Wire Line
-    5500 4400 5400 4400
+	5500 4400 5400 4400
 Wire Wire Line
-    5500 1500 5200 1500
+	5500 1500 5200 1500
 Wire Wire Line
-    5200 1500 5200 2400
+	5200 1500 5200 2400
 Wire Wire Line
-    5200 2400 5500 2400
+	5200 2400 5500 2400
 Wire Wire Line
-    5500 2900 5200 2900
+	5500 2900 5200 2900
 Wire Wire Line
-    5200 2900 5200 3800
+	5200 2900 5200 3800
 Wire Wire Line
-    5200 3800 5500 3800
+	5200 3800 5500 3800
 Wire Wire Line
-    5400 900  5500 900 
+	5400 900  5500 900 
 Wire Wire Line
-    5400 800  5400 1400
+	5400 800  5400 1400
 Wire Wire Line
-    5400 2300 5500 2300
+	5400 2300 5500 2300
 Wire Wire Line
-    5400 2200 5400 2800
+	5400 2200 5400 2800
 Wire Wire Line
-    5400 3700 5500 3700
+	5400 3700 5500 3700
 Wire Wire Line
-    5400 3600 5400 4200
+	5400 3600 5400 4200
 Wire Wire Line
-    4800 1100 5500 1100
+	4800 1100 5500 1100
 Wire Wire Line
-    5400 4200 5500 4200
+	5400 4200 5500 4200
 Wire Wire Line
-    5400 2800 5500 2800
+	5400 2800 5500 2800
 Wire Wire Line
-    5400 1400 5500 1400
+	5400 1400 5500 1400
 Wire Wire Line
-    4400 1000 5500 1000
+	4400 1000 5500 1000
 Wire Wire Line
-    5000 1200 5500 1200
+	5000 1200 5500 1200
 Wire Wire Line
-    4400 1300 5500 1300
+	4400 1300 5500 1300
 Wire Wire Line
-    5100 2700 5500 2700
+	5100 2700 5500 2700
 Wire Wire Line
-    5100 4100 5500 4100
+	5100 4100 5500 4100
 Wire Wire Line
-    4900 6600 6200 6600
+	4900 6600 6200 6600
 Wire Wire Line
-    5900 6600 5900 6700
+	5900 6600 5900 6700
 Wire Wire Line
-    5600 6600 5600 6700
+	5600 6600 5600 6700
 Wire Wire Line
-    5300 6600 5300 6700
+	5300 6600 5300 6700
 Wire Wire Line
-    5000 6600 5000 6700
+	5000 6600 5000 6700
 Wire Wire Line
-    5000 7000 5000 7100
+	5000 7000 5000 7100
 Wire Wire Line
-    4900 7100 6200 7100
+	4900 7100 6200 7100
 Wire Wire Line
-    5900 7100 5900 7000
+	5900 7100 5900 7000
 Wire Wire Line
-    5600 7000 5600 7100
+	5600 7000 5600 7100
 Wire Wire Line
-    5300 7000 5300 7100
+	5300 7000 5300 7100
 Wire Wire Line
-    5400 5800 5500 5800
+	5400 5800 5500 5800
 Wire Wire Line
-    5400 5000 5400 5100
+	5400 5000 5400 5100
 Wire Wire Line
-    5400 5100 5500 5100
+	5400 5100 5500 5100
 Wire Wire Line
-    6500 5600 6600 5600
+	6500 5600 6600 5600
 Wire Wire Line
-    6600 5600 6600 5900
+	6600 5600 6600 5900
 Wire Wire Line
-    6500 5700 6600 5700
+	6500 5700 6600 5700
 Wire Wire Line
-    6500 5800 6600 5800
+	6500 5800 6600 5800
 Wire Wire Line
-    5500 5700 5400 5700
+	5500 5700 5400 5700
 Wire Wire Line
-    5100 5300 5500 5300
+	5100 5300 5500 5300
 Wire Wire Line
-    5100 5500 5500 5500
+	5100 5500 5500 5500
 Wire Wire Line
-    6500 5100 7200 5100
+	6500 5100 7200 5100
 Wire Wire Line
-    6500 5200 7200 5200
+	6500 5200 7200 5200
 Wire Wire Line
-    6500 5300 7200 5300
+	6500 5300 7200 5300
 Wire Wire Line
-    6500 5400 7200 5400
+	6500 5400 7200 5400
 Wire Wire Line
-    6500 5500 7200 5500
+	6500 5500 7200 5500
 Wire Wire Line
-    6200 7100 6200 7000
+	6200 7100 6200 7000
 Wire Wire Line
-    6200 6600 6200 6700
+	6200 6600 6200 6700
 Wire Wire Line
-    4900 6600 4900 6500
+	4900 6600 4900 6500
 Wire Wire Line
-    4900 7100 4900 7200
+	4900 7100 4900 7200
 Wire Wire Line
-    4400 1300 4400 1200
+	4400 1300 4400 1200
 Wire Wire Line
-    4400 1200 4000 1200
+	4400 1200 4000 1200
 Wire Wire Line
-    4400 1000 4400 1100
+	4400 1000 4400 1100
 Wire Wire Line
-    4400 1100 4000 1100
+	4400 1100 4000 1100
 Wire Wire Line
-    5000 1200 5000 4000
+	5000 1200 5000 4000
 Wire Wire Line
-    5500 2600 5000 2600
+	5500 2600 5000 2600
 Wire Wire Line
-    5000 1400 4300 1400
+	5000 1400 4300 1400
 Wire Wire Line
-    4300 1400 4300 1300
+	4300 1400 4300 1300
 Wire Wire Line
-    4300 1300 4000 1300
+	4300 1300 4000 1300
 Wire Wire Line
-    5000 4000 5500 4000
+	5000 4000 5500 4000
 Wire Wire Line
-    4000 1400 4200 1400
+	4000 1400 4200 1400
 Wire Wire Line
-    4200 1400 4200 1500
+	4200 1400 4200 1500
 Wire Wire Line
-    4200 1500 4900 1500
+	4200 1500 4900 1500
 Wire Wire Line
-    4900 5200 5500 5200
+	4900 5200 5500 5200
 Wire Wire Line
-    5100 1300 5100 5300
+	5100 1300 5100 5300
 Wire Wire Line
-    4900 1500 4900 5200
+	4900 1500 4900 5200
 Wire Wire Line
-    9100 1800 9100 2600
+	9100 1800 9100 2600
 Wire Wire Line
-    9100 1800 9200 1800
+	9100 1800 9200 1800
 Wire Wire Line
-    9100 1600 9200 1600
+	9100 1600 9200 1600
 Wire Wire Line
-    9100 750  9100 1600
+	9100 750  9100 1600
 Wire Wire Line
-    8000 1700 9200 1700
+	8000 1700 9200 1700
 Wire Wire Line
-    8000 1900 9200 1900
+	8000 1900 9200 1900
 Wire Wire Line
-    10900 2200 11000 2200
+	10900 2200 11000 2200
 Wire Wire Line
-    11000 2200 11000 2600
+	11000 2200 11000 2600
 Wire Wire Line
-    2600 5300 3000 5300
+	2600 5300 3000 5300
 Wire Wire Line
-    2600 5400 3000 5400
+	2600 5400 3000 5400
 Wire Wire Line
-    2600 4400 3000 4400
+	2600 4400 3000 4400
 Wire Wire Line
-    2600 4500 3000 4500
+	2600 4500 3000 4500
 Wire Wire Line
-    2600 4100 3000 4100
+	2600 4100 3000 4100
 Wire Wire Line
-    3000 3800 2900 3800
+	3000 3800 2900 3800
 Wire Wire Line
-    2900 3800 2900 6000
+	2900 3800 2900 6000
 Wire Wire Line
-    2900 4200 3000 4200
+	2900 4200 3000 4200
 Wire Wire Line
-    2900 4300 3000 4300
+	2900 4300 3000 4300
 Wire Wire Line
-    2900 4700 3000 4700
+	2900 4700 3000 4700
 Wire Wire Line
-    2900 4800 3000 4800
+	2900 4800 3000 4800
 Wire Wire Line
-    2900 4900 3000 4900
+	2900 4900 3000 4900
 Wire Wire Line
-    2900 5000 3000 5000
+	2900 5000 3000 5000
 Wire Wire Line
-    2900 5100 3000 5100
+	2900 5100 3000 5100
 Wire Wire Line
-    2900 5600 3000 5600
+	2900 5600 3000 5600
 Wire Wire Line
-    2900 5700 3000 5700
+	2900 5700 3000 5700
 Wire Wire Line
-    3000 3900 2800 3900
+	3000 3900 2800 3900
 Wire Wire Line
-    2800 3900 2800 3700
+	2800 3900 2800 3700
 Wire Wire Line
-    3600 6850 3700 6850
+	3600 6850 3700 6850
 Wire Wire Line
-    3700 6850 3700 7250
+	3700 6850 3700 7250
 Wire Wire Line
-    3600 7100 3800 7100
+	3600 7100 3800 7100
 Wire Wire Line
-    3600 6600 3800 6600
+	3600 6600 3800 6600
 Wire Wire Line
-    2400 6700 2500 6700
+	2400 6700 2500 6700
 Wire Wire Line
-    2500 7000 2400 7000
+	2500 7000 2400 7000
 Wire Wire Line
-    2400 7000 2400 7250
+	2400 7000 2400 7250
 Wire Wire Line
-    10400 5400 10300 5400
+	10400 5400 10300 5400
 Wire Wire Line
-    10300 5600 10400 5600
+	10300 5600 10400 5600
 Wire Wire Line
-    10300 5700 10400 5700
+	10300 5700 10400 5700
 Wire Wire Line
-    10000 6000 10000 6200
+	10000 6000 10000 6200
 Wire Wire Line
-    9900 6000 9900 6100
+	9900 6000 9900 6100
 Wire Wire Line
-    9900 6100 10000 6100
+	9900 6100 10000 6100
 Wire Wire Line
-    6700 4800 6700 4600
+	6700 4800 6700 4600
 Wire Wire Line
-    6700 4600 7600 4600
+	6700 4600 7600 4600
 Wire Wire Line
-    7100 4600 7100 4800
+	7100 4600 7100 4800
 Wire Wire Line
-    7000 4800 7000 4600
+	7000 4800 7000 4600
 Wire Wire Line
-    6900 4800 6900 4600
+	6900 4800 6900 4600
 Wire Wire Line
-    6800 4800 6800 4600
+	6800 4800 6800 4600
 Wire Wire Line
-    6700 5100 6700 5100
+	6700 5100 6700 5100
 Wire Wire Line
-    6800 5100 6800 5200
+	6800 5100 6800 5200
 Wire Wire Line
-    6900 5100 6900 5300
+	6900 5100 6900 5300
 Wire Wire Line
-    7000 5100 7000 5400
+	7000 5100 7000 5400
 Wire Wire Line
-    7100 5100 7100 5500
+	7100 5100 7100 5500
 Wire Wire Line
-    6900 2300 7200 2300
+	6900 2300 7200 2300
 Wire Wire Line
-    7200 2400 6900 2400
+	7200 2400 6900 2400
 Wire Wire Line
-    6900 2500 7200 2500
+	6900 2500 7200 2500
 Wire Wire Line
-    6900 2600 7200 2600
+	6900 2600 7200 2600
 Wire Wire Line
-    6900 2700 7200 2700
+	6900 2700 7200 2700
 Wire Wire Line
-    6900 2800 7200 2800
+	6900 2800 7200 2800
 Wire Wire Line
-    6900 2900 7200 2900
+	6900 2900 7200 2900
 Wire Wire Line
-    6900 3000 7200 3000
+	6900 3000 7200 3000
 Wire Wire Line
-    7600 4600 7600 4500
+	7600 4600 7600 4500
 Wire Wire Line
-    3000 1300 2900 1300
+	3000 1300 2900 1300
 Wire Wire Line
-    2900 1300 2900 1800
+	2900 1300 2900 1800
 Wire Wire Line
-    3000 1700 2900 1700
+	3000 1700 2900 1700
 Wire Wire Line
-    3000 1600 2900 1600
+	3000 1600 2900 1600
 Wire Wire Line
-    3000 1500 2900 1500
+	3000 1500 2900 1500
 Wire Wire Line
-    3000 1400 2900 1400
+	3000 1400 2900 1400
 Wire Wire Line
-    2900 700  2900 800 
+	2900 700  2900 800 
 Wire Wire Line
-    2900 800  3000 800 
+	2900 800  3000 800 
 Wire Wire Line
-    2800 900  3000 900 
+	2800 900  3000 900 
 Wire Wire Line
-    2800 1000 3000 1000
+	2800 1000 3000 1000
 Wire Wire Line
-    2800 1100 3000 1100
+	2800 1100 3000 1100
 Wire Wire Line
-    2800 1200 3000 1200
+	2800 1200 3000 1200
 Wire Wire Line
-    5400 5600 5400 5900
+	5400 5600 5400 5900
 Wire Wire Line
-    5500 5600 5400 5600
+	5500 5600 5400 5600
 Wire Wire Line
-    8900 800  8900 900 
+	8900 800  8900 900 
 Wire Wire Line
-    8300 800  9100 800 
+	8300 800  9100 800 
 Wire Wire Line
-    8300 900  8300 800 
+	8300 900  8300 800 
 Wire Wire Line
-    9200 1300 8900 1300
+	9200 1300 8900 1300
 Wire Wire Line
-    8900 1300 8900 1200
+	8900 1300 8900 1200
 Wire Wire Line
-    8200 1400 9200 1400
+	8200 1400 9200 1400
 Wire Wire Line
-    8000 1500 9200 1500
+	8000 1500 9200 1500
 Wire Wire Line
-    8300 1200 8300 2000
+	8300 1200 8300 2000
 Wire Wire Line
-    8300 2000 9200 2000
+	8300 2000 9200 2000
 Wire Wire Line
-    8500 900  8500 800 
+	8500 900  8500 800 
 Wire Wire Line
-    8500 1200 8500 1900
+	8500 1200 8500 1900
 Wire Wire Line
-    8700 900  8700 800 
+	8700 900  8700 800 
 Wire Wire Line
-    8700 1200 8700 1500
+	8700 1200 8700 1500
 Wire Wire Line
-    8900 1400 8900 2100
+	8900 1400 8900 2100
 Wire Wire Line
-    8200 1400 8200 1300
+	8200 1400 8200 1300
 Wire Wire Line
-    8200 1300 8000 1300
+	8200 1300 8000 1300
 Wire Wire Line
-    8900 2400 8900 2500
+	8900 2400 8900 2500
 Wire Wire Line
-    8900 2500 9100 2500
+	8900 2500 9100 2500
 Wire Wire Line
-    2700 5300 2700 5500
+	2700 5300 2700 5500
 Wire Wire Line
-    2700 5800 2700 5900
+	2700 5800 2700 5900
 Wire Wire Line
-    2700 5900 2900 5900
+	2700 5900 2900 5900
 Wire Wire Line
-    4800 1100 4800 3900
+	4800 1100 4800 3900
 Wire Wire Line
-    5400 1600 5400 1700
+	5400 1600 5400 1700
 Wire Wire Line
-    5400 3000 5400 3100
+	5400 3000 5400 3100
 Wire Wire Line
-    5400 4400 5400 4500
+	5400 4400 5400 4500
 Wire Wire Line
-    4100 2300 4100 2500
+	4100 2300 4100 2500
 Wire Wire Line
-    4100 1900 4100 2000
+	4100 1900 4100 2000
 Wire Wire Line
-    4100 2900 4100 3300
+	4100 2900 4100 3300
 Wire Wire Line
-    4800 3900 5500 3900
+	4800 3900 5500 3900
 Wire Wire Line
-    5500 2500 4800 2500
+	5500 2500 4800 2500
 Wire Wire Line
-    4100 2400 4800 2400
+	4100 2400 4800 2400
 Wire Wire Line
-    3600 2700 3800 2700
+	3600 2700 3800 2700
 Wire Wire Line
-    3300 2700 2800 2700
+	3300 2700 2800 2700
 Wire Wire Line
-    3700 2800 3700 2700
+	3700 2800 3700 2700
 Wire Wire Line
-    3700 3100 3700 3200
+	3700 3100 3700 3200
 Wire Wire Line
-    3700 3200 4100 3200
+	3700 3200 4100 3200
 Connection ~ 5400 3700
 Connection ~ 5400 2300
 Connection ~ 5400 900 
