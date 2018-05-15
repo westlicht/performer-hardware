@@ -3,7 +3,7 @@
   (general
     (links 0)
     (no_connects 0)
-    (area 76.124999 27.229999 248.775001 155.650001)
+    (area 69.511886 24.5476 255.368115 158.2524)
     (thickness 1.6)
     (drawings 132)
     (tracks 0)
@@ -66,8 +66,8 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFEF7F)
     (pcbplotparams
-      (layerselection 0x010f0_80000001)
-      (usegerberextensions false)
+      (layerselection 0x010a0_00000000)
+      (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -1616,21 +1616,6 @@
     (pad "" np_thru_hole circle (at 0 0) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:MOLEX_USB_105057_FP (layer F.Cu) (tedit 5AF37DD9) (tstamp 59DD562A)
-    (at 86.36 45.72)
-    (path /59DE5EB2)
-    (fp_text reference JP101 (at 0 3.81) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value USB_A (at 0 5.08) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_line (start 6.55 -4.225) (end 6.55 2.925) (layer Edge.Cuts) (width 0.15))
-    (fp_line (start -6.55 -4.225) (end -6.55 2.925) (layer Edge.Cuts) (width 0.15))
-    (fp_line (start -6.55 2.925) (end 6.55 2.925) (layer Edge.Cuts) (width 0.15))
-    (fp_line (start -6.55 -4.225) (end 6.55 -4.225) (layer Edge.Cuts) (width 0.15))
-  )
-
   (module w_frontpanel:PJS008U-3000-0_FP_LARGER (layer F.Cu) (tedit 5AF4046D) (tstamp 59DC08F8)
     (at 86.36 53.34 180)
     (descr https://www.yamaichi.de/uploads/media/PJS008U-3000.pdf)
@@ -1646,6 +1631,21 @@
     (fp_line (start -7.3 2.82) (end 6.5 2.82) (layer Edge.Cuts) (width 0.15))
     (fp_line (start -7.3 0.42) (end 6.5 0.42) (layer Edge.Cuts) (width 0.15))
     (fp_line (start 6.5 0.42) (end 6.5 2.82) (layer Edge.Cuts) (width 0.15))
+  )
+
+  (module w_frontpanel:MOLEX_USB_105057_FP (layer F.Cu) (tedit 5AF9FB6B) (tstamp 59DD562A)
+    (at 86.36 45.72)
+    (path /59DE5EB2)
+    (fp_text reference JP101 (at 0 3.81) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value USB_A (at 0 5.08) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start 6.55 -4.16) (end 6.55 1.56) (layer Edge.Cuts) (width 0.15))
+    (fp_line (start -6.55 -4.16) (end -6.55 1.56) (layer Edge.Cuts) (width 0.15))
+    (fp_line (start -6.55 1.56) (end 6.55 1.56) (layer Edge.Cuts) (width 0.15))
+    (fp_line (start -6.55 -4.16) (end 6.55 -4.16) (layer Edge.Cuts) (width 0.15))
   )
 
   (gr_text SONG (at 193.675 115.57) (layer F.SilkS) (tstamp 5AF38023)
