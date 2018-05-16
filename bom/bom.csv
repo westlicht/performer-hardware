@@ -26,7 +26,7 @@ Component,References,Value,Quantity Per PCB,Datasheet,MFP,MFN
 25,R7,1M,1,http://datasheet.octopart.com/ERJ-3EKF1004V-Panasonic-datasheet-13266541.pdf,ERJ-3EKF1004V,Panasonic
 26,R6 R16 R19 R65 R66 R76 R78 R79 R81 R82 R83 R84,1k,12,http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf,ERJ-3EKF1001V,Panasonic
 27,R28 R31 R35 R38,200k,4,http://datasheet.octopart.com/ERJ-3EKF2003V-Panasonic-datasheet-13266541.pdf,ERJ-3EKF2003V,Panasonic
-28,R1 R3 R4 R21 R22 R40 R41 R50 R51 R61 R62,220,11,http://datasheet.octopart.com/ERJ3EKF2200V-Panasonic-datasheet-13266541.pdf,ERJ-3EKF2200V ERJ-3EKF51R1V,Panasonic
+28,R1 R3 R4 R21 R22 R40 R41 R50 R51 R61 R62,220,11,http://datasheet.octopart.com/ERJ3EKF2200V-Panasonic-datasheet-13266541.pdf,ERJ-3EKF2200V,Panasonic
 29,R45,22k,1,http://datasheet.octopart.com/ERJ3EKF2202V-Panasonic-datasheet-13266541.pdf,ERJ-3EKF2202V,Panasonic
 30,R20 R23 R39 R42 R49 R52 R60 R63,24k,8,http://datasheet.octopart.com/ERJ-3EKF2402V-Panasonic-datasheet-82288794.pdf,ERJ-3EKF2402V,Panasonic
 31,R8 R9 R10 R11 R29 R30 R36 R37 R46,33k,9,http://datasheet.octopart.com/ERJ3EKF3302V-Panasonic-datasheet-13266541.pdf,ERJ-3EKF3302V,Panasonic
