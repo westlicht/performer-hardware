@@ -45,9 +45,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 8
-Title "Eurorack Sequencer"
+Title "per|former eurorack sequencer"
 Date ""
-Rev "0.1"
+Rev "0.2"
 Comp "westlicht"
 Comment1 ""
 Comment2 ""
@@ -1525,9 +1525,9 @@ P 7450 3300
 F 0 "R3" V 7530 3300 50  0000 C CNN
 F 1 "220" V 7450 3300 50  0000 C CNN
 F 2 "w_resistor:R_0603" V 7380 3300 50  0001 C CNN
-F 3 "http://datasheet.octopart.com/ERJ-3EKF51R1V-Panasonic-datasheet-13266541.pdf" H 7450 3300 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/ERJ3EKF2200V-Panasonic-datasheet-13266541.pdf" H 7450 3300 50  0001 C CNN
 F 4 "Panasonic" H 7530 3400 50  0001 C CNN "MFN"
-F 5 "ERJ-3EKF51R1V" H 7530 3400 50  0001 C CNN "MFP"
+F 5 "ERJ-3EKF2200V" H 7530 3400 50  0001 C CNN "MFP"
 	1    7450 3300
 	0    -1   1    0   
 $EndComp
@@ -1538,9 +1538,9 @@ P 7600 2950
 F 0 "R4" V 7680 2950 50  0000 C CNN
 F 1 "220" V 7600 2950 50  0000 C CNN
 F 2 "w_resistor:R_0603" V 7530 2950 50  0001 C CNN
-F 3 "http://datasheet.octopart.com/ERJ-3EKF51R1V-Panasonic-datasheet-13266541.pdf" H 7600 2950 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/ERJ3EKF2200V-Panasonic-datasheet-13266541.pdf" H 7600 2950 50  0001 C CNN
 F 4 "Panasonic" H 7680 3050 50  0001 C CNN "MFN"
-F 5 "ERJ-3EKF51R1V" H 7680 3050 50  0001 C CNN "MFP"
+F 5 "ERJ-3EKF2200V" H 7680 3050 50  0001 C CNN "MFP"
 	1    7600 2950
 	-1   0    0    -1  
 $EndComp

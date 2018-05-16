@@ -45,10 +45,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 8
-Title ""
+Title "per|former eurorack sequencer"
 Date ""
-Rev ""
-Comp ""
+Rev "0.2"
+Comp "westlicht"
 Comment1 ""
 Comment2 ""
 Comment3 ""
