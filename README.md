@@ -1,8 +1,10 @@
 # per|former - eurorack sequencer
 
+<a href="images/sequencer.jpg"><img src="images/sequencer.jpg"/></a>
+
 ## Overview
 
-This repository contains the hardware design files (KiCad) for the per|former eurorack sequencer.
+This repository contains the hardware design files (KiCad) for the **per|former eurorack sequencer**.
 
 **Disclaimer: This is work in progress**
 
@@ -27,7 +29,6 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 ## Images
 
-<a href="images/sequencer.jpg"><img src="images/sequencer.jpg"/></a>
 <a href="images/sequencer-front.png"><img src="images/sequencer-front.png"/></a>
 <a href="images/sequencer-back.png"><img src="images/sequencer-back.png"/></a>
 <a href="images/frontpanel.png"><img src="images/frontpanel.png"/></a>
