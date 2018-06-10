@@ -1,4 +1,4 @@
-# per|former - eurorack sequencer
+# per|former eurorack sequencer - hardware design files
 
 <a href="images/sequencer.jpg"><img src="images/sequencer.jpg"/></a>
 
