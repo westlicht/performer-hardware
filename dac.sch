@@ -64,6 +64,7 @@ F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 4550 5400 60  0001 C CNN
 F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24881192&ppid=10447789&sid=370&sig=0a14fa8" H 4550 5400 60  0001 C CNN
 F 4 "Texas Instruments" H 4550 4550 50  0001 C CNN "MFN"
 F 5 "DAC8568ICPW" H 4550 4550 50  0001 C CNN "MFP"
+F 6 "TSSOP-16" H 4550 4550 50  0001 C CNN "Package"
 	1    4000 5300
 	1    0    0    -1  
 $EndComp
@@ -88,6 +89,7 @@ F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 4750 1600 50  0001 C CNN
 F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903049&ppid=47153707&sid=370&sig=086dfac" H 4850 1700 50  0001 C CNN
 F 4 "Texas Instruments" H 4800 1500 60  0001 C CNN "MFN"
 F 5 "OPA4172IDR" H 4800 1500 60  0001 C CNN "MFP"
+F 6 "SOIC-14" H 4800 1800 50  0001 C CNN "Package"
 	2    4800 1500
 	1    0    0    -1  
 $EndComp
@@ -101,6 +103,7 @@ F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 9150 1600 50  0001 C CNN
 F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903049&ppid=47153707&sid=370&sig=086dfac" H 9250 1700 50  0001 C CNN
 F 4 "Texas Instruments" H 9200 1800 50  0001 C CNN "MFN"
 F 5 "OPA4172IDR" H 9200 1800 50  0001 C CNN "MFP"
+F 6 "SOIC-14" H 9200 1800 50  0001 C CNN "Package"
 	4    9200 1500
 	1    0    0    -1  
 $EndComp
@@ -114,6 +117,7 @@ F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 4750 3300 50  0001 C CNN
 F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903049&ppid=47153707&sid=370&sig=086dfac" H 4850 3400 50  0001 C CNN
 F 4 "Texas Instruments" H 4800 3500 50  0001 C CNN "MFN"
 F 5 "OPA4172IDR" H 4800 3500 50  0001 C CNN "MFP"
+F 6 "SOIC-14" H 4800 3500 50  0001 C CNN "Package"
 	2    4800 3200
 	1    0    0    -1  
 $EndComp
@@ -127,6 +131,7 @@ F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 2550 1600 50  0001 C CNN
 F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903049&ppid=47153707&sid=370&sig=086dfac" H 2650 1700 50  0001 C CNN
 F 4 "Texas Instruments" H 2600 1800 50  0001 C CNN "MFN"
 F 5 "OPA4172IDR" H 2600 1800 50  0001 C CNN "MFP"
+F 6 "SOIC-14" H 2600 1800 50  0001 C CNN "Package"
 	1    2600 1500
 	1    0    0    -1  
 $EndComp
@@ -140,6 +145,7 @@ F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 6950 1600 50  0001 C CNN
 F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903049&ppid=47153707&sid=370&sig=086dfac" H 7050 1700 50  0001 C CNN
 F 4 "Texas Instruments" H 7000 1800 50  0001 C CNN "MFN"
 F 5 "OPA4172IDR" H 7000 1800 50  0001 C CNN "MFP"
+F 6 "SOIC-14" H 7000 1800 50  0001 C CNN "Package"
 	3    7000 1500
 	1    0    0    -1  
 $EndComp
@@ -153,6 +159,7 @@ F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 2550 3300 50  0001 C CNN
 F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903049&ppid=47153707&sid=370&sig=086dfac" H 2650 3400 50  0001 C CNN
 F 4 "Texas Instruments" H 2600 3500 50  0001 C CNN "MFN"
 F 5 "OPA4172IDR" H 2600 3500 50  0001 C CNN "MFP"
+F 6 "SOIC-14" H 2600 3500 50  0001 C CNN "Package"
 	1    2600 3200
 	1    0    0    -1  
 $EndComp
@@ -166,6 +173,7 @@ F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 6950 3300 50  0001 C CNN
 F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903049&ppid=47153707&sid=370&sig=086dfac" H 7050 3400 50  0001 C CNN
 F 4 "Texas Instruments" H 7000 3500 50  0001 C CNN "MFN"
 F 5 "OPA4172IDR" H 7000 3500 50  0001 C CNN "MFP"
+F 6 "SOIC-14" H 7000 3500 50  0001 C CNN "Package"
 	3    7000 3200
 	1    0    0    -1  
 $EndComp
@@ -190,6 +198,7 @@ F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 9150 3300 50  0001 C CNN
 F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903049&ppid=47153707&sid=370&sig=086dfac" H 9250 3400 50  0001 C CNN
 F 4 "Texas Instruments" H 9200 3500 50  0001 C CNN "MFN"
 F 5 "OPA4172IDR" H 9200 3500 50  0001 C CNN "MFP"
+F 6 "SOIC-14" H 9200 3500 50  0001 C CNN "Package"
 	4    9200 3200
 	1    0    0    -1  
 $EndComp
@@ -203,6 +212,7 @@ F 2 "w_capacitor:C_0603" H 2488 2250 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf" H 2450 2400 50  0001 C CNN
 F 4 "Murata" H 2475 2600 50  0001 C CNN "MFN"
 F 5 "GRM1885C1H180JA01J" H 2475 2600 50  0001 C CNN "MFP"
+F 6 "0603" H 2475 2600 50  0001 C CNN "Package"
 	1    2450 2400
 	0    1    1    0   
 $EndComp
@@ -216,6 +226,7 @@ F 2 "w_resistor:R_0603" V 2380 2100 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf" H 2450 2100 50  0001 C CNN
 F 4 "Panasonic" H 2450 2100 60  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1003V" H 2450 2100 60  0001 C CNN "MFP"
+F 6 "0603" H 2530 2200 50  0001 C CNN "Package"
 	1    2450 2100
 	0    1    1    0   
 $EndComp
@@ -229,6 +240,7 @@ F 2 "w_resistor:R_0603" V 1880 2100 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF2402V-Panasonic-datasheet-82288794.pdf" H 1950 2100 50  0001 C CNN
 F 4 "Panasonic" H 1950 2100 60  0001 C CNN "MFN"
 F 5 "ERJ-3EKF2402V" H 1950 2100 60  0001 C CNN "MFP"
+F 6 "0603" H 2030 2200 50  0001 C CNN "Package"
 	1    1950 2100
 	0    1    1    0   
 $EndComp
@@ -242,6 +254,7 @@ F 2 "w_resistor:R_0603" V 3030 1650 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ3EKF2200V-Panasonic-datasheet-13266541.pdf" H 3100 1650 50  0001 C CNN
 F 4 "Panasonic" H 3100 1650 60  0001 C CNN "MFN"
 F 5 "ERJ-3EKF2200V" H 3100 1650 60  0001 C CNN "MFP"
+F 6 "0603" H 3180 1750 50  0001 C CNN "Package"
 	1    3100 1650
 	-1   0    0    1   
 $EndComp
@@ -277,6 +290,7 @@ F 2 "w_capacitor:C_0603" H 4688 2250 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf" H 4650 2400 50  0001 C CNN
 F 4 "Murata" H 4675 2600 50  0001 C CNN "MFN"
 F 5 "GRM1885C1H180JA01J" H 4675 2600 50  0001 C CNN "MFP"
+F 6 "0603" H 4675 2600 50  0001 C CNN "Package"
 	1    4650 2400
 	0    1    1    0   
 $EndComp
@@ -290,6 +304,7 @@ F 2 "w_resistor:R_0603" V 4580 2100 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf" H 4650 2100 50  0001 C CNN
 F 4 "Panasonic" H 4650 2100 60  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1003V" H 4650 2100 60  0001 C CNN "MFP"
+F 6 "0603" H 4730 2200 50  0001 C CNN "Package"
 	1    4650 2100
 	0    1    1    0   
 $EndComp
@@ -303,6 +318,7 @@ F 2 "w_resistor:R_0603" V 4080 2100 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF2402V-Panasonic-datasheet-82288794.pdf" H 4150 2100 50  0001 C CNN
 F 4 "Panasonic" H 4150 2100 60  0001 C CNN "MFN"
 F 5 "ERJ-3EKF2402V" H 4150 2100 60  0001 C CNN "MFP"
+F 6 "0603" H 4230 2200 50  0001 C CNN "Package"
 	1    4150 2100
 	0    1    1    0   
 $EndComp
@@ -316,6 +332,7 @@ F 2 "w_resistor:R_0603" V 5230 1650 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ3EKF2200V-Panasonic-datasheet-13266541.pdf" H 5300 1650 50  0001 C CNN
 F 4 "Panasonic" H 5300 1650 60  0001 C CNN "MFN"
 F 5 "ERJ-3EKF2200V" H 5300 1650 60  0001 C CNN "MFP"
+F 6 "0603" H 5380 1750 50  0001 C CNN "Package"
 	1    5300 1650
 	-1   0    0    1   
 $EndComp
@@ -351,6 +368,7 @@ F 2 "w_capacitor:C_0603" H 6888 2250 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf" H 6850 2400 50  0001 C CNN
 F 4 "Murata" H 6875 2600 50  0001 C CNN "MFN"
 F 5 "GRM1885C1H180JA01J" H 6875 2600 50  0001 C CNN "MFP"
+F 6 "0603" H 6875 2600 50  0001 C CNN "Package"
 	1    6850 2400
 	0    1    1    0   
 $EndComp
@@ -364,6 +382,7 @@ F 2 "w_resistor:R_0603" V 6780 2100 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf" H 6850 2100 50  0001 C CNN
 F 4 "Panasonic" H 6850 2100 60  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1003V" H 6850 2100 60  0001 C CNN "MFP"
+F 6 "0603" H 6930 2200 50  0001 C CNN "Package"
 	1    6850 2100
 	0    1    1    0   
 $EndComp
@@ -377,6 +396,7 @@ F 2 "w_resistor:R_0603" V 6280 2100 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF2402V-Panasonic-datasheet-82288794.pdf" H 6350 2100 50  0001 C CNN
 F 4 "Panasonic" H 6350 2100 60  0001 C CNN "MFN"
 F 5 "ERJ-3EKF2402V" H 6350 2100 60  0001 C CNN "MFP"
+F 6 "0603" H 6430 2200 50  0001 C CNN "Package"
 	1    6350 2100
 	0    1    1    0   
 $EndComp
@@ -390,6 +410,7 @@ F 2 "w_resistor:R_0603" V 7430 1650 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ3EKF2200V-Panasonic-datasheet-13266541.pdf" H 7500 1650 50  0001 C CNN
 F 4 "Panasonic" H 7500 1650 60  0001 C CNN "MFN"
 F 5 "ERJ-3EKF2200V" H 7500 1650 60  0001 C CNN "MFP"
+F 6 "0603" H 7580 1750 50  0001 C CNN "Package"
 	1    7500 1650
 	-1   0    0    1   
 $EndComp
@@ -425,6 +446,7 @@ F 2 "w_capacitor:C_0603" H 9088 2250 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf" H 9050 2400 50  0001 C CNN
 F 4 "Murata" H 9075 2600 50  0001 C CNN "MFN"
 F 5 "GRM1885C1H180JA01J" H 9075 2600 50  0001 C CNN "MFP"
+F 6 "0603" H 9075 2600 50  0001 C CNN "Package"
 	1    9050 2400
 	0    1    1    0   
 $EndComp
@@ -438,6 +460,7 @@ F 2 "w_resistor:R_0603" V 8980 2100 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf" H 9050 2100 50  0001 C CNN
 F 4 "Panasonic" H 9050 2100 60  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1003V" H 9050 2100 60  0001 C CNN "MFP"
+F 6 "0603" H 9130 2200 50  0001 C CNN "Package"
 	1    9050 2100
 	0    1    1    0   
 $EndComp
@@ -451,6 +474,7 @@ F 2 "w_resistor:R_0603" V 8480 2100 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF2402V-Panasonic-datasheet-82288794.pdf" H 8550 2100 50  0001 C CNN
 F 4 "Panasonic" H 8550 2100 60  0001 C CNN "MFN"
 F 5 "ERJ-3EKF2402V" H 8550 2100 60  0001 C CNN "MFP"
+F 6 "0603" H 8630 2200 50  0001 C CNN "Package"
 	1    8550 2100
 	0    1    1    0   
 $EndComp
@@ -464,6 +488,7 @@ F 2 "w_resistor:R_0603" V 9630 1650 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ3EKF2200V-Panasonic-datasheet-13266541.pdf" H 9700 1650 50  0001 C CNN
 F 4 "Panasonic" H 9700 1650 60  0001 C CNN "MFN"
 F 5 "ERJ-3EKF2200V" H 9700 1650 60  0001 C CNN "MFP"
+F 6 "0603" H 9780 1750 50  0001 C CNN "Package"
 	1    9700 1650
 	-1   0    0    1   
 $EndComp
@@ -499,6 +524,7 @@ F 2 "w_capacitor:C_0603" H 2488 3950 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf" H 2450 4100 50  0001 C CNN
 F 4 "Murata" H 2475 4300 50  0001 C CNN "MFN"
 F 5 "GRM1885C1H180JA01J" H 2475 4300 50  0001 C CNN "MFP"
+F 6 "0603" H 2475 4300 50  0001 C CNN "Package"
 	1    2450 4100
 	0    1    1    0   
 $EndComp
@@ -512,6 +538,7 @@ F 2 "w_resistor:R_0603" V 2380 3800 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf" H 2450 3800 50  0001 C CNN
 F 4 "Panasonic" H 2450 3800 60  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1003V" H 2450 3800 60  0001 C CNN "MFP"
+F 6 "0603" H 2530 3900 50  0001 C CNN "Package"
 	1    2450 3800
 	0    1    1    0   
 $EndComp
@@ -525,6 +552,7 @@ F 2 "w_resistor:R_0603" V 1880 3800 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF2402V-Panasonic-datasheet-82288794.pdf" H 1950 3800 50  0001 C CNN
 F 4 "Panasonic" H 1950 3800 60  0001 C CNN "MFN"
 F 5 "ERJ-3EKF2402V" H 1950 3800 60  0001 C CNN "MFP"
+F 6 "0603" H 2030 3900 50  0001 C CNN "Package"
 	1    1950 3800
 	0    1    1    0   
 $EndComp
@@ -538,6 +566,7 @@ F 2 "w_resistor:R_0603" V 3030 3350 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ3EKF2200V-Panasonic-datasheet-13266541.pdf" H 3100 3350 50  0001 C CNN
 F 4 "Panasonic" H 3100 3350 60  0001 C CNN "MFN"
 F 5 "ERJ-3EKF2200V" H 3100 3350 60  0001 C CNN "MFP"
+F 6 "0603" H 3180 3450 50  0001 C CNN "Package"
 	1    3100 3350
 	-1   0    0    1   
 $EndComp
@@ -573,6 +602,7 @@ F 2 "w_capacitor:C_0603" H 4688 3950 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf" H 4650 4100 50  0001 C CNN
 F 4 "Murata" H 4675 4300 50  0001 C CNN "MFN"
 F 5 "GRM1885C1H180JA01J" H 4675 4300 50  0001 C CNN "MFP"
+F 6 "0603" H 4675 4300 50  0001 C CNN "Package"
 	1    4650 4100
 	0    1    1    0   
 $EndComp
@@ -586,6 +616,7 @@ F 2 "w_resistor:R_0603" V 4580 3800 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf" H 4650 3800 50  0001 C CNN
 F 4 "Panasonic" H 4650 3800 60  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1003V" H 4650 3800 60  0001 C CNN "MFP"
+F 6 "0603" H 4730 3900 50  0001 C CNN "Package"
 	1    4650 3800
 	0    1    1    0   
 $EndComp
@@ -599,6 +630,7 @@ F 2 "w_resistor:R_0603" V 4080 3800 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF2402V-Panasonic-datasheet-82288794.pdf" H 4150 3800 50  0001 C CNN
 F 4 "Panasonic" H 4150 3800 60  0001 C CNN "MFN"
 F 5 "ERJ-3EKF2402V" H 4150 3800 60  0001 C CNN "MFP"
+F 6 "0603" H 4230 3900 50  0001 C CNN "Package"
 	1    4150 3800
 	0    1    1    0   
 $EndComp
@@ -612,6 +644,7 @@ F 2 "w_resistor:R_0603" V 5230 3350 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ3EKF2200V-Panasonic-datasheet-13266541.pdf" H 5300 3350 50  0001 C CNN
 F 4 "Panasonic" H 5300 3350 60  0001 C CNN "MFN"
 F 5 "ERJ-3EKF2200V" H 5300 3350 60  0001 C CNN "MFP"
+F 6 "0603" H 5380 3450 50  0001 C CNN "Package"
 	1    5300 3350
 	-1   0    0    1   
 $EndComp
@@ -647,6 +680,7 @@ F 2 "w_capacitor:C_0603" H 6888 3950 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf" H 6850 4100 50  0001 C CNN
 F 4 "Murata" H 6875 4300 50  0001 C CNN "MFN"
 F 5 "GRM1885C1H180JA01J" H 6875 4300 50  0001 C CNN "MFP"
+F 6 "0603" H 6875 4300 50  0001 C CNN "Package"
 	1    6850 4100
 	0    1    1    0   
 $EndComp
@@ -660,6 +694,7 @@ F 2 "w_resistor:R_0603" V 6780 3800 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf" H 6850 3800 50  0001 C CNN
 F 4 "Panasonic" H 6850 3800 60  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1003V" H 6850 3800 60  0001 C CNN "MFP"
+F 6 "0603" H 6930 3900 50  0001 C CNN "Package"
 	1    6850 3800
 	0    1    1    0   
 $EndComp
@@ -673,6 +708,7 @@ F 2 "w_resistor:R_0603" V 6280 3800 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF2402V-Panasonic-datasheet-82288794.pdf" H 6350 3800 50  0001 C CNN
 F 4 "Panasonic" H 6350 3800 60  0001 C CNN "MFN"
 F 5 "ERJ-3EKF2402V" H 6350 3800 60  0001 C CNN "MFP"
+F 6 "0603" H 6430 3900 50  0001 C CNN "Package"
 	1    6350 3800
 	0    1    1    0   
 $EndComp
@@ -686,6 +722,7 @@ F 2 "w_resistor:R_0603" V 7430 3350 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ3EKF2200V-Panasonic-datasheet-13266541.pdf" H 7500 3350 50  0001 C CNN
 F 4 "Panasonic" H 7500 3350 60  0001 C CNN "MFN"
 F 5 "ERJ-3EKF2200V" H 7500 3350 60  0001 C CNN "MFP"
+F 6 "0603" H 7580 3450 50  0001 C CNN "Package"
 	1    7500 3350
 	-1   0    0    1   
 $EndComp
@@ -721,6 +758,7 @@ F 2 "w_capacitor:C_0603" H 9088 3950 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf" H 9050 4100 50  0001 C CNN
 F 4 "Murata" H 9075 4300 50  0001 C CNN "MFN"
 F 5 "GRM1885C1H180JA01J" H 9075 4300 50  0001 C CNN "MFP"
+F 6 "0603" H 9075 4300 50  0001 C CNN "Package"
 	1    9050 4100
 	0    1    1    0   
 $EndComp
@@ -734,6 +772,7 @@ F 2 "w_resistor:R_0603" V 8980 3800 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf" H 9050 3800 50  0001 C CNN
 F 4 "Panasonic" H 9050 3800 60  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1003V" H 9050 3800 60  0001 C CNN "MFP"
+F 6 "0603" H 9130 3900 50  0001 C CNN "Package"
 	1    9050 3800
 	0    1    1    0   
 $EndComp
@@ -747,6 +786,7 @@ F 2 "w_resistor:R_0603" V 8480 3800 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF2402V-Panasonic-datasheet-82288794.pdf" H 8550 3800 50  0001 C CNN
 F 4 "Panasonic" H 8550 3800 60  0001 C CNN "MFN"
 F 5 "ERJ-3EKF2402V" H 8550 3800 60  0001 C CNN "MFP"
+F 6 "0603" H 8630 3900 50  0001 C CNN "Package"
 	1    8550 3800
 	0    1    1    0   
 $EndComp
@@ -760,6 +800,7 @@ F 2 "w_resistor:R_0603" V 9630 3350 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ3EKF2200V-Panasonic-datasheet-13266541.pdf" H 9700 3350 50  0001 C CNN
 F 4 "Panasonic" H 9700 3350 60  0001 C CNN "MFN"
 F 5 "ERJ-3EKF2200V" H 9700 3350 60  0001 C CNN "MFP"
+F 6 "0603" H 9780 3450 50  0001 C CNN "Package"
 	1    9700 3350
 	-1   0    0    1   
 $EndComp
@@ -784,6 +825,7 @@ F 2 "w_capacitor:C_0603" H 7838 5000 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 7800 5150 50  0001 C CNN
 F 4 "Murata" H 7825 5350 50  0001 C CNN "MFN"
 F 5 "GRM188R71E104JA01J" H 7825 5350 50  0001 C CNN "MFP"
+F 6 "0603" H 7825 5350 50  0001 C CNN "Package"
 	1    7800 5150
 	1    0    0    -1  
 $EndComp
@@ -797,6 +839,7 @@ F 2 "w_capacitor:C_0603" H 8138 5000 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 8100 5150 50  0001 C CNN
 F 4 "Murata" H 8125 5350 50  0001 C CNN "MFN"
 F 5 "GRM188R71E104JA01J" H 8125 5350 50  0001 C CNN "MFP"
+F 6 "0603" H 8125 5350 50  0001 C CNN "Package"
 	1    8100 5150
 	1    0    0    -1  
 $EndComp
@@ -810,6 +853,7 @@ F 2 "w_capacitor:C_0603" H 7838 5500 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 7800 5650 50  0001 C CNN
 F 4 "Murata" H 7825 5850 50  0001 C CNN "MFN"
 F 5 "GRM188R71E104JA01J" H 7825 5850 50  0001 C CNN "MFP"
+F 6 "0603" H 7825 5850 50  0001 C CNN "Package"
 	1    7800 5650
 	1    0    0    -1  
 $EndComp
@@ -823,6 +867,7 @@ F 2 "w_capacitor:C_0603" H 8138 5500 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 8100 5650 50  0001 C CNN
 F 4 "Murata" H 8125 5850 50  0001 C CNN "MFN"
 F 5 "GRM188R71E104JA01J" H 8125 5850 50  0001 C CNN "MFP"
+F 6 "0603" H 8125 5850 50  0001 C CNN "Package"
 	1    8100 5650
 	1    0    0    -1  
 $EndComp
@@ -869,6 +914,7 @@ F 2 "w_capacitor:C_0603" H 6638 5500 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 6600 5650 50  0001 C CNN
 F 4 "Murata" H 6625 5850 50  0001 C CNN "MFN"
 F 5 "GRM188R71E104JA01J" H 6625 5850 50  0001 C CNN "MFP"
+F 6 "0603" H 6625 5850 50  0001 C CNN "Package"
 	1    6600 5650
 	1    0    0    -1  
 $EndComp
@@ -882,6 +928,7 @@ F 2 "w_capacitor:C_0805" H 6938 5500 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/C2012X5R1A225K085AA-TDK-datasheet-41194876.pdf" H 6900 5650 50  0001 C CNN
 F 4 "TDK" H 6925 5850 50  0001 C CNN "MFN"
 F 5 "C2012X5R1A225K085AA" H 6925 5850 50  0001 C CNN "MFP"
+F 6 "0805" H 6925 5850 50  0001 C CNN "Package"
 	1    6900 5650
 	1    0    0    -1  
 $EndComp
@@ -917,6 +964,7 @@ F 2 "w_capacitor:C_0603" H 3238 6000 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 3200 6150 50  0001 C CNN
 F 4 "Murata" H 3225 6350 50  0001 C CNN "MFN"
 F 5 "GRM188R71E104JA01J" H 3225 6350 50  0001 C CNN "MFP"
+F 6 "0603" H 3225 6350 50  0001 C CNN "Package"
 	1    3200 6150
 	1    0    0    -1  
 $EndComp
@@ -930,6 +978,7 @@ F 2 "w_capacitor:C_0805" H 2938 6000 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/C2012X5R1A225K085AA-TDK-datasheet-41194876.pdf" H 2900 6150 50  0001 C CNN
 F 4 "TDK" H 2925 6350 50  0001 C CNN "MFN"
 F 5 "C2012X5R1A225K085AA" H 2925 6350 50  0001 C CNN "MFP"
+F 6 "0805" H 2925 6350 50  0001 C CNN "Package"
 	1    2900 6150
 	1    0    0    -1  
 $EndComp
@@ -976,6 +1025,7 @@ F 2 "w_resistor:R_0603" V 2530 5650 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ3EKF3302V-Panasonic-datasheet-13266541.pdf" H 2600 5650 50  0001 C CNN
 F 4 "Panasonic" H 2680 5750 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF3302V" H 2680 5750 50  0001 C CNN "MFP"
+F 6 "0603" H 2680 5750 50  0001 C CNN "Package"
 	1    2600 5650
 	1    0    0    -1  
 $EndComp
@@ -989,6 +1039,7 @@ F 2 "w_resistor:R_0603" V 2530 6150 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ3EKF2202V-Panasonic-datasheet-13266541.pdf" H 2600 6150 50  0001 C CNN
 F 4 "Panasonic" H 2680 6250 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF2202V" H 2680 6250 50  0001 C CNN "MFP"
+F 6 "0603" H 2680 6250 50  0001 C CNN "Package"
 	1    2600 6150
 	1    0    0    -1  
 $EndComp
@@ -1013,6 +1064,7 @@ F 2 "w_capacitor:C_0603" H 2338 6000 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 2300 6150 50  0001 C CNN
 F 4 "Murata" H 2325 6350 50  0001 C CNN "MFN"
 F 5 "GRM188R71E104JA01J" H 2325 6350 50  0001 C CNN "MFP"
+F 6 "0603" H 2325 6350 50  0001 C CNN "Package"
 	1    2300 6150
 	1    0    0    -1  
 $EndComp

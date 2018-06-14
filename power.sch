@@ -99,6 +99,7 @@ F 2 "w_diode:D_SOD-123" H 1650 2600 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N5819HW-7-F-Diodes-Inc.-datasheet-34441420.pdf" H 1650 2600 50  0001 C CNN
 F 4 "Diodes Inc." H 1650 2800 50  0001 C CNN "MFN"
 F 5 "1N5819HW-7-F" H 1650 2800 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 1650 2800 50  0001 C CNN "Package"
 	1    1650 2600
 	1    0    0    -1  
 $EndComp
@@ -112,6 +113,7 @@ F 2 "w_diode:D_SOD-123" H 1650 3000 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N5819HW-7-F-Diodes-Inc.-datasheet-34441420.pdf" H 1650 3000 50  0001 C CNN
 F 4 "Diodes Inc." H 1650 3200 50  0001 C CNN "MFN"
 F 5 "1N5819HW-7-F" H 1650 3200 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 1650 3200 50  0001 C CNN "Package"
 	1    1650 3000
 	-1   0    0    1   
 $EndComp
@@ -136,6 +138,7 @@ F 2 "Capacitors_SMD:CP_Elec_6.3x5.7" H 3800 2550 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/EEE-FK1V470P-Panasonic-datasheet-13266987.pdf" H 3800 2550 50  0001 C CNN
 F 4 "Panasonic" H 3800 2550 60  0001 C CNN "MFN"
 F 5 "EEE-FK1V470P" H 3800 2550 60  0001 C CNN "MFP"
+F 6 "Panasonic D" H 3825 2750 50  0001 C CNN "Package"
 	1    3800 2550
 	1    0    0    -1  
 $EndComp
@@ -182,6 +185,7 @@ F 2 "TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2" H 5500 3700 50  0001 C CNN
 F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24885394&ppid=24812450&sid=370&sig=0f3ff9a" H 5500 3700 50  0001 C CNN
 F 4 "Texas Instruments" H 5500 3700 60  0001 C CNN "MFN"
 F 5 "LM1117MP-3.3/NOPB" H 5500 3700 60  0001 C CNN "MFP"
+F 6 "SOT-223" H 5350 3925 50  0001 C CNN "Package"
 	1    5500 3700
 	1    0    0    -1  
 $EndComp
@@ -195,6 +199,7 @@ F 2 "w_resistor:R_0603" V 4680 3700 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/MI0603K300R-10-Steward-datasheet-14357321.pdf" H 4750 3700 50  0001 C CNN
 F 4 "Laird" H 4750 3700 60  0001 C CNN "MFN"
 F 5 "MI0603K300R-10" H 4750 3700 60  0001 C CNN "MFP"
+F 6 "0603" H 4600 3825 50  0001 C CNN "Package"
 	1    4750 3700
 	0    1    1    0   
 $EndComp
@@ -208,6 +213,7 @@ F 2 "Capacitors_SMD:CP_Elec_5x5.8" H 6000 3950 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/EEE-FP1E220AR-Panasonic-datasheet-13268972.pdf" H 6000 3950 50  0001 C CNN
 F 4 "Panasonic" H 6000 3950 60  0001 C CNN "MFN"
 F 5 "EEE-FP1E220AR" H 6000 3950 60  0001 C CNN "MFP"
+F 6 "Panasonic C" H 6025 4150 50  0001 C CNN "Package"
 	1    6000 3950
 	1    0    0    -1  
 $EndComp
@@ -221,6 +227,7 @@ F 2 "w_capacitor:C_0603" H 6338 3800 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 6300 3950 50  0001 C CNN
 F 4 "Murata" H 6325 4150 50  0001 C CNN "MFN"
 F 5 "GRM188R71E104JA01J" H 6325 4150 50  0001 C CNN "MFP"
+F 6 "0603" H 6325 4150 50  0001 C CNN "Package"
 	1    6300 3950
 	1    0    0    -1  
 $EndComp
@@ -289,6 +296,7 @@ F 2 "TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2" H 5500 4800 50  0001 C CNN
 F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24885394&ppid=24812450&sid=370&sig=0f3ff9a" H 5500 4800 50  0001 C CNN
 F 4 "Texas Instruments" H 5500 4800 60  0001 C CNN "MFN"
 F 5 "LM1117MP-3.3/NOPB" H 5500 4800 60  0001 C CNN "MFP"
+F 6 "SOT-223" H 5350 5025 50  0001 C CNN "Package"
 	1    5500 4800
 	1    0    0    -1  
 $EndComp
@@ -302,6 +310,7 @@ F 2 "w_capacitor:C_0603" H 6338 4900 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 6300 5050 50  0001 C CNN
 F 4 "Murata" H 6325 5250 50  0001 C CNN "MFN"
 F 5 "GRM188R71E104JA01J" H 6325 5250 50  0001 C CNN "MFP"
+F 6 "0603" H 6325 5250 50  0001 C CNN "Package"
 	1    6300 5050
 	1    0    0    -1  
 $EndComp
@@ -381,6 +390,7 @@ F 2 "w_capacitor:C_0603" H 6238 2500 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 6200 2650 50  0001 C CNN
 F 4 "Murata" H 6225 2850 50  0001 C CNN "MFN"
 F 5 "GRM188R71E104JA01J" H 6225 2850 50  0001 C CNN "MFP"
+F 6 "0603" H 6225 2850 50  0001 C CNN "Package"
 	1    6200 2650
 	1    0    0    -1  
 $EndComp
@@ -449,6 +459,7 @@ F 2 "TO_SOT_Packages_SMD:SOT-23" H 7900 3050 50  0001 C CNN
 F 3 "http://www.ti.com/product/lm4040-n/technicaldocuments?HQS=TI-null-null-octopart-df-pf-null-wwe" H 7900 3050 50  0001 C CNN
 F 4 "Texas Instruments" H 7900 3050 60  0001 C CNN "MFN"
 F 5 "LM4040CIM3-10.0/NOPB" H 7900 3050 60  0001 C CNN "MFP"
+F 6 "SOT-23" H 7900 3250 50  0001 C CNN "Package"
 	1    7900 3050
 	0    -1   -1   0   
 $EndComp
@@ -473,6 +484,7 @@ F 2 "w_resistor:R_0603" V 7830 2550 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf" H 7900 2550 50  0001 C CNN
 F 4 "Panasonic" H 7980 2650 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1001V" H 7980 2650 50  0001 C CNN "MFP"
+F 6 "0603" H 7980 2650 50  0001 C CNN "Package"
 	1    7900 2550
 	1    0    0    -1  
 $EndComp
@@ -486,6 +498,7 @@ F 2 "w_capacitor:C_0603" H 8238 2900 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 8200 3050 50  0001 C CNN
 F 4 "Murata" H 8225 3250 50  0001 C CNN "MFN"
 F 5 "GRM188R71E104JA01J" H 8225 3250 50  0001 C CNN "MFP"
+F 6 "0603" H 8225 3250 50  0001 C CNN "Package"
 	1    8200 3050
 	1    0    0    -1  
 $EndComp
@@ -510,6 +523,7 @@ F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 8900 4200 60  0001 C CNN
 F 3 "http://datasheet.octopart.com/STMPS2151STR-STMicroelectronics-datasheet-15207125.pdf" H 8900 4200 60  0001 C CNN
 F 4 "STMicroelectronics" H 8900 4200 60  0001 C CNN "MFN"
 F 5 "STMPS2151STR" H 8900 4200 60  0001 C CNN "MFP"
+F 6 "SOT-23-5" H 8900 4500 50  0001 C CNN "Package"
 	1    8900 4200
 	1    0    0    -1  
 $EndComp
@@ -545,6 +559,7 @@ F 2 "w_resistor:R_0603" V 8130 4450 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf" H 8200 4450 50  0001 C CNN
 F 4 "Panasonic" H 8280 4550 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1002V" H 8280 4550 50  0001 C CNN "MFP"
+F 6 "0603" H 8280 4550 50  0001 C CNN "Package"
 	1    8200 4450
 	1    0    0    -1  
 $EndComp
@@ -569,6 +584,7 @@ F 2 "Capacitors_SMD:CP_Elec_6.3x5.7" H 3800 3050 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/EEE-FK1V470P-Panasonic-datasheet-13266987.pdf" H 3800 3050 50  0001 C CNN
 F 4 "Panasonic" H 3800 3050 60  0001 C CNN "MFN"
 F 5 "EEE-FK1V470P" H 3800 3050 60  0001 C CNN "MFP"
+F 6 "Panasonic D" H 3825 3250 50  0001 C CNN "Package"
 	1    3800 3050
 	1    0    0    -1  
 $EndComp
@@ -582,6 +598,7 @@ F 2 "Capacitors_SMD:CP_Elec_5x5.8" H 6000 5050 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/EEE-FP1E220AR-Panasonic-datasheet-13268972.pdf" H 6000 5050 50  0001 C CNN
 F 4 "Panasonic" H 6000 5050 60  0001 C CNN "MFN"
 F 5 "EEE-FP1E220AR" H 6000 5050 60  0001 C CNN "MFP"
+F 6 "Panasonic C" H 6025 5250 50  0001 C CNN "Package"
 	1    6000 5050
 	1    0    0    -1  
 $EndComp
@@ -595,6 +612,7 @@ F 2 "Capacitors_SMD:CP_Elec_5x5.8" H 5900 2650 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/EEE-FP1E220AR-Panasonic-datasheet-13268972.pdf" H 5900 2650 50  0001 C CNN
 F 4 "Panasonic" H 5900 2650 60  0001 C CNN "MFN"
 F 5 "EEE-FP1E220AR" H 5900 2650 60  0001 C CNN "MFP"
+F 6 "Panasonic C" H 5925 2850 50  0001 C CNN "Package"
 	1    5900 2650
 	1    0    0    -1  
 $EndComp
@@ -608,6 +626,7 @@ F 2 "w_resistor:R_0603" V 4680 4800 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/MI0603K300R-10-Steward-datasheet-14357321.pdf" H 4750 4800 50  0001 C CNN
 F 4 "Laird" H 4750 4800 60  0001 C CNN "MFN"
 F 5 "MI0603K300R-10" H 4750 4800 60  0001 C CNN "MFP"
+F 6 "0603" H 4600 4925 50  0001 C CNN "Package"
 	1    4750 4800
 	0    1    1    0   
 $EndComp
@@ -621,6 +640,7 @@ F 2 "w_capacitor:C_0603" H 5038 3800 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 5000 3950 50  0001 C CNN
 F 4 "Murata" H 5000 3950 60  0001 C CNN "MFN"
 F 5 "GRM188R71E104JA01J" H 5000 3950 60  0001 C CNN "MFP"
+F 6 "0603" H 5025 4150 50  0001 C CNN "Package"
 	1    5000 3950
 	1    0    0    -1  
 $EndComp
@@ -634,6 +654,7 @@ F 2 "w_capacitor:C_0603" H 5038 4900 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 5000 5050 50  0001 C CNN
 F 4 "Murata" H 5000 5050 60  0001 C CNN "MFN"
 F 5 "GRM188R71E104JA01J" H 5000 5050 60  0001 C CNN "MFP"
+F 6 "0603" H 5025 5250 50  0001 C CNN "Package"
 	1    5000 5050
 	1    0    0    -1  
 $EndComp
@@ -647,6 +668,7 @@ F 2 "w_capacitor:C_0603" H 4838 2500 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 4800 2650 50  0001 C CNN
 F 4 "Murata" H 4800 2650 60  0001 C CNN "MFN"
 F 5 "GRM188R71E104JA01J" H 4800 2650 60  0001 C CNN "MFP"
+F 6 "0603" H 4825 2850 50  0001 C CNN "Package"
 	1    4800 2650
 	1    0    0    -1  
 $EndComp

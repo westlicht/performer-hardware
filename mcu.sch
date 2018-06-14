@@ -64,6 +64,7 @@ F 2 "Housings_QFP:LQFP-64_10x10mm_Pitch0.5mm" H 10000 5075 50  0001 R TNN
 F 3 "http://datasheet.octopart.com/STM32F405RGT6-STMicroelectronics-datasheet-12357803.pdf" H 5800 3200 50  0001 C CNN
 F 4 "STMicroelectronics" H 1600 5225 50  0001 C CNN "MFN"
 F 5 "STM32F405RGT6" H 1600 5225 50  0001 C CNN "MFP"
+F 6 "LQFP-64" H 1600 5225 50  0001 C CNN "Package"
 	1    5800 3200
 	1    0    0    -1  
 $EndComp
@@ -182,6 +183,7 @@ F 2 "w_capacitor:C_0603" H 1088 6550 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf" H 1050 6700 50  0001 C CNN
 F 4 "Murata" H 1075 6900 50  0001 C CNN "MFN"
 F 5 "GRM1885C1H180JA01J" H 1075 6900 50  0001 C CNN "MFP"
+F 6 "0603" H 1075 6900 50  0001 C CNN "Package"
 	1    1050 6700
 	0    -1   -1   0   
 $EndComp
@@ -195,6 +197,7 @@ F 2 "w_capacitor:C_0603" H 1088 7050 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM1885C1H180JA01J-Murata-datasheet-66077082.pdf" H 1050 7200 50  0001 C CNN
 F 4 "Murata" H 1075 7400 50  0001 C CNN "MFN"
 F 5 "GRM1885C1H180JA01J" H 1075 7400 50  0001 C CNN "MFP"
+F 6 "0603" H 1075 7400 50  0001 C CNN "Package"
 	1    1050 7200
 	0    -1   -1   0   
 $EndComp
@@ -219,6 +222,7 @@ F 2 "w_capacitor:C_0805" H 1188 1900 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/C2012X5R1A225K085AA-TDK-datasheet-41194876.pdf" H 1150 2050 50  0001 C CNN
 F 4 "TDK" H 1175 2250 50  0001 C CNN "MFN"
 F 5 "C2012X5R1A225K085AA" H 1175 2250 50  0001 C CNN "MFP"
+F 6 "0805" H 1175 2250 50  0001 C CNN "Package"
 	1    1150 2050
 	0    -1   -1   0   
 $EndComp
@@ -232,6 +236,7 @@ F 2 "w_capacitor:C_0805" H 1188 2100 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/C2012X5R1A225K085AA-TDK-datasheet-41194876.pdf" H 1150 2250 50  0001 C CNN
 F 4 "TDK" H 1175 2450 50  0001 C CNN "MFN"
 F 5 "C2012X5R1A225K085AA" H 1175 2450 50  0001 C CNN "MFP"
+F 6 "0805" H 1175 2450 50  0001 C CNN "Package"
 	1    1150 2250
 	0    -1   -1   0   
 $EndComp
@@ -282,6 +287,7 @@ F 2 "w_resistor:R_0603" V 5830 6550 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf" H 5900 6550 50  0001 C CNN
 F 4 "Panasonic" H 5980 6650 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1002V" H 5980 6650 50  0001 C CNN "MFP"
+F 6 "0603" H 5980 6650 50  0001 C CNN "Package"
 	1    5900 6550
 	1    0    0    -1  
 $EndComp
@@ -295,6 +301,7 @@ F 2 "w_resistor:R_0603" V 6430 7150 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf" H 6500 7150 50  0001 C CNN
 F 4 "Panasonic" H 6580 7250 50  0001 C CNN "MFN"
 F 5 "ERJ-3EKF1002V" H 6580 7250 50  0001 C CNN "MFP"
+F 6 "0603" H 6580 7250 50  0001 C CNN "Package"
 	1    6500 7150
 	1    0    0    -1  
 $EndComp
@@ -352,6 +359,7 @@ F 2 "w_capacitor:C_0603" H 2638 7000 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 2600 7150 50  0001 C CNN
 F 4 "Murata" H 2625 7350 50  0001 C CNN "MFN"
 F 5 "GRM188R71E104JA01J" H 2625 7350 50  0001 C CNN "MFP"
+F 6 "0603" H 2625 7350 50  0001 C CNN "Package"
 	1    2600 7150
 	1    0    0    -1  
 $EndComp
@@ -365,6 +373,7 @@ F 2 "w_capacitor:C_0603" H 2938 7000 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 2900 7150 50  0001 C CNN
 F 4 "Murata" H 2925 7350 50  0001 C CNN "MFN"
 F 5 "GRM188R71E104JA01J" H 2925 7350 50  0001 C CNN "MFP"
+F 6 "0603" H 2925 7350 50  0001 C CNN "Package"
 	1    2900 7150
 	1    0    0    -1  
 $EndComp
@@ -378,6 +387,7 @@ F 2 "w_capacitor:C_0603" H 3238 7000 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 3200 7150 50  0001 C CNN
 F 4 "Murata" H 3225 7350 50  0001 C CNN "MFN"
 F 5 "GRM188R71E104JA01J" H 3225 7350 50  0001 C CNN "MFP"
+F 6 "0603" H 3225 7350 50  0001 C CNN "Package"
 	1    3200 7150
 	1    0    0    -1  
 $EndComp
@@ -391,6 +401,7 @@ F 2 "w_capacitor:C_0603" H 3538 7000 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 3500 7150 50  0001 C CNN
 F 4 "Murata" H 3525 7350 50  0001 C CNN "MFN"
 F 5 "GRM188R71E104JA01J" H 3525 7350 50  0001 C CNN "MFP"
+F 6 "0603" H 3525 7350 50  0001 C CNN "Package"
 	1    3500 7150
 	1    0    0    -1  
 $EndComp
@@ -448,6 +459,7 @@ F 2 "w_capacitor:C_0603" H 4038 7000 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R61A105KA61J-Murata-datasheet-66077091.pdf" H 4000 7150 50  0001 C CNN
 F 4 "Murata" H 4025 7350 50  0001 C CNN "MFN"
 F 5 "GRM188R61A105KA61J" H 4025 7350 50  0001 C CNN "MFP"
+F 6 "0603" H 4025 7350 50  0001 C CNN "Package"
 	1    4000 7150
 	1    0    0    -1  
 $EndComp
@@ -461,6 +473,7 @@ F 2 "w_capacitor:C_0603" H 4338 7000 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 4300 7150 50  0001 C CNN
 F 4 "Murata" H 4325 7350 50  0001 C CNN "MFN"
 F 5 "GRM188R71E104JA01J" H 4325 7350 50  0001 C CNN "MFP"
+F 6 "0603" H 4325 7350 50  0001 C CNN "Package"
 	1    4300 7150
 	1    0    0    -1  
 $EndComp

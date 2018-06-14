@@ -129,6 +129,7 @@ F 2 "w_diode:D_SOD-123" H 2400 1650 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 2400 1650 50  0001 C CNN
 F 4 "Diodes Inc." H 2400 1850 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 2400 1850 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 2400 1850 50  0001 C CNN "Package"
 	1    2400 1650
 	0    -1   -1   0   
 $EndComp
@@ -142,6 +143,7 @@ F 2 "w_diode:D_SOD-123" H 2400 2350 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 2400 2350 50  0001 C CNN
 F 4 "Diodes Inc." H 2400 2550 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 2400 2550 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 2400 2550 50  0001 C CNN "Package"
 	1    2400 2350
 	0    -1   -1   0   
 $EndComp
@@ -155,6 +157,7 @@ F 2 "w_diode:D_SOD-123" H 2400 3050 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 2400 3050 50  0001 C CNN
 F 4 "Diodes Inc." H 2400 3250 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 2400 3250 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 2400 3250 50  0001 C CNN "Package"
 	1    2400 3050
 	0    -1   -1   0   
 $EndComp
@@ -168,6 +171,7 @@ F 2 "w_diode:D_SOD-123" H 2400 3750 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 2400 3750 50  0001 C CNN
 F 4 "Diodes Inc." H 2400 3950 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 2400 3950 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 2400 3950 50  0001 C CNN "Package"
 	1    2400 3750
 	0    -1   -1   0   
 $EndComp
@@ -181,6 +185,7 @@ F 2 "w_diode:D_SOD-123" H 2400 4450 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 2400 4450 50  0001 C CNN
 F 4 "Diodes Inc." H 2400 4650 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 2400 4650 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 2400 4650 50  0001 C CNN "Package"
 	1    2400 4450
 	0    -1   -1   0   
 $EndComp
@@ -259,6 +264,7 @@ F 2 "w_diode:D_SOD-123" H 3300 1650 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 3300 1650 50  0001 C CNN
 F 4 "Diodes Inc." H 3300 1850 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 3300 1850 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 3300 1850 50  0001 C CNN "Package"
 	1    3300 1650
 	0    -1   -1   0   
 $EndComp
@@ -272,6 +278,7 @@ F 2 "w_diode:D_SOD-123" H 3300 2350 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 3300 2350 50  0001 C CNN
 F 4 "Diodes Inc." H 3300 2550 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 3300 2550 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 3300 2550 50  0001 C CNN "Package"
 	1    3300 2350
 	0    -1   -1   0   
 $EndComp
@@ -285,6 +292,7 @@ F 2 "w_diode:D_SOD-123" H 3300 3050 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 3300 3050 50  0001 C CNN
 F 4 "Diodes Inc." H 3300 3250 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 3300 3250 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 3300 3250 50  0001 C CNN "Package"
 	1    3300 3050
 	0    -1   -1   0   
 $EndComp
@@ -298,6 +306,7 @@ F 2 "w_diode:D_SOD-123" H 3300 3750 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 3300 3750 50  0001 C CNN
 F 4 "Diodes Inc." H 3300 3950 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 3300 3950 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 3300 3950 50  0001 C CNN "Package"
 	1    3300 3750
 	0    -1   -1   0   
 $EndComp
@@ -311,6 +320,7 @@ F 2 "w_diode:D_SOD-123" H 3300 4450 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 3300 4450 50  0001 C CNN
 F 4 "Diodes Inc." H 3300 4650 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 3300 4650 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 3300 4650 50  0001 C CNN "Package"
 	1    3300 4450
 	0    -1   -1   0   
 $EndComp
@@ -389,6 +399,7 @@ F 2 "w_diode:D_SOD-123" H 4200 1650 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 4200 1650 50  0001 C CNN
 F 4 "Diodes Inc." H 4200 1850 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 4200 1850 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 4200 1850 50  0001 C CNN "Package"
 	1    4200 1650
 	0    -1   -1   0   
 $EndComp
@@ -402,6 +413,7 @@ F 2 "w_diode:D_SOD-123" H 4200 2350 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 4200 2350 50  0001 C CNN
 F 4 "Diodes Inc." H 4200 2550 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 4200 2550 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 4200 2550 50  0001 C CNN "Package"
 	1    4200 2350
 	0    -1   -1   0   
 $EndComp
@@ -415,6 +427,7 @@ F 2 "w_diode:D_SOD-123" H 4200 3050 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 4200 3050 50  0001 C CNN
 F 4 "Diodes Inc." H 4200 3250 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 4200 3250 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 4200 3250 50  0001 C CNN "Package"
 	1    4200 3050
 	0    -1   -1   0   
 $EndComp
@@ -428,6 +441,7 @@ F 2 "w_diode:D_SOD-123" H 4200 3750 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 4200 3750 50  0001 C CNN
 F 4 "Diodes Inc." H 4200 3950 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 4200 3950 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 4200 3950 50  0001 C CNN "Package"
 	1    4200 3750
 	0    -1   -1   0   
 $EndComp
@@ -441,6 +455,7 @@ F 2 "w_diode:D_SOD-123" H 4200 4450 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 4200 4450 50  0001 C CNN
 F 4 "Diodes Inc." H 4200 4650 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 4200 4650 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 4200 4650 50  0001 C CNN "Package"
 	1    4200 4450
 	0    -1   -1   0   
 $EndComp
@@ -519,6 +534,7 @@ F 2 "w_diode:D_SOD-123" H 5100 1650 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 5100 1650 50  0001 C CNN
 F 4 "Diodes Inc." H 5100 1850 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 5100 1850 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 5100 1850 50  0001 C CNN "Package"
 	1    5100 1650
 	0    -1   -1   0   
 $EndComp
@@ -532,6 +548,7 @@ F 2 "w_diode:D_SOD-123" H 5100 2350 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 5100 2350 50  0001 C CNN
 F 4 "Diodes Inc." H 5100 2550 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 5100 2550 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 5100 2550 50  0001 C CNN "Package"
 	1    5100 2350
 	0    -1   -1   0   
 $EndComp
@@ -545,6 +562,7 @@ F 2 "w_diode:D_SOD-123" H 5100 3050 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 5100 3050 50  0001 C CNN
 F 4 "Diodes Inc." H 5100 3250 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 5100 3250 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 5100 3250 50  0001 C CNN "Package"
 	1    5100 3050
 	0    -1   -1   0   
 $EndComp
@@ -558,6 +576,7 @@ F 2 "w_diode:D_SOD-123" H 5100 3750 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 5100 3750 50  0001 C CNN
 F 4 "Diodes Inc." H 5100 3950 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 5100 3950 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 5100 3950 50  0001 C CNN "Package"
 	1    5100 3750
 	0    -1   -1   0   
 $EndComp
@@ -571,6 +590,7 @@ F 2 "w_diode:D_SOD-123" H 5100 4450 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 5100 4450 50  0001 C CNN
 F 4 "Diodes Inc." H 5100 4650 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 5100 4650 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 5100 4650 50  0001 C CNN "Package"
 	1    5100 4450
 	0    -1   -1   0   
 $EndComp
@@ -649,6 +669,7 @@ F 2 "w_diode:D_SOD-123" H 6000 1650 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 6000 1650 50  0001 C CNN
 F 4 "Diodes Inc." H 6000 1850 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 6000 1850 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 6000 1850 50  0001 C CNN "Package"
 	1    6000 1650
 	0    -1   -1   0   
 $EndComp
@@ -662,6 +683,7 @@ F 2 "w_diode:D_SOD-123" H 6000 2350 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 6000 2350 50  0001 C CNN
 F 4 "Diodes Inc." H 6000 2550 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 6000 2550 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 6000 2550 50  0001 C CNN "Package"
 	1    6000 2350
 	0    -1   -1   0   
 $EndComp
@@ -675,6 +697,7 @@ F 2 "w_diode:D_SOD-123" H 6000 3050 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 6000 3050 50  0001 C CNN
 F 4 "Diodes Inc." H 6000 3250 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 6000 3250 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 6000 3250 50  0001 C CNN "Package"
 	1    6000 3050
 	0    -1   -1   0   
 $EndComp
@@ -688,6 +711,7 @@ F 2 "w_diode:D_SOD-123" H 6000 3750 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 6000 3750 50  0001 C CNN
 F 4 "Diodes Inc." H 6000 3950 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 6000 3950 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 6000 3950 50  0001 C CNN "Package"
 	1    6000 3750
 	0    -1   -1   0   
 $EndComp
@@ -701,6 +725,7 @@ F 2 "w_diode:D_SOD-123" H 6000 4450 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 6000 4450 50  0001 C CNN
 F 4 "Diodes Inc." H 6000 4650 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 6000 4650 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 6000 4650 50  0001 C CNN "Package"
 	1    6000 4450
 	0    -1   -1   0   
 $EndComp
@@ -766,6 +791,7 @@ F 2 "w_diode:D_SOD-123" H 6900 2350 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 6900 2350 50  0001 C CNN
 F 4 "Diodes Inc." H 6900 2550 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 6900 2550 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 6900 2550 50  0001 C CNN "Package"
 	1    6900 2350
 	0    -1   -1   0   
 $EndComp
@@ -779,6 +805,7 @@ F 2 "w_diode:D_SOD-123" H 6900 3050 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 6900 3050 50  0001 C CNN
 F 4 "Diodes Inc." H 6900 3250 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 6900 3250 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 6900 3250 50  0001 C CNN "Package"
 	1    6900 3050
 	0    -1   -1   0   
 $EndComp
@@ -792,6 +819,7 @@ F 2 "w_diode:D_SOD-123" H 6900 3750 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 6900 3750 50  0001 C CNN
 F 4 "Diodes Inc." H 6900 3950 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 6900 3950 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 6900 3950 50  0001 C CNN "Package"
 	1    6900 3750
 	0    -1   -1   0   
 $EndComp
@@ -805,6 +833,7 @@ F 2 "w_diode:D_SOD-123" H 6900 4450 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 6900 4450 50  0001 C CNN
 F 4 "Diodes Inc." H 6900 4650 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 6900 4650 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 6900 4650 50  0001 C CNN "Package"
 	1    6900 4450
 	0    -1   -1   0   
 $EndComp
@@ -870,6 +899,7 @@ F 2 "w_diode:D_SOD-123" H 7800 2350 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 7800 2350 50  0001 C CNN
 F 4 "Diodes Inc." H 7800 2550 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 7800 2550 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 7800 2550 50  0001 C CNN "Package"
 	1    7800 2350
 	0    -1   -1   0   
 $EndComp
@@ -883,6 +913,7 @@ F 2 "w_diode:D_SOD-123" H 7800 3050 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 7800 3050 50  0001 C CNN
 F 4 "Diodes Inc." H 7800 3250 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 7800 3250 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 7800 3250 50  0001 C CNN "Package"
 	1    7800 3050
 	0    -1   -1   0   
 $EndComp
@@ -896,6 +927,7 @@ F 2 "w_diode:D_SOD-123" H 7800 3750 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 7800 3750 50  0001 C CNN
 F 4 "Diodes Inc." H 7800 3950 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 7800 3950 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 7800 3950 50  0001 C CNN "Package"
 	1    7800 3750
 	0    -1   -1   0   
 $EndComp
@@ -909,6 +941,7 @@ F 2 "w_diode:D_SOD-123" H 7800 4450 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 7800 4450 50  0001 C CNN
 F 4 "Diodes Inc." H 7800 4650 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 7800 4650 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 7800 4650 50  0001 C CNN "Package"
 	1    7800 4450
 	0    -1   -1   0   
 $EndComp
@@ -974,6 +1007,7 @@ F 2 "w_diode:D_SOD-123" H 8700 2350 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 8700 2350 50  0001 C CNN
 F 4 "Diodes Inc." H 8700 2550 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 8700 2550 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 8700 2550 50  0001 C CNN "Package"
 	1    8700 2350
 	0    -1   -1   0   
 $EndComp
@@ -987,6 +1021,7 @@ F 2 "w_diode:D_SOD-123" H 8700 3050 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 8700 3050 50  0001 C CNN
 F 4 "Diodes Inc." H 8700 3250 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 8700 3250 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 8700 3250 50  0001 C CNN "Package"
 	1    8700 3050
 	0    -1   -1   0   
 $EndComp
@@ -1000,6 +1035,7 @@ F 2 "w_diode:D_SOD-123" H 8700 3750 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 8700 3750 50  0001 C CNN
 F 4 "Diodes Inc." H 8700 3950 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 8700 3950 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 8700 3950 50  0001 C CNN "Package"
 	1    8700 3750
 	0    -1   -1   0   
 $EndComp
@@ -1013,6 +1049,7 @@ F 2 "w_diode:D_SOD-123" H 8700 4450 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf" H 8700 4450 50  0001 C CNN
 F 4 "Diodes Inc." H 8700 4650 50  0001 C CNN "MFN"
 F 5 "1N4148W-7-F" H 8700 4650 50  0001 C CNN "MFP"
+F 6 "SOD-123" H 8700 4650 50  0001 C CNN "Package"
 	1    8700 4450
 	0    -1   -1   0   
 $EndComp
