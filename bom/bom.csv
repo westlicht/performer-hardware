@@ -9,7 +9,7 @@ Component,References,Value,Quantity Per PCB,Datasheet,MFP,MFN
 8,D2 D5 D6 D7 D8 D9 D10 D11 D12 D13 D14 D15 D16 D17 D18 D19 D20 D21 D22 D23 D24 D25 D26 D27 D28 D29 D30 D31 D32 D33 D34 D35 D36 D37 D38 D39 D40 D41,1N4148,38,http://datasheet.octopart.com/1N4148W-7-F-Diodes-Inc.-datasheet-12518151.pdf,1N4148W-7-F,Diodes Inc.
 9,D3 D4,1N5819HW,2,http://datasheet.octopart.com/1N5819HW-7-F-Diodes-Inc.-datasheet-34441420.pdf,1N5819HW-7-F,Diodes Inc.
 10,D1,LM4040CIM3-10.0,1,http://www.ti.com/product/lm4040-n/technicaldocuments?HQS=TI-null-null-octopart-df-pf-null-wwe,LM4040CIM3-10.0/NOPB,Texas Instruments
-11,ENC1,ALPS-STEC12E08,1,http://datasheet.octopart.com/PEC11R-4225F-S0024-Bourns-datasheet-68303416.pdf,PEC11R-4225F-S0024,Bourns
+11,ENC1,PEC11R,1,http://datasheet.octopart.com/PEC11R-4220F-S0024-Bourns-datasheet-68303416.pdf,PEC11R-4220F-S0024,Bourns
 12,J3 J4 J5 J6 J7 J8 J9 J10 J11 J12 J13 J14 J15 J16 J17 J18 J19 J20 J21 J22 J23 J24 J25 J26,PJ301BM,24,http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html,WQP-PJ301BM,Wenzhou QingPu Electronics
 13,J1 J2,PJ301CM,2,http://www.qingpu-electronics.com/en/products/WQP-PJ301CM-40.html,WQP-PJ301CM,Wenzhou QingPu Electronics
 14,JP4,JTAG,1,http://datasheet.octopart.com/20021111-00010T4LF-FCI-datasheet-11548804.pdf,20021111-00010T4LF,FCI
@@ -22,27 +22,26 @@ Component,References,Value,Quantity Per PCB,Datasheet,MFP,MFN
 21,LED1 LED2 LED3 LED4 LED5 LED6 LED7 LED8 LED9 LED10 LED11 LED12 LED13 LED14 LED15 LED16 LED17 LED18 LED19 LED20 LED21 LED22 LED23 LED24 LED25 LED26 LED27 LED28 LED29 LED30 LED31 LED32,LTL1BEKVJNN,32,http://datasheet.octopart.com/LTL1BEKVJNN-Lite-On-datasheet-25352782.pdf,LTL1BEKVJNN,Lite-On
 22,Q1 Q2 Q3 Q4 Q5,MMBT3904,5,http://datasheet.octopart.com/MMBT3904LT1G-ON-Semiconductor-datasheet-11971584.pdf,MMBT3904LT1G,ON Semiconductor
 23,R12 R15 R24 R25 R26 R27 R32 R33 R43 R44 R54 R55 R57 R58 R67,100k,15,http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf,ERJ-3EKF1003V,Panasonic
-24,R2 R5 R13 R14 R17 R18 R34 R47 R48 R53 R56 R59 R64 R77 R80,10k,15,http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf,ERJ-3EKF1002V,Panasonic
+24,R2 R5 R13 R14 R17 R18 R34 R47 R48 R53 R56 R59 R64 R65 R77 R80,10k,16,http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf,ERJ-3EKF1002V,Panasonic
 25,R7,1M,1,http://datasheet.octopart.com/ERJ-3EKF1004V-Panasonic-datasheet-13266541.pdf,ERJ-3EKF1004V,Panasonic
-26,R6 R16 R19 R65 R66 R76 R78 R79 R81 R82 R83 R84,1k,12,http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf,ERJ-3EKF1001V,Panasonic
+26,R6 R16 R19 R66 R68 R69 R70 R71 R72 R73 R74 R75 R76 R78 R79 R81 R82 R83 R84,1k,19,http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf,ERJ-3EKF1001V,Panasonic
 27,R28 R31 R35 R38,200k,4,http://datasheet.octopart.com/ERJ-3EKF2003V-Panasonic-datasheet-13266541.pdf,ERJ-3EKF2003V,Panasonic
 28,R1 R3 R4 R21 R22 R40 R41 R50 R51 R61 R62,220,11,http://datasheet.octopart.com/ERJ3EKF2200V-Panasonic-datasheet-13266541.pdf,ERJ-3EKF2200V,Panasonic
 29,R45,22k,1,http://datasheet.octopart.com/ERJ3EKF2202V-Panasonic-datasheet-13266541.pdf,ERJ-3EKF2202V,Panasonic
 30,R20 R23 R39 R42 R49 R52 R60 R63,24k,8,http://datasheet.octopart.com/ERJ-3EKF2402V-Panasonic-datasheet-82288794.pdf,ERJ-3EKF2402V,Panasonic
 31,R8 R9 R10 R11 R29 R30 R36 R37 R46,33k,9,http://datasheet.octopart.com/ERJ3EKF3302V-Panasonic-datasheet-13266541.pdf,ERJ-3EKF3302V,Panasonic
-32,R68 R69 R70 R71 R72 R73 R74 R75,470,8,http://datasheet.octopart.com/ERJ3EKF4700V-Panasonic-datasheet-13266541.pdf,ERJ-3EKF4700V,Panasonic
-33,SW8 SW19,EVQQ2,2,http://datasheet.octopart.com/EVQ-Q2K01W-Panasonic-datasheet-13267673.pdf,EVQ-Q2K01W,Panasonic
-34,SW1 SW2 SW3 SW4 SW5 SW6 SW7 SW9 SW10 SW11 SW12 SW13 SW14 SW15 SW16 SW17 SW18 SW20 SW21 SW22 SW23 SW24 SW25 SW26 SW27 SW28 SW29 SW30 SW31 SW32 SW33 SW34 SW35 SW36 SW37 SW38 SW39,TL1105T,37,http://datasheet.octopart.com/TL1105TF160Q-E-Switch-datasheet-502092.pdf,TL1105TF160Q,E-Switch
-35,U11,74HC165,1,https://octopart.com/click/track?ct=datasheets&hlid=24916538&ppid=35776&sid=370&sig=03765d0,SN74HC165D,Texas Instruments
-36,U12 U13 U14,74HC595,3,https://octopart.com/click/track?ct=datasheets&hlid=24917219&ppid=44183&sid=370&sig=036bbbe,SN74HC595D,Texas Instruments
-37,U5,74HCT125,1,https://octopart.com/click/track?ct=datasheets&hlid=24917456&ppid=464455&sid=370&sig=085083f,SN74HCT125D,Texas Instruments
-38,U2,74LV1T34,1,https://octopart.com/click/track?ct=datasheets&hlid=24919287&ppid=33260490&sid=370&sig=060f3df,SN74LV1T34DBVR,Texas Instruments
-39,U8,DAC8568C,1,https://octopart.com/click/track?ct=datasheets&hlid=24881192&ppid=10447789&sid=370&sig=0a14fa8,DAC8568ICPW,Texas Instruments
-40,U7 U10,LM1117-3.3,2,https://octopart.com/click/track?ct=datasheets&hlid=24885394&ppid=24812450&sid=370&sig=0f3ff9a,LM1117MP-3.3/NOPB,Texas Instruments
-41,U4 U15,OPA4172,2,https://octopart.com/click/track?ct=datasheets&hlid=24903049&ppid=47153707&sid=370&sig=086dfac,OPA4172IDR,Texas Instruments
-42,U16,R-78E5.0-1.0,1,http://datasheet.octopart.com/R-78E5.0-1.0-Recom-Power-datasheet-68298118.pdf,R-78E5.0-1.0,Recom Power
-43,U9,STM32F405RGTx,1,http://datasheet.octopart.com/STM32F405RGT6-STMicroelectronics-datasheet-12357803.pdf,STM32F405RGT6,STMicroelectronics
-44,U3,STMPS2151,1,http://datasheet.octopart.com/STMPS2151STR-STMicroelectronics-datasheet-15207125.pdf,STMPS2151STR,STMicroelectronics
-45,U6,TL074,1,https://octopart.com/click/track?ct=datasheets&hlid=24928135&ppid=93637&sid=370&sig=0014035,TL074CD,Texas Instruments
-46,U1,VO0600T,1,http://datasheet.octopart.com/VO0600T-Vishay-datasheet-8549194.pdf,VO0600T,Vishay
-47,Y1,8MHz,1,http://datasheet.octopart.com/ABM3-8.000MHZ-D2Y-T-Abracon-datasheet-8815637.pdf,ABM3-8.000MHZ-D2Y-T,Abracon
+32,SW8 SW19,EVQQ2,2,http://datasheet.octopart.com/EVQ-Q2K01W-Panasonic-datasheet-13267673.pdf,EVQ-Q2K01W,Panasonic
+33,SW1 SW2 SW3 SW4 SW5 SW6 SW7 SW9 SW10 SW11 SW12 SW13 SW14 SW15 SW16 SW17 SW18 SW20 SW21 SW22 SW23 SW24 SW25 SW26 SW27 SW28 SW29 SW30 SW31 SW32 SW33 SW34 SW35 SW36 SW37 SW38 SW39,TL1105,37,http://datasheet.octopart.com/TL1105SPF160Q-E-Switch-datasheet-502092.pdf,TL1105SPF160Q,E-Switch
+34,U11,74HC165,1,https://octopart.com/click/track?ct=datasheets&hlid=24916538&ppid=35776&sid=370&sig=03765d0,SN74HC165D,Texas Instruments
+35,U12 U13 U14,74HC595,3,https://octopart.com/click/track?ct=datasheets&hlid=24917219&ppid=44183&sid=370&sig=036bbbe,SN74HC595D,Texas Instruments
+36,U5,74HCT125,1,https://octopart.com/click/track?ct=datasheets&hlid=24917456&ppid=464455&sid=370&sig=085083f,SN74HCT125D,Texas Instruments
+37,U2,74LV1T34,1,https://octopart.com/click/track?ct=datasheets&hlid=24919287&ppid=33260490&sid=370&sig=060f3df,SN74LV1T34DBVR,Texas Instruments
+38,U8,DAC8568C,1,https://octopart.com/click/track?ct=datasheets&hlid=24881192&ppid=10447789&sid=370&sig=0a14fa8,DAC8568ICPW,Texas Instruments
+39,U7 U10,LM1117-3.3,2,https://octopart.com/click/track?ct=datasheets&hlid=24885394&ppid=24812450&sid=370&sig=0f3ff9a,LM1117MP-3.3/NOPB,Texas Instruments
+40,U4 U15,OPA4172,2,https://octopart.com/click/track?ct=datasheets&hlid=24903049&ppid=47153707&sid=370&sig=086dfac,OPA4172IDR,Texas Instruments
+41,U16,R-78E5.0-1.0,1,http://datasheet.octopart.com/R-78E5.0-1.0-Recom-Power-datasheet-68298118.pdf,R-78E5.0-1.0,Recom Power
+42,U9,STM32F405RGTx,1,http://datasheet.octopart.com/STM32F405RGT6-STMicroelectronics-datasheet-12357803.pdf,STM32F405RGT6,STMicroelectronics
+43,U3,STMPS2151,1,http://datasheet.octopart.com/STMPS2151STR-STMicroelectronics-datasheet-15207125.pdf,STMPS2151STR,STMicroelectronics
+44,U6,TL074,1,https://octopart.com/click/track?ct=datasheets&hlid=24928135&ppid=93637&sid=370&sig=0014035,TL074CD,Texas Instruments
+45,U1,VO0600T,1,http://datasheet.octopart.com/VO0600T-Vishay-datasheet-8549194.pdf,VO0600T,Vishay
+46,Y1,8MHz,1,http://datasheet.octopart.com/ABM3-8.000MHZ-D2Y-T-Abracon-datasheet-8815637.pdf,ABM3-8.000MHZ-D2Y-T,Abracon
