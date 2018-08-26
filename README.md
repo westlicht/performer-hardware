@@ -12,7 +12,7 @@ The firmware is hosted in a separate repository [here](https://github.com/westli
 
 ## Schematic
 
-The schematic is available as a [PDF](schematic.pdf).
+The schematic is available as a [PDF](sequencer.pdf).
 
 ## Physical dimensions
 
