@@ -46,8 +46,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 8
 Title "per|former eurorack sequencer"
-Date ""
-Rev "0.2"
+Date "2018-08-26"
+Rev "0.3"
 Comp "westlicht"
 Comment1 "cc-by-sa"
 Comment2 ""
@@ -932,14 +932,6 @@ Text GLabel 8000 1300 0    51   Output ~ 0
 SDIO_CD
 Text GLabel 2800 2700 0    51   Input ~ 0
 SR_OE
-Text Notes 8100 2350 0    118  ~ 24
-NEW
-Text Notes 3550 2550 0    118  ~ 24
-NEW
-Text Notes 2200 5850 0    118  ~ 24
-NEW
-Text Notes 7650 1150 0    118  ~ 24
-NEW
 Wire Wire Line
 	6500 900  6600 900 
 Wire Wire Line
