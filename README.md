@@ -10,12 +10,18 @@ This repository contains the hardware design files (KiCad) for the **per|former 
 
 The firmware is hosted in a separate repository [here](https://github.com/westlicht/eurorack-sequencer).
 
+## Schematic
+
+The schematic is available as a [PDF](schematic.pdf).
+
 ## Physical dimensions
 
 | Board      | Width (mm) | Height (mm) |
 | ---------- | ---------- | ----------- |
 | PCB        | 171.45     | 106.68      |
 | Frontpanel | 172.5      | 128.27      |
+
+The width of the module is 34 HP in [eurorack standard](http://www.doepfer.de/a100_man/a100m_e.htm).
 
 ## Bill of materials
 
