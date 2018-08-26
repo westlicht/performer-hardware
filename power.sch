@@ -129,10 +129,10 @@ F 3 "" H 2800 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C14
+L CP1 C13
 U 1 1 59ADD50C
 P 3800 2550
-F 0 "C14" H 3825 2650 50  0000 L CNN
+F 0 "C13" H 3825 2650 50  0000 L CNN
 F 1 "47u" H 3825 2450 50  0000 L CNN
 F 2 "Capacitors_SMD:CP_Elec_6.3x5.7" H 3800 2550 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/EEE-FK1V470P-Panasonic-datasheet-13266987.pdf" H 3800 2550 50  0001 C CNN
@@ -204,10 +204,10 @@ F 6 "0603" H 4600 3825 50  0001 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L CP1 C25
+L CP1 C24
 U 1 1 59DEC56E
 P 6000 3950
-F 0 "C25" H 6025 4050 50  0000 L CNN
+F 0 "C24" H 6025 4050 50  0000 L CNN
 F 1 "22u" H 6025 3850 50  0000 L CNN
 F 2 "Capacitors_SMD:CP_Elec_5x5.8" H 6000 3950 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/EEE-FP1E220AR-Panasonic-datasheet-13268972.pdf" H 6000 3950 50  0001 C CNN
@@ -218,10 +218,10 @@ F 6 "Panasonic C" H 6025 4150 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C15
+L C C14
 U 1 1 59DEC574
 P 6300 3950
-F 0 "C15" H 6325 4050 50  0000 L CNN
+F 0 "C14" H 6325 4050 50  0000 L CNN
 F 1 "100n" H 6325 3850 50  0000 L CNN
 F 2 "w_capacitor:C_0603" H 6338 3800 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 6300 3950 50  0001 C CNN
@@ -301,10 +301,10 @@ F 6 "SOT-223" H 5350 5025 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C32
+L C C31
 U 1 1 59DEC80C
 P 6300 5050
-F 0 "C32" H 6325 5150 50  0000 L CNN
+F 0 "C31" H 6325 5150 50  0000 L CNN
 F 1 "100n" H 6325 4950 50  0000 L CNN
 F 2 "w_capacitor:C_0603" H 6338 4900 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 6300 5050 50  0001 C CNN
@@ -575,10 +575,10 @@ F 3 "" H 8200 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C47
+L CP1 C46
 U 1 1 59E0E120
 P 3800 3050
-F 0 "C47" H 3825 3150 50  0000 L CNN
+F 0 "C46" H 3825 3150 50  0000 L CNN
 F 1 "47u" H 3825 2950 50  0000 L CNN
 F 2 "Capacitors_SMD:CP_Elec_6.3x5.7" H 3800 3050 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/EEE-FK1V470P-Panasonic-datasheet-13266987.pdf" H 3800 3050 50  0001 C CNN
@@ -589,10 +589,10 @@ F 6 "Panasonic D" H 3825 3250 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C41
+L CP1 C40
 U 1 1 59E0FE4F
 P 6000 5050
-F 0 "C41" H 6025 5150 50  0000 L CNN
+F 0 "C40" H 6025 5150 50  0000 L CNN
 F 1 "22u" H 6025 4950 50  0000 L CNN
 F 2 "Capacitors_SMD:CP_Elec_5x5.8" H 6000 5050 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/EEE-FP1E220AR-Panasonic-datasheet-13268972.pdf" H 6000 5050 50  0001 C CNN
@@ -631,10 +631,10 @@ F 6 "0603" H 4600 4925 50  0001 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C20
+L C C19
 U 1 1 59E52EDD
 P 5000 3950
-F 0 "C20" H 5025 4050 50  0000 L CNN
+F 0 "C19" H 5025 4050 50  0000 L CNN
 F 1 "100n" H 5025 3850 50  0000 L CNN
 F 2 "w_capacitor:C_0603" H 5038 3800 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 5000 3950 50  0001 C CNN
@@ -645,10 +645,10 @@ F 6 "0603" H 5025 4150 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C36
+L C C35
 U 1 1 59E53513
 P 5000 5050
-F 0 "C36" H 5025 5150 50  0000 L CNN
+F 0 "C35" H 5025 5150 50  0000 L CNN
 F 1 "100n" H 5025 4950 50  0000 L CNN
 F 2 "w_capacitor:C_0603" H 5038 4900 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 5000 5050 50  0001 C CNN
@@ -659,10 +659,10 @@ F 6 "0603" H 5025 5250 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C9
+L C C8
 U 1 1 59E535E8
 P 4800 2650
-F 0 "C9" H 4825 2750 50  0000 L CNN
+F 0 "C8" H 4825 2750 50  0000 L CNN
 F 1 "100n" H 4825 2550 50  0000 L CNN
 F 2 "w_capacitor:C_0603" H 4838 2500 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/GRM188R71E104JA01J-Murata-datasheet-66077098.pdf" H 4800 2650 50  0001 C CNN
