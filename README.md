@@ -8,11 +8,11 @@ This repository contains the hardware design files (KiCad) for the **per|former 
 
 **Disclaimer: This is work in progress**
 
-The firmware is hosted in a separate repository [here](https://github.com/westlicht/eurorack-sequencer).
+The firmware is hosted in a separate repository [here](https://github.com/westlicht/performer).
 
 ## Schematic
 
-The schematic is available as a [PDF](sequencer.pdf).
+The schematic is available as a [PDF](https://cdn.rawgit.com/westlicht/performer-hardware/fix-cv-inputs/sequencer.pdf).
 
 ## Physical dimensions
 
