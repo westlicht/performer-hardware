@@ -12,7 +12,7 @@ The firmware is hosted in a separate repository [here](https://github.com/westli
 
 ## Schematic
 
-The schematic is available as a [PDF](https://cdn.rawgit.com/westlicht/performer-hardware/fix-cv-inputs/sequencer.pdf).
+The schematic is available as a [PDF](https://cdn.rawgit.com/westlicht/performer-hardware/master/sequencer.pdf).
 
 ## Physical dimensions
 
@@ -25,7 +25,7 @@ The width of the module is 34 HP in [eurorack standard](http://www.doepfer.de/a1
 
 ## Bill of materials
 
-The BOM is available as a [CSV](bom/bom.csv) and [HTML](bom/bom.html).
+The BOM is available as a [CSV](bom/bom.csv) and [HTML](https://cdn.rawgit.com/westlicht/performer-hardware/master/bom/bom.html). In addition to the parts on the PCB there are a few additional hardware components that are necessary to complete the build, see [here](bom/hardware.csv).
 
 ## License
 

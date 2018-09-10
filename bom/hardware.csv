@@ -1,0 +1,8 @@
+Component,References             ,Quantity Per PCB,Value,MFP  ,MFN          ,Datasheet                                                            
+1        ,LCD Connector Female,  ,1,              ,20P  ,929870-01-20-RA,3M ,http://datasheet.octopart.com/929870-01-20-RA-3M-datasheet-167403.pdf
+2        ,LCD Connector Male,    ,1,              ,20P  ,68002-120HLF,FCI   ,http://datasheet.octopart.com/68002-120HLF-FCI-datasheet-8449737.pdf 
+3        ,Round Switch Caps      ,32              ,1RWHT,1RWHT,E-Switch     ,http://datasheet.octopart.com/1RWHT-E-Switch-datasheet-12523944.pdf  
+4        ,Rectangular Switch Caps,5               ,1CWHT,1CWHT,E-Switch     ,https://datasheet.octopart.com/1CWHT-E-Switch-datasheet-44138771.pdf 
+5        ,Rotary Knob            ,-               ,-    ,-    ,-            ,https://www.thonk.co.uk/shop/sifam-soft-touch-encoder-knobs/         
+6        ,M2 Standoff 5mm        ,4               ,-    ,-    ,-            ,-                                                                    
+7        ,M2 Standoff 10mm       ,1               ,-    ,-    ,-            ,-                                                                    
