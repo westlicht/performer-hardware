@@ -46,8 +46,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 8
 Title "per|former eurorack sequencer"
-Date "2018-08-26"
-Rev "0.3"
+Date "2018-10-09"
+Rev "1.0"
 Comp "westlicht"
 Comment1 "cc-by-sa"
 Comment2 ""
@@ -1576,4 +1576,14 @@ Connection ~ 6000 4300
 Connection ~ 6900 4300
 Connection ~ 7800 4300
 Connection ~ 8700 4300
+Wire Notes Line
+	600  600  600  6400
+Wire Notes Line
+	600  6400 11100 6400
+Wire Notes Line
+	11100 6400 11100 600 
+Wire Notes Line
+	11100 600  600  600 
+Text Notes 700  6300 0    51   ~ 0
+BUTTON MATRIX
 $EndSCHEMATC

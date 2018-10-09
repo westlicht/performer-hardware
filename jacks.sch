@@ -46,8 +46,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 8
 Title "per|former eurorack sequencer"
-Date "2018-08-26"
-Rev "0.3"
+Date "2018-10-09"
+Rev "1.0"
 Comp "westlicht"
 Comment1 "cc-by-sa"
 Comment2 ""
@@ -1604,7 +1604,7 @@ GATE OUTPUTS
 Text Notes 8600 6400 0    51   ~ 0
 CV OUTPUTS
 Text Notes 5500 4000 0    51   ~ 0
-MIDI
+MIDI INPUT/OUTPUT
 Text Notes 2800 4000 0    51   ~ 0
 CLOCK OUTPUTS
 Text Notes 700  7600 0    51   ~ 0
@@ -2158,4 +2158,10 @@ Wire Wire Line
 	5900 5100 5900 5300
 Wire Wire Line
 	5900 5600 5900 5800
+Text Notes 1500 4000 0    51   ~ 0
+High signal threshold: 0.7V
+Text Notes 3700 4000 0    51   ~ 0
+High level: 5V
+Text Notes 1400 7600 0    51   ~ 0
+Inverting rail-to-rail opamp configuration, Input range [-5V,5V], Output range [3.3V,0V]
 $EndSCHEMATC

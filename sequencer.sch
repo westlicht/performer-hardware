@@ -46,8 +46,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 8
 Title "per|former eurorack sequencer"
-Date "2018-08-26"
-Rev "0.3"
+Date "2018-10-09"
+Rev "1.0"
 Comp "westlicht"
 Comment1 "cc-by-sa"
 Comment2 ""
