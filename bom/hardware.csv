@@ -4,5 +4,6 @@ Component,References,Quantity Per PCB,Value,MFP,MFN,Datasheet
 3,Round Switch Caps,32,1RWHT,1RWHT,E-Switch,http://datasheet.octopart.com/1RWHT-E-Switch-datasheet-12523944.pdf
 4,Rectangular Switch Caps,5,1CWHT,1CWHT,E-Switch,https://datasheet.octopart.com/1CWHT-E-Switch-datasheet-44138771.pdf
 5,Rotary Knob,-,-,-,-,https://www.thonk.co.uk/shop/sifam-soft-touch-encoder-knobs/
-6,M2 Standoff 5mm,4,-,-,-,-
-7,M2 Standoff 10mm,1,-,-,-,-
+6,M2.5 Standoff 8mm,4,-,R25-1000802,Harwin,http://datasheet.octopart.com/R25-1000802-Harwin-datasheet-14706888.pdf
+7,M2.5 Standoff 11mm,1,-,R25-1001102,Harwin,http://datasheet.octopart.com/R25-1001102-Harwin-datasheet-14706888.pdf
+8,M2.5 Screw,10,-,-,-
