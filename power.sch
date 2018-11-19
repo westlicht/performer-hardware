@@ -475,10 +475,10 @@ F 3 "" H 4000 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L R R8
 U 1 1 59DF10B1
 P 4250 3000
-F 0 "R6" V 4330 3000 50  0000 C CNN
+F 0 "R8" V 4330 3000 50  0000 C CNN
 F 1 "1k" V 4250 3000 50  0000 C CNN
 F 2 "w_resistor:R_0603" V 4180 3000 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf" H 4250 3000 50  0001 C CNN

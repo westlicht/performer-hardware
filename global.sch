@@ -442,10 +442,10 @@ F 3 "" H 7600 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R48
+L R R50
 U 1 1 59E55F0E
 P 5300 5150
-F 0 "R48" V 5250 5300 50  0000 L CNN
+F 0 "R50" V 5250 5300 50  0000 L CNN
 F 1 "10k" V 5300 5150 50  0000 C CNN
 F 2 "w_resistor:R_0603" V 5230 5150 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf" H 5300 5150 50  0001 C CNN
@@ -456,10 +456,10 @@ F 6 "0603" H 5250 5400 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R53
+L R R55
 U 1 1 59E560D3
 P 5400 5150
-F 0 "R53" V 5350 5300 50  0000 L CNN
+F 0 "R55" V 5350 5300 50  0000 L CNN
 F 1 "10k" V 5400 5150 50  0000 C CNN
 F 2 "w_resistor:R_0603" V 5330 5150 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf" H 5400 5150 50  0001 C CNN
@@ -470,10 +470,10 @@ F 6 "0603" H 5350 5400 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R56
+L R R58
 U 1 1 59E56118
 P 5500 5150
-F 0 "R56" V 5450 5300 50  0000 L CNN
+F 0 "R58" V 5450 5300 50  0000 L CNN
 F 1 "10k" V 5500 5150 50  0000 C CNN
 F 2 "w_resistor:R_0603" V 5430 5150 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf" H 5500 5150 50  0001 C CNN
@@ -484,10 +484,10 @@ F 6 "0603" H 5450 5400 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R59
+L R R61
 U 1 1 59E56160
 P 5600 5150
-F 0 "R59" V 5550 5300 50  0000 L CNN
+F 0 "R61" V 5550 5300 50  0000 L CNN
 F 1 "10k" V 5600 5150 50  0000 C CNN
 F 2 "w_resistor:R_0603" V 5530 5150 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf" H 5600 5150 50  0001 C CNN
@@ -498,10 +498,10 @@ F 6 "0603" H 5550 5400 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R47
+L R R49
 U 1 1 59E561AB
 P 5700 5150
-F 0 "R47" V 5650 5300 50  0000 L CNN
+F 0 "R49" V 5650 5300 50  0000 L CNN
 F 1 "10k" V 5700 5150 50  0000 C CNN
 F 2 "w_resistor:R_0603" V 5630 5150 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf" H 5700 5150 50  0001 C CNN
@@ -523,10 +523,10 @@ F 3 "" H 6200 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R74
+L R R76
 U 1 1 59E604C8
 P 5350 2600
-F 0 "R74" V 5300 2750 50  0000 L CNN
+F 0 "R76" V 5300 2750 50  0000 L CNN
 F 1 "1k" V 5350 2600 50  0000 C CNN
 F 2 "w_resistor:R_0603" V 5280 2600 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf" H 5350 2600 50  0001 C CNN
@@ -537,10 +537,10 @@ F 6 "0603" H 5300 2850 50  0001 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R75
+L R R77
 U 1 1 59E60528
 P 5350 2500
-F 0 "R75" V 5300 2650 50  0000 L CNN
+F 0 "R77" V 5300 2650 50  0000 L CNN
 F 1 "1k" V 5350 2500 50  0000 C CNN
 F 2 "w_resistor:R_0603" V 5280 2500 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf" H 5350 2500 50  0001 C CNN
@@ -551,10 +551,10 @@ F 6 "0603" H 5300 2750 50  0001 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R73
+L R R75
 U 1 1 59E60C94
 P 5350 2700
-F 0 "R73" V 5300 2850 50  0000 L CNN
+F 0 "R75" V 5300 2850 50  0000 L CNN
 F 1 "1k" V 5350 2700 50  0000 C CNN
 F 2 "w_resistor:R_0603" V 5280 2700 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf" H 5350 2700 50  0001 C CNN
@@ -565,10 +565,10 @@ F 6 "0603" H 5300 2950 50  0001 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R72
+L R R74
 U 1 1 59E60F5A
 P 5350 2800
-F 0 "R72" V 5300 2950 50  0000 L CNN
+F 0 "R74" V 5300 2950 50  0000 L CNN
 F 1 "1k" V 5350 2800 50  0000 C CNN
 F 2 "w_resistor:R_0603" V 5280 2800 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf" H 5350 2800 50  0001 C CNN
@@ -579,10 +579,10 @@ F 6 "0603" H 5300 3050 50  0001 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R68
+L R R70
 U 1 1 59E61471
 P 5350 3200
-F 0 "R68" V 5300 3350 50  0000 L CNN
+F 0 "R70" V 5300 3350 50  0000 L CNN
 F 1 "1k" V 5350 3200 50  0000 C CNN
 F 2 "w_resistor:R_0603" V 5280 3200 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf" H 5350 3200 50  0001 C CNN
@@ -593,10 +593,10 @@ F 6 "0603" H 5300 3450 50  0001 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R69
+L R R71
 U 1 1 59E6153A
 P 5350 3100
-F 0 "R69" V 5300 3250 50  0000 L CNN
+F 0 "R71" V 5300 3250 50  0000 L CNN
 F 1 "1k" V 5350 3100 50  0000 C CNN
 F 2 "w_resistor:R_0603" V 5280 3100 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf" H 5350 3100 50  0001 C CNN
@@ -607,10 +607,10 @@ F 6 "0603" H 5300 3350 50  0001 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R70
+L R R72
 U 1 1 59E61584
 P 5350 3000
-F 0 "R70" V 5300 3150 50  0000 L CNN
+F 0 "R72" V 5300 3150 50  0000 L CNN
 F 1 "1k" V 5350 3000 50  0000 C CNN
 F 2 "w_resistor:R_0603" V 5280 3000 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf" H 5350 3000 50  0001 C CNN
@@ -621,10 +621,10 @@ F 6 "0603" H 5300 3250 50  0001 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R71
+L R R73
 U 1 1 59E6158A
 P 5350 2900
-F 0 "R71" V 5300 3050 50  0000 L CNN
+F 0 "R73" V 5300 3050 50  0000 L CNN
 F 1 "1k" V 5350 2900 50  0000 C CNN
 F 2 "w_resistor:R_0603" V 5280 2900 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf" H 5350 2900 50  0001 C CNN
@@ -671,10 +671,10 @@ F 3 "" H 1500 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R11
+L R R13
 U 1 1 5AEA4C2A
 P 8400 1350
-F 0 "R11" V 8480 1350 50  0000 C CNN
+F 0 "R13" V 8480 1350 50  0000 C CNN
 F 1 "33k" V 8400 1350 50  0000 C CNN
 F 2 "w_resistor:R_0603" V 8330 1350 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ3EKF3302V-Panasonic-datasheet-13266541.pdf" H 8400 1350 50  0001 C CNN
@@ -685,10 +685,10 @@ F 6 "0603" H 8480 1450 50  0001 C CNN "Package"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R7
+L R R9
 U 1 1 5AEA4CDA
 P 8400 2550
-F 0 "R7" V 8480 2550 50  0000 C CNN
+F 0 "R9" V 8480 2550 50  0000 C CNN
 F 1 "1M" V 8400 2550 50  0000 C CNN
 F 2 "w_resistor:R_0603" V 8330 2550 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1004V-Panasonic-datasheet-13266541.pdf" H 8400 2550 50  0001 C CNN
@@ -699,10 +699,10 @@ F 6 "0603" H 8480 2650 50  0001 C CNN "Package"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R8
+L R R10
 U 1 1 5AEA4D5E
 P 7800 1350
-F 0 "R8" V 7880 1350 50  0000 C CNN
+F 0 "R10" V 7880 1350 50  0000 C CNN
 F 1 "33k" V 7800 1350 50  0000 C CNN
 F 2 "w_resistor:R_0603" V 7730 1350 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ3EKF3302V-Panasonic-datasheet-13266541.pdf" H 7800 1350 50  0001 C CNN
@@ -713,10 +713,10 @@ F 6 "0603" H 7880 1450 50  0001 C CNN "Package"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R9
+L R R11
 U 1 1 5AEA4DC8
 P 8000 1350
-F 0 "R9" V 8080 1350 50  0000 C CNN
+F 0 "R11" V 8080 1350 50  0000 C CNN
 F 1 "33k" V 8000 1350 50  0000 C CNN
 F 2 "w_resistor:R_0603" V 7930 1350 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ3EKF3302V-Panasonic-datasheet-13266541.pdf" H 8000 1350 50  0001 C CNN
@@ -727,10 +727,10 @@ F 6 "0603" H 8080 1450 50  0001 C CNN "Package"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R10
+L R R12
 U 1 1 5AEA93F2
 P 8200 1350
-F 0 "R10" V 8280 1350 50  0000 C CNN
+F 0 "R12" V 8280 1350 50  0000 C CNN
 F 1 "33k" V 8200 1350 50  0000 C CNN
 F 2 "w_resistor:R_0603" V 8130 1350 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ3EKF3302V-Panasonic-datasheet-13266541.pdf" H 8200 1350 50  0001 C CNN
@@ -741,10 +741,10 @@ F 6 "0603" H 8280 1450 50  0001 C CNN "Package"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R34
+L R R36
 U 1 1 5AEB2AD1
 P 9500 5550
-F 0 "R34" V 9580 5550 50  0000 C CNN
+F 0 "R36" V 9580 5550 50  0000 C CNN
 F 1 "10k" V 9500 5550 50  0000 C CNN
 F 2 "w_resistor:R_0603" V 9430 5550 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf" H 9500 5550 50  0001 C CNN
@@ -769,10 +769,10 @@ F 6 "SOT-23" H 2800 3075 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R65
+L R R67
 U 1 1 5AEB9A79
 P 2700 2350
-F 0 "R65" V 2780 2350 50  0000 C CNN
+F 0 "R67" V 2780 2350 50  0000 C CNN
 F 1 "10k" V 2700 2350 50  0000 C CNN
 F 2 "w_resistor:R_0603" V 2630 2350 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf" H 2700 2350 50  0001 C CNN
@@ -805,10 +805,10 @@ F 3 "" H 2700 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R64
+L R R66
 U 1 1 5AEBCC66
 P 2050 2900
-F 0 "R64" V 2130 2900 50  0000 C CNN
+F 0 "R66" V 2130 2900 50  0000 C CNN
 F 1 "10k" V 2050 2900 50  0000 C CNN
 F 2 "w_resistor:R_0603" V 1980 2900 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf" H 2050 2900 50  0001 C CNN
@@ -819,10 +819,10 @@ F 6 "0603" H 2130 3000 50  0001 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R67
+L R R69
 U 1 1 5AEBCE61
 P 2300 3150
-F 0 "R67" V 2380 3150 50  0000 C CNN
+F 0 "R69" V 2380 3150 50  0000 C CNN
 F 1 "100k" V 2300 3150 50  0000 C CNN
 F 2 "w_resistor:R_0603" V 2230 3150 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf" H 2300 3150 50  0001 C CNN

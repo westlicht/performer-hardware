@@ -278,10 +278,10 @@ F 5 "EVQ-Q2K01W" H 5250 7100 50  0001 C CNN "MFP"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R80
+L R R82
 U 1 1 59DD490D
 P 5200 6350
-F 0 "R80" V 5280 6350 50  0000 C CNN
+F 0 "R82" V 5280 6350 50  0000 C CNN
 F 1 "10k" V 5200 6350 50  0000 C CNN
 F 2 "w_resistor:R_0603" V 5130 6350 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf" H 5200 6350 50  0001 C CNN
@@ -292,10 +292,10 @@ F 6 "0603" H 5280 6450 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R77
+L R R79
 U 1 1 59DD4953
 P 5800 6950
-F 0 "R77" V 5880 6950 50  0000 C CNN
+F 0 "R79" V 5880 6950 50  0000 C CNN
 F 1 "10k" V 5800 6950 50  0000 C CNN
 F 2 "w_resistor:R_0603" V 5730 6950 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf" H 5800 6950 50  0001 C CNN
