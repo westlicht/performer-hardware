@@ -21,15 +21,15 @@ Component,References,Quantity Per PCB,Value,Package,MFN,MFP,Datasheet
 20,L1 L2,2,Bead,0603,Laird,MI0603K300R-10,http://datasheet.octopart.com/MI0603K300R-10-Steward-datasheet-14357321.pdf
 21,LED1 LED2 LED3 LED4 LED5 LED6 LED7 LED8 LED9 LED10 LED11 LED12 LED13 LED14 LED15 LED16 LED17 LED18 LED19 LED20 LED21 LED22 LED23 LED24 LED25 LED26 LED27 LED28 LED29 LED30 LED31 LED32,32,LTL1BEKVJNN,,Lite-On,LTL1BEKVJNN,http://datasheet.octopart.com/LTL1BEKVJNN-Lite-On-datasheet-25352782.pdf
 22,Q1 Q2 Q3 Q4 Q5,5,MMBT3904,SOT-23,ON Semiconductor,MMBT3904LT1G,http://datasheet.octopart.com/MMBT3904LT1G-ON-Semiconductor-datasheet-11971584.pdf
-23,R12 R15 R24 R25 R26 R27 R32 R33 R43 R44 R54 R55 R57 R58 R67,15,100k,0603,Panasonic,ERJ-3EKF1003V,http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf
-24,R2 R5 R13 R14 R17 R18 R34 R47 R48 R53 R56 R59 R64 R65 R77 R80,16,10k,0603,Panasonic,ERJ-3EKF1002V,http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf
-25,R7,1,1M,0603,Panasonic,ERJ-3EKF1004V,http://datasheet.octopart.com/ERJ-3EKF1004V-Panasonic-datasheet-13266541.pdf
-26,R6 R16 R19 R66 R68 R69 R70 R71 R72 R73 R74 R75 R76 R78 R79 R81 R82 R83 R84,19,1k,0603,Panasonic,ERJ-3EKF1001V,http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf
-27,R28 R31 R35 R38,4,200k,0603,Panasonic,ERJ-3EKF2003V,http://datasheet.octopart.com/ERJ-3EKF2003V-Panasonic-datasheet-13266541.pdf
-28,R1 R3 R4 R21 R22 R40 R41 R50 R51 R61 R62,11,220,0603,Panasonic,ERJ-3EKF2200V,http://datasheet.octopart.com/ERJ3EKF2200V-Panasonic-datasheet-13266541.pdf
-29,R45,1,22k,0603,Panasonic,ERJ-3EKF2202V,http://datasheet.octopart.com/ERJ3EKF2202V-Panasonic-datasheet-13266541.pdf
-30,R20 R23 R39 R42 R49 R52 R60 R63,8,24k,0603,Panasonic,ERJ-3EKF2402V,http://datasheet.octopart.com/ERJ-3EKF2402V-Panasonic-datasheet-82288794.pdf
-31,R8 R9 R10 R11 R29 R30 R36 R37 R46,9,33k,0603,Panasonic,ERJ-3EKF3302V,http://datasheet.octopart.com/ERJ3EKF3302V-Panasonic-datasheet-13266541.pdf
+23,R14 R17 R26 R27 R28 R29 R34 R35 R45 R46 R56 R57 R59 R60 R69,15,100k,0603,Panasonic,ERJ-3EKF1003V,http://datasheet.octopart.com/ERJ-3EKF1003V-Panasonic-datasheet-82288794.pdf
+24,R2 R5 R6 R7 R19 R20 R36 R49 R50 R55 R58 R61 R66 R67 R79 R82,16,10k,0603,Panasonic,ERJ-3EKF1002V,http://datasheet.octopart.com/ERJ-3EKF1002V-Panasonic-datasheet-13266541.pdf
+25,R9 R15 R16,3,1M,0603,Panasonic,ERJ-3EKF1004V,http://datasheet.octopart.com/ERJ-3EKF1004V-Panasonic-datasheet-13266541.pdf
+26,R8 R18 R21 R68 R70 R71 R72 R73 R74 R75 R76 R77 R78 R80 R81 R83 R84 R85 R86,19,1k,0603,Panasonic,ERJ-3EKF1001V,http://datasheet.octopart.com/ERJ-3EKF1001V-Panasonic-datasheet-82288794.pdf
+27,R30 R33 R37 R40,4,200k,0603,Panasonic,ERJ-3EKF2003V,http://datasheet.octopart.com/ERJ-3EKF2003V-Panasonic-datasheet-13266541.pdf
+28,R1 R3 R4 R23 R24 R42 R43 R52 R53 R63 R64,11,220,0603,Panasonic,ERJ-3EKF2200V,http://datasheet.octopart.com/ERJ3EKF2200V-Panasonic-datasheet-13266541.pdf
+29,R47,1,22k,0603,Panasonic,ERJ-3EKF2202V,http://datasheet.octopart.com/ERJ3EKF2202V-Panasonic-datasheet-13266541.pdf
+30,R22 R25 R41 R44 R51 R54 R62 R65,8,24k,0603,Panasonic,ERJ-3EKF2402V,http://datasheet.octopart.com/ERJ-3EKF2402V-Panasonic-datasheet-82288794.pdf
+31,R10 R11 R12 R13 R31 R32 R38 R39 R48,9,33k,0603,Panasonic,ERJ-3EKF3302V,http://datasheet.octopart.com/ERJ3EKF3302V-Panasonic-datasheet-13266541.pdf
 32,SW8 SW19,2,EVQQ2,,Panasonic,EVQ-Q2K01W,http://datasheet.octopart.com/EVQ-Q2K01W-Panasonic-datasheet-13267673.pdf
 33,SW1 SW2 SW3 SW4 SW5 SW6 SW7 SW9 SW10 SW11 SW12 SW13 SW14 SW15 SW16 SW17 SW18 SW20 SW21 SW22 SW23 SW24 SW25 SW26 SW27 SW28 SW29 SW30 SW31 SW32 SW33 SW34 SW35 SW36 SW37 SW38 SW39,37,TL1105,,E-Switch,TL1105SPF160Q,http://datasheet.octopart.com/TL1105SPF160Q-E-Switch-datasheet-502092.pdf
 34,U11,1,74HC165,SOIC-16,Texas Instruments,SN74HC165D,https://octopart.com/click/track?ct=datasheets&hlid=24916538&ppid=35776&sid=370&sig=03765d0
