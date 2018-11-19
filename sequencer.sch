@@ -55,7 +55,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 700  700  1100 700 
+S 750  700  1100 700 
 U 5AF89FF5
 F0 "Global" 51
 F1 "global.sch" 51

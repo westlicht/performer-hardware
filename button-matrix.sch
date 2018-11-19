@@ -1079,6 +1079,8 @@ Text GLabel 7100 5200 3    51   Input ~ 0
 ROW6
 Text GLabel 8000 5200 3    51   Input ~ 0
 ROW7
+Text Notes 700  6300 0    51   ~ 0
+BUTTON MATRIX
 Wire Wire Line
 	1700 1800 1700 5200
 Wire Wire Line
@@ -1475,6 +1477,14 @@ Wire Wire Line
 	7100 2500 7100 5200
 Wire Wire Line
 	8000 2500 8000 5200
+Wire Notes Line
+	600  600  600  6400
+Wire Notes Line
+	600  6400 11100 6400
+Wire Notes Line
+	11100 6400 11100 600 
+Wire Notes Line
+	11100 600  600  600 
 Connection ~ 1700 2000
 Connection ~ 1700 2500
 Connection ~ 1700 2700
@@ -1576,14 +1586,4 @@ Connection ~ 6000 4300
 Connection ~ 6900 4300
 Connection ~ 7800 4300
 Connection ~ 8700 4300
-Wire Notes Line
-	600  600  600  6400
-Wire Notes Line
-	600  6400 11100 6400
-Wire Notes Line
-	11100 6400 11100 600 
-Wire Notes Line
-	11100 600  600  600 
-Text Notes 700  6300 0    51   ~ 0
-BUTTON MATRIX
 $EndSCHEMATC

@@ -502,6 +502,8 @@ Text GLabel 9500 3000 2    51   Input ~ 0
 GCOL2
 Text GLabel 9500 2200 2    51   Input ~ 0
 GCOL3
+Text Notes 700  6300 0    51   ~ 0
+LED MATRIX
 Wire Wire Line
 	2100 1900 2000 1900
 Wire Wire Line
@@ -854,6 +856,14 @@ Wire Wire Line
 	9100 1800 9000 1800
 Wire Wire Line
 	9100 2000 9000 2000
+Wire Notes Line
+	600  600  600  6400
+Wire Notes Line
+	600  6400 11100 6400
+Wire Notes Line
+	11100 6400 11100 600 
+Wire Notes Line
+	11100 600  600  600 
 Connection ~ 2000 2700
 Connection ~ 2000 3500
 Connection ~ 2900 2700
@@ -934,14 +944,4 @@ Connection ~ 9100 3200
 Connection ~ 9100 3800
 Connection ~ 9100 4000
 Connection ~ 9100 4600
-Wire Notes Line
-	600  600  600  6400
-Wire Notes Line
-	600  6400 11100 6400
-Wire Notes Line
-	11100 6400 11100 600 
-Wire Notes Line
-	11100 600  600  600 
-Text Notes 700  6300 0    51   ~ 0
-LED MATRIX
 $EndSCHEMATC

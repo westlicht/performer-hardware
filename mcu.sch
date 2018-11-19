@@ -611,6 +611,16 @@ Text GLabel 1400 4400 0    51   Input ~ 0
 SDIO_CD
 Text GLabel 10200 2000 2    51   Output ~ 0
 SR_OE
+Text Notes 700  5700 0    51   ~ 0
+STM32
+Text Notes 4700 7600 0    51   ~ 0
+RESET / BOOT BUTTONS
+Text Notes 2700 7600 0    51   ~ 0
+SERIAL PORT
+Text Notes 700  7600 0    51   ~ 0
+JTAG PORT
+Text Notes 3500 7600 0    51   ~ 0
+Connects to standard\nFTDI 3.3V serial adapter
 Wire Wire Line
 	3600 7000 3700 7000
 Wire Wire Line
@@ -853,6 +863,24 @@ Wire Wire Line
 	1400 4400 1500 4400
 Wire Wire Line
 	10100 2000 10200 2000
+Wire Notes Line
+	600  600  600  7700
+Wire Notes Line
+	600  5800 6600 5800
+Wire Notes Line
+	6600 5800 6600 7700
+Wire Notes Line
+	6600 6400 11100 6400
+Wire Notes Line
+	11100 6400 11100 600 
+Wire Notes Line
+	11100 600  600  600 
+Wire Notes Line
+	4600 5800 4600 7700
+Wire Notes Line
+	6600 7700 600  7700
+Wire Notes Line
+	2600 7700 2600 5800
 Connection ~ 1100 7000
 Connection ~ 1100 6800
 Connection ~ 5700 1100
@@ -888,32 +916,4 @@ NoConn ~ 10100 3900
 NoConn ~ 10100 3700
 NoConn ~ 1500 3300
 NoConn ~ 1500 3400
-Wire Notes Line
-	600  600  600  7700
-Wire Notes Line
-	600  5800 6600 5800
-Wire Notes Line
-	6600 7700 6600 5800
-Wire Notes Line
-	6600 6400 11100 6400
-Wire Notes Line
-	11100 6400 11100 600 
-Wire Notes Line
-	11100 600  600  600 
-Text Notes 700  5700 0    51   ~ 0
-STM32
-Wire Notes Line
-	4600 5800 4600 7700
-Wire Notes Line
-	600  7700 6600 7700
-Text Notes 4700 7600 0    51   ~ 0
-RESET / BOOT BUTTONS
-Wire Notes Line
-	2600 7700 2600 5800
-Text Notes 2700 7600 0    51   ~ 0
-SERIAL PORT
-Text Notes 700  7600 0    51   ~ 0
-JTAG PORT
-Text Notes 3500 7600 0    51   ~ 0
-Connects to standard\nFTDI 3.3V serial adapter
 $EndSCHEMATC

@@ -932,6 +932,16 @@ Text GLabel 7500 1600 0    51   Output ~ 0
 SDIO_CD
 Text GLabel 1400 2900 0    51   Input ~ 0
 SR_OE
+Text Notes 700  6300 0    51   ~ 0
+BUTTON / LED MATRIX DRIVER
+Text Notes 6700 3200 0    51   ~ 0
+SD CARD
+Text Notes 9000 6300 0    51   ~ 0
+OLED DISPLAY
+Text Notes 6700 6300 0    51   ~ 0
+ENCODER
+Text Notes 6700 4800 0    51   ~ 0
+USB PORT
 Wire Wire Line
 	5100 1100 5200 1100
 Wire Wire Line
@@ -1336,6 +1346,22 @@ Wire Wire Line
 	2300 3300 2300 3400
 Wire Wire Line
 	2300 3400 2700 3400
+Wire Notes Line
+	600  600  11100 600 
+Wire Notes Line
+	11100 600  11100 6400
+Wire Notes Line
+	11100 3300 6600 3300
+Wire Notes Line
+	11100 6400 600  6400
+Wire Notes Line
+	8900 6400 8900 3300
+Wire Notes Line
+	8900 4900 6600 4900
+Wire Notes Line
+	6600 6400 6600 600 
+Wire Notes Line
+	600  6400 600  600 
 Connection ~ 4000 3900
 Connection ~ 4000 2500
 Connection ~ 4000 1100
@@ -1397,30 +1423,4 @@ Connection ~ 2300 2900
 Connection ~ 2700 3400
 NoConn ~ 4100 5600
 NoConn ~ 4100 4500
-Wire Notes Line
-	600  600  11100 600 
-Text Notes 700  6300 0    51   ~ 0
-BUTTON / LED MATRIX DRIVER
-Wire Notes Line
-	11100 6400 11100 600 
-Wire Notes Line
-	11100 3300 6600 3300
-Text Notes 6700 3200 0    51   ~ 0
-SD CARD
-Wire Notes Line
-	600  6400 11100 6400
-Wire Notes Line
-	8900 6400 8900 3300
-Text Notes 9000 6300 0    51   ~ 0
-OLED DISPLAY
-Text Notes 6700 6300 0    51   ~ 0
-ENCODER
-Wire Notes Line
-	8900 4900 6600 4900
-Text Notes 6700 4800 0    51   ~ 0
-USB PORT
-Wire Notes Line
-	6600 6400 6600 600 
-Wire Notes Line
-	600  6400 600  600 
 $EndSCHEMATC
