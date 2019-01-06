@@ -6872,10 +6872,10 @@
       (xy 18.520834 -57.065334) (xy 18.520834 -57.255847) (xy 51.228625 -57.250549)) (layer F.SilkS) (width 0.01))
   )
 
-  (module w_frontpanel:MOLEX_USB_105057_FP (layer F.Cu) (tedit 5BBE57E0) (tstamp 59DD562A)
+  (module w_frontpanel:MOLEX_USB_105057_FP (layer F.Cu) (tedit 5C321D52) (tstamp 59DD562A)
     (at 86.36 45.72)
     (path /59DE5EB2)
-    (fp_text reference JP101 (at 0 3.81) (layer F.SilkS)
+    (fp_text reference JP101 (at 0 3.81) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value USB_A (at 0 5.08) (layer F.Fab)
