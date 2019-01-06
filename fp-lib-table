@@ -11,4 +11,5 @@
   (lib (name w_sot)(type KiCad)(uri ${KIPRJMOD}/kicad-libs/w_sot.pretty)(options "")(descr ""))
   (lib (name w_switch)(type KiCad)(uri ${KIPRJMOD}/kicad-libs/w_switch.pretty)(options "")(descr ""))
   (lib (name w_via)(type KiCad)(uri ${KIPRJMOD}/kicad-libs/w_via.pretty)(options "")(descr ""))
+  (lib (name frontpanel)(type KiCad)(uri "$(KIPRJMOD)/frontpanel/frontpanel.pretty")(options "")(descr ""))
 )
