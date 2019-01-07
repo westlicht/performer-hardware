@@ -45,7 +45,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 8
-Title "per|former eurorack sequencer"
+Title "PER|FORMER eurorack sequencer"
 Date "2018-10-09"
 Rev "1.0"
 Comp "westlicht"
