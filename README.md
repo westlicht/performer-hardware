@@ -1,12 +1,12 @@
-# per|former eurorack sequencer - hardware design files
+# PER|FORMER - Hardware Design Files
 
 <a href="images/sequencer.jpg"><img src="images/sequencer.jpg"/></a>
 
 ## Overview
 
-This repository contains the hardware design files (KiCad) for the **per|former eurorack sequencer**.
+This repository contains the hardware design files (KiCad) for the **PER|FORMER** eurorack sequencer.
 
-**Disclaimer: This is work in progress**
+For more information on the project go [here](https://westlicht.github.io/performer).
 
 The firmware is hosted in a separate repository [here](https://github.com/westlicht/performer).
 
