@@ -1,0 +1,12 @@
+(sym_lib_table
+  (lib (name sequencer-rescue)(type Legacy)(uri ${KIPRJMOD}/sequencer-rescue.lib)(options "")(descr ""))
+  (lib (name w_power)(type Legacy)(uri ${KIPRJMOD}/kicad-libs/w_power.lib)(options "")(descr ""))
+  (lib (name w_lcd)(type Legacy)(uri ${KIPRJMOD}/kicad-libs/w_lcd.lib)(options "")(descr ""))
+  (lib (name w_stm32)(type Legacy)(uri ${KIPRJMOD}/kicad-libs/w_stm32.lib)(options "")(descr ""))
+  (lib (name w_opto)(type Legacy)(uri ${KIPRJMOD}/kicad-libs/w_opto.lib)(options "")(descr ""))
+  (lib (name w_dac)(type Legacy)(uri ${KIPRJMOD}/kicad-libs/w_dac.lib)(options "")(descr ""))
+  (lib (name w_logic)(type Legacy)(uri ${KIPRJMOD}/kicad-libs/w_logic.lib)(options "")(descr ""))
+  (lib (name w_connector)(type Legacy)(uri ${KIPRJMOD}/kicad-libs/w_connector.lib)(options "")(descr ""))
+  (lib (name w_rotary_encoder)(type Legacy)(uri ${KIPRJMOD}/kicad-libs/w_rotary_encoder.lib)(options "")(descr ""))
+  (lib (name w_switch)(type Legacy)(uri ${KIPRJMOD}/kicad-libs/w_switch.lib)(options "")(descr ""))
+)
