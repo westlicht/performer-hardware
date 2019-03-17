@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/freak/Documents/performer-hardware/sequencer.sch)
-    (date "2019 March 17, Sunday 22:46:33")
+    (date "2019 March 17, Sunday 23:32:37")
     (tool "Eeschema (5.0.2-5)-5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -104,7 +104,7 @@
       (tstamp 59AC9C93))
     (comp (ref U11)
       (value 74HC165)
-      (footprint Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm)
+      (footprint Package_SO:SOIC-16_3.9x9.9mm_P1.27mm)
       (datasheet https://octopart.com/click/track?ct=datasheets&hlid=24916538&ppid=35776&sid=370&sig=03765d0)
       (fields
         (field (name MFN) "Texas Instruments")
@@ -115,7 +115,7 @@
       (tstamp 59D8CB67))
     (comp (ref U12)
       (value 74HC595)
-      (footprint Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm)
+      (footprint Package_SO:SOIC-16_3.9x9.9mm_P1.27mm)
       (datasheet https://octopart.com/click/track?ct=datasheets&hlid=24917219&ppid=44183&sid=370&sig=036bbbe)
       (fields
         (field (name MFN) "Texas Instruments")
@@ -126,7 +126,7 @@
       (tstamp 59D8CB9A))
     (comp (ref U13)
       (value 74HC595)
-      (footprint Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm)
+      (footprint Package_SO:SOIC-16_3.9x9.9mm_P1.27mm)
       (datasheet https://octopart.com/click/track?ct=datasheets&hlid=24917219&ppid=44183&sid=370&sig=036bbbe)
       (fields
         (field (name MFN) "Texas Instruments")
@@ -137,7 +137,7 @@
       (tstamp 59DABD8B))
     (comp (ref U14)
       (value 74HC595)
-      (footprint Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm)
+      (footprint Package_SO:SOIC-16_3.9x9.9mm_P1.27mm)
       (datasheet https://octopart.com/click/track?ct=datasheets&hlid=24917219&ppid=44183&sid=370&sig=036bbbe)
       (fields
         (field (name MFN) "Texas Instruments")
@@ -376,7 +376,7 @@
       (tstamp 59E6158A))
     (comp (ref U5)
       (value 74HCT125)
-      (footprint Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm)
+      (footprint Package_SO:SOIC-14_3.9x8.7mm_P1.27mm)
       (datasheet https://octopart.com/click/track?ct=datasheets&hlid=24917456&ppid=464455&sid=370&sig=085083f)
       (fields
         (field (name MFN) "Texas Instruments")
@@ -453,7 +453,7 @@
       (tstamp 5AEB2AD1))
     (comp (ref Q5)
       (value MMBT3904)
-      (footprint TO_SOT_Packages_SMD:SOT-23)
+      (footprint Package_TO_SOT_SMD:SOT-23)
       (datasheet http://datasheet.octopart.com/MMBT3904LT1G-ON-Semiconductor-datasheet-11971584.pdf)
       (fields
         (field (name MFN) "ON Semiconductor")
@@ -497,7 +497,7 @@
       (tstamp 5AEBCE61))
     (comp (ref JP5)
       (value POWER)
-      (footprint Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm)
+      (footprint Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical)
       (datasheet http://datasheet.octopart.com/67996-410HLF-Areva-datasheet-10288749.pdf)
       (fields
         (field (name MFN) FCI)
@@ -529,7 +529,7 @@
       (tstamp 59ADD164))
     (comp (ref C13)
       (value 47u)
-      (footprint Capacitors_SMD:CP_Elec_6.3x5.7)
+      (footprint Capacitor_SMD:CP_Elec_6.3x5.7)
       (datasheet http://datasheet.octopart.com/EEE-FK1V470P-Panasonic-datasheet-13266987.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -540,7 +540,7 @@
       (tstamp 59ADD50C))
     (comp (ref U7)
       (value LM1117-3.3)
-      (footprint TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2)
+      (footprint Package_TO_SOT_SMD:SOT-223-3_TabPin2)
       (datasheet https://octopart.com/click/track?ct=datasheets&hlid=24885394&ppid=24812450&sid=370&sig=0f3ff9a)
       (fields
         (field (name MFN) "Texas Instruments")
@@ -562,7 +562,7 @@
       (tstamp 59DEC32E))
     (comp (ref C24)
       (value 22u)
-      (footprint Capacitors_SMD:CP_Elec_5x5.8)
+      (footprint Capacitor_SMD:CP_Elec_5x5.8)
       (datasheet http://datasheet.octopart.com/EEE-FP1E220AR-Panasonic-datasheet-13268972.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -584,7 +584,7 @@
       (tstamp 59DEC574))
     (comp (ref U10)
       (value LM1117-3.3)
-      (footprint TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2)
+      (footprint Package_TO_SOT_SMD:SOT-223-3_TabPin2)
       (datasheet https://octopart.com/click/track?ct=datasheets&hlid=24885394&ppid=24812450&sid=370&sig=0f3ff9a)
       (fields
         (field (name MFN) "Texas Instruments")
@@ -617,7 +617,7 @@
       (tstamp 59DED9C5))
     (comp (ref D1)
       (value LM4040CIM3-10.0)
-      (footprint TO_SOT_Packages_SMD:SOT-23)
+      (footprint Package_TO_SOT_SMD:SOT-23)
       (datasheet http://www.ti.com/product/lm4040-n/technicaldocuments?HQS=TI-null-null-octopart-df-pf-null-wwe)
       (fields
         (field (name MFN) "Texas Instruments")
@@ -650,7 +650,7 @@
       (tstamp 59DF1870))
     (comp (ref U3)
       (value STMPS2151)
-      (footprint TO_SOT_Packages_SMD:SOT-23-5)
+      (footprint Package_TO_SOT_SMD:SOT-23-5)
       (datasheet http://datasheet.octopart.com/STMPS2151STR-STMicroelectronics-datasheet-15207125.pdf)
       (fields
         (field (name MFN) STMicroelectronics)
@@ -672,7 +672,7 @@
       (tstamp 59E00C96))
     (comp (ref C46)
       (value 47u)
-      (footprint Capacitors_SMD:CP_Elec_6.3x5.7)
+      (footprint Capacitor_SMD:CP_Elec_6.3x5.7)
       (datasheet http://datasheet.octopart.com/EEE-FK1V470P-Panasonic-datasheet-13266987.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -683,7 +683,7 @@
       (tstamp 59E0E120))
     (comp (ref C40)
       (value 22u)
-      (footprint Capacitors_SMD:CP_Elec_5x5.8)
+      (footprint Capacitor_SMD:CP_Elec_5x5.8)
       (datasheet http://datasheet.octopart.com/EEE-FP1E220AR-Panasonic-datasheet-13268972.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -694,7 +694,7 @@
       (tstamp 59E0FE4F))
     (comp (ref C5)
       (value 22u)
-      (footprint Capacitors_SMD:CP_Elec_5x5.8)
+      (footprint Capacitor_SMD:CP_Elec_5x5.8)
       (datasheet http://datasheet.octopart.com/EEE-FP1E220AR-Panasonic-datasheet-13268972.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -1856,7 +1856,7 @@
       (tstamp 59DAB808))
     (comp (ref U9)
       (value STM32F405RGTx)
-      (footprint Housings_QFP:LQFP-64_10x10mm_Pitch0.5mm)
+      (footprint Package_QFP:LQFP-64_10x10mm_P0.5mm)
       (datasheet http://datasheet.octopart.com/STM32F405RGT6-STMicroelectronics-datasheet-12357803.pdf)
       (fields
         (field (name MFN) STMicroelectronics)
@@ -1867,7 +1867,7 @@
       (tstamp 59D94B79))
     (comp (ref JP6)
       (value "Serial / Bootloader")
-      (footprint Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm)
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical)
       (datasheet http://datasheet.octopart.com/68002-106HLF-FCI-datasheet-8449737.pdf)
       (fields
         (field (name MFN) FCI)
@@ -1877,7 +1877,7 @@
       (tstamp 59DB9577))
     (comp (ref JP4)
       (value JTAG)
-      (footprint Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm)
+      (footprint Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical)
       (datasheet http://datasheet.octopart.com/20021111-00010T4LF-FCI-datasheet-11548804.pdf)
       (fields
         (field (name MFN) FCI)
@@ -1887,7 +1887,7 @@
       (tstamp 59DB9B82))
     (comp (ref Y1)
       (value 8MHz)
-      (footprint Crystals:Crystal_SMD_Abracon_ABM3-2pin_5.0x3.2mm_HandSoldering)
+      (footprint Crystal:Crystal_SMD_Abracon_ABM3-2Pin_5.0x3.2mm_HandSoldering)
       (datasheet http://datasheet.octopart.com/ABM3-8.000MHZ-D2Y-T-Abracon-datasheet-8815637.pdf)
       (fields
         (field (name MFN) Abracon)
@@ -1941,7 +1941,7 @@
       (tstamp 59DBB504))
     (comp (ref SW19)
       (value EVQQ2)
-      (footprint Buttons_Switches_SMD:SW_SPST_EVQQ2)
+      (footprint Button_Switch_SMD:SW_SPST_EVQQ2)
       (datasheet http://datasheet.octopart.com/EVQ-Q2K01W-Panasonic-datasheet-13267673.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -1951,7 +1951,7 @@
       (tstamp 59DD439D))
     (comp (ref SW8)
       (value EVQQ2)
-      (footprint Buttons_Switches_SMD:SW_SPST_EVQQ2)
+      (footprint Button_Switch_SMD:SW_SPST_EVQQ2)
       (datasheet http://datasheet.octopart.com/EVQ-Q2K01W-Panasonic-datasheet-13267673.pdf)
       (fields
         (field (name MFN) Panasonic)
@@ -2049,7 +2049,7 @@
       (tstamp 59E3526B))
     (comp (ref Q1)
       (value MMBT3904)
-      (footprint TO_SOT_Packages_SMD:SOT-23)
+      (footprint Package_TO_SOT_SMD:SOT-23)
       (datasheet http://datasheet.octopart.com/MMBT3904LT1G-ON-Semiconductor-datasheet-11971584.pdf)
       (fields
         (field (name MFN) "ON Semiconductor")
@@ -2092,7 +2092,7 @@
       (tstamp 59D95A2F))
     (comp (ref Q2)
       (value MMBT3904)
-      (footprint TO_SOT_Packages_SMD:SOT-23)
+      (footprint Package_TO_SOT_SMD:SOT-23)
       (datasheet http://datasheet.octopart.com/MMBT3904LT1G-ON-Semiconductor-datasheet-11971584.pdf)
       (fields
         (field (name MFN) "ON Semiconductor")
@@ -2145,7 +2145,7 @@
       (tstamp 59D96412))
     (comp (ref Q3)
       (value MMBT3904)
-      (footprint TO_SOT_Packages_SMD:SOT-23)
+      (footprint Package_TO_SOT_SMD:SOT-23)
       (datasheet http://datasheet.octopart.com/MMBT3904LT1G-ON-Semiconductor-datasheet-11971584.pdf)
       (fields
         (field (name MFN) "ON Semiconductor")
@@ -2188,7 +2188,7 @@
       (tstamp 59D970A1))
     (comp (ref Q4)
       (value MMBT3904)
-      (footprint TO_SOT_Packages_SMD:SOT-23)
+      (footprint Package_TO_SOT_SMD:SOT-23)
       (datasheet http://datasheet.octopart.com/MMBT3904LT1G-ON-Semiconductor-datasheet-11971584.pdf)
       (fields
         (field (name MFN) "ON Semiconductor")
@@ -2469,7 +2469,7 @@
       (tstamp 59DB04C9))
     (comp (ref U6)
       (value MCP6004)
-      (footprint Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm)
+      (footprint Package_SO:SOIC-14_3.9x8.7mm_P1.27mm)
       (datasheet http://datasheet.octopart.com/MCP6004-I/SL-Microchip-datasheet-8823409.pdf)
       (fields
         (field (name MFN) Microchip)
@@ -2760,7 +2760,7 @@
       (tstamp 59DD7896))
     (comp (ref U1)
       (value VO0600T)
-      (footprint Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm)
+      (footprint Package_SO:SOIC-8_3.9x4.9mm_P1.27mm)
       (datasheet http://datasheet.octopart.com/VO0600T-Vishay-datasheet-8549194.pdf)
       (fields
         (field (name MFN) Vishay)
@@ -2793,7 +2793,7 @@
       (tstamp 59DD6BD2))
     (comp (ref U2)
       (value 74LV1T34)
-      (footprint TO_SOT_Packages_SMD:SOT-23-5)
+      (footprint Package_TO_SOT_SMD:SOT-23-5)
       (datasheet https://octopart.com/click/track?ct=datasheets&hlid=24919287&ppid=33260490&sid=370&sig=060f3df)
       (fields
         (field (name MFN) "Texas Instruments")
@@ -2826,7 +2826,7 @@
       (tstamp 5BE643AF))
     (comp (ref U8)
       (value DAC8568C)
-      (footprint Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm)
+      (footprint Package_SO:TSSOP-16_4.4x5mm_P0.65mm)
       (datasheet https://octopart.com/click/track?ct=datasheets&hlid=24881192&ppid=10447789&sid=370&sig=0a14fa8)
       (fields
         (field (name MFN) "Texas Instruments")
@@ -2837,7 +2837,7 @@
       (tstamp 59DDA085))
     (comp (ref U4)
       (value OPA4172)
-      (footprint Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm)
+      (footprint Package_SO:SOIC-14_3.9x8.7mm_P1.27mm)
       (datasheet https://octopart.com/click/track?ct=datasheets&hlid=24903049&ppid=47153707&sid=370&sig=086dfac)
       (fields
         (field (name MFN) "Texas Instruments")
@@ -2848,7 +2848,7 @@
       (tstamp 59E02121))
     (comp (ref U15)
       (value OPA4172)
-      (footprint Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm)
+      (footprint Package_SO:SOIC-14_3.9x8.7mm_P1.27mm)
       (datasheet https://octopart.com/click/track?ct=datasheets&hlid=24903049&ppid=47153707&sid=370&sig=086dfac)
       (fields
         (field (name MFN) "Texas Instruments")
