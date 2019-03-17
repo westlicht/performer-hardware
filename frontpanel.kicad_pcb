@@ -1,9 +1,6 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7)
+(kicad_pcb (version 20171130) (host pcbnew "(5.0.2-5)-5")
 
   (general
-    (links 0)
-    (no_connects 0)
-    (area 69.511886 24.5476 255.368115 158.2524)
     (thickness 1.6)
     (drawings 4)
     (tracks 0)
@@ -63,11 +60,15 @@
     (pad_size 2.7 2.7)
     (pad_drill 2.7)
     (pad_to_mask_clearance 0.1)
+    (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x010a0_00000000)
       (usegerberextensions true)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -76,8 +77,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
-      (hpglpenoverlay 2)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -89,7 +89,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerbers/))
+      (outputdirectory "gerbers/"))
   )
 
   (net 0 "")
@@ -112,26 +112,7 @@
     (uvia_drill 0.1)
   )
 
-  (module Mounting_Holes:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 5BB92A0F) (tstamp 59EFABC8)
-    (at 111.125 139.7)
-    (descr "Mounting Hole 2.2mm, M2")
-    (tags "mounting hole 2.2mm m2")
-    (attr virtual)
-    (fp_text reference REF** (at 0 3.81) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value MountingHole_2.2mm_M2_Pad (at 0 3.2) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text user %R (at 0.3 0) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 2.2 0) (layer Cmts.User) (width 0.15))
-    (fp_circle (center 0 0) (end 2.45 0) (layer F.CrtYd) (width 0.05))
-    (pad "" np_thru_hole circle (at 0 0) (size 2.7 2.7) (drill 2.7) (layers *.Cu *.Mask))
-  )
-
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF3763F) (tstamp 59D954D7)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D954D7)
     (at 88.9 101.6 90)
     (path /59AEA378/59D94E78)
     (fp_text reference PLAY (at 0 -6.35 180) (layer F.SilkS) hide
@@ -143,7 +124,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF37642) (tstamp 59D954DF)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D954DF)
     (at 101.6 101.6 90)
     (path /59AEA378/59D9559E)
     (fp_text reference BPM (at 0 -5.08 180) (layer F.SilkS) hide
@@ -155,7 +136,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF37645) (tstamp 59D954E7)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D954E7)
     (at 88.9 114.3 90)
     (path /59AEA378/59D95841)
     (fp_text reference PERF (at 0 -6.35 180) (layer F.SilkS) hide
@@ -167,7 +148,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF37648) (tstamp 59D954EF)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D954EF)
     (at 101.6 114.3 90)
     (path /59AEA378/59D958A0)
     (fp_text reference PATT (at 0 -5.715 180) (layer F.SilkS) hide
@@ -179,7 +160,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF3764B) (tstamp 59D954F7)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D954F7)
     (at 88.9 127 90)
     (path /59AEA378/59D9607B)
     (fp_text reference << (at 0 -5.715 180) (layer F.SilkS) hide
@@ -191,7 +172,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF3764E) (tstamp 59D954FF)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D954FF)
     (at 101.6 127 90)
     (path /59AEA378/59D960E3)
     (fp_text reference >> (at 0 -5.08 180) (layer F.SilkS) hide
@@ -203,7 +184,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF37651) (tstamp 59D95507)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D95507)
     (at 88.9 139.7 90)
     (path /59AEA378/59D9614B)
     (fp_text reference SHIFT (at 0 -6.35 180) (layer F.SilkS) hide
@@ -215,7 +196,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF37654) (tstamp 59D9550F)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D9550F)
     (at 101.6 139.7 90)
     (path /59AEA378/59D961B3)
     (fp_text reference PAGE (at 0 -6.35 180) (layer F.SilkS) hide
@@ -227,7 +208,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF37702) (tstamp 59D95517)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D95517)
     (at 120.65 114.3 90)
     (path /59AEA378/59D94E72)
     (fp_text reference SW317 (at 0 4.064 90) (layer F.SilkS) hide
@@ -239,7 +220,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF37737) (tstamp 59D9551F)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D9551F)
     (at 133.35 114.3 90)
     (path /59AEA378/59D95598)
     (fp_text reference SW318 (at 0 4.064 90) (layer F.SilkS) hide
@@ -251,7 +232,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF3773A) (tstamp 59D95527)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D95527)
     (at 146.05 114.3 90)
     (path /59AEA378/59D9583B)
     (fp_text reference SW319 (at 0 4.064 90) (layer F.SilkS) hide
@@ -263,7 +244,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF3773C) (tstamp 59D9552F)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D9552F)
     (at 158.75 114.3 90)
     (path /59AEA378/59D9589A)
     (fp_text reference SW320 (at 0 4.064 90) (layer F.SilkS) hide
@@ -275,7 +256,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF3773F) (tstamp 59D95537)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D95537)
     (at 171.45 114.3 90)
     (path /59AEA378/59D96075)
     (fp_text reference SW321 (at 0 4.064 90) (layer F.SilkS) hide
@@ -287,7 +268,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF37743) (tstamp 59D9553F)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D9553F)
     (at 184.15 114.3 90)
     (path /59AEA378/59D960DD)
     (fp_text reference SW322 (at 0 4.064 90) (layer F.SilkS) hide
@@ -299,7 +280,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF37745) (tstamp 59D95547)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D95547)
     (at 196.85 114.3 90)
     (path /59AEA378/59D96145)
     (fp_text reference SW323 (at 0 4.064 90) (layer F.SilkS) hide
@@ -311,7 +292,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF37748) (tstamp 59D9554F)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D9554F)
     (at 209.55 114.3 90)
     (path /59AEA378/59D961AD)
     (fp_text reference SW324 (at 0 4.064 90) (layer F.SilkS) hide
@@ -323,7 +304,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF37811) (tstamp 59D95557)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D95557)
     (at 120.65 127 90)
     (path /59AEA378/59D94DFD)
     (fp_text reference SW325 (at 0 4.064 90) (layer F.SilkS) hide
@@ -335,7 +316,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF37814) (tstamp 59D9555F)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D9555F)
     (at 133.35 127 90)
     (path /59AEA378/59D95592)
     (fp_text reference SW326 (at 0 4.064 90) (layer F.SilkS) hide
@@ -347,7 +328,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF37816) (tstamp 59D95567)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D95567)
     (at 146.05 127 90)
     (path /59AEA378/59D95835)
     (fp_text reference SW327 (at 0 4.064 90) (layer F.SilkS) hide
@@ -359,7 +340,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF3781A) (tstamp 59D9556F)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D9556F)
     (at 158.75 127 90)
     (path /59AEA378/59D95894)
     (fp_text reference SW328 (at 0 4.064 90) (layer F.SilkS) hide
@@ -371,7 +352,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF3781C) (tstamp 59D95577)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D95577)
     (at 171.45 127 90)
     (path /59AEA378/59D9606F)
     (fp_text reference SW329 (at 0 4.064 90) (layer F.SilkS) hide
@@ -383,7 +364,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF3781E) (tstamp 59D9557F)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D9557F)
     (at 184.15 127 90)
     (path /59AEA378/59D960D7)
     (fp_text reference SW330 (at 0 4.064 90) (layer F.SilkS) hide
@@ -395,7 +376,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF37821) (tstamp 59D95587)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D95587)
     (at 196.85 127 90)
     (path /59AEA378/59D9613F)
     (fp_text reference SW331 (at 0 4.064 90) (layer F.SilkS) hide
@@ -407,7 +388,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF37824) (tstamp 59D9558F)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D9558F)
     (at 209.55 127 90)
     (path /59AEA378/59D961A7)
     (fp_text reference SW332 (at 0 4.064 90) (layer F.SilkS) hide
@@ -419,7 +400,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF37827) (tstamp 59D95597)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D95597)
     (at 120.65 139.7 90)
     (path /59AEA378/59D94D47)
     (fp_text reference SW333 (at 0 4.064 90) (layer F.SilkS) hide
@@ -431,7 +412,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF3782A) (tstamp 59D9559F)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D9559F)
     (at 133.35 139.7 90)
     (path /59AEA378/59D9558C)
     (fp_text reference SW334 (at 0 4.064 90) (layer F.SilkS) hide
@@ -443,7 +424,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF3782C) (tstamp 59D955A7)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D955A7)
     (at 146.05 139.7 90)
     (path /59AEA378/59D9582F)
     (fp_text reference SW335 (at 0 4.064 90) (layer F.SilkS) hide
@@ -455,7 +436,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF3782E) (tstamp 59D955AF)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D955AF)
     (at 158.75 139.7 90)
     (path /59AEA378/59D9588E)
     (fp_text reference SW336 (at 0 4.064 90) (layer F.SilkS) hide
@@ -467,7 +448,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF37831) (tstamp 59D955B7)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D955B7)
     (at 171.45 139.7 90)
     (path /59AEA378/59D96069)
     (fp_text reference SW337 (at 0 4.064 90) (layer F.SilkS) hide
@@ -479,7 +460,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF37835) (tstamp 59D955BF)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D955BF)
     (at 184.15 139.7 90)
     (path /59AEA378/59D960D1)
     (fp_text reference SW338 (at 0 4.064 90) (layer F.SilkS) hide
@@ -491,7 +472,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF37837) (tstamp 59D955C7)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D955C7)
     (at 196.85 139.7 90)
     (path /59AEA378/59D96139)
     (fp_text reference SW339 (at 0 4.064 90) (layer F.SilkS) hide
@@ -503,7 +484,7 @@
     (pad "" np_thru_hole circle (at 0 0 90) (size 5.1 5.1) (drill 5.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 5AF37839) (tstamp 59D955CF)
+  (module w_frontpanel:TL1105_1R_FP (layer F.Cu) (tedit 59F37C58) (tstamp 59D955CF)
     (at 209.55 139.7 90)
     (path /59AEA378/59D961A1)
     (fp_text reference SW340 (at 0 4.064 90) (layer F.SilkS) hide
@@ -528,7 +509,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -547,7 +528,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -566,7 +547,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -585,7 +566,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -604,7 +585,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -623,7 +604,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -642,7 +623,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -661,7 +642,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -680,7 +661,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -699,7 +680,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -718,7 +699,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -737,7 +718,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -756,7 +737,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -775,7 +756,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -794,7 +775,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -813,7 +794,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -832,7 +813,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -851,7 +832,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -870,7 +851,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -889,7 +870,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -908,7 +889,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -927,7 +908,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -946,7 +927,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -965,7 +946,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -984,7 +965,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -1003,7 +984,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -1022,7 +1003,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -1041,7 +1022,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -1060,7 +1041,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -1079,7 +1060,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -1098,7 +1079,7 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
@@ -1117,13 +1098,13 @@
     )
     (pad "" np_thru_hole circle (at 0 0) (size 3.1 3.1) (drill 3.1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/LEDs.3dshapes/LED_D3.0mm-3.wrl
-      (at (xyz -0.081633 0 -0.2))
+      (offset (xyz -2.073478168859482 0 -5.079999923706055))
       (scale (xyz 0.312 0.312 0.312))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module w_frontpanel:ALPS_STEC12E08_FP (layer F.Cu) (tedit 5AF37A4D) (tstamp 59DAA5EB)
+  (module w_frontpanel:ALPS_STEC12E08_FP (layer F.Cu) (tedit 59F48205) (tstamp 59DAA5EB)
     (at 107.95 75.565)
     (tags "rotary, encoder, ALPS")
     (path /59AC9C93)
@@ -1136,7 +1117,7 @@
     (fp_circle (center 0 0) (end 3.55 0) (layer Edge.Cuts) (width 0.15))
   )
 
-  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 5AF37B35) (tstamp 59EFAB13)
+  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 59F271B6) (tstamp 59EFAB13)
     (at 127 45.72 180)
     (path /59D95816/59D9587D)
     (fp_text reference J603 (at 0 -5.08 180) (layer F.SilkS) hide
@@ -1148,7 +1129,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 5AF37B2F) (tstamp 59EFAB1A)
+  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 59F271B6) (tstamp 59EFAB1A)
     (at 152.4 45.72 180)
     (path /59D95816/59D96412)
     (fp_text reference J605 (at 0 -5.08 180) (layer F.SilkS) hide
@@ -1160,7 +1141,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 5AF37B1F) (tstamp 59EFAB21)
+  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 59F271B6) (tstamp 59EFAB21)
     (at 241.3 45.72 180)
     (path /59D95816/59D98BF9)
     (fp_text reference J611 (at 0 -5.08 180) (layer F.SilkS) hide
@@ -1172,7 +1153,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 5AF37B1C) (tstamp 59EFAB28)
+  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 59F271B6) (tstamp 59EFAB28)
     (at 241.3 58.42 180)
     (path /59D95816/59D99393)
     (fp_text reference J612 (at 0 -5.08 180) (layer F.SilkS) hide
@@ -1184,7 +1165,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 5AF37B1A) (tstamp 59EFAB2F)
+  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 59F271B6) (tstamp 59EFAB2F)
     (at 241.3 71.12 180)
     (path /59D95816/59D99402)
     (fp_text reference J613 (at 0 -5.08 180) (layer F.SilkS) hide
@@ -1196,7 +1177,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 5AF37B17) (tstamp 59EFAB36)
+  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 59F271B6) (tstamp 59EFAB36)
     (at 241.3 83.82 180)
     (path /59D95816/59D99413)
     (fp_text reference J614 (at 0 -5.08 180) (layer F.SilkS) hide
@@ -1208,7 +1189,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 5AF37B14) (tstamp 59EFAB3D)
+  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 59F271B6) (tstamp 59EFAB3D)
     (at 241.3 96.52 180)
     (path /59D95816/59D9988E)
     (fp_text reference J615 (at 0 -5.08 180) (layer F.SilkS) hide
@@ -1220,7 +1201,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 5AF37B12) (tstamp 59EFAB44)
+  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 59F271B6) (tstamp 59EFAB44)
     (at 241.3 109.22 180)
     (path /59D95816/59D9989F)
     (fp_text reference J616 (at 0 -5.08 180) (layer F.SilkS) hide
@@ -1232,7 +1213,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 5AF37B10) (tstamp 59EFAB4B)
+  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 59F271B6) (tstamp 59EFAB4B)
     (at 241.3 121.92 180)
     (path /59D95816/59D998B0)
     (fp_text reference J617 (at 0 -5.08 180) (layer F.SilkS) hide
@@ -1244,7 +1225,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 5AF37B0C) (tstamp 59EFAB52)
+  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 59F271B6) (tstamp 59EFAB52)
     (at 241.3 134.62 180)
     (path /59D95816/59D998C1)
     (fp_text reference J618 (at 0 -5.08 180) (layer F.SilkS) hide
@@ -1256,7 +1237,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 5AF37B2A) (tstamp 59EFAB59)
+  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 59F271B6) (tstamp 59EFAB59)
     (at 177.8 45.72 180)
     (path /59D95816/59DF34A9)
     (fp_text reference J607 (at 0 -5.08 180) (layer F.SilkS) hide
@@ -1268,7 +1249,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 5AF37B27) (tstamp 59EFAB60)
+  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 59F271B6) (tstamp 59EFAB60)
     (at 190.5 45.72 180)
     (path /59D95816/59DFAD0D)
     (fp_text reference J608 (at 0 -5.08 180) (layer F.SilkS) hide
@@ -1280,7 +1261,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 5AF37B25) (tstamp 59EFAB67)
+  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 59F271B6) (tstamp 59EFAB67)
     (at 203.2 45.72 180)
     (path /59D95816/59DFB737)
     (fp_text reference J609 (at 0 -5.08 180) (layer F.SilkS) hide
@@ -1292,7 +1273,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 5AF37B22) (tstamp 59EFAB6E)
+  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 59F271B6) (tstamp 59EFAB6E)
     (at 215.9 45.72 180)
     (path /59D95816/59DFB784)
     (fp_text reference J610 (at 0 -5.08 180) (layer F.SilkS) hide
@@ -1304,7 +1285,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 5AF37B09) (tstamp 59EFAB75)
+  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 59F271B6) (tstamp 59EFAB75)
     (at 228.6 45.72 180)
     (path /59D95816/59D9C08F)
     (fp_text reference J619 (at 0 -5.08 180) (layer F.SilkS) hide
@@ -1316,7 +1297,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 5AF37B06) (tstamp 59EFAB7C)
+  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 59F271B6) (tstamp 59EFAB7C)
     (at 228.6 58.42 180)
     (path /59D95816/59D9C0A0)
     (fp_text reference J620 (at 0 -5.08 180) (layer F.SilkS) hide
@@ -1328,7 +1309,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 5AF37B03) (tstamp 59EFAB83)
+  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 59F271B6) (tstamp 59EFAB83)
     (at 228.6 71.12 180)
     (path /59D95816/59D9C0B1)
     (fp_text reference J621 (at 0 -5.08 180) (layer F.SilkS) hide
@@ -1340,7 +1321,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 5AF37B01) (tstamp 59EFAB8A)
+  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 59F271B6) (tstamp 59EFAB8A)
     (at 228.6 83.82 180)
     (path /59D95816/59D9C0C2)
     (fp_text reference J622 (at 0 -5.08 180) (layer F.SilkS) hide
@@ -1352,7 +1333,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 5AF37AFF) (tstamp 59EFAB91)
+  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 59F271B6) (tstamp 59EFAB91)
     (at 228.6 96.52 180)
     (path /59D95816/59D9C0D3)
     (fp_text reference J623 (at 0 -5.08 180) (layer F.SilkS) hide
@@ -1364,7 +1345,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 5AF37AFC) (tstamp 59EFAB98)
+  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 59F271B6) (tstamp 59EFAB98)
     (at 228.6 109.22 180)
     (path /59D95816/59D9C0E4)
     (fp_text reference J624 (at 0 -5.08 180) (layer F.SilkS) hide
@@ -1376,7 +1357,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 5AF37AFA) (tstamp 59EFAB9F)
+  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 59F271B6) (tstamp 59EFAB9F)
     (at 228.6 121.92 180)
     (path /59D95816/59D9C0F5)
     (fp_text reference J625 (at 0 -5.08 180) (layer F.SilkS) hide
@@ -1388,7 +1369,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 5AF37AF8) (tstamp 59EFABA6)
+  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 59F271B6) (tstamp 59EFABA6)
     (at 228.6 134.62 180)
     (path /59D95816/59D9C106)
     (fp_text reference J626 (at 0 -5.08 180) (layer F.SilkS) hide
@@ -1400,7 +1381,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 5AF37B32) (tstamp 59EFABB9)
+  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 59F271B6) (tstamp 59EFABB9)
     (at 139.7 45.72 180)
     (path /59D95816/59D95DE7)
     (fp_text reference J604 (at 0 -5.08 180) (layer F.SilkS) hide
@@ -1412,7 +1393,7 @@
     (pad "" np_thru_hole circle (at 0 0 180) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 5AF37B2D) (tstamp 59EFABC0)
+  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 59F271B6) (tstamp 59EFABC0)
     (at 165.1 45.72 180)
     (path /59D95816/59D970A1)
     (fp_text reference J606 (at 0 -5.08 180) (layer F.SilkS) hide
@@ -1435,13 +1416,13 @@
     (fp_text value NHD-3.12-25664UC (at 44.45 25.4) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_line (start 3.6 11) (end 3.6 33) (layer Edge.Cuts) (width 0.15))
-    (fp_line (start 3.6 33) (end 85.6 33) (layer Edge.Cuts) (width 0.15))
-    (fp_line (start 85.6 11) (end 85.6 33) (layer Edge.Cuts) (width 0.15))
     (fp_line (start 3.6 11) (end 85.6 11) (layer Edge.Cuts) (width 0.15))
+    (fp_line (start 85.6 11) (end 85.6 33) (layer Edge.Cuts) (width 0.15))
+    (fp_line (start 3.6 33) (end 85.6 33) (layer Edge.Cuts) (width 0.15))
+    (fp_line (start 3.6 11) (end 3.6 33) (layer Edge.Cuts) (width 0.15))
   )
 
-  (module w_frontpanel:TL1105_1D_FP (layer F.Cu) (tedit 5AF379DF) (tstamp 59D95497)
+  (module w_frontpanel:TL1105_1D_FP (layer F.Cu) (tedit 59F383A6) (tstamp 59D95497)
     (at 131.445 101.6 180)
     (path /59AEA378/59D94ED0)
     (fp_text reference SW301 (at 0 3.81 180) (layer F.SilkS) hide
@@ -1450,13 +1431,13 @@
     (fp_text value TL1105T (at 0 -4.064 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_line (start 5 2.55) (end -5 2.55) (layer Edge.Cuts) (width 0.15))
-    (fp_line (start 5 -2.55) (end 5 2.55) (layer Edge.Cuts) (width 0.15))
-    (fp_line (start -5 -2.55) (end 5 -2.55) (layer Edge.Cuts) (width 0.15))
     (fp_line (start -5 2.55) (end -5 -2.55) (layer Edge.Cuts) (width 0.15))
+    (fp_line (start -5 -2.55) (end 5 -2.55) (layer Edge.Cuts) (width 0.15))
+    (fp_line (start 5 -2.55) (end 5 2.55) (layer Edge.Cuts) (width 0.15))
+    (fp_line (start 5 2.55) (end -5 2.55) (layer Edge.Cuts) (width 0.15))
   )
 
-  (module w_frontpanel:TL1105_1D_FP (layer F.Cu) (tedit 5AF379E2) (tstamp 59D9549F)
+  (module w_frontpanel:TL1105_1D_FP (layer F.Cu) (tedit 59F383A6) (tstamp 59D9549F)
     (at 146.685 101.6 180)
     (path /59AEA378/59D955A4)
     (fp_text reference SW302 (at 0 3.81 180) (layer F.SilkS) hide
@@ -1465,13 +1446,13 @@
     (fp_text value TL1105T (at 0 -4.064 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_line (start 5 2.55) (end -5 2.55) (layer Edge.Cuts) (width 0.15))
-    (fp_line (start 5 -2.55) (end 5 2.55) (layer Edge.Cuts) (width 0.15))
-    (fp_line (start -5 -2.55) (end 5 -2.55) (layer Edge.Cuts) (width 0.15))
     (fp_line (start -5 2.55) (end -5 -2.55) (layer Edge.Cuts) (width 0.15))
+    (fp_line (start -5 -2.55) (end 5 -2.55) (layer Edge.Cuts) (width 0.15))
+    (fp_line (start 5 -2.55) (end 5 2.55) (layer Edge.Cuts) (width 0.15))
+    (fp_line (start 5 2.55) (end -5 2.55) (layer Edge.Cuts) (width 0.15))
   )
 
-  (module w_frontpanel:TL1105_1D_FP (layer F.Cu) (tedit 5AF379E4) (tstamp 59D954A7)
+  (module w_frontpanel:TL1105_1D_FP (layer F.Cu) (tedit 59F383A6) (tstamp 59D954A7)
     (at 161.925 101.6 180)
     (path /59AEA378/59D95847)
     (fp_text reference SW303 (at 0 3.81 180) (layer F.SilkS) hide
@@ -1480,13 +1461,13 @@
     (fp_text value TL1105T (at 0 -4.064 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_line (start 5 2.55) (end -5 2.55) (layer Edge.Cuts) (width 0.15))
-    (fp_line (start 5 -2.55) (end 5 2.55) (layer Edge.Cuts) (width 0.15))
-    (fp_line (start -5 -2.55) (end 5 -2.55) (layer Edge.Cuts) (width 0.15))
     (fp_line (start -5 2.55) (end -5 -2.55) (layer Edge.Cuts) (width 0.15))
+    (fp_line (start -5 -2.55) (end 5 -2.55) (layer Edge.Cuts) (width 0.15))
+    (fp_line (start 5 -2.55) (end 5 2.55) (layer Edge.Cuts) (width 0.15))
+    (fp_line (start 5 2.55) (end -5 2.55) (layer Edge.Cuts) (width 0.15))
   )
 
-  (module w_frontpanel:TL1105_1D_FP (layer F.Cu) (tedit 5AF379E7) (tstamp 59D954AF)
+  (module w_frontpanel:TL1105_1D_FP (layer F.Cu) (tedit 59F383A6) (tstamp 59D954AF)
     (at 177.165 101.6 180)
     (path /59AEA378/59D958A6)
     (fp_text reference SW304 (at 0 3.81 180) (layer F.SilkS) hide
@@ -1495,13 +1476,13 @@
     (fp_text value TL1105T (at 0 -4.064 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_line (start 5 2.55) (end -5 2.55) (layer Edge.Cuts) (width 0.15))
-    (fp_line (start 5 -2.55) (end 5 2.55) (layer Edge.Cuts) (width 0.15))
-    (fp_line (start -5 -2.55) (end 5 -2.55) (layer Edge.Cuts) (width 0.15))
     (fp_line (start -5 2.55) (end -5 -2.55) (layer Edge.Cuts) (width 0.15))
+    (fp_line (start -5 -2.55) (end 5 -2.55) (layer Edge.Cuts) (width 0.15))
+    (fp_line (start 5 -2.55) (end 5 2.55) (layer Edge.Cuts) (width 0.15))
+    (fp_line (start 5 2.55) (end -5 2.55) (layer Edge.Cuts) (width 0.15))
   )
 
-  (module w_frontpanel:TL1105_1D_FP (layer F.Cu) (tedit 5AF379EA) (tstamp 59D954B7)
+  (module w_frontpanel:TL1105_1D_FP (layer F.Cu) (tedit 59F383A6) (tstamp 59D954B7)
     (at 192.405 101.6 180)
     (path /59AEA378/59D96081)
     (fp_text reference SW305 (at 0 3.81 180) (layer F.SilkS) hide
@@ -1510,10 +1491,85 @@
     (fp_text value TL1105T (at 0 -4.064 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_line (start 5 2.55) (end -5 2.55) (layer Edge.Cuts) (width 0.15))
-    (fp_line (start 5 -2.55) (end 5 2.55) (layer Edge.Cuts) (width 0.15))
-    (fp_line (start -5 -2.55) (end 5 -2.55) (layer Edge.Cuts) (width 0.15))
     (fp_line (start -5 2.55) (end -5 -2.55) (layer Edge.Cuts) (width 0.15))
+    (fp_line (start -5 -2.55) (end 5 -2.55) (layer Edge.Cuts) (width 0.15))
+    (fp_line (start 5 -2.55) (end 5 2.55) (layer Edge.Cuts) (width 0.15))
+    (fp_line (start 5 2.55) (end -5 2.55) (layer Edge.Cuts) (width 0.15))
+  )
+
+  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 59F271B6) (tstamp 59EFABAD)
+    (at 101.6 45.72)
+    (path /59D95816/59DD452A)
+    (fp_text reference J601 (at 0 -5.08) (layer F.SilkS) hide
+      (effects (font (size 2 2) (thickness 0.25)))
+    )
+    (fp_text value PJ301CM (at 0 5.08) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
+  )
+
+  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 59F271B6) (tstamp 59EFABB3)
+    (at 114.3 45.72)
+    (path /59D95816/59DD4899)
+    (fp_text reference J602 (at 0 -5.08) (layer F.SilkS) hide
+      (effects (font (size 2 2) (thickness 0.25)))
+    )
+    (fp_text value PJ301CM (at 0 5.08) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
+  )
+
+  (module w_frontpanel:PJS008U-3000-0_FP_LARGER (layer F.Cu) (tedit 5AF403BD) (tstamp 59DC08F8)
+    (at 86.36 53.34 180)
+    (descr https://www.yamaichi.de/uploads/media/PJS008U-3000.pdf)
+    (tags "sdcard connector")
+    (path /59DC0C9C)
+    (fp_text reference JP103 (at 0 5.1 180) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value PJS008U-3000 (at 0.1 -3 180) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start 6.5 0.42) (end 6.5 2.82) (layer Edge.Cuts) (width 0.15))
+    (fp_line (start -7.3 0.42) (end 6.5 0.42) (layer Edge.Cuts) (width 0.15))
+    (fp_line (start -7.3 2.82) (end 6.5 2.82) (layer Edge.Cuts) (width 0.15))
+    (fp_line (start -7.3 0.42) (end -7.3 2.82) (layer Edge.Cuts) (width 0.15))
+  )
+
+  (module w_frontpanel:MOLEX_USB_105057_FP (layer F.Cu) (tedit 5BBE57E0) (tstamp 59DD562A)
+    (at 86.36 45.72)
+    (path /59DE5EB2)
+    (fp_text reference JP101 (at 0 3.81) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value USB_A (at 0 5.08) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -6.55 -4.66) (end 6.55 -4.66) (layer Edge.Cuts) (width 0.15))
+    (fp_line (start -6.55 1.56) (end 6.55 1.56) (layer Edge.Cuts) (width 0.15))
+    (fp_line (start -6.55 -4.66) (end -6.55 1.56) (layer Edge.Cuts) (width 0.15))
+    (fp_line (start 6.55 -4.66) (end 6.55 1.56) (layer Edge.Cuts) (width 0.15))
+  )
+
+  (module Mounting_Holes:MountingHole_2.2mm_M2_Pad (layer F.Cu) (tedit 5BB92A0F) (tstamp 59EFABC8)
+    (at 111.125 139.7)
+    (descr "Mounting Hole 2.2mm, M2")
+    (tags "mounting hole 2.2mm m2")
+    (attr virtual)
+    (fp_text reference REF** (at 0 3.81) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_2.2mm_M2_Pad (at 0 3.2) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user %R (at 0.3 0) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.2 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 2.45 0) (layer F.CrtYd) (width 0.05))
+    (pad "" np_thru_hole circle (at 0 0) (size 2.7 2.7) (drill 2.7) (layers *.Cu *.Mask))
   )
 
   (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 5BB7C6D2) (tstamp 59F48064)
@@ -1592,69 +1648,13 @@
     (pad "" np_thru_hole oval (at 0 0) (size 5.2 3.2) (drill oval 5.2 3.2) (layers *.Cu *.Mask))
   )
 
-  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 5AF37B3B) (tstamp 59EFABAD)
-    (at 101.6 45.72)
-    (path /59D95816/59DD452A)
-    (fp_text reference J601 (at 0 -5.08) (layer F.SilkS) hide
-      (effects (font (size 2 2) (thickness 0.25)))
-    )
-    (fp_text value PJ301CM (at 0 5.08) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
-  )
-
-  (module w_frontpanel:PJ301BM_FP (layer F.Cu) (tedit 5AF37B38) (tstamp 59EFABB3)
-    (at 114.3 45.72)
-    (path /59D95816/59DD4899)
-    (fp_text reference J602 (at 0 -5.08) (layer F.SilkS) hide
-      (effects (font (size 2 2) (thickness 0.25)))
-    )
-    (fp_text value PJ301CM (at 0 5.08) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
-  )
-
-  (module w_frontpanel:PJS008U-3000-0_FP_LARGER (layer F.Cu) (tedit 5AF4046D) (tstamp 59DC08F8)
-    (at 86.36 53.34 180)
-    (descr https://www.yamaichi.de/uploads/media/PJS008U-3000.pdf)
-    (tags "sdcard connector")
-    (path /59DC0C9C)
-    (fp_text reference JP103 (at 0 5.1 180) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value PJS008U-3000 (at 0.1 -3 180) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_line (start -7.3 0.42) (end -7.3 2.82) (layer Edge.Cuts) (width 0.15))
-    (fp_line (start -7.3 2.82) (end 6.5 2.82) (layer Edge.Cuts) (width 0.15))
-    (fp_line (start -7.3 0.42) (end 6.5 0.42) (layer Edge.Cuts) (width 0.15))
-    (fp_line (start 6.5 0.42) (end 6.5 2.82) (layer Edge.Cuts) (width 0.15))
-  )
-
-  (module w_frontpanel:MOLEX_USB_105057_FP (layer F.Cu) (tedit 5C321D52) (tstamp 59DD562A)
-    (at 86.36 45.72)
-    (path /59DE5EB2)
-    (fp_text reference JP101 (at 0 3.81) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value USB_A (at 0 5.08) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_line (start 6.55 -4.66) (end 6.55 1.56) (layer Edge.Cuts) (width 0.15))
-    (fp_line (start -6.55 -4.66) (end -6.55 1.56) (layer Edge.Cuts) (width 0.15))
-    (fp_line (start -6.55 1.56) (end 6.55 1.56) (layer Edge.Cuts) (width 0.15))
-    (fp_line (start -6.55 -4.66) (end 6.55 -4.66) (layer Edge.Cuts) (width 0.15))
-  )
-
   (module frontpanel:frontpanel (layer F.Cu) (tedit 0) (tstamp 5C3210D7)
     (at 162.45 91.44)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
-      (effects (font (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_text value LOGO (at 0.75 0) (layer F.SilkS) hide
-      (effects (font (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_poly (pts (xy -2.455752 59.623769) (xy -2.330985 59.688335) (xy -2.228849 59.784787) (xy -2.174884 59.867912)
       (xy -2.150352 59.927433) (xy -2.134122 60.000712) (xy -2.124087 60.09915) (xy -2.120752 60.160958)
