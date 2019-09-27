@@ -1,46 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:w_power
-LIBS:w_lcd
-LIBS:w_stm32
-LIBS:w_opto
-LIBS:w_dac
-LIBS:w_logic
-LIBS:w_connector
-LIBS:w_rotary_encoder
-LIBS:w_switch
-LIBS:sequencer-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:switches
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:sequencer-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -55,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L +12V #PWR025
+L power:+12V #PWR025
 U 1 1 59ADCE23
 P 900 1200
 F 0 "#PWR025" H 900 1050 50  0001 C CNN
@@ -66,10 +26,10 @@ F 3 "" H 900 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L -12V #PWR35
+L power:-12V #PWR035
 U 1 1 59ADCE37
 P 900 1800
-F 0 "#PWR35" H 900 1900 50  0001 C CNN
+F 0 "#PWR035" H 900 1900 50  0001 C CNN
 F 1 "-12V" H 900 1950 50  0000 C CNN
 F 2 "" H 900 1800 50  0001 C CNN
 F 3 "" H 900 1800 50  0001 C CNN
@@ -77,12 +37,12 @@ F 3 "" H 900 1800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Conn_02x05_Odd_Even JP5
+L Connector_Generic:Conn_02x05_Odd_Even JP5
 U 1 1 59ADD000
 P 1700 1500
 F 0 "JP5" H 1750 1800 50  0000 C CNN
 F 1 "POWER" H 1750 1200 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm" H 1700 1500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 1700 1500 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/67996-410HLF-Areva-datasheet-10288749.pdf" H 1700 1500 50  0001 C CNN
 F 4 "FCI" H 1750 1900 50  0001 C CNN "MFN"
 F 5 "67996-410HLF" H 1750 1900 50  0001 C CNN "MFP"
@@ -90,7 +50,7 @@ F 5 "67996-410HLF" H 1750 1900 50  0001 C CNN "MFP"
 	1    0    0    1   
 $EndComp
 $Comp
-L D D3
+L Device:D D3
 U 1 1 59ADD0E1
 P 1150 1300
 F 0 "D3" H 1150 1400 50  0000 C CNN
@@ -104,7 +64,7 @@ F 6 "SOD-123" H 1150 1500 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D4
+L Device:D D4
 U 1 1 59ADD164
 P 1150 1700
 F 0 "D4" H 1150 1800 50  0000 C CNN
@@ -118,7 +78,7 @@ F 6 "SOD-123" H 1150 1900 50  0001 C CNN "Package"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR026
+L power:GND #PWR026
 U 1 1 59ADD2AE
 P 2300 1600
 F 0 "#PWR026" H 2300 1350 50  0001 C CNN
@@ -129,12 +89,12 @@ F 3 "" H 2300 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C13
+L Device:CP1 C13
 U 1 1 59ADD50C
 P 3000 1250
 F 0 "C13" H 3025 1350 50  0000 L CNN
 F 1 "47u" H 3025 1150 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_6.3x5.7" H 3000 1250 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.7" H 3000 1250 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/EEE-FK1V470P-Panasonic-datasheet-13266987.pdf" H 3000 1250 50  0001 C CNN
 F 4 "Panasonic" H 3000 1250 60  0001 C CNN "MFN"
 F 5 "EEE-FK1V470P" H 3000 1250 60  0001 C CNN "MFP"
@@ -143,10 +103,10 @@ F 6 "Panasonic D" H 3025 1450 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L -12V #PWR48
+L power:-12V #PWR048
 U 1 1 59ADD571
 P 3000 2000
-F 0 "#PWR48" H 3000 2100 50  0001 C CNN
+F 0 "#PWR048" H 3000 2100 50  0001 C CNN
 F 1 "-12V" H 3000 2150 50  0000 C CNN
 F 2 "" H 3000 2000 50  0001 C CNN
 F 3 "" H 3000 2000 50  0001 C CNN
@@ -154,7 +114,7 @@ F 3 "" H 3000 2000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +12V #PWR027
+L power:+12V #PWR027
 U 1 1 59ADD597
 P 3000 1000
 F 0 "#PWR027" H 3000 850 50  0001 C CNN
@@ -165,7 +125,7 @@ F 3 "" H 3000 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR028
+L power:GND #PWR028
 U 1 1 59ADD670
 P 2800 1600
 F 0 "#PWR028" H 2800 1350 50  0001 C CNN
@@ -176,12 +136,12 @@ F 3 "" H 2800 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM1117-3.3 U7
+L Regulator_Linear:LM1117-3.3 U7
 U 1 1 59DEB84A
 P 7300 1300
 F 0 "U7" H 7150 1425 50  0000 C CNN
 F 1 "LM1117-3.3" H 7300 1425 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2" H 7300 1300 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 7300 1300 50  0001 C CNN
 F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24885394&ppid=24812450&sid=370&sig=0f3ff9a" H 7300 1300 50  0001 C CNN
 F 4 "Texas Instruments" H 7300 1300 60  0001 C CNN "MFN"
 F 5 "LM1117MP-3.3/NOPB" H 7300 1300 60  0001 C CNN "MFP"
@@ -190,7 +150,7 @@ F 6 "SOT-223" H 7150 1525 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ferrite_Bead L1
+L Device:Ferrite_Bead L1
 U 1 1 59DEC32E
 P 6550 1300
 F 0 "L1" V 6400 1325 50  0000 C CNN
@@ -204,12 +164,12 @@ F 6 "0603" H 6400 1425 50  0001 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L CP1 C24
+L Device:CP1 C24
 U 1 1 59DEC56E
 P 7800 1550
 F 0 "C24" H 7825 1650 50  0000 L CNN
 F 1 "22u" H 7825 1450 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_5x5.8" H 7800 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.8" H 7800 1550 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/EEE-FP1E220AR-Panasonic-datasheet-13268972.pdf" H 7800 1550 50  0001 C CNN
 F 4 "Panasonic" H 7800 1550 60  0001 C CNN "MFN"
 F 5 "EEE-FP1E220AR" H 7800 1550 60  0001 C CNN "MFP"
@@ -218,7 +178,7 @@ F 6 "Panasonic C" H 7825 1750 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C14
+L Device:C C14
 U 1 1 59DEC574
 P 8100 1550
 F 0 "C14" H 8125 1650 50  0000 L CNN
@@ -232,7 +192,7 @@ F 6 "0603" H 8125 1750 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR029
+L power:GND #PWR029
 U 1 1 59DEC57A
 P 6800 1800
 F 0 "#PWR029" H 6800 1550 50  0001 C CNN
@@ -243,7 +203,7 @@ F 3 "" H 6800 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR030
+L power:GND #PWR030
 U 1 1 59DEC580
 P 7800 1800
 F 0 "#PWR030" H 7800 1550 50  0001 C CNN
@@ -254,7 +214,7 @@ F 3 "" H 7800 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR031
+L power:GND #PWR031
 U 1 1 59DEC586
 P 8100 1800
 F 0 "#PWR031" H 8100 1550 50  0001 C CNN
@@ -265,7 +225,7 @@ F 3 "" H 8100 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR032
+L power:+3V3 #PWR032
 U 1 1 59DEC592
 P 8100 1200
 F 0 "#PWR032" H 8100 1050 50  0001 C CNN
@@ -276,7 +236,7 @@ F 3 "" H 8100 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR033
+L power:GND #PWR033
 U 1 1 59DEC598
 P 7300 1800
 F 0 "#PWR033" H 7300 1550 50  0001 C CNN
@@ -287,12 +247,12 @@ F 3 "" H 7300 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM1117-3.3 U10
+L Regulator_Linear:LM1117-3.3 U10
 U 1 1 59DEC7FA
 P 9800 1300
 F 0 "U10" H 9650 1425 50  0000 C CNN
 F 1 "LM1117-3.3" H 9800 1425 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2" H 9800 1300 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 9800 1300 50  0001 C CNN
 F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24885394&ppid=24812450&sid=370&sig=0f3ff9a" H 9800 1300 50  0001 C CNN
 F 4 "Texas Instruments" H 9800 1300 60  0001 C CNN "MFN"
 F 5 "LM1117MP-3.3/NOPB" H 9800 1300 60  0001 C CNN "MFP"
@@ -301,7 +261,7 @@ F 6 "SOT-223" H 9650 1525 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C31
+L Device:C C31
 U 1 1 59DEC80C
 P 10600 1550
 F 0 "C31" H 10625 1650 50  0000 L CNN
@@ -315,7 +275,7 @@ F 6 "0603" H 10625 1750 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR034
+L power:GND #PWR034
 U 1 1 59DEC812
 P 9300 1800
 F 0 "#PWR034" H 9300 1550 50  0001 C CNN
@@ -326,10 +286,10 @@ F 3 "" H 9300 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR035
+L power:GND #PWR0116
 U 1 1 59DEC818
 P 10300 1800
-F 0 "#PWR035" H 10300 1550 50  0001 C CNN
+F 0 "#PWR0116" H 10300 1550 50  0001 C CNN
 F 1 "GND" H 10300 1650 50  0000 C CNN
 F 2 "" H 10300 1800 50  0001 C CNN
 F 3 "" H 10300 1800 50  0001 C CNN
@@ -337,7 +297,7 @@ F 3 "" H 10300 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR036
+L power:GND #PWR036
 U 1 1 59DEC81E
 P 10600 1800
 F 0 "#PWR036" H 10600 1550 50  0001 C CNN
@@ -348,7 +308,7 @@ F 3 "" H 10600 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR037
+L power:GND #PWR037
 U 1 1 59DEC82A
 P 9800 1800
 F 0 "#PWR037" H 9800 1550 50  0001 C CNN
@@ -359,7 +319,7 @@ F 3 "" H 9800 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR038
+L power:+12V #PWR038
 U 1 1 59DECCAB
 P 3900 1200
 F 0 "#PWR038" H 3900 1050 50  0001 C CNN
@@ -370,7 +330,7 @@ F 3 "" H 3900 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3VA #PWR039
+L power:+3.3VA #PWR039
 U 1 1 59DED3E1
 P 10600 1200
 F 0 "#PWR039" H 10600 1050 50  0001 C CNN
@@ -381,7 +341,7 @@ F 3 "" H 10600 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L Device:C C2
 U 1 1 59DED9C5
 P 5600 1550
 F 0 "C2" H 5625 1650 50  0000 L CNN
@@ -395,7 +355,7 @@ F 6 "0603" H 5625 1750 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR040
+L power:GND #PWR040
 U 1 1 59DED9CB
 P 4200 1800
 F 0 "#PWR040" H 4200 1550 50  0001 C CNN
@@ -406,7 +366,7 @@ F 3 "" H 4200 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR041
+L power:GND #PWR041
 U 1 1 59DED9D1
 P 5300 1800
 F 0 "#PWR041" H 5300 1550 50  0001 C CNN
@@ -417,7 +377,7 @@ F 3 "" H 5300 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR042
+L power:GND #PWR042
 U 1 1 59DED9D7
 P 5600 1800
 F 0 "#PWR042" H 5600 1550 50  0001 C CNN
@@ -428,7 +388,7 @@ F 3 "" H 5600 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR043
+L power:GND #PWR043
 U 1 1 59DED9DD
 P 4750 1800
 F 0 "#PWR043" H 4750 1550 50  0001 C CNN
@@ -439,7 +399,7 @@ F 3 "" H 4750 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR044
+L power:+5V #PWR044
 U 1 1 59DEDB3A
 P 5600 1200
 F 0 "#PWR044" H 5600 1050 50  0001 C CNN
@@ -450,12 +410,12 @@ F 3 "" H 5600 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Schottky_ALT D1
+L Device:D_Schottky_ALT D1
 U 1 1 59DF06B3
 P 4600 3250
 F 0 "D1" H 4600 3350 50  0000 C CNN
 F 1 "LM4040CIM3-10.0" H 4600 3150 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 4600 3250 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4600 3250 50  0001 C CNN
 F 3 "http://www.ti.com/product/lm4040-n/technicaldocuments?HQS=TI-null-null-octopart-df-pf-null-wwe" H 4600 3250 50  0001 C CNN
 F 4 "Texas Instruments" H 4600 3250 60  0001 C CNN "MFN"
 F 5 "LM4040CIM3-10.0/NOPB" H 4600 3250 60  0001 C CNN "MFP"
@@ -464,10 +424,10 @@ F 6 "SOT-23" H 4600 3450 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L -12V #PWR50
+L power:-12V #PWR050
 U 1 1 59DF1046
 P 4000 2900
-F 0 "#PWR50" H 4000 3000 50  0001 C CNN
+F 0 "#PWR050" H 4000 3000 50  0001 C CNN
 F 1 "-12V" H 4000 3050 50  0000 C CNN
 F 2 "" H 4000 2900 50  0001 C CNN
 F 3 "" H 4000 2900 50  0001 C CNN
@@ -475,7 +435,7 @@ F 3 "" H 4000 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
+L Device:R R8
 U 1 1 59DF10B1
 P 4250 3000
 F 0 "R8" V 4330 3000 50  0000 C CNN
@@ -489,7 +449,7 @@ F 6 "0603" H 4330 3100 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C1
+L Device:C C1
 U 1 1 59DF1870
 P 4900 3250
 F 0 "C1" H 4925 3350 50  0000 L CNN
@@ -503,7 +463,7 @@ F 6 "0603" H 4925 3450 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR045
+L power:GND #PWR045
 U 1 1 59DF1FC9
 P 4600 3600
 F 0 "#PWR045" H 4600 3350 50  0001 C CNN
@@ -514,12 +474,12 @@ F 3 "" H 4600 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L STMPS2141 U3
+L w_power:STMPS2141 U3
 U 1 1 59DFC0CF
 P 2100 3100
 F 0 "U3" H 2100 3300 50  0000 C CNN
 F 1 "STMPS2151" H 2100 2900 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 2100 3100 60  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2100 3100 60  0001 C CNN
 F 3 "http://datasheet.octopart.com/STMPS2151STR-STMicroelectronics-datasheet-15207125.pdf" H 2100 3100 60  0001 C CNN
 F 4 "STMicroelectronics" H 2100 3100 60  0001 C CNN "MFN"
 F 5 "STMPS2151STR" H 2100 3100 60  0001 C CNN "MFP"
@@ -528,7 +488,7 @@ F 6 "SOT-23-5" H 2100 3400 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR046
+L power:+5V #PWR046
 U 1 1 59DFDC6E
 P 1600 2900
 F 0 "#PWR046" H 1600 2750 50  0001 C CNN
@@ -539,7 +499,7 @@ F 3 "" H 1600 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR047
+L power:GND #PWR047
 U 1 1 59DFDCE5
 P 1600 3600
 F 0 "#PWR047" H 1600 3350 50  0001 C CNN
@@ -550,7 +510,7 @@ F 3 "" H 1600 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L Device:R R5
 U 1 1 59E00C96
 P 1400 3350
 F 0 "R5" V 1480 3350 50  0000 C CNN
@@ -564,10 +524,10 @@ F 6 "0603" H 1480 3450 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR048
+L power:GND #PWR0118
 U 1 1 59E00E5E
 P 1400 3600
-F 0 "#PWR048" H 1400 3350 50  0001 C CNN
+F 0 "#PWR0118" H 1400 3350 50  0001 C CNN
 F 1 "GND" H 1400 3450 50  0000 C CNN
 F 2 "" H 1400 3600 50  0001 C CNN
 F 3 "" H 1400 3600 50  0001 C CNN
@@ -575,12 +535,12 @@ F 3 "" H 1400 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C46
+L Device:CP1 C46
 U 1 1 59E0E120
 P 3000 1750
 F 0 "C46" H 3025 1850 50  0000 L CNN
 F 1 "47u" H 3025 1650 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_6.3x5.7" H 3000 1750 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.7" H 3000 1750 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/EEE-FK1V470P-Panasonic-datasheet-13266987.pdf" H 3000 1750 50  0001 C CNN
 F 4 "Panasonic" H 3000 1750 60  0001 C CNN "MFN"
 F 5 "EEE-FK1V470P" H 3000 1750 60  0001 C CNN "MFP"
@@ -589,12 +549,12 @@ F 6 "Panasonic D" H 3025 1950 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C40
+L Device:CP1 C40
 U 1 1 59E0FE4F
 P 10300 1550
 F 0 "C40" H 10325 1650 50  0000 L CNN
 F 1 "22u" H 10325 1450 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_5x5.8" H 10300 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.8" H 10300 1550 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/EEE-FP1E220AR-Panasonic-datasheet-13268972.pdf" H 10300 1550 50  0001 C CNN
 F 4 "Panasonic" H 10300 1550 60  0001 C CNN "MFN"
 F 5 "EEE-FP1E220AR" H 10300 1550 60  0001 C CNN "MFP"
@@ -603,12 +563,12 @@ F 6 "Panasonic C" H 10325 1750 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C5
+L Device:CP1 C5
 U 1 1 59E0FEB0
 P 5300 1550
 F 0 "C5" H 5325 1650 50  0000 L CNN
 F 1 "22u" H 5325 1450 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_5x5.8" H 5300 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.8" H 5300 1550 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/EEE-FP1E220AR-Panasonic-datasheet-13268972.pdf" H 5300 1550 50  0001 C CNN
 F 4 "Panasonic" H 5300 1550 60  0001 C CNN "MFN"
 F 5 "EEE-FP1E220AR" H 5300 1550 60  0001 C CNN "MFP"
@@ -617,7 +577,7 @@ F 6 "Panasonic C" H 5325 1750 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ferrite_Bead L2
+L Device:Ferrite_Bead L2
 U 1 1 59E11A13
 P 9050 1300
 F 0 "L2" V 8900 1325 50  0000 C CNN
@@ -631,7 +591,7 @@ F 6 "0603" H 8900 1425 50  0001 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C19
+L Device:C C19
 U 1 1 59E52EDD
 P 6800 1550
 F 0 "C19" H 6825 1650 50  0000 L CNN
@@ -645,7 +605,7 @@ F 6 "0603" H 6825 1750 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C35
+L Device:C C35
 U 1 1 59E53513
 P 9300 1550
 F 0 "C35" H 9325 1650 50  0000 L CNN
@@ -659,7 +619,7 @@ F 6 "0603" H 9325 1750 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C8
+L Device:C C8
 U 1 1 59E535E8
 P 4200 1550
 F 0 "C8" H 4225 1650 50  0000 L CNN
@@ -673,7 +633,7 @@ F 6 "0603" H 4225 1750 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG049
+L power:PWR_FLAG #FLG049
 U 1 1 59F34CFD
 P 6800 1200
 F 0 "#FLG049" H 6800 1275 50  0001 C CNN
@@ -684,7 +644,7 @@ F 3 "" H 6800 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG050
+L power:PWR_FLAG #FLG050
 U 1 1 59F34D75
 P 9300 1200
 F 0 "#FLG050" H 9300 1275 50  0001 C CNN
@@ -695,7 +655,7 @@ F 3 "" H 9300 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R-78E-1.0 U16
+L w_power:R-78E-1.0 U16
 U 1 1 5AEF79B5
 P 4750 1400
 F 0 "U16" H 4850 1200 50  0000 C CNN
@@ -708,7 +668,7 @@ F 5 "R-78E5.0-1.0" H 4850 1300 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR051
+L power:+5V #PWR051
 U 1 1 5AEF8A3B
 P 6300 1200
 F 0 "#PWR051" H 6300 1050 50  0001 C CNN
@@ -719,7 +679,7 @@ F 3 "" H 6300 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG052
+L power:PWR_FLAG #FLG052
 U 1 1 5BBB58DA
 P 2100 1200
 F 0 "#FLG052" H 2100 1275 50  0001 C CNN
@@ -730,7 +690,7 @@ F 3 "" H 2100 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG053
+L power:PWR_FLAG #FLG053
 U 1 1 5BBB5936
 P 2100 1800
 F 0 "#FLG053" H 2100 1875 50  0001 C CNN
@@ -741,7 +701,7 @@ F 3 "" H 2100 1800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR054
+L power:+5V #PWR054
 U 1 1 5BBB67BF
 P 8800 1200
 F 0 "#PWR054" H 8800 1050 50  0001 C CNN
@@ -784,13 +744,13 @@ Wire Wire Line
 Wire Wire Line
 	900  1700 900  1800
 Wire Wire Line
-	1500 1400 2100 1400
+	1500 1400 2000 1400
 Wire Wire Line
-	1500 1500 2300 1500
+	1500 1500 2000 1500
 Wire Wire Line
-	2100 1600 1500 1600
+	2100 1600 2000 1600
 Wire Wire Line
-	2100 1400 2100 1600
+	2100 1400 2100 1500
 Wire Wire Line
 	2300 1500 2300 1600
 Wire Wire Line
@@ -798,19 +758,19 @@ Wire Wire Line
 Wire Wire Line
 	3000 1900 3000 2000
 Wire Wire Line
-	3000 1400 3000 1600
+	3000 1400 3000 1500
 Wire Wire Line
 	2800 1600 2800 1500
 Wire Wire Line
 	2800 1500 3000 1500
 Wire Wire Line
-	6700 1300 7000 1300
+	6700 1300 6800 1300
 Wire Wire Line
-	7600 1300 8100 1300
+	7600 1300 7800 1300
 Wire Wire Line
 	7800 1300 7800 1400
 Wire Wire Line
-	8100 1200 8100 1400
+	8100 1200 8100 1300
 Wire Wire Line
 	6800 1700 6800 1800
 Wire Wire Line
@@ -820,15 +780,15 @@ Wire Wire Line
 Wire Wire Line
 	7300 1600 7300 1800
 Wire Wire Line
-	6800 1200 6800 1400
+	6800 1200 6800 1300
 Wire Wire Line
-	9200 1300 9500 1300
+	9200 1300 9300 1300
 Wire Wire Line
-	10100 1300 10600 1300
+	10100 1300 10300 1300
 Wire Wire Line
 	10300 1300 10300 1400
 Wire Wire Line
-	10600 1200 10600 1400
+	10600 1200 10600 1300
 Wire Wire Line
 	9300 1700 9300 1800
 Wire Wire Line
@@ -838,17 +798,17 @@ Wire Wire Line
 Wire Wire Line
 	9800 1600 9800 1800
 Wire Wire Line
-	9300 1200 9300 1400
+	9300 1200 9300 1300
 Wire Wire Line
 	8800 1300 8900 1300
 Wire Wire Line
-	3900 1300 4400 1300
+	3900 1300 4200 1300
 Wire Wire Line
-	5100 1300 5600 1300
+	5100 1300 5300 1300
 Wire Wire Line
 	5300 1300 5300 1400
 Wire Wire Line
-	5600 1200 5600 1400
+	5600 1200 5600 1300
 Wire Wire Line
 	4200 1700 4200 1800
 Wire Wire Line
@@ -860,7 +820,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 1300 4200 1400
 Wire Wire Line
-	4400 3000 5100 3000
+	4400 3000 4600 3000
 Wire Wire Line
 	4900 3000 4900 3100
 Wire Wire Line
@@ -868,7 +828,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 3500 4600 3500
 Wire Wire Line
-	4600 3400 4600 3600
+	4600 3400 4600 3500
 Wire Wire Line
 	1700 3000 1600 3000
 Wire Wire Line
@@ -878,7 +838,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 3200 1700 3200
 Wire Wire Line
-	1300 3100 1700 3100
+	1300 3100 1400 3100
 Wire Wire Line
 	2500 3000 2600 3000
 Wire Wire Line
@@ -888,9 +848,9 @@ Wire Wire Line
 Wire Wire Line
 	1400 3500 1400 3600
 Wire Wire Line
-	1300 1300 2100 1300
+	1300 1300 1500 1300
 Wire Wire Line
-	1300 1700 2100 1700
+	1300 1700 1500 1700
 Wire Wire Line
 	3900 1200 3900 1300
 Wire Notes Line
@@ -947,4 +907,54 @@ Connection ~ 1400 3100
 Connection ~ 4600 3000
 Connection ~ 2000 1300
 Connection ~ 2000 1700
+Wire Wire Line
+	1500 1300 2000 1300
+Wire Wire Line
+	1500 1700 2000 1700
+Wire Wire Line
+	2000 1600 1500 1600
+Wire Wire Line
+	2000 1400 2100 1400
+Wire Wire Line
+	2100 1500 2300 1500
+Wire Wire Line
+	2100 1500 2100 1600
+Wire Wire Line
+	2000 1500 2100 1500
+Wire Wire Line
+	3000 1500 3000 1600
+Wire Wire Line
+	7800 1300 8100 1300
+Wire Wire Line
+	6800 1300 7000 1300
+Wire Wire Line
+	6800 1300 6800 1400
+Wire Wire Line
+	8100 1300 8100 1400
+Wire Wire Line
+	10300 1300 10600 1300
+Wire Wire Line
+	9300 1300 9500 1300
+Wire Wire Line
+	9300 1300 9300 1400
+Wire Wire Line
+	10600 1300 10600 1400
+Wire Wire Line
+	5300 1300 5600 1300
+Wire Wire Line
+	4200 1300 4400 1300
+Wire Wire Line
+	5600 1300 5600 1400
+Wire Wire Line
+	4600 3500 4600 3600
+Wire Wire Line
+	4900 3000 5100 3000
+Wire Wire Line
+	1400 3100 1700 3100
+Wire Wire Line
+	4600 3000 4900 3000
+Wire Wire Line
+	2000 1300 2100 1300
+Wire Wire Line
+	2000 1700 2100 1700
 $EndSCHEMATC

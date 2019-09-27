@@ -1,46 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:w_power
-LIBS:w_lcd
-LIBS:w_stm32
-LIBS:w_opto
-LIBS:w_dac
-LIBS:w_logic
-LIBS:w_connector
-LIBS:w_rotary_encoder
-LIBS:w_switch
-LIBS:sequencer-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:switches
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:sequencer-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -55,12 +15,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L STM32F405RGTx U9
+L w_stm32:STM32F405RGTx U9
 U 1 1 59D94B79
 P 5800 3200
 F 0 "U9" H 1600 5125 50  0000 L BNN
 F 1 "STM32F405RGTx" H 10000 5125 50  0000 R BNN
-F 2 "Housings_QFP:LQFP-64_10x10mm_Pitch0.5mm" H 10000 5075 50  0001 R TNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 10000 5075 50  0001 R TNN
 F 3 "http://datasheet.octopart.com/STM32F405RGT6-STMicroelectronics-datasheet-12357803.pdf" H 5800 3200 50  0001 C CNN
 F 4 "STMicroelectronics" H 1600 5225 50  0001 C CNN "MFN"
 F 5 "STM32F405RGT6" H 1600 5225 50  0001 C CNN "MFP"
@@ -69,12 +29,14 @@ F 6 "LQFP-64" H 1600 5225 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x06 JP6
+L Connector_Generic:Conn_01x06 JP6
 U 1 1 59DB9577
 P 3400 6800
+AR Path="/59DB9577" Ref="JP6"  Part="1" 
+AR Path="/59D94B52/59DB9577" Ref="JP6"  Part="1" 
 F 0 "JP6" H 3400 7100 50  0000 C CNN
 F 1 "Serial / Bootloader" H 3400 6400 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 3400 6800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 3400 6800 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/68002-106HLF-FCI-datasheet-8449737.pdf" H 3400 6800 50  0001 C CNN
 F 4 "FCI" H 3400 7200 50  0001 C CNN "MFN"
 F 5 "68002-106HLF" H 3400 7200 50  0001 C CNN "MFP"
@@ -82,7 +44,7 @@ F 5 "68002-106HLF" H 3400 7200 50  0001 C CNN "MFP"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR055
+L power:GND #PWR055
 U 1 1 59DB9615
 P 3700 7100
 F 0 "#PWR055" H 3700 6850 50  0001 C CNN
@@ -93,12 +55,12 @@ F 3 "" H 3700 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x05_Odd_Even JP4
+L Connector_Generic:Conn_02x05_Odd_Even JP4
 U 1 1 59DB9B82
 P 1400 6800
 F 0 "JP4" H 1450 7100 50  0000 C CNN
 F 1 "JTAG" H 1450 6500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm" H 1400 6800 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 1400 6800 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/20021111-00010T4LF-FCI-datasheet-11548804.pdf" H 1400 6800 50  0001 C CNN
 F 4 "FCI" H 1450 7200 50  0001 C CNN "MFN"
 F 5 "20021111-00010T4LF" H 1450 7200 50  0001 C CNN "MFP"
@@ -106,7 +68,7 @@ F 5 "20021111-00010T4LF" H 1450 7200 50  0001 C CNN "MFP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR056
+L power:+3.3V #PWR056
 U 1 1 59DB9CCC
 P 1100 6500
 F 0 "#PWR056" H 1100 6350 50  0001 C CNN
@@ -117,7 +79,7 @@ F 3 "" H 1100 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR057
+L power:GND #PWR057
 U 1 1 59DB9CF4
 P 1100 7100
 F 0 "#PWR057" H 1100 6850 50  0001 C CNN
@@ -128,7 +90,7 @@ F 3 "" H 1100 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR058
+L power:+3.3V #PWR058
 U 1 1 59DB9EAC
 P 5500 1000
 F 0 "#PWR058" H 5500 850 50  0001 C CNN
@@ -139,7 +101,7 @@ F 3 "" H 5500 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3VA #PWR059
+L power:+3.3VA #PWR059
 U 1 1 59DB9EE7
 P 6000 1000
 F 0 "#PWR059" H 6000 850 50  0001 C CNN
@@ -150,7 +112,7 @@ F 3 "" H 6000 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR060
+L power:GND #PWR060
 U 1 1 59DB9FE7
 P 5800 5400
 F 0 "#PWR060" H 5800 5150 50  0001 C CNN
@@ -161,12 +123,12 @@ F 3 "" H 5800 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Crystal Y1
+L Device:Crystal Y1
 U 1 1 59DBA308
 P 7500 5750
 F 0 "Y1" H 7500 5900 50  0000 C CNN
 F 1 "8MHz" H 7500 5600 50  0000 C CNN
-F 2 "Crystals:Crystal_SMD_Abracon_ABM3-2pin_5.0x3.2mm_HandSoldering" H 7500 5750 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_Abracon_ABM3-2Pin_5.0x3.2mm_HandSoldering" H 7500 5750 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/ABM3-8.000MHZ-D2Y-T-Abracon-datasheet-8815637.pdf" H 7500 5750 50  0001 C CNN
 F 4 "Abracon" H 7500 6000 50  0001 C CNN "MFN"
 F 5 "ABM3-8.000MHZ-D2Y-T" H 7500 6000 50  0001 C CNN "MFP"
@@ -174,7 +136,7 @@ F 5 "ABM3-8.000MHZ-D2Y-T" H 7500 6000 50  0001 C CNN "MFP"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C41
+L Device:C C41
 U 1 1 59DBA373
 P 7250 5500
 F 0 "C41" H 7275 5600 50  0000 L CNN
@@ -188,7 +150,7 @@ F 6 "0603" H 7275 5700 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C42
+L Device:C C42
 U 1 1 59DBA3A0
 P 7250 6000
 F 0 "C42" H 7275 6100 50  0000 L CNN
@@ -202,7 +164,7 @@ F 6 "0603" H 7275 6200 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR061
+L power:GND #PWR061
 U 1 1 59DBA437
 P 7000 6100
 F 0 "#PWR061" H 7000 5850 50  0001 C CNN
@@ -213,7 +175,7 @@ F 3 "" H 7000 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C23
+L Device:C C23
 U 1 1 59DBB4BE
 P 1150 2050
 F 0 "C23" H 1175 2150 50  0000 L CNN
@@ -227,7 +189,7 @@ F 6 "0805" H 1175 2250 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C18
+L Device:C C18
 U 1 1 59DBB504
 P 1150 2250
 F 0 "C18" H 1175 2350 50  0000 L CNN
@@ -241,7 +203,7 @@ F 6 "0805" H 1175 2450 50  0001 C CNN "Package"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR062
+L power:GND #PWR062
 U 1 1 59DBB736
 P 800 2250
 F 0 "#PWR062" H 800 2000 50  0001 C CNN
@@ -252,12 +214,12 @@ F 3 "" H 800 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_Push SW19
+L Switch:SW_Push SW19
 U 1 1 59DD439D
 P 5800 6400
 F 0 "SW19" H 5850 6500 50  0000 L CNN
 F 1 "EVQQ2" H 5800 6340 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_EVQQ2" H 5800 6600 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_EVQQ2" H 5800 6600 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/EVQ-Q2K01W-Panasonic-datasheet-13267673.pdf" H 5800 6600 50  0001 C CNN
 F 4 "Panasonic" H 5850 6600 50  0001 C CNN "MFN"
 F 5 "EVQ-Q2K01W" H 5850 6600 50  0001 C CNN "MFP"
@@ -265,12 +227,12 @@ F 5 "EVQ-Q2K01W" H 5850 6600 50  0001 C CNN "MFP"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_Push SW8
+L Switch:SW_Push SW8
 U 1 1 59DD44E7
 P 5200 6900
 F 0 "SW8" H 5250 7000 50  0000 L CNN
 F 1 "EVQQ2" H 5200 6840 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_EVQQ2" H 5200 7100 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_EVQQ2" H 5200 7100 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/EVQ-Q2K01W-Panasonic-datasheet-13267673.pdf" H 5200 7100 50  0001 C CNN
 F 4 "Panasonic" H 5250 7100 50  0001 C CNN "MFN"
 F 5 "EVQ-Q2K01W" H 5250 7100 50  0001 C CNN "MFP"
@@ -278,7 +240,7 @@ F 5 "EVQ-Q2K01W" H 5250 7100 50  0001 C CNN "MFP"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R82
+L Device:R R82
 U 1 1 59DD490D
 P 5200 6350
 F 0 "R82" V 5280 6350 50  0000 C CNN
@@ -292,7 +254,7 @@ F 6 "0603" H 5280 6450 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R79
+L Device:R R79
 U 1 1 59DD4953
 P 5800 6950
 F 0 "R79" V 5880 6950 50  0000 C CNN
@@ -306,7 +268,7 @@ F 6 "0603" H 5880 7050 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR063
+L power:+3.3V #PWR063
 U 1 1 59DD49A9
 P 5200 6100
 F 0 "#PWR063" H 5200 5950 50  0001 C CNN
@@ -317,7 +279,7 @@ F 3 "" H 5200 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR064
+L power:+3.3V #PWR064
 U 1 1 59DD49E1
 P 5800 6100
 F 0 "#PWR064" H 5800 5950 50  0001 C CNN
@@ -328,7 +290,7 @@ F 3 "" H 5800 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR065
+L power:GND #PWR065
 U 1 1 59DD4A83
 P 5200 7200
 F 0 "#PWR065" H 5200 6950 50  0001 C CNN
@@ -339,7 +301,7 @@ F 3 "" H 5200 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR066
+L power:GND #PWR066
 U 1 1 59DD4ABB
 P 5800 7200
 F 0 "#PWR066" H 5800 6950 50  0001 C CNN
@@ -350,7 +312,7 @@ F 3 "" H 5800 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C30
+L Device:C C30
 U 1 1 59E34530
 P 8600 5750
 F 0 "C30" H 8625 5850 50  0000 L CNN
@@ -364,7 +326,7 @@ F 6 "0603" H 8625 5950 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C32
+L Device:C C32
 U 1 1 59E345BC
 P 8900 5750
 F 0 "C32" H 8925 5850 50  0000 L CNN
@@ -378,7 +340,7 @@ F 6 "0603" H 8925 5950 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C20
+L Device:C C20
 U 1 1 59E34607
 P 9200 5750
 F 0 "C20" H 9225 5850 50  0000 L CNN
@@ -392,7 +354,7 @@ F 6 "0603" H 9225 5950 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C17
+L Device:C C17
 U 1 1 59E34648
 P 9500 5750
 F 0 "C17" H 9525 5850 50  0000 L CNN
@@ -406,7 +368,7 @@ F 6 "0603" H 9525 5950 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR067
+L power:+3.3V #PWR067
 U 1 1 59E34B90
 P 8500 5400
 F 0 "#PWR067" H 8500 5250 50  0001 C CNN
@@ -417,7 +379,7 @@ F 3 "" H 8500 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR068
+L power:GND #PWR068
 U 1 1 59E34BD4
 P 8500 6100
 F 0 "#PWR068" H 8500 5850 50  0001 C CNN
@@ -428,7 +390,7 @@ F 3 "" H 8500 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3VA #PWR069
+L power:+3.3VA #PWR069
 U 1 1 59E35078
 P 9900 5400
 F 0 "#PWR069" H 9900 5250 50  0001 C CNN
@@ -439,7 +401,7 @@ F 3 "" H 9900 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR070
+L power:GND #PWR070
 U 1 1 59E350BC
 P 9900 6100
 F 0 "#PWR070" H 9900 5850 50  0001 C CNN
@@ -450,7 +412,7 @@ F 3 "" H 9900 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C39
+L Device:C C39
 U 1 1 59E35219
 P 10000 5750
 F 0 "C39" H 10025 5850 50  0000 L CNN
@@ -464,7 +426,7 @@ F 6 "0603" H 10025 5950 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C36
+L Device:C C36
 U 1 1 59E3526B
 P 10300 5750
 F 0 "C36" H 10325 5850 50  0000 L CNN
@@ -478,7 +440,7 @@ F 6 "0603" H 10325 5950 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG071
+L power:PWR_FLAG #FLG071
 U 1 1 59F48B1D
 P 1400 2300
 F 0 "#FLG071" H 1400 2375 50  0001 C CNN
@@ -489,7 +451,7 @@ F 3 "" H 1400 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PWR_FLAG #FLG072
+L power:PWR_FLAG #FLG072
 U 1 1 59F48C86
 P 1400 2000
 F 0 "#FLG072" H 1400 2075 50  0001 C CNN
@@ -638,7 +600,7 @@ Wire Wire Line
 Wire Wire Line
 	1100 6600 1200 6600
 Wire Wire Line
-	1100 6700 1100 7100
+	1100 6700 1100 6800
 Wire Wire Line
 	1100 7000 1200 7000
 Wire Wire Line
@@ -658,7 +620,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 1100 5900 1200
 Wire Wire Line
-	5500 1100 5900 1100
+	5500 1100 5600 1100
 Wire Wire Line
 	5600 1100 5600 1200
 Wire Wire Line
@@ -672,23 +634,23 @@ Wire Wire Line
 Wire Wire Line
 	5700 5200 5700 5300
 Wire Wire Line
-	5700 5300 5900 5300
+	5700 5300 5800 5300
 Wire Wire Line
 	5900 5300 5900 5200
 Wire Wire Line
-	5800 5200 5800 5400
+	5800 5200 5800 5300
 Wire Wire Line
 	7100 5500 7000 5500
 Wire Wire Line
-	7000 5500 7000 6100
+	7000 5500 7000 6000
 Wire Wire Line
 	7000 6000 7100 6000
 Wire Wire Line
-	7400 5500 7700 5500
+	7400 5500 7500 5500
 Wire Wire Line
 	7500 5500 7500 5600
 Wire Wire Line
-	7400 6000 7700 6000
+	7400 6000 7500 6000
 Wire Wire Line
 	7500 6000 7500 5900
 Wire Wire Line
@@ -714,19 +676,19 @@ Wire Wire Line
 Wire Wire Line
 	1400 2100 1500 2100
 Wire Wire Line
-	1400 2000 1400 2100
+	1400 2000 1400 2050
 Wire Wire Line
 	1400 2050 1300 2050
 Wire Wire Line
 	1500 2200 1400 2200
 Wire Wire Line
-	1400 2200 1400 2300
+	1400 2200 1400 2250
 Wire Wire Line
 	1400 2250 1300 2250
 Wire Wire Line
 	1000 2050 900  2050
 Wire Wire Line
-	900  2050 900  2250
+	900  2050 900  2150
 Wire Wire Line
 	900  2250 1000 2250
 Wire Wire Line
@@ -736,7 +698,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 6100 5200 6200
 Wire Wire Line
-	5200 6500 5200 6700
+	5200 6500 5200 6600
 Wire Wire Line
 	5200 6600 5300 6600
 Wire Wire Line
@@ -744,7 +706,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 6100 5800 6200
 Wire Wire Line
-	5800 6600 5800 6800
+	5800 6600 5800 6700
 Wire Wire Line
 	5800 6700 5900 6700
 Wire Wire Line
@@ -796,7 +758,7 @@ Wire Wire Line
 Wire Wire Line
 	10100 2800 10200 2800
 Wire Wire Line
-	8500 5500 9500 5500
+	8500 5500 8600 5500
 Wire Wire Line
 	8600 5500 8600 5600
 Wire Wire Line
@@ -808,7 +770,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 5500 8500 5400
 Wire Wire Line
-	8500 6000 9500 6000
+	8500 6000 8600 6000
 Wire Wire Line
 	8600 6000 8600 5900
 Wire Wire Line
@@ -822,13 +784,13 @@ Wire Wire Line
 Wire Wire Line
 	9900 6100 9900 6000
 Wire Wire Line
-	9900 6000 10300 6000
+	9900 6000 10000 6000
 Wire Wire Line
 	10000 6000 10000 5900
 Wire Wire Line
 	9900 5400 9900 5500
 Wire Wire Line
-	9900 5500 10300 5500
+	9900 5500 10000 5500
 Wire Wire Line
 	10000 5500 10000 5600
 Wire Wire Line
@@ -916,4 +878,50 @@ NoConn ~ 10100 3900
 NoConn ~ 10100 3700
 NoConn ~ 1500 3300
 NoConn ~ 1500 3400
+Wire Wire Line
+	1100 7000 1100 7100
+Wire Wire Line
+	1100 6800 1100 7000
+Wire Wire Line
+	5700 1100 5800 1100
+Wire Wire Line
+	5800 1100 5900 1100
+Wire Wire Line
+	5600 1100 5700 1100
+Wire Wire Line
+	5800 5300 5900 5300
+Wire Wire Line
+	5800 5300 5800 5400
+Wire Wire Line
+	7000 6000 7000 6100
+Wire Wire Line
+	7500 5500 7700 5500
+Wire Wire Line
+	7500 6000 7700 6000
+Wire Wire Line
+	900  2150 900  2250
+Wire Wire Line
+	5200 6600 5200 6700
+Wire Wire Line
+	5800 6700 5800 6800
+Wire Wire Line
+	8600 5500 8900 5500
+Wire Wire Line
+	8900 5500 9200 5500
+Wire Wire Line
+	9200 5500 9500 5500
+Wire Wire Line
+	8600 6000 8900 6000
+Wire Wire Line
+	8900 6000 9200 6000
+Wire Wire Line
+	9200 6000 9500 6000
+Wire Wire Line
+	10000 5500 10300 5500
+Wire Wire Line
+	10000 6000 10300 6000
+Wire Wire Line
+	1400 2250 1400 2300
+Wire Wire Line
+	1400 2050 1400 2100
 $EndSCHEMATC
